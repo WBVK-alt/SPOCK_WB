@@ -1,0 +1,79 @@
+tool,query,total_matching,kept,organism,returned,not_found,kept_names
+list_organisms,Alteromonas,12,9.0,,,,
+ontology_term_details,kegg.subcategory:09105,14,,,,,
+genes_by_ontology[kegg pathways],,325,,Alteromonas macleodii 83-1,325.0,0.0,
+gene_ontology_terms[kegg level3],,263,,Alteromonas macleodii 83-1,263.0,,
+genes_by_ontology[kegg pathways],,308,,Alteromonas macleodii AD45,308.0,0.0,
+gene_ontology_terms[kegg level3],,251,,Alteromonas macleodii AD45,251.0,,
+genes_by_ontology[kegg pathways],,318,,Alteromonas macleodii ATCC27126,318.0,0.0,
+gene_ontology_terms[kegg level3],,256,,Alteromonas macleodii ATCC27126,256.0,,
+genes_by_ontology[kegg pathways],,325,,Alteromonas macleodii BGP6,325.0,0.0,
+gene_ontology_terms[kegg level3],,263,,Alteromonas macleodii BGP6,263.0,,
+genes_by_ontology[kegg pathways],,310,,Alteromonas macleodii BS11,310.0,0.0,
+gene_ontology_terms[kegg level3],,253,,Alteromonas macleodii BS11,253.0,,
+genes_by_ontology[kegg pathways],,333,,Alteromonas macleodii EZ55,333.0,0.0,
+gene_ontology_terms[kegg level3],,265,,Alteromonas macleodii EZ55,265.0,,
+genes_by_ontology[kegg pathways],,311,,Alteromonas macleodii HOT1A3,311.0,0.0,
+gene_ontology_terms[kegg level3],,251,,Alteromonas macleodii HOT1A3,251.0,,
+genes_by_ontology[kegg pathways],,317,,Alteromonas macleodii MIT1002,317.0,0.0,
+gene_ontology_terms[kegg level3],,259,,Alteromonas macleodii MIT1002,259.0,,
+genes_by_ontology[kegg pathways],,318,,Alteromonas mediterranea AltDE1,318.0,0.0,
+gene_ontology_terms[kegg level3],,251,,Alteromonas mediterranea AltDE1,251.0,,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus MED4,162.0,0.0,
+gene_ontology_terms[kegg level3],,129,,Prochlorococcus MED4,129.0,,
+genes_by_ontology[kegg pathways],,158,,Prochlorococcus NATL2A,158.0,0.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus NATL2A,122.0,,
+genes_by_ontology[kegg pathways],,159,,Prochlorococcus MIT9312,159.0,0.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus MIT9312,122.0,,
+search_ontology[go_bp],alanine biosynthetic,3,2.0,,,,alanine biosynthetic process;L-alanine biosynthetic process
+search_ontology[go_bp],alanine catabolic,2,1.0,,,,L-alanine catabolic process
+search_ontology[go_bp],arginine biosynthetic,2,1.0,,,,L-arginine biosynthetic process
+search_ontology[go_bp],arginine catabolic,2,1.0,,,,L-arginine catabolic process
+search_ontology[go_bp],asparagine biosynthetic,1,1.0,,,,L-asparagine biosynthetic process
+search_ontology[go_bp],asparagine catabolic,1,1.0,,,,L-asparagine catabolic process
+search_ontology[go_bp],aspartate biosynthetic,3,1.0,,,,L-aspartate biosynthetic process
+search_ontology[go_bp],aspartate catabolic,0,0.0,,,,
+search_ontology[go_bp],cysteine biosynthetic,1,1.0,,,,L-cysteine biosynthetic process
+search_ontology[go_bp],cysteine catabolic,1,1.0,,,,L-cysteine catabolic process
+search_ontology[go_bp],glutamate biosynthetic,2,1.0,,,,L-glutamate biosynthetic process
+search_ontology[go_bp],glutamate catabolic,1,1.0,,,,L-glutamate catabolic process
+search_ontology[go_bp],glutamine biosynthetic,1,1.0,,,,L-glutamine biosynthetic process
+search_ontology[go_bp],glutamine catabolic,1,1.0,,,,L-glutamine catabolic process
+search_ontology[go_bp],glycine biosynthetic,2,1.0,,,,glycine biosynthetic process
+search_ontology[go_bp],glycine catabolic,1,1.0,,,,glycine catabolic process
+search_ontology[go_bp],histidine biosynthetic,2,1.0,,,,L-histidine biosynthetic process
+search_ontology[go_bp],histidine catabolic,1,1.0,,,,L-histidine catabolic process
+search_ontology[go_bp],isoleucine biosynthetic,1,1.0,,,,L-isoleucine biosynthetic process
+search_ontology[go_bp],isoleucine catabolic,0,0.0,,,,
+search_ontology[go_bp],leucine biosynthetic,1,1.0,,,,L-leucine biosynthetic process
+search_ontology[go_bp],leucine catabolic,1,1.0,,,,L-leucine catabolic process
+search_ontology[go_bp],lysine biosynthetic,1,1.0,,,,L-lysine biosynthetic process
+search_ontology[go_bp],lysine catabolic,1,1.0,,,,L-lysine catabolic process
+search_ontology[go_bp],methionine biosynthetic,2,1.0,,,,L-methionine biosynthetic process
+search_ontology[go_bp],methionine catabolic,1,1.0,,,,L-methionine catabolic process
+search_ontology[go_bp],phenylalanine biosynthetic,1,1.0,,,,L-phenylalanine biosynthetic process
+search_ontology[go_bp],phenylalanine catabolic,1,1.0,,,,L-phenylalanine catabolic process
+search_ontology[go_bp],proline biosynthetic,1,1.0,,,,L-proline biosynthetic process
+search_ontology[go_bp],proline catabolic,1,1.0,,,,L-proline catabolic process
+search_ontology[go_bp],serine biosynthetic,3,1.0,,,,L-serine biosynthetic process
+search_ontology[go_bp],serine catabolic,2,1.0,,,,L-serine catabolic process
+search_ontology[go_bp],threonine biosynthetic,1,1.0,,,,L-threonine biosynthetic process
+search_ontology[go_bp],threonine catabolic,1,1.0,,,,L-threonine catabolic process
+search_ontology[go_bp],tryptophan biosynthetic,1,1.0,,,,L-tryptophan biosynthetic process
+search_ontology[go_bp],tryptophan catabolic,1,1.0,,,,L-tryptophan catabolic process
+search_ontology[go_bp],tyrosine biosynthetic,1,1.0,,,,L-tyrosine biosynthetic process
+search_ontology[go_bp],tyrosine catabolic,1,1.0,,,,L-tyrosine catabolic process
+search_ontology[go_bp],valine biosynthetic,1,1.0,,,,L-valine biosynthetic process
+search_ontology[go_bp],valine catabolic,1,1.0,,,,L-valine catabolic process
+genes_by_ontology[go_bp aa terms],,138,,Alteromonas macleodii 83-1,138.0,0.0,
+genes_by_ontology[go_bp aa terms],,121,,Alteromonas macleodii AD45,121.0,0.0,
+genes_by_ontology[go_bp aa terms],,122,,Alteromonas macleodii ATCC27126,122.0,0.0,
+genes_by_ontology[go_bp aa terms],,133,,Alteromonas macleodii BGP6,133.0,0.0,
+genes_by_ontology[go_bp aa terms],,119,,Alteromonas macleodii BS11,119.0,0.0,
+genes_by_ontology[go_bp aa terms],,131,,Alteromonas macleodii EZ55,131.0,0.0,
+genes_by_ontology[go_bp aa terms],,137,,Alteromonas macleodii HOT1A3,137.0,0.0,
+genes_by_ontology[go_bp aa terms],,129,,Alteromonas macleodii MIT1002,129.0,0.0,
+genes_by_ontology[go_bp aa terms],,126,,Alteromonas mediterranea AltDE1,126.0,0.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus MED4,72.0,0.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus NATL2A,72.0,0.0,
+genes_by_ontology[go_bp aa terms],,71,,Prochlorococcus MIT9312,71.0,0.0,

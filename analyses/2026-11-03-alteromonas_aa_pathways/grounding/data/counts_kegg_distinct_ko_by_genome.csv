@@ -1,0 +1,15 @@
+pathway,Alteromonas macleodii 83-1,Alteromonas macleodii AD45,Alteromonas macleodii ATCC27126,Alteromonas macleodii BGP6,Alteromonas macleodii BS11,Alteromonas macleodii EZ55,Alteromonas macleodii HOT1A3,Alteromonas macleodii MIT1002,Alteromonas mediterranea AltDE1,Prochlorococcus MED4,Prochlorococcus NATL2A,Prochlorococcus MIT9312
+"Alanine, aspartate and glutamate metabolism",31,32,30,31,31,32,31,31,31,15,15,16
+Arginine and proline metabolism,31,29,29,31,29,32,31,30,29,14,14,14
+Arginine biosynthesis,21,21,19,21,21,21,21,21,21,14,14,14
+Cysteine and methionine metabolism,31,30,30,31,31,30,30,30,31,21,20,22
+"Glycine, serine and threonine metabolism",31,31,31,31,31,31,31,31,32,27,26,26
+Histidine metabolism,19,19,19,19,19,20,19,19,19,14,14,14
+Lysine biosynthesis,15,15,15,15,15,15,15,15,15,11,11,11
+Lysine degradation,15,15,15,15,15,15,15,15,15,5,4,4
+Phenylalanine metabolism,13,9,10,13,12,17,13,15,14,4,4,4
+"Phenylalanine, tyrosine and tryptophan biosynthesis",24,24,24,24,24,24,24,25,23,20,20,20
+Tryptophan metabolism,17,16,17,17,17,19,17,18,17,3,3,3
+Tyrosine metabolism,14,14,15,14,14,16,13,14,12,7,6,6
+"Valine, leucine and isoleucine biosynthesis",12,12,10,12,12,13,12,14,12,11,11,11
+"Valine, leucine and isoleucine degradation",26,27,26,26,26,28,26,26,26,10,8,6
