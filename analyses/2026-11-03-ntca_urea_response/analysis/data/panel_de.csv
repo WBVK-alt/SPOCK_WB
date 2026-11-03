@@ -1,0 +1,841 @@
+strain,experiment,timepoint,locus_tag,gene_name,role,log2fc,expression_status,abs_pct,call_class
+MED4,ndep,0h,PMM0246,ntcA,ntcA,-2.166458145,not_significant,98.82075471698111,not_called_large
+MED4,ndep,3h,PMM0246,ntcA,ntcA,3.038840754,not_significant,99.64622641509436,not_called_large
+MED4,ndep,6h,PMM0246,ntcA,ntcA,4.45086478182776,significant_up,99.64622641509436,called_up
+MED4,ndep,12h,PMM0246,ntcA,ntcA,3.01927772296539,significant_up,98.29009433962264,called_up
+MED4,ndep,24h,PMM0246,ntcA,ntcA,1.67965300850396,significant_up,92.39386792452832,called_up
+MED4,ndep,48h,PMM0246,ntcA,ntcA,1.22622802,not_significant,79.24528301886792,not_called_mid
+MED4,urea,steady state,PMM0246,ntcA,ntcA,-2.271141941,not_significant,99.70518867924528,not_called_large
+MED4,ndep,0h,PMM0203,rplA,ribosomal,0.031765089,not_significant,4.127358490566038,not_called_small
+MED4,ndep,3h,PMM0203,rplA,ribosomal,-0.896345937,not_significant,91.0377358490566,not_called_mid
+MED4,ndep,6h,PMM0203,rplA,ribosomal,-1.36927223992109,significant_down,92.33490566037736,called_down
+MED4,ndep,12h,PMM0203,rplA,ribosomal,-1.36033984368776,significant_down,83.9622641509434,called_down
+MED4,ndep,24h,PMM0203,rplA,ribosomal,-1.032436001,not_significant,78.89150943396226,not_called_mid
+MED4,ndep,48h,PMM0203,rplA,ribosomal,-0.953605192,not_significant,70.69575471698113,not_called_small
+MED4,urea,steady state,PMM0203,rplA,ribosomal,-0.067935559,not_significant,15.389150943396226,not_called_small
+MED4,ndep,0h,PMM1555,rplB,ribosomal,0.094089122,not_significant,14.74056603773585,not_called_small
+MED4,ndep,3h,PMM1555,rplB,ribosomal,-0.621770776,not_significant,76.17924528301887,not_called_mid
+MED4,ndep,6h,PMM1555,rplB,ribosomal,-1.92371766551015,significant_down,96.875,called_down
+MED4,ndep,12h,PMM1555,rplB,ribosomal,-2.59574180949934,significant_down,97.40566037735849,called_down
+MED4,ndep,24h,PMM1555,rplB,ribosomal,-1.57239769423282,significant_down,91.09669811320757,called_down
+MED4,ndep,48h,PMM1555,rplB,ribosomal,-1.228056738,not_significant,79.30424528301887,not_called_mid
+MED4,urea,steady state,PMM1555,rplB,ribosomal,0.094742094,not_significant,20.87264150943396,not_called_small
+MED4,ndep,0h,PMM1558,rplC,ribosomal,-0.453860447,not_significant,60.96698113207547,not_called_small
+MED4,ndep,3h,PMM1558,rplC,ribosomal,-1.20886464,not_significant,96.99292452830188,not_called_large
+MED4,ndep,6h,PMM1558,rplC,ribosomal,-2.51523937078813,significant_down,98.40801886792453,called_down
+MED4,ndep,12h,PMM1558,rplC,ribosomal,-3.43615277911982,significant_down,98.82075471698111,called_down
+MED4,ndep,24h,PMM1558,rplC,ribosomal,-2.01584735165486,significant_down,95.69575471698111,called_down
+MED4,ndep,48h,PMM1558,rplC,ribosomal,-1.709141338,not_significant,88.62028301886792,not_called_mid
+MED4,urea,steady state,PMM1558,rplC,ribosomal,-0.446383365,not_significant,74.5872641509434,not_called_small
+MED4,ndep,0h,PMM1557,rplD,ribosomal,0.026725537,not_significant,3.47877358490566,not_called_small
+MED4,ndep,3h,PMM1557,rplD,ribosomal,-1.388727247,not_significant,98.05424528301889,not_called_large
+MED4,ndep,6h,PMM1557,rplD,ribosomal,-2.83286029346797,significant_down,98.93867924528304,called_down
+MED4,ndep,12h,PMM1557,rplD,ribosomal,-3.87596446294377,significant_down,99.41037735849056,called_down
+MED4,ndep,24h,PMM1557,rplD,ribosomal,-1.58798543739911,significant_down,91.27358490566036,called_down
+MED4,ndep,48h,PMM1557,rplD,ribosomal,-1.550047865,not_significant,86.61556603773585,not_called_mid
+MED4,urea,steady state,PMM1557,rplD,ribosomal,-0.218232739,not_significant,45.87264150943396,not_called_small
+MED4,ndep,0h,PMM1546,rplE,ribosomal,0.667510276,not_significant,76.70990566037736,not_called_mid
+MED4,ndep,3h,PMM1546,rplE,ribosomal,-1.31474912,not_significant,97.75943396226415,not_called_large
+MED4,ndep,6h,PMM1546,rplE,ribosomal,-1.35301251279443,significant_down,92.15801886792453,called_down
+MED4,ndep,12h,PMM1546,rplE,ribosomal,-1.51336559017255,significant_down,87.20518867924528,called_down
+MED4,ndep,24h,PMM1546,rplE,ribosomal,-1.05782886312498,not_significant,79.89386792452831,not_called_mid
+MED4,ndep,48h,PMM1546,rplE,ribosomal,-0.83682839,not_significant,64.26886792452831,not_called_small
+MED4,urea,steady state,PMM1546,rplE,ribosomal,-0.116873518,not_significant,26.59198113207547,not_called_small
+MED4,ndep,0h,PMM1544,rplF,ribosomal,0.220848566,not_significant,32.78301886792453,not_called_small
+MED4,ndep,3h,PMM1544,rplF,ribosomal,-1.111855536,not_significant,95.75471698113208,not_called_large
+MED4,ndep,6h,PMM1544,rplF,ribosomal,-1.25306787276852,significant_down,90.38915094339622,called_down
+MED4,ndep,12h,PMM1544,rplF,ribosomal,-1.39908689556078,significant_down,85.02358490566037,called_down
+MED4,ndep,24h,PMM1544,rplF,ribosomal,-1.41072694114529,significant_down,88.3254716981132,called_down
+MED4,ndep,48h,PMM1544,rplF,ribosomal,-1.27115712,not_significant,80.60141509433963,not_called_mid
+MED4,urea,steady state,PMM1544,rplF,ribosomal,0.119407217,not_significant,27.181603773584907,not_called_small
+MED4,ndep,0h,PMM1673,rplI,ribosomal,-0.420865309,not_significant,57.48820754716981,not_called_small
+MED4,ndep,3h,PMM1673,rplI,ribosomal,-0.075926146,not_significant,12.794811320754718,not_called_small
+MED4,ndep,6h,PMM1673,rplI,ribosomal,-0.27699958,not_significant,33.19575471698113,not_called_small
+MED4,ndep,12h,PMM1673,rplI,ribosomal,-0.590231767,not_significant,49.5872641509434,not_called_small
+MED4,ndep,24h,PMM1673,rplI,ribosomal,-0.209761293,not_significant,23.82075471698113,not_called_small
+MED4,ndep,48h,PMM1673,rplI,ribosomal,-0.003344688,not_significant,0.5306603773584906,not_called_small
+MED4,urea,steady state,PMM1673,rplI,ribosomal,0.014818333,not_significant,3.3608490566037736,not_called_small
+MED4,ndep,0h,PMM0202,rplJ,ribosomal,0.020959825,not_significant,2.6533018867924527,not_called_small
+MED4,ndep,3h,PMM0202,rplJ,ribosomal,-0.514211272,not_significant,67.51179245283019,not_called_small
+MED4,ndep,6h,PMM0202,rplJ,ribosomal,-1.31354821124867,significant_down,91.56839622641508,called_down
+MED4,ndep,12h,PMM0202,rplJ,ribosomal,-2.53547162603514,significant_down,97.22877358490564,called_down
+MED4,ndep,24h,PMM0202,rplJ,ribosomal,-1.64293191936763,significant_down,92.15801886792453,called_down
+MED4,ndep,48h,PMM0202,rplJ,ribosomal,-1.076245083,not_significant,74.76415094339622,not_called_small
+MED4,urea,steady state,PMM0202,rplJ,ribosomal,-0.182925449,not_significant,39.62264150943396,not_called_small
+MED4,ndep,0h,PMM0204,rplK,ribosomal,0.194501216,not_significant,28.832547169811324,not_called_small
+MED4,ndep,3h,PMM0204,rplK,ribosomal,-0.453657898,not_significant,61.733490566037744,not_called_small
+MED4,ndep,6h,PMM0204,rplK,ribosomal,-1.26466312511601,significant_down,90.74292452830188,called_down
+MED4,ndep,12h,PMM0204,rplK,ribosomal,-1.49610149070696,significant_down,86.37971698113208,called_down
+MED4,ndep,24h,PMM0204,rplK,ribosomal,-1.23972626106634,not_significant,84.90566037735849,not_called_mid
+MED4,ndep,48h,PMM0204,rplK,ribosomal,-0.400460417,not_significant,33.490566037735846,not_called_small
+MED4,urea,steady state,PMM0204,rplK,ribosomal,-0.13780749,not_significant,31.07311320754717,not_called_small
+MED4,ndep,0h,PMM0201,rplL,ribosomal,0.228223801,not_significant,33.84433962264151,not_called_small
+MED4,ndep,3h,PMM0201,rplL,ribosomal,-0.450908984,not_significant,61.37971698113207,not_called_small
+MED4,ndep,6h,PMM0201,rplL,ribosomal,-1.25908253379073,significant_down,90.56603773584906,called_down
+MED4,ndep,12h,PMM0201,rplL,ribosomal,-2.3580532049972,significant_down,96.69811320754717,called_down
+MED4,ndep,24h,PMM0201,rplL,ribosomal,-1.69642274856357,significant_down,92.57075471698111,called_down
+MED4,ndep,48h,PMM0201,rplL,ribosomal,-0.757042098,not_significant,59.905660377358494,not_called_small
+MED4,urea,steady state,PMM0201,rplL,ribosomal,-0.13359362,not_significant,30.247641509433965,not_called_small
+MED4,ndep,0h,PMM1532,rplM,ribosomal,-0.079349489,not_significant,12.264150943396226,not_called_small
+MED4,ndep,3h,PMM1532,rplM,ribosomal,-0.21860251,not_significant,34.139150943396224,not_called_small
+MED4,ndep,6h,PMM1532,rplM,ribosomal,-0.667201398,not_significant,68.57311320754717,not_called_small
+MED4,ndep,12h,PMM1532,rplM,ribosomal,-1.69166933852083,significant_down,90.68396226415094,called_down
+MED4,ndep,24h,PMM1532,rplM,ribosomal,-1.39163738932687,significant_down,87.85377358490565,called_down
+MED4,ndep,48h,PMM1532,rplM,ribosomal,-0.757603617,not_significant,60.02358490566038,not_called_small
+MED4,urea,steady state,PMM1532,rplM,ribosomal,-0.078900881,not_significant,17.51179245283019,not_called_small
+MED4,ndep,0h,PMM1548,rplN,ribosomal,0.431018814,not_significant,58.608490566037744,not_called_small
+MED4,ndep,3h,PMM1548,rplN,ribosomal,-1.132295398,not_significant,95.99056603773585,not_called_large
+MED4,ndep,6h,PMM1548,rplN,ribosomal,-1.68185232228742,significant_down,95.69575471698111,called_down
+MED4,ndep,12h,PMM1548,rplN,ribosomal,-1.67956730517766,significant_down,90.50707547169812,called_down
+MED4,ndep,24h,PMM1548,rplN,ribosomal,-1.16864749570355,not_significant,83.01886792452831,not_called_mid
+MED4,ndep,48h,PMM1548,rplN,ribosomal,-0.829182287,not_significant,63.91509433962265,not_called_small
+MED4,urea,steady state,PMM1548,rplN,ribosomal,0.00601193,not_significant,1.4150943396226416,not_called_small
+MED4,ndep,0h,PMM1541,rplO,ribosomal,0.080578373,not_significant,12.617924528301888,not_called_small
+MED4,ndep,3h,PMM1541,rplO,ribosomal,-1.32168092,not_significant,97.81839622641508,not_called_large
+MED4,ndep,6h,PMM1541,rplO,ribosomal,-2.49676648367856,significant_down,98.3490566037736,called_down
+MED4,ndep,12h,PMM1541,rplO,ribosomal,-2.93295890542382,significant_down,98.17216981132076,called_down
+MED4,ndep,24h,PMM1541,rplO,ribosomal,-1.59625435765895,significant_down,91.4504716981132,called_down
+MED4,ndep,48h,PMM1541,rplO,ribosomal,-1.608050015,not_significant,87.61792452830188,not_called_mid
+MED4,urea,steady state,PMM1541,rplO,ribosomal,-0.122806256,not_significant,27.594339622641517,not_called_small
+MED4,ndep,0h,PMM1551,rplP,ribosomal,0.613127627,not_significant,73.23113207547169,not_called_small
+MED4,ndep,3h,PMM1551,rplP,ribosomal,-1.009108261,not_significant,93.69103773584906,not_called_mid
+MED4,ndep,6h,PMM1551,rplP,ribosomal,-2.00738242593067,significant_down,96.99292452830188,called_down
+MED4,ndep,12h,PMM1551,rplP,ribosomal,-2.95306483302918,significant_down,98.23113207547168,called_down
+MED4,ndep,24h,PMM1551,rplP,ribosomal,-1.86531638974812,significant_down,94.9882075471698,called_down
+MED4,ndep,48h,PMM1551,rplP,ribosomal,-1.597541511,not_significant,87.38207547169812,not_called_mid
+MED4,urea,steady state,PMM1551,rplP,ribosomal,-0.095416703,not_significant,21.16745283018868,not_called_small
+MED4,ndep,0h,PMM1534,rplQ,ribosomal,-0.113546711,not_significant,17.68867924528302,not_called_small
+MED4,ndep,3h,PMM1534,rplQ,ribosomal,-0.57675555,not_significant,73.05424528301887,not_called_small
+MED4,ndep,6h,PMM1534,rplQ,ribosomal,-1.26807468179319,significant_down,90.80188679245283,called_down
+MED4,ndep,12h,PMM1534,rplQ,ribosomal,-1.51982904707024,significant_down,87.32311320754717,called_down
+MED4,ndep,24h,PMM1534,rplQ,ribosomal,-0.917638124,not_significant,74.76415094339622,not_called_small
+MED4,ndep,48h,PMM1534,rplQ,ribosomal,-0.608141423,not_significant,49.64622641509434,not_called_small
+MED4,urea,steady state,PMM1534,rplQ,ribosomal,0.02851347,not_significant,6.014150943396227,not_called_small
+MED4,ndep,0h,PMM1543,rplR,ribosomal,0.226304057,not_significant,33.66745283018868,not_called_small
+MED4,ndep,3h,PMM1543,rplR,ribosomal,-1.202749651,not_significant,96.875,not_called_large
+MED4,ndep,6h,PMM1543,rplR,ribosomal,-1.09668474707075,not_significant,86.91037735849056,not_called_mid
+MED4,ndep,12h,PMM1543,rplR,ribosomal,-1.65602993386753,significant_down,89.97641509433963,called_down
+MED4,ndep,24h,PMM1543,rplR,ribosomal,-1.57161292410991,significant_down,91.0377358490566,called_down
+MED4,ndep,48h,PMM1543,rplR,ribosomal,-0.992388237,not_significant,72.2877358490566,not_called_small
+MED4,urea,steady state,PMM1543,rplR,ribosomal,-0.188237735,not_significant,40.33018867924528,not_called_small
+MED4,ndep,0h,PMM0475,rplS,ribosomal,-0.255221087,not_significant,37.0872641509434,not_called_small
+MED4,ndep,3h,PMM0475,rplS,ribosomal,-0.416043083,not_significant,57.84198113207547,not_called_small
+MED4,ndep,6h,PMM0475,rplS,ribosomal,-0.691295309,not_significant,70.10613207547169,not_called_small
+MED4,ndep,12h,PMM0475,rplS,ribosomal,-0.734529024,not_significant,59.139150943396224,not_called_small
+MED4,ndep,24h,PMM0475,rplS,ribosomal,-1.050500303,not_significant,79.59905660377359,not_called_mid
+MED4,ndep,48h,PMM0475,rplS,ribosomal,-0.805978436,not_significant,62.735849056603776,not_called_small
+MED4,urea,steady state,PMM0475,rplS,ribosomal,-0.20515311,not_significant,43.39622641509434,not_called_small
+MED4,ndep,0h,PMM1662,rplT,ribosomal,-0.385108172,not_significant,53.59669811320755,not_called_small
+MED4,ndep,3h,PMM1662,rplT,ribosomal,-0.765526399,not_significant,85.31839622641509,not_called_mid
+MED4,ndep,6h,PMM1662,rplT,ribosomal,-0.770522301,not_significant,74.52830188679245,not_called_small
+MED4,ndep,12h,PMM1662,rplT,ribosomal,-1.12642878704997,not_significant,77.53537735849056,not_called_mid
+MED4,ndep,24h,PMM1662,rplT,ribosomal,-2.03242934045351,significant_down,95.81367924528304,called_down
+MED4,ndep,48h,PMM1662,rplT,ribosomal,-1.238750812,not_significant,79.65801886792453,not_called_mid
+MED4,urea,steady state,PMM1662,rplT,ribosomal,-0.033792831,not_significant,7.2523584905660385,not_called_small
+MED4,ndep,0h,PMM1344,rplU,ribosomal,-0.360009271,not_significant,50.88443396226416,not_called_small
+MED4,ndep,3h,PMM1344,rplU,ribosomal,-0.766815485,not_significant,85.49528301886792,not_called_mid
+MED4,ndep,6h,PMM1344,rplU,ribosomal,0.116733364,not_significant,13.797169811320757,not_called_small
+MED4,ndep,12h,PMM1344,rplU,ribosomal,-0.284184946,not_significant,23.58490566037736,not_called_small
+MED4,ndep,24h,PMM1344,rplU,ribosomal,-0.869427487,not_significant,72.75943396226415,not_called_small
+MED4,ndep,48h,PMM1344,rplU,ribosomal,0.121105056,not_significant,10.61320754716981,not_called_small
+MED4,urea,steady state,PMM1344,rplU,ribosomal,0.073681194,not_significant,16.62735849056604,not_called_small
+MED4,ndep,0h,PMM1553,rplV,ribosomal,0.352798639,not_significant,50.0,not_called_small
+MED4,ndep,3h,PMM1553,rplV,ribosomal,-1.122850986,not_significant,95.87264150943396,not_called_large
+MED4,ndep,6h,PMM1553,rplV,ribosomal,-2.07854131396242,significant_down,97.2877358490566,called_down
+MED4,ndep,12h,PMM1553,rplV,ribosomal,-2.88748579586806,significant_down,98.05424528301889,called_down
+MED4,ndep,24h,PMM1553,rplV,ribosomal,-1.78646817478829,significant_down,93.92688679245283,called_down
+MED4,ndep,48h,PMM1553,rplV,ribosomal,-2.01452322178397,not_significant,91.50943396226415,not_called_mid
+MED4,urea,steady state,PMM1553,rplV,ribosomal,-0.160386464,not_significant,35.08254716981132,not_called_small
+MED4,ndep,0h,PMM1556,rplW,ribosomal,0.34499355,not_significant,49.41037735849056,not_called_small
+MED4,ndep,3h,PMM1556,rplW,ribosomal,-0.858473912,not_significant,89.68160377358491,not_called_mid
+MED4,ndep,6h,PMM1556,rplW,ribosomal,-1.88892426426119,significant_down,96.63915094339622,called_down
+MED4,ndep,12h,PMM1556,rplW,ribosomal,-3.27215681190175,significant_down,98.7617924528302,called_down
+MED4,ndep,24h,PMM1556,rplW,ribosomal,-1.80984874212562,significant_down,94.45754716981132,called_down
+MED4,ndep,48h,PMM1556,rplW,ribosomal,-1.378260962,not_significant,83.25471698113208,not_called_mid
+MED4,urea,steady state,PMM1556,rplW,ribosomal,0.051647711,not_significant,11.49764150943396,not_called_small
+MED4,ndep,0h,PMM1547,rplX,ribosomal,0.313894275,not_significant,45.57783018867924,not_called_small
+MED4,ndep,3h,PMM1547,rplX,ribosomal,-1.042164868,not_significant,94.39858490566036,not_called_mid
+MED4,ndep,6h,PMM1547,rplX,ribosomal,-1.47348045446416,significant_down,93.75,called_down
+MED4,ndep,12h,PMM1547,rplX,ribosomal,-1.82642800291451,significant_down,92.86556603773585,called_down
+MED4,ndep,24h,PMM1547,rplX,ribosomal,-1.34389996354008,significant_down,87.02830188679245,called_down
+MED4,ndep,48h,PMM1547,rplX,ribosomal,-0.57841302,not_significant,47.52358490566038,not_called_small
+MED4,urea,steady state,PMM1547,rplX,ribosomal,0.130613181,not_significant,29.4811320754717,not_called_small
+MED4,ndep,0h,PMM1345,rpmA,ribosomal,-0.423454002,not_significant,57.84198113207547,not_called_small
+MED4,ndep,3h,PMM1345,rpmA,ribosomal,-0.316640168,not_significant,47.16981132075472,not_called_small
+MED4,ndep,6h,PMM1345,rpmA,ribosomal,-0.466298011,not_significant,52.7122641509434,not_called_small
+MED4,ndep,12h,PMM1345,rpmA,ribosomal,-1.40706754646679,significant_down,85.25943396226415,called_down
+MED4,ndep,24h,PMM1345,rpmA,ribosomal,-1.17809039185204,significant_down,83.25471698113208,called_down
+MED4,ndep,48h,PMM1345,rpmA,ribosomal,-0.514494033,not_significant,42.57075471698113,not_called_small
+MED4,urea,steady state,PMM1345,rpmA,ribosomal,0.257447907,not_significant,52.53537735849056,not_called_small
+MED4,ndep,0h,PMM0902,rpmB,ribosomal,-0.491285389,not_significant,64.50471698113208,not_called_small
+MED4,ndep,3h,PMM0902,rpmB,ribosomal,-0.444475316,not_significant,61.02594339622641,not_called_small
+MED4,ndep,6h,PMM0902,rpmB,ribosomal,-0.76551482,not_significant,73.99764150943396,not_called_small
+MED4,ndep,12h,PMM0902,rpmB,ribosomal,-1.6146260936825,significant_down,89.20990566037736,called_down
+MED4,ndep,24h,PMM0902,rpmB,ribosomal,-1.243055495202,not_significant,84.96462264150944,not_called_mid
+MED4,ndep,48h,PMM0902,rpmB,ribosomal,-0.455274406,not_significant,38.20754716981132,not_called_small
+MED4,urea,steady state,PMM0902,rpmB,ribosomal,0.103981532,not_significant,23.46698113207547,not_called_small
+MED4,ndep,0h,PMM1550,rpmC,ribosomal,0.706127298,not_significant,79.59905660377359,not_called_mid
+MED4,ndep,3h,PMM1550,rpmC,ribosomal,-1.226997623,not_significant,97.16981132075472,not_called_large
+MED4,ndep,6h,PMM1550,rpmC,ribosomal,-2.00393075339385,significant_down,96.93396226415094,called_down
+MED4,ndep,12h,PMM1550,rpmC,ribosomal,-2.84870133381188,significant_down,97.81839622641508,called_down
+MED4,ndep,24h,PMM1550,rpmC,ribosomal,-2.22291543050768,significant_down,96.93396226415094,called_down
+MED4,ndep,48h,PMM1550,rpmC,ribosomal,-1.567176483,not_significant,86.91037735849056,not_called_mid
+MED4,urea,steady state,PMM1550,rpmC,ribosomal,0.099879305,not_significant,22.22877358490566,not_called_small
+MED4,ndep,0h,PMM1530,rpmE,ribosomal,-0.458928588,not_significant,61.43867924528303,not_called_small
+MED4,ndep,3h,PMM1530,rpmE,ribosomal,-0.357603022,not_significant,52.1816037735849,not_called_small
+MED4,ndep,6h,PMM1530,rpmE,ribosomal,-0.860909463,not_significant,78.77358490566037,not_called_mid
+MED4,ndep,12h,PMM1530,rpmE,ribosomal,-1.41602999162416,significant_down,85.37735849056604,called_down
+MED4,ndep,24h,PMM1530,rpmE,ribosomal,-0.86587241,not_significant,72.58254716981132,not_called_small
+MED4,ndep,48h,PMM1530,rpmE,ribosomal,-0.324280808,not_significant,27.47641509433962,not_called_small
+MED4,urea,steady state,PMM1530,rpmE,ribosomal,-0.328021151,not_significant,63.08962264150944,not_called_small
+MED4,ndep,0h,PMM0853,rpmF,ribosomal,0.208422272,not_significant,31.132075471698112,not_called_small
+MED4,ndep,3h,PMM0853,rpmF,ribosomal,0.243817201,not_significant,38.325471698113205,not_called_small
+MED4,ndep,6h,PMM0853,rpmF,ribosomal,0.043301893,not_significant,5.129716981132075,not_called_small
+MED4,ndep,12h,PMM0853,rpmF,ribosomal,-0.259197712,not_significant,21.58018867924528,not_called_small
+MED4,ndep,24h,PMM0853,rpmF,ribosomal,-0.015856388,not_significant,1.945754716981132,not_called_small
+MED4,ndep,48h,PMM0853,rpmF,ribosomal,0.274105177,not_significant,22.75943396226415,not_called_small
+MED4,urea,steady state,PMM0853,rpmF,ribosomal,0.387101566,not_significant,69.33962264150944,not_called_small
+MED4,ndep,0h,PMM0870,rpmG,ribosomal,-0.089974331,not_significant,14.033018867924527,not_called_small
+MED4,ndep,3h,PMM0870,rpmG,ribosomal,-0.94978177,not_significant,92.57075471698111,not_called_mid
+MED4,ndep,6h,PMM0870,rpmG,ribosomal,-0.753647231,not_significant,73.40801886792453,not_called_small
+MED4,ndep,12h,PMM0870,rpmG,ribosomal,-1.56884624597152,significant_down,87.9127358490566,called_down
+MED4,ndep,24h,PMM0870,rpmG,ribosomal,-1.61318766781031,significant_down,91.92216981132076,called_down
+MED4,ndep,48h,PMM0870,rpmG,ribosomal,-0.849423337,not_significant,65.38915094339622,not_called_small
+MED4,urea,steady state,PMM0870,rpmG,ribosomal,-0.032239487,not_significant,6.9575471698113205,not_called_small
+MED4,ndep,0h,PMM1183,rpmH,ribosomal,-0.363304284,not_significant,51.23820754716981,not_called_small
+MED4,ndep,3h,PMM1183,rpmH,ribosomal,-0.279515109,not_significant,43.04245283018868,not_called_small
+MED4,ndep,6h,PMM1183,rpmH,ribosomal,-0.821029665,not_significant,76.65094339622641,not_called_mid
+MED4,ndep,12h,PMM1183,rpmH,ribosomal,-1.41767380806177,not_significant,85.43632075471697,not_called_mid
+MED4,ndep,24h,PMM1183,rpmH,ribosomal,-1.38663708853281,significant_down,87.61792452830188,called_down
+MED4,ndep,48h,PMM1183,rpmH,ribosomal,-0.482354461,not_significant,40.389150943396224,not_called_small
+MED4,urea,steady state,PMM1183,rpmH,ribosomal,-0.036286075,not_significant,7.959905660377359,not_called_small
+MED4,ndep,0h,PMM1661,rpmI,ribosomal,-0.15979403,not_significant,23.82075471698113,not_called_small
+MED4,ndep,3h,PMM1661,rpmI,ribosomal,-0.470754171,not_significant,63.030660377358494,not_called_small
+MED4,ndep,6h,PMM1661,rpmI,ribosomal,-0.622780247,not_significant,65.27122641509435,not_called_small
+MED4,ndep,12h,PMM1661,rpmI,ribosomal,-0.977837795,not_significant,71.52122641509435,not_called_small
+MED4,ndep,24h,PMM1661,rpmI,ribosomal,-1.933464642716,significant_down,95.45990566037736,called_down
+MED4,ndep,48h,PMM1661,rpmI,ribosomal,-1.587746114,not_significant,87.32311320754717,not_called_mid
+MED4,urea,steady state,PMM1661,rpmI,ribosomal,0.045043487,not_significant,9.90566037735849,not_called_small
+MED4,ndep,0h,PMM1538,rpmJ,ribosomal,-0.176476579,not_significant,26.41509433962264,not_called_small
+MED4,ndep,3h,PMM1538,rpmJ,ribosomal,-0.436341901,not_significant,60.08254716981132,not_called_small
+MED4,ndep,6h,PMM1538,rpmJ,ribosomal,-1.10715880651421,not_significant,87.26415094339622,not_called_mid
+MED4,ndep,12h,PMM1538,rpmJ,ribosomal,-2.2561983485542,significant_down,96.10849056603774,called_down
+MED4,ndep,24h,PMM1538,rpmJ,ribosomal,-1.48140284648015,significant_down,89.68160377358491,called_down
+MED4,ndep,48h,PMM1538,rpmJ,ribosomal,-1.161610707,not_significant,77.65330188679245,not_called_mid
+MED4,urea,steady state,PMM1538,rpmJ,ribosomal,0.017142364,not_significant,3.714622641509434,not_called_small
+MED4,ndep,0h,PMM0312,rpsA1,ribosomal,-0.306546748,not_significant,44.45754716981132,not_called_small
+MED4,ndep,3h,PMM0312,rpsA1,ribosomal,-0.465476058,not_significant,62.44103773584906,not_called_small
+MED4,ndep,6h,PMM0312,rpsA1,ribosomal,-1.10413339655441,significant_down,87.20518867924528,called_down
+MED4,ndep,12h,PMM0312,rpsA1,ribosomal,-1.31971951649539,significant_down,82.95990566037736,called_down
+MED4,ndep,24h,PMM0312,rpsA1,ribosomal,-0.917058205,not_significant,74.64622641509435,not_called_small
+MED4,ndep,48h,PMM0312,rpsA1,ribosomal,-0.870202909,not_significant,66.4504716981132,not_called_small
+MED4,urea,steady state,PMM0312,rpsA1,ribosomal,-0.311429804,not_significant,60.84905660377359,not_called_small
+MED4,ndep,0h,PMM0530,rpsA2,ribosomal,-0.225094147,not_significant,33.37264150943396,not_called_small
+MED4,ndep,3h,PMM0530,rpsA2,ribosomal,0.134590752,not_significant,21.757075471698112,not_called_small
+MED4,ndep,6h,PMM0530,rpsA2,ribosomal,-0.165377313,not_significant,19.870283018867923,not_called_small
+MED4,ndep,12h,PMM0530,rpsA2,ribosomal,-0.142228639,not_significant,12.735849056603774,not_called_small
+MED4,ndep,24h,PMM0530,rpsA2,ribosomal,-0.616611899,not_significant,60.55424528301887,not_called_small
+MED4,ndep,48h,PMM0530,rpsA2,ribosomal,-0.210372299,not_significant,17.57075471698113,not_called_small
+MED4,urea,steady state,PMM0530,rpsA2,ribosomal,0.17675292,not_significant,37.971698113207545,not_called_small
+MED4,ndep,0h,PMM0753,rpsB,ribosomal,-0.309784237,not_significant,44.81132075471698,not_called_small
+MED4,ndep,3h,PMM0753,rpsB,ribosomal,0.004218016,not_significant,1.1202830188679245,not_called_small
+MED4,ndep,6h,PMM0753,rpsB,ribosomal,-0.57731854,not_significant,61.96933962264151,not_called_small
+MED4,ndep,12h,PMM0753,rpsB,ribosomal,-1.14455970835497,not_significant,77.88915094339622,not_called_mid
+MED4,ndep,24h,PMM0753,rpsB,ribosomal,-1.18809230456815,not_significant,83.66745283018868,not_called_mid
+MED4,ndep,48h,PMM0753,rpsB,ribosomal,-0.597135217,not_significant,48.58490566037736,not_called_small
+MED4,urea,steady state,PMM0753,rpsB,ribosomal,-0.281421713,not_significant,56.073113207547166,not_called_small
+MED4,ndep,0h,PMM1552,rpsC,ribosomal,0.330653823,not_significant,47.58254716981132,not_called_small
+MED4,ndep,3h,PMM1552,rpsC,ribosomal,-0.5939762,not_significant,74.1745283018868,not_called_small
+MED4,ndep,6h,PMM1552,rpsC,ribosomal,-1.67748239132799,significant_down,95.57783018867924,called_down
+MED4,ndep,12h,PMM1552,rpsC,ribosomal,-2.87081737855559,significant_down,97.93632075471696,called_down
+MED4,ndep,24h,PMM1552,rpsC,ribosomal,-1.87713919482867,significant_down,95.10613207547168,called_down
+MED4,ndep,48h,PMM1552,rpsC,ribosomal,-2.16466591918313,significant_down,92.86556603773585,called_down
+MED4,urea,steady state,PMM1552,rpsC,ribosomal,-0.076199699,not_significant,16.9811320754717,not_called_small
+MED4,ndep,0h,PMM0410,rpsD,ribosomal,-0.81881312,not_significant,84.72877358490565,not_called_mid
+MED4,ndep,3h,PMM0410,rpsD,ribosomal,-0.936891838,not_significant,92.2759433962264,not_called_mid
+MED4,ndep,6h,PMM0410,rpsD,ribosomal,-1.1569992432104,significant_down,88.56132075471697,called_down
+MED4,ndep,12h,PMM0410,rpsD,ribosomal,-2.07957185578865,significant_down,94.69339622641508,called_down
+MED4,ndep,24h,PMM0410,rpsD,ribosomal,-1.82754814042713,significant_down,94.5754716981132,called_down
+MED4,ndep,48h,PMM0410,rpsD,ribosomal,-0.599953044,not_significant,49.0566037735849,not_called_small
+MED4,urea,steady state,PMM0410,rpsD,ribosomal,-0.726707079051318,not_significant,90.27122641509436,not_called_mid
+MED4,ndep,0h,PMM1542,rpsE,ribosomal,-0.076824602,not_significant,11.61556603773585,not_called_small
+MED4,ndep,3h,PMM1542,rpsE,ribosomal,-1.102479499,not_significant,95.51886792452832,not_called_large
+MED4,ndep,6h,PMM1542,rpsE,ribosomal,-1.71610211117421,significant_down,96.0495283018868,called_down
+MED4,ndep,12h,PMM1542,rpsE,ribosomal,-1.60159784724912,significant_down,88.62028301886792,called_down
+MED4,ndep,24h,PMM1542,rpsE,ribosomal,-1.43520627400353,significant_down,88.73820754716981,called_down
+MED4,ndep,48h,PMM1542,rpsE,ribosomal,-0.944664471,not_significant,70.34198113207547,not_called_small
+MED4,urea,steady state,PMM1542,rpsE,ribosomal,-0.000772038,not_significant,0.1179245283018868,not_called_small
+MED4,ndep,0h,PMM1706,rpsF,ribosomal,0.179621294,not_significant,26.70990566037736,not_called_small
+MED4,ndep,3h,PMM1706,rpsF,ribosomal,-1.029969798,not_significant,93.86792452830188,not_called_mid
+MED4,ndep,6h,PMM1706,rpsF,ribosomal,-1.30153316199669,significant_down,91.4504716981132,called_down
+MED4,ndep,12h,PMM1706,rpsF,ribosomal,-1.98862530540259,significant_down,94.39858490566036,called_down
+MED4,ndep,24h,PMM1706,rpsF,ribosomal,-2.16251495687907,significant_down,96.28537735849056,called_down
+MED4,ndep,48h,PMM1706,rpsF,ribosomal,-2.156900837,not_significant,92.74764150943396,not_called_mid
+MED4,urea,steady state,PMM1706,rpsF,ribosomal,-0.060258959,not_significant,13.679245283018869,not_called_small
+MED4,ndep,0h,PMM1510,rpsG,ribosomal,-0.382884292,not_significant,53.18396226415094,not_called_small
+MED4,ndep,3h,PMM1510,rpsG,ribosomal,-0.705223193,not_significant,82.42924528301887,not_called_mid
+MED4,ndep,6h,PMM1510,rpsG,ribosomal,-1.38840706171006,significant_down,92.68867924528304,called_down
+MED4,ndep,12h,PMM1510,rpsG,ribosomal,-1.77216055234396,significant_down,92.15801886792453,called_down
+MED4,ndep,24h,PMM1510,rpsG,ribosomal,-1.41598090202783,significant_down,88.44339622641509,called_down
+MED4,ndep,48h,PMM1510,rpsG,ribosomal,-0.757028528,not_significant,59.84669811320755,not_called_small
+MED4,urea,steady state,PMM1510,rpsG,ribosomal,-0.481244348,not_significant,77.65330188679245,not_called_mid
+MED4,ndep,0h,PMM1545,rpsH,ribosomal,0.202160735,not_significant,30.18867924528302,not_called_small
+MED4,ndep,3h,PMM1545,rpsH,ribosomal,-0.833457634,not_significant,88.56132075471697,not_called_mid
+MED4,ndep,6h,PMM1545,rpsH,ribosomal,-1.84446631621274,significant_down,96.40330188679243,called_down
+MED4,ndep,12h,PMM1545,rpsH,ribosomal,-2.01586084117554,significant_down,94.51650943396226,called_down
+MED4,ndep,24h,PMM1545,rpsH,ribosomal,-1.07115499866133,significant_down,80.30660377358491,called_down
+MED4,ndep,48h,PMM1545,rpsH,ribosomal,-1.487666412,not_significant,85.37735849056604,not_called_mid
+MED4,urea,steady state,PMM1545,rpsH,ribosomal,-0.086673311,not_significant,18.98584905660377,not_called_small
+MED4,ndep,0h,PMM1531,rpsI,ribosomal,-0.219062507,not_significant,32.6061320754717,not_called_small
+MED4,ndep,3h,PMM1531,rpsI,ribosomal,-0.231186843,not_significant,36.08490566037736,not_called_small
+MED4,ndep,6h,PMM1531,rpsI,ribosomal,-0.416544309,not_significant,47.93632075471698,not_called_small
+MED4,ndep,12h,PMM1531,rpsI,ribosomal,-0.915067529,not_significant,68.16037735849056,not_called_small
+MED4,ndep,24h,PMM1531,rpsI,ribosomal,-0.775610277,not_significant,69.04481132075472,not_called_small
+MED4,ndep,48h,PMM1531,rpsI,ribosomal,-0.155184209,not_significant,13.679245283018869,not_called_small
+MED4,urea,steady state,PMM1531,rpsI,ribosomal,-0.167014652,not_significant,36.20283018867924,not_called_small
+MED4,ndep,0h,PMM1507,rpsJ,ribosomal,0.402054831,not_significant,55.54245283018868,not_called_small
+MED4,ndep,3h,PMM1507,rpsJ,ribosomal,-0.818205061,not_significant,88.03066037735849,not_called_mid
+MED4,ndep,6h,PMM1507,rpsJ,ribosomal,-1.47249374968355,significant_down,93.69103773584906,called_down
+MED4,ndep,12h,PMM1507,rpsJ,ribosomal,-2.50864345283746,significant_down,97.11084905660378,called_down
+MED4,ndep,24h,PMM1507,rpsJ,ribosomal,-2.49135286036594,significant_down,97.81839622641508,called_down
+MED4,ndep,48h,PMM1507,rpsJ,ribosomal,-1.583437744,not_significant,87.14622641509435,not_called_mid
+MED4,urea,steady state,PMM1507,rpsJ,ribosomal,-0.208735379,not_significant,44.10377358490566,not_called_small
+MED4,ndep,0h,PMM1536,rpsK,ribosomal,0.297778363,not_significant,43.45518867924528,not_called_small
+MED4,ndep,3h,PMM1536,rpsK,ribosomal,-0.946807282,not_significant,92.5117924528302,not_called_mid
+MED4,ndep,6h,PMM1536,rpsK,ribosomal,-1.36109331462101,significant_down,92.21698113207547,called_down
+MED4,ndep,12h,PMM1536,rpsK,ribosomal,-2.23706273598769,significant_down,96.0495283018868,called_down
+MED4,ndep,24h,PMM1536,rpsK,ribosomal,-1.45872534616482,significant_down,89.38679245283019,called_down
+MED4,ndep,48h,PMM1536,rpsK,ribosomal,-0.929808782,not_significant,69.45754716981132,not_called_small
+MED4,urea,steady state,PMM1536,rpsK,ribosomal,0.092288953,not_significant,20.224056603773587,not_called_small
+MED4,ndep,0h,PMM1511,rpsL,ribosomal,-0.425534661,not_significant,58.19575471698113,not_called_small
+MED4,ndep,3h,PMM1511,rpsL,ribosomal,-0.525720428,not_significant,68.57311320754717,not_called_small
+MED4,ndep,6h,PMM1511,rpsL,ribosomal,-0.991203727909286,not_significant,84.31603773584906,not_called_mid
+MED4,ndep,12h,PMM1511,rpsL,ribosomal,-1.65348342187871,significant_down,89.7995283018868,called_down
+MED4,ndep,24h,PMM1511,rpsL,ribosomal,-1.31837895901793,not_significant,86.37971698113208,not_called_mid
+MED4,ndep,48h,PMM1511,rpsL,ribosomal,-1.123911182,not_significant,76.65094339622641,not_called_mid
+MED4,urea,steady state,PMM1511,rpsL,ribosomal,-0.392013741,not_significant,69.69339622641509,not_called_small
+MED4,ndep,0h,PMM1537,rpsM,ribosomal,-0.144769164,not_significant,22.11084905660377,not_called_small
+MED4,ndep,3h,PMM1537,rpsM,ribosomal,-0.58399481,not_significant,73.34905660377359,not_called_small
+MED4,ndep,6h,PMM1537,rpsM,ribosomal,-1.21465241036905,significant_down,89.97641509433963,called_down
+MED4,ndep,12h,PMM1537,rpsM,ribosomal,-2.6176661295402,significant_down,97.46462264150944,called_down
+MED4,ndep,24h,PMM1537,rpsM,ribosomal,-1.92846853778978,significant_down,95.34198113207547,called_down
+MED4,ndep,48h,PMM1537,rpsM,ribosomal,-1.39705548,not_significant,83.5495283018868,not_called_mid
+MED4,urea,steady state,PMM1537,rpsM,ribosomal,-0.195711051,not_significant,41.62735849056604,not_called_small
+MED4,ndep,0h,PMM1190,rpsN,ribosomal,-0.225052166,not_significant,33.31367924528302,not_called_small
+MED4,ndep,3h,PMM1190,rpsN,ribosomal,-0.568968134,not_significant,72.34669811320755,not_called_small
+MED4,ndep,6h,PMM1190,rpsN,ribosomal,-0.27093712,not_significant,32.37028301886792,not_called_small
+MED4,ndep,12h,PMM1190,rpsN,ribosomal,-0.039669241,not_significant,3.3608490566037736,not_called_small
+MED4,ndep,24h,PMM1190,rpsN,ribosomal,-0.356078952,not_significant,39.7995283018868,not_called_small
+MED4,ndep,48h,PMM1190,rpsN,ribosomal,0.579599054,not_significant,47.58254716981132,not_called_small
+MED4,urea,steady state,PMM1190,rpsN,ribosomal,-0.440977108,not_significant,74.11556603773585,not_called_small
+MED4,ndep,0h,PMM0943,rpsO,ribosomal,-0.133579242,not_significant,20.5188679245283,not_called_small
+MED4,ndep,3h,PMM0943,rpsO,ribosomal,-0.416790057,not_significant,57.95990566037735,not_called_small
+MED4,ndep,6h,PMM0943,rpsO,ribosomal,-0.137947499,not_significant,16.15566037735849,not_called_small
+MED4,ndep,12h,PMM0943,rpsO,ribosomal,-0.41705772,not_significant,36.91037735849056,not_called_small
+MED4,ndep,24h,PMM0943,rpsO,ribosomal,-0.332250069,not_significant,37.67688679245283,not_called_small
+MED4,ndep,48h,PMM0943,rpsO,ribosomal,-0.088554822,not_significant,7.547169811320755,not_called_small
+MED4,urea,steady state,PMM0943,rpsO,ribosomal,0.216308617,not_significant,45.5188679245283,not_called_small
+MED4,ndep,0h,PMM1285,rpsP,ribosomal,0.087988758,not_significant,13.974056603773583,not_called_small
+MED4,ndep,3h,PMM1285,rpsP,ribosomal,-0.982284269,not_significant,93.39622641509436,not_called_mid
+MED4,ndep,6h,PMM1285,rpsP,ribosomal,-1.0980849989748,significant_down,86.96933962264151,called_down
+MED4,ndep,12h,PMM1285,rpsP,ribosomal,-2.21576228382029,significant_down,95.93160377358492,called_down
+MED4,ndep,24h,PMM1285,rpsP,ribosomal,-1.58712453993507,significant_down,91.21462264150944,called_down
+MED4,ndep,48h,PMM1285,rpsP,ribosomal,-0.397497114,not_significant,33.31367924528302,not_called_small
+MED4,urea,steady state,PMM1285,rpsP,ribosomal,-0.376408902,not_significant,68.3372641509434,not_called_small
+MED4,ndep,0h,PMM1549,rpsQ,ribosomal,0.617082163,not_significant,73.40801886792453,not_called_small
+MED4,ndep,3h,PMM1549,rpsQ,ribosomal,-1.228894816,not_significant,97.22877358490564,not_called_large
+MED4,ndep,6h,PMM1549,rpsQ,ribosomal,-1.81734781587801,significant_down,96.34433962264151,called_down
+MED4,ndep,12h,PMM1549,rpsQ,ribosomal,-2.57332151292282,significant_down,97.34669811320757,called_down
+MED4,ndep,24h,PMM1549,rpsQ,ribosomal,-1.77108604055834,significant_down,93.63207547169812,called_down
+MED4,ndep,48h,PMM1549,rpsQ,ribosomal,-1.613860957,not_significant,87.73584905660378,not_called_mid
+MED4,urea,steady state,PMM1549,rpsQ,ribosomal,-0.031598609,not_significant,6.780660377358491,not_called_small
+MED4,ndep,0h,PMM0869,rpsR,ribosomal,-0.209638084,not_significant,31.367924528301888,not_called_small
+MED4,ndep,3h,PMM0869,rpsR,ribosomal,-0.499394301,not_significant,65.74292452830188,not_called_small
+MED4,ndep,6h,PMM0869,rpsR,ribosomal,-0.986916772496092,not_significant,84.08018867924528,not_called_mid
+MED4,ndep,12h,PMM0869,rpsR,ribosomal,-1.50127086139564,significant_down,86.49764150943396,called_down
+MED4,ndep,24h,PMM0869,rpsR,ribosomal,-1.44546128853607,significant_down,88.91509433962264,called_down
+MED4,ndep,48h,PMM0869,rpsR,ribosomal,-0.773440187,not_significant,61.37971698113207,not_called_small
+MED4,urea,steady state,PMM0869,rpsR,ribosomal,-0.104622028,not_significant,23.6438679245283,not_called_small
+MED4,ndep,0h,PMM1554,rpsS,ribosomal,0.450587411,not_significant,60.79009433962265,not_called_small
+MED4,ndep,3h,PMM1554,rpsS,ribosomal,-1.002864751,not_significant,93.51415094339622,not_called_mid
+MED4,ndep,6h,PMM1554,rpsS,ribosomal,-2.10728699659922,significant_down,97.46462264150944,called_down
+MED4,ndep,12h,PMM1554,rpsS,ribosomal,-3.09294261511568,significant_down,98.46698113207547,called_down
+MED4,ndep,24h,PMM1554,rpsS,ribosomal,-2.28717520929564,significant_down,97.22877358490564,called_down
+MED4,ndep,48h,PMM1554,rpsS,ribosomal,-1.411931773,not_significant,84.08018867924528,not_called_mid
+MED4,urea,steady state,PMM1554,rpsS,ribosomal,0.312181566,not_significant,60.90801886792453,not_called_small
+MED4,ndep,0h,PMM1487,rpsT,ribosomal,-0.54878968,not_significant,69.10377358490565,not_called_small
+MED4,ndep,3h,PMM1487,rpsT,ribosomal,-0.889170339,not_significant,90.91981132075472,not_called_mid
+MED4,ndep,6h,PMM1487,rpsT,ribosomal,-0.621268374,not_significant,65.09433962264151,not_called_small
+MED4,ndep,12h,PMM1487,rpsT,ribosomal,-0.394394533,not_significant,34.31603773584906,not_called_small
+MED4,ndep,24h,PMM1487,rpsT,ribosomal,-0.603771554,not_significant,59.7877358490566,not_called_small
+MED4,ndep,48h,PMM1487,rpsT,ribosomal,0.557604337,not_significant,46.0495283018868,not_called_small
+MED4,urea,steady state,PMM1487,rpsT,ribosomal,0.043203913,not_significant,9.433962264150944,not_called_small
+MED4,ndep,0h,PMM0987,rpsU,ribosomal,-0.338462538,not_significant,48.46698113207547,not_called_small
+MED4,ndep,3h,PMM0987,rpsU,ribosomal,-0.365177454,not_significant,52.948113207547166,not_called_small
+MED4,ndep,6h,PMM0987,rpsU,ribosomal,-0.771644551,not_significant,74.64622641509435,not_called_small
+MED4,ndep,12h,PMM0987,rpsU,ribosomal,-0.453860037,not_significant,39.50471698113208,not_called_small
+MED4,ndep,24h,PMM0987,rpsU,ribosomal,-1.20000366688896,significant_down,84.08018867924528,called_down
+MED4,ndep,48h,PMM0987,rpsU,ribosomal,0.226255615,not_significant,18.75,not_called_small
+MED4,urea,steady state,PMM0987,rpsU,ribosomal,0.042583419,not_significant,9.257075471698114,not_called_small
+MED4,ndep,0h,PMM0263,amt1,target,0.055426249,not_significant,8.077830188679245,not_called_small
+MED4,ndep,3h,PMM0263,amt1,target,0.801664843,not_significant,87.0872641509434,not_called_mid
+MED4,ndep,6h,PMM0263,amt1,target,1.09022039554685,significant_up,86.73349056603774,called_up
+MED4,ndep,12h,PMM0263,amt1,target,0.640798321,not_significant,53.24292452830189,not_called_small
+MED4,ndep,24h,PMM0263,amt1,target,1.05240145098823,not_significant,79.65801886792453,not_called_mid
+MED4,ndep,48h,PMM0263,amt1,target,0.224138189,not_significant,18.632075471698112,not_called_small
+MED4,urea,steady state,PMM0263,amt1,target,-0.036619509,not_significant,8.018867924528301,not_called_small
+MED4,ndep,0h,PMM0920,glnA,target,0.509219432,not_significant,65.86084905660378,not_called_small
+MED4,ndep,3h,PMM0920,glnA,target,3.75973171772578,significant_up,99.76415094339622,called_up
+MED4,ndep,6h,PMM0920,glnA,target,5.06051169137151,significant_up,99.76415094339622,called_up
+MED4,ndep,12h,PMM0920,glnA,target,4.14177961834331,significant_up,99.52830188679243,called_up
+MED4,ndep,24h,PMM0920,glnA,target,3.92174594063168,significant_up,99.82311320754717,called_up
+MED4,ndep,48h,PMM0920,glnA,target,3.79888923224975,significant_up,98.99764150943396,called_up
+MED4,urea,steady state,PMM0920,glnA,target,-0.195371878,not_significant,41.50943396226416,not_called_small
+MED4,ndep,0h,PMM1463,glnB,target,0.056513412,not_significant,8.254716981132075,not_called_small
+MED4,ndep,3h,PMM1463,glnB,target,2.109289489,not_significant,99.23349056603774,not_called_large
+MED4,ndep,6h,PMM1463,glnB,target,2.85561344589713,significant_up,98.99764150943396,called_up
+MED4,ndep,12h,PMM1463,glnB,target,2.3455961849395,significant_up,96.58018867924528,called_up
+MED4,ndep,24h,PMM1463,glnB,target,1.30876661065235,not_significant,86.14386792452831,not_called_mid
+MED4,ndep,48h,PMM1463,glnB,target,1.54023927,not_significant,86.43867924528303,not_called_mid
+MED4,urea,steady state,PMM1463,glnB,target,0.365274218,not_significant,67.45283018867924,not_called_small
+MED4,ndep,0h,PMM0393,pipX,target,-0.693732222,not_significant,78.65566037735849,not_called_mid
+MED4,ndep,3h,PMM0393,pipX,target,-0.368265109,not_significant,53.360849056603776,not_called_small
+MED4,ndep,6h,PMM0393,pipX,target,0.091705119,not_significant,10.495283018867925,not_called_small
+MED4,ndep,12h,PMM0393,pipX,target,0.76440665,not_significant,60.90801886792453,not_called_small
+MED4,ndep,24h,PMM0393,pipX,target,-0.385845717,not_significant,42.68867924528302,not_called_small
+MED4,ndep,48h,PMM0393,pipX,target,-1.440531926,not_significant,84.72877358490565,not_called_mid
+MED4,urea,steady state,PMM0393,pipX,target,-0.204557875,not_significant,43.21933962264151,not_called_small
+MED4,ndep,0h,PMM0963,ureC,target,0.036989762,not_significant,5.070754716981132,not_called_small
+MED4,ndep,3h,PMM0963,ureC,target,0.418075292,not_significant,58.136792452830186,not_called_small
+MED4,ndep,6h,PMM0963,ureC,target,0.069580424,not_significant,8.608490566037736,not_called_small
+MED4,ndep,12h,PMM0963,ureC,target,-0.018844327,not_significant,1.5330188679245282,not_called_small
+MED4,ndep,24h,PMM0963,ureC,target,0.130043529,not_significant,14.62264150943396,not_called_small
+MED4,ndep,48h,PMM0963,ureC,target,0.63756763,not_significant,51.65094339622641,not_called_small
+MED4,urea,steady state,PMM0963,ureC,target,-0.123278586,not_significant,27.65330188679245,not_called_small
+MED4,ndep,0h,PMM0970,urtA,target,0.77958576,not_significant,82.95990566037736,not_called_mid
+MED4,ndep,3h,PMM0970,urtA,target,3.90870782237566,significant_up,99.82311320754717,called_up
+MED4,ndep,6h,PMM0970,urtA,target,5.37087883412763,significant_up,99.82311320754717,called_up
+MED4,ndep,12h,PMM0970,urtA,target,3.75015994971883,significant_up,99.29245283018868,called_up
+MED4,ndep,24h,PMM0970,urtA,target,3.86942338221993,significant_up,99.76415094339622,called_up
+MED4,ndep,48h,PMM0970,urtA,target,3.8347661783105,significant_up,99.11556603773585,called_up
+MED4,urea,steady state,PMM0970,urtA,target,-0.161692929,not_significant,35.43632075471698,not_called_small
+MIT9313,ndep,0h,PMT1831,ntcA,ntcA,-0.25024562,not_significant,62.51673360107095,not_called_small
+MIT9313,ndep,3h,PMT1831,ntcA,ntcA,1.941622064,not_significant,99.776885319054,not_called_large
+MIT9313,ndep,6h,PMT1831,ntcA,ntcA,3.03245309533301,significant_up,99.6876394466756,called_up
+MIT9313,ndep,12h,PMT1831,ntcA,ntcA,3.5581014323859,significant_up,99.6876394466756,called_up
+MIT9313,ndep,24h,PMT1831,ntcA,ntcA,3.5427379612893,significant_up,99.7322623828648,called_up
+MIT9313,ndep,48h,PMT1831,ntcA,ntcA,2.91416175012933,significant_up,96.5640339134315,called_up
+MIT9313,urea,steady state,PMT1831,ntcA,ntcA,0.863125559,not_significant,91.61088799643017,not_called_mid
+MIT9313,ndep,0h,PMT2089,rplA,ribosomal,-0.210118219,not_significant,55.24319500223115,not_called_small
+MIT9313,ndep,3h,PMT2089,rplA,ribosomal,-0.065372642,not_significant,26.595269968763947,not_called_small
+MIT9313,ndep,6h,PMT2089,rplA,ribosomal,-0.602944272153628,not_significant,87.86256135653726,not_called_mid
+MIT9313,ndep,12h,PMT2089,rplA,ribosomal,-0.914810127,not_significant,86.39000446229362,not_called_mid
+MIT9313,ndep,24h,PMT2089,rplA,ribosomal,-1.38717652035096,not_significant,90.18295403837573,not_called_mid
+MIT9313,ndep,48h,PMT2089,rplA,ribosomal,-2.8760445505549,significant_down,96.4301651048639,called_down
+MIT9313,urea,steady state,PMT2089,rplA,ribosomal,-0.540372279,not_significant,80.14279339580544,not_called_mid
+MIT9313,ndep,0h,PMT1735,rplB,ribosomal,-0.095715573,not_significant,28.603302097278,not_called_small
+MIT9313,ndep,3h,PMT1735,rplB,ribosomal,-0.474039906,not_significant,93.0388219544846,not_called_mid
+MIT9313,ndep,6h,PMT1735,rplB,ribosomal,-1.30209196147267,significant_down,97.63498438197232,called_down
+MIT9313,ndep,12h,PMT1735,rplB,ribosomal,-1.56198288792781,significant_down,97.01026327532352,called_down
+MIT9313,ndep,24h,PMT1735,rplB,ribosomal,-2.55547260993308,significant_down,98.88442659526996,called_down
+MIT9313,ndep,48h,PMT1735,rplB,ribosomal,-1.99185157710513,significant_down,89.2012494422133,called_down
+MIT9313,urea,steady state,PMT1735,rplB,ribosomal,0.851893891326334,not_significant,91.52164212405177,not_called_mid
+MIT9313,ndep,0h,PMT1732,rplC,ribosomal,-0.266044965,not_significant,64.97099509147702,not_called_small
+MIT9313,ndep,3h,PMT1732,rplC,ribosomal,-0.289651238,not_significant,81.61535029004908,not_called_mid
+MIT9313,ndep,6h,PMT1732,rplC,ribosomal,-1.11190616193332,significant_down,96.87639446675593,called_down
+MIT9313,ndep,12h,PMT1732,rplC,ribosomal,-2.13379962169127,significant_down,98.79518072289156,called_down
+MIT9313,ndep,24h,PMT1732,rplC,ribosomal,-2.46628588049861,significant_down,98.70593485051316,called_down
+MIT9313,ndep,48h,PMT1732,rplC,ribosomal,-1.96922754478956,significant_down,88.84426595269969,called_down
+MIT9313,urea,steady state,PMT1732,rplC,ribosomal,-0.277639355,not_significant,51.67336010709504,not_called_small
+MIT9313,ndep,0h,PMT1733,rplD,ribosomal,-0.570162461,not_significant,91.25390450691656,not_called_mid
+MIT9313,ndep,3h,PMT1733,rplD,ribosomal,-0.662677624,not_significant,96.29629629629628,not_called_large
+MIT9313,ndep,6h,PMT1733,rplD,ribosomal,-1.84080003292572,significant_down,98.83980365908076,called_down
+MIT9313,ndep,12h,PMT1733,rplD,ribosomal,-2.55256618506013,significant_down,99.4645247657296,called_down
+MIT9313,ndep,24h,PMT1733,rplD,ribosomal,-2.55707557745535,significant_down,98.92904953145916,called_down
+MIT9313,ndep,48h,PMT1733,rplD,ribosomal,-4.48596134436379,significant_down,99.6876394466756,called_down
+MIT9313,urea,steady state,PMT1733,rplD,ribosomal,0.121613748,not_significant,23.91789379741187,not_called_small
+MIT9313,ndep,0h,PMT1744,rplE,ribosomal,0.373551138,not_significant,79.25033467202141,not_called_mid
+MIT9313,ndep,3h,PMT1744,rplE,ribosomal,0.025740527,not_significant,10.6648817492191,not_called_small
+MIT9313,ndep,6h,PMT1744,rplE,ribosomal,-1.09663045901979,significant_down,96.69790272199911,called_down
+MIT9313,ndep,12h,PMT1744,rplE,ribosomal,-2.23158925559022,significant_down,99.10754127621595,called_down
+MIT9313,ndep,24h,PMT1744,rplE,ribosomal,-2.58110150934517,significant_down,99.01829540383756,called_down
+MIT9313,ndep,48h,PMT1744,rplE,ribosomal,-3.25942101079029,significant_down,98.17045961624274,called_down
+MIT9313,urea,steady state,PMT1744,rplE,ribosomal,-0.255095392,not_significant,47.96965640339134,not_called_small
+MIT9313,ndep,0h,PMT1746,rplF,ribosomal,-0.00942094,not_significant,2.5435073627844718,not_called_small
+MIT9313,ndep,3h,PMT1746,rplF,ribosomal,-0.216800001,not_significant,70.28112449799197,not_called_small
+MIT9313,ndep,6h,PMT1746,rplF,ribosomal,-0.96992854037017,significant_down,95.85006693440428,called_down
+MIT9313,ndep,12h,PMT1746,rplF,ribosomal,-1.47915848622023,significant_down,96.25167336010708,called_down
+MIT9313,ndep,24h,PMT1746,rplF,ribosomal,-1.82168309375054,significant_down,95.62695225345828,called_down
+MIT9313,ndep,48h,PMT1746,rplF,ribosomal,-2.20889247804005,significant_down,91.47701918786257,called_down
+MIT9313,urea,steady state,PMT1746,rplF,ribosomal,0.008238971,not_significant,1.6064257028112447,not_called_small
+MIT9313,ndep,0h,PMT2175,rplI,ribosomal,0.066291918,not_significant,20.437304774654173,not_called_small
+MIT9313,ndep,3h,PMT2175,rplI,ribosomal,0.227685403,not_significant,72.28915662650603,not_called_small
+MIT9313,ndep,6h,PMT2175,rplI,ribosomal,0.683667912,not_significant,90.71842927264612,not_called_mid
+MIT9313,ndep,12h,PMT2175,rplI,ribosomal,0.987332632,not_significant,88.17492190986167,not_called_mid
+MIT9313,ndep,24h,PMT2175,rplI,ribosomal,1.10224790281135,significant_up,83.13253012048193,called_up
+MIT9313,ndep,48h,PMT2175,rplI,ribosomal,1.34717197324461,significant_up,75.54663096831771,called_up
+MIT9313,urea,steady state,PMT2175,rplI,ribosomal,-0.109320945,not_significant,21.686746987951807,not_called_small
+MIT9313,ndep,0h,PMT2090,rplJ,ribosomal,-0.418737212,not_significant,83.31102186523873,not_called_mid
+MIT9313,ndep,3h,PMT2090,rplJ,ribosomal,-0.211186563,not_significant,68.94243641231593,not_called_small
+MIT9313,ndep,6h,PMT2090,rplJ,ribosomal,-1.02547721164594,not_significant,96.11780455153948,not_called_large
+MIT9313,ndep,12h,PMT2090,rplJ,ribosomal,-1.55906691355489,significant_down,96.96564033913432,called_down
+MIT9313,ndep,24h,PMT2090,rplJ,ribosomal,-1.63165340949666,significant_down,94.19901829540385,called_down
+MIT9313,ndep,48h,PMT2090,rplJ,ribosomal,-1.83840881742735,significant_down,86.79161088799643,called_down
+MIT9313,urea,steady state,PMT2090,rplJ,ribosomal,0.366469202,not_significant,64.52476572958501,not_called_small
+MIT9313,ndep,0h,PMT2088,rplK,ribosomal,-0.443109881,not_significant,84.96207050423918,not_called_mid
+MIT9313,ndep,3h,PMT2088,rplK,ribosomal,-0.470984968,not_significant,92.9495760821062,not_called_mid
+MIT9313,ndep,6h,PMT2088,rplK,ribosomal,-0.71532224070066,not_significant,91.78937974118698,not_called_mid
+MIT9313,ndep,12h,PMT2088,rplK,ribosomal,-1.10896240347652,not_significant,90.58456046407854,not_called_mid
+MIT9313,ndep,24h,PMT2088,rplK,ribosomal,-1.02417563846487,not_significant,80.99062918340026,not_called_mid
+MIT9313,ndep,48h,PMT2088,rplK,ribosomal,-0.819401332,not_significant,55.68942436412316,not_called_small
+MIT9313,urea,steady state,PMT2088,rplK,ribosomal,0.253155694,not_significant,47.56804997768853,not_called_small
+MIT9313,ndep,0h,PMT2091,rplL,ribosomal,-0.145393491,not_significant,41.49933065595716,not_called_small
+MIT9313,ndep,3h,PMT2091,rplL,ribosomal,-0.104413333,not_significant,40.78536367692994,not_called_small
+MIT9313,ndep,6h,PMT2091,rplL,ribosomal,-0.744086657346159,not_significant,92.5479696564034,not_called_mid
+MIT9313,ndep,12h,PMT2091,rplL,ribosomal,-0.901664466,not_significant,85.80990629183401,not_called_mid
+MIT9313,ndep,24h,PMT2091,rplL,ribosomal,-0.765911044,not_significant,70.54886211512718,not_called_small
+MIT9313,ndep,48h,PMT2091,rplL,ribosomal,-1.08746165722855,significant_down,67.42525658188309,called_down
+MIT9313,urea,steady state,PMT2091,rplL,ribosomal,0.29158645,not_significant,54.35073627844712,not_called_small
+MIT9313,ndep,0h,PMT1758,rplM,ribosomal,-0.153659675,not_significant,43.284248103525215,not_called_small
+MIT9313,ndep,3h,PMT1758,rplM,ribosomal,-0.106875781,not_significant,41.49933065595716,not_called_small
+MIT9313,ndep,6h,PMT1758,rplM,ribosomal,-0.710640753087096,not_significant,91.52164212405177,not_called_mid
+MIT9313,ndep,12h,PMT1758,rplM,ribosomal,-1.46323150898776,significant_down,96.0285586791611,called_down
+MIT9313,ndep,24h,PMT1758,rplM,ribosomal,-2.21700000933223,significant_down,97.81347612672914,called_down
+MIT9313,ndep,48h,PMT1758,rplM,ribosomal,-1.9716452193055,significant_down,88.88888888888889,called_down
+MIT9313,urea,steady state,PMT1758,rplM,ribosomal,-0.502407593,not_significant,77.10843373493977,not_called_mid
+MIT9313,ndep,0h,PMT1742,rplN,ribosomal,0.378092151,not_significant,79.69656403391343,not_called_mid
+MIT9313,ndep,3h,PMT1742,rplN,ribosomal,0.044771316,not_significant,19.27710843373494,not_called_small
+MIT9313,ndep,6h,PMT1742,rplN,ribosomal,-1.06190845076288,significant_down,96.3855421686747,called_down
+MIT9313,ndep,12h,PMT1742,rplN,ribosomal,-2.3306229118817,significant_down,99.37527889335118,called_down
+MIT9313,ndep,24h,PMT1742,rplN,ribosomal,-2.65883037285044,significant_down,99.10754127621595,called_down
+MIT9313,ndep,48h,PMT1742,rplN,ribosomal,-2.26138671064688,significant_down,92.0571173583222,called_down
+MIT9313,urea,steady state,PMT1742,rplN,ribosomal,-0.029909426,not_significant,6.3364569388665775,not_called_small
+MIT9313,ndep,0h,PMT1749,rplO,ribosomal,-0.011939091,not_significant,3.4805890227576977,not_called_small
+MIT9313,ndep,3h,PMT1749,rplO,ribosomal,-0.18472689,not_significant,62.78447121820616,not_called_small
+MIT9313,ndep,6h,PMT1749,rplO,ribosomal,-0.533474869,not_significant,85.00669344042838,not_called_mid
+MIT9313,ndep,12h,PMT1749,rplO,ribosomal,-1.00167342,not_significant,88.48728246318608,not_called_mid
+MIT9313,ndep,24h,PMT1749,rplO,ribosomal,-1.01924137320972,significant_down,80.67826863007585,called_down
+MIT9313,ndep,48h,PMT1749,rplO,ribosomal,-2.00421185752143,significant_down,89.4689870593485,called_down
+MIT9313,urea,steady state,PMT1749,rplO,ribosomal,0.475574202,not_significant,75.1004016064257,not_called_mid
+MIT9313,ndep,0h,PMT1739,rplP,ribosomal,0.486311443,not_significant,87.28246318607763,not_called_mid
+MIT9313,ndep,3h,PMT1739,rplP,ribosomal,-0.029807421,not_significant,12.80678268630076,not_called_small
+MIT9313,ndep,6h,PMT1739,rplP,ribosomal,-0.73768536313327,not_significant,92.32485497545738,not_called_mid
+MIT9313,ndep,12h,PMT1739,rplP,ribosomal,-1.81479798137639,significant_down,98.03659080767515,called_down
+MIT9313,ndep,24h,PMT1739,rplP,ribosomal,-1.89727464896383,significant_down,96.16242748772868,called_down
+MIT9313,ndep,48h,PMT1739,rplP,ribosomal,-2.44238224435264,significant_down,93.93128067826862,called_down
+MIT9313,urea,steady state,PMT1739,rplP,ribosomal,0.447864302,not_significant,72.73538598839804,not_called_small
+MIT9313,ndep,0h,PMT1756,rplQ,ribosomal,-0.732390099,not_significant,95.49308344489069,not_called_large
+MIT9313,ndep,3h,PMT1756,rplQ,ribosomal,-0.724381964,not_significant,96.78714859437753,not_called_large
+MIT9313,ndep,6h,PMT1756,rplQ,ribosomal,-0.954271069831783,significant_down,95.71619812583668,called_down
+MIT9313,ndep,12h,PMT1756,rplQ,ribosomal,-1.079513058,not_significant,90.04908522980813,not_called_mid
+MIT9313,ndep,24h,PMT1756,rplQ,ribosomal,-1.69653022888491,significant_down,94.73449352967424,called_down
+MIT9313,ndep,48h,PMT1756,rplQ,ribosomal,-2.15421487914485,significant_down,91.12003569834896,called_down
+MIT9313,urea,steady state,PMT1756,rplQ,ribosomal,0.447357915,not_significant,72.55689424364124,not_called_small
+MIT9313,ndep,0h,PMT1747,rplR,ribosomal,0.114223939,not_significant,33.15484158857653,not_called_small
+MIT9313,ndep,3h,PMT1747,rplR,ribosomal,-0.236397505,not_significant,73.98482820169568,not_called_small
+MIT9313,ndep,6h,PMT1747,rplR,ribosomal,-1.15247877404527,significant_down,97.14413208389112,called_down
+MIT9313,ndep,12h,PMT1747,rplR,ribosomal,-1.29942247751672,not_significant,94.24364123159305,not_called_mid
+MIT9313,ndep,24h,PMT1747,rplR,ribosomal,-1.45524956555957,significant_down,91.52164212405177,called_down
+MIT9313,ndep,48h,PMT1747,rplR,ribosomal,-2.55990256076556,significant_down,95.00223114680946,called_down
+MIT9313,urea,steady state,PMT1747,rplR,ribosomal,0.032239189,not_significant,7.184292726461401,not_called_small
+MIT9313,ndep,0h,PMT1306,rplS,ribosomal,0.56114166,not_significant,90.85229808121376,not_called_mid
+MIT9313,ndep,3h,PMT1306,rplS,ribosomal,0.140801061,not_significant,51.89647478804106,not_called_small
+MIT9313,ndep,6h,PMT1306,rplS,ribosomal,0.1294398,not_significant,31.23605533244088,not_called_small
+MIT9313,ndep,12h,PMT1306,rplS,ribosomal,-0.450190018,not_significant,61.66889781347613,not_called_small
+MIT9313,ndep,24h,PMT1306,rplS,ribosomal,-1.00312841154247,significant_down,80.14279339580544,called_down
+MIT9313,ndep,48h,PMT1306,rplS,ribosomal,-1.46148700859998,significant_down,78.84872824631861,called_down
+MIT9313,urea,steady state,PMT1306,rplS,ribosomal,-0.182463899,not_significant,35.96608656849621,not_called_small
+MIT9313,ndep,0h,PMT0055,rplT,ribosomal,-0.110984788,not_significant,32.1731369924141,not_called_small
+MIT9313,ndep,3h,PMT0055,rplT,ribosomal,0.140917688,not_significant,51.98572066041945,not_called_small
+MIT9313,ndep,6h,PMT0055,rplT,ribosomal,-0.244339222,not_significant,56.26952253458277,not_called_small
+MIT9313,ndep,12h,PMT0055,rplT,ribosomal,-0.740305346,not_significant,80.18741633199464,not_called_mid
+MIT9313,ndep,24h,PMT0055,rplT,ribosomal,-1.02050057824342,significant_down,80.76751450245426,called_down
+MIT9313,ndep,48h,PMT0055,rplT,ribosomal,-0.671303411,not_significant,47.746541722445336,not_called_small
+MIT9313,urea,steady state,PMT0055,rplT,ribosomal,-0.732950263,not_significant,89.1120035698349,not_called_mid
+MIT9313,ndep,0h,PMT1420,rplU,ribosomal,0.000866796,not_significant,0.4016064257028112,not_called_small
+MIT9313,ndep,3h,PMT1420,rplU,ribosomal,0.027176991,not_significant,11.378848728246318,not_called_small
+MIT9313,ndep,6h,PMT1420,rplU,ribosomal,0.107161776,not_significant,26.907630522088358,not_called_small
+MIT9313,ndep,12h,PMT1420,rplU,ribosomal,0.122257852,not_significant,18.16153502900491,not_called_small
+MIT9313,ndep,24h,PMT1420,rplU,ribosomal,-0.271406459,not_significant,30.879071842927264,not_called_small
+MIT9313,ndep,48h,PMT1420,rplU,ribosomal,-0.441099482,not_significant,33.779562695225344,not_called_small
+MIT9313,urea,steady state,PMT1420,rplU,ribosomal,0.07088994,not_significant,13.431503792949576,not_called_small
+MIT9313,ndep,0h,PMT1737,rplV,ribosomal,0.503991042,not_significant,88.39803659080768,not_called_mid
+MIT9313,ndep,3h,PMT1737,rplV,ribosomal,-0.131662456,not_significant,49.35296742525658,not_called_small
+MIT9313,ndep,6h,PMT1737,rplV,ribosomal,-1.00821227595754,significant_down,96.0731816153503,called_down
+MIT9313,ndep,12h,PMT1737,rplV,ribosomal,-2.06173876956001,significant_down,98.66131191432396,called_down
+MIT9313,ndep,24h,PMT1737,rplV,ribosomal,-2.34044248136116,significant_down,98.30432842481036,called_down
+MIT9313,ndep,48h,PMT1737,rplV,ribosomal,-4.27680929589146,significant_down,99.6430165104864,called_down
+MIT9313,urea,steady state,PMT1737,rplV,ribosomal,0.709665147,not_significant,88.21954484605087,not_called_mid
+MIT9313,ndep,0h,PMT1734,rplW,ribosomal,-0.484501506,not_significant,87.10397144132084,not_called_mid
+MIT9313,ndep,3h,PMT1734,rplW,ribosomal,-0.597060338,not_significant,95.80544399821508,not_called_large
+MIT9313,ndep,6h,PMT1734,rplW,ribosomal,-1.84221544450854,significant_down,98.88442659526996,called_down
+MIT9313,ndep,12h,PMT1734,rplW,ribosomal,-2.28784551023378,significant_down,99.24141008478358,called_down
+MIT9313,ndep,24h,PMT1734,rplW,ribosomal,-2.88774787696643,significant_down,99.28603302097278,called_down
+MIT9313,ndep,48h,PMT1734,rplW,ribosomal,-2.8094567074601,significant_down,96.25167336010708,called_down
+MIT9313,urea,steady state,PMT1734,rplW,ribosomal,0.601452329,not_significant,83.40026773761714,not_called_mid
+MIT9313,ndep,0h,PMT1743,rplX,ribosomal,0.453391769,not_significant,85.4529228023204,not_called_mid
+MIT9313,ndep,3h,PMT1743,rplX,ribosomal,0.004434662,not_significant,2.0972780008924587,not_called_small
+MIT9313,ndep,6h,PMT1743,rplX,ribosomal,-0.94301059536368,not_significant,95.44846050870149,not_called_large
+MIT9313,ndep,12h,PMT1743,rplX,ribosomal,-2.13100793539467,significant_down,98.75055778670236,called_down
+MIT9313,ndep,24h,PMT1743,rplX,ribosomal,-2.54448639790607,significant_down,98.79518072289156,called_down
+MIT9313,ndep,48h,PMT1743,rplX,ribosomal,-3.64762801513588,significant_down,98.88442659526996,called_down
+MIT9313,urea,steady state,PMT1743,rplX,ribosomal,-0.253462869,not_significant,47.65729585006693,not_called_small
+MIT9313,ndep,0h,PMT1421,rpmA,ribosomal,0.259383817,not_significant,63.85542168674698,not_called_small
+MIT9313,ndep,3h,PMT1421,rpmA,ribosomal,0.213162241,not_significant,69.43328871039715,not_called_small
+MIT9313,ndep,6h,PMT1421,rpmA,ribosomal,0.025325393,not_significant,7.1396697902722,not_called_small
+MIT9313,ndep,12h,PMT1421,rpmA,ribosomal,0.161344269,not_significant,24.89959839357429,not_called_small
+MIT9313,ndep,24h,PMT1421,rpmA,ribosomal,0.373278313,not_significant,40.651494868362335,not_called_small
+MIT9313,ndep,48h,PMT1421,rpmA,ribosomal,0.156462851,not_significant,11.646586345381529,not_called_small
+MIT9313,urea,steady state,PMT1421,rpmA,ribosomal,-0.030764114,not_significant,6.648817492190987,not_called_small
+MIT9313,ndep,0h,PMT0695,rpmB,ribosomal,-0.067809164,not_significant,20.928157072735388,not_called_small
+MIT9313,ndep,3h,PMT0695,rpmB,ribosomal,-0.031306129,not_significant,13.476126729138777,not_called_small
+MIT9313,ndep,6h,PMT0695,rpmB,ribosomal,0.208242515,not_significant,49.26372155287818,not_called_small
+MIT9313,ndep,12h,PMT0695,rpmB,ribosomal,0.145377975,not_significant,22.311468094600624,not_called_small
+MIT9313,ndep,24h,PMT0695,rpmB,ribosomal,0.093746446,not_significant,10.575635876840696,not_called_small
+MIT9313,ndep,48h,PMT0695,rpmB,ribosomal,0.236950914,not_significant,17.983043284248104,not_called_small
+MIT9313,urea,steady state,PMT0695,rpmB,ribosomal,-0.346828691,not_significant,62.159750111557344,not_called_small
+MIT9313,ndep,0h,PMT1740,rpmC,ribosomal,0.438098904,not_significant,84.60508701472557,not_called_mid
+MIT9313,ndep,3h,PMT1740,rpmC,ribosomal,0.044295453,not_significant,19.098616688978133,not_called_small
+MIT9313,ndep,6h,PMT1740,rpmC,ribosomal,-0.752034283029243,not_significant,92.7710843373494,not_called_mid
+MIT9313,ndep,12h,PMT1740,rpmC,ribosomal,-1.46338734163701,significant_down,96.0731816153503,called_down
+MIT9313,ndep,24h,PMT1740,rpmC,ribosomal,-1.84982220327946,significant_down,95.85006693440428,called_down
+MIT9313,ndep,48h,PMT1740,rpmC,ribosomal,-1.86663128691076,significant_down,87.23784024988845,called_down
+MIT9313,urea,steady state,PMT1740,rpmC,ribosomal,0.236594914,not_significant,45.024542614904064,not_called_small
+MIT9313,ndep,0h,PMT1760,rpmE,ribosomal,-0.197799365,not_significant,52.78893351182508,not_called_small
+MIT9313,ndep,3h,PMT1760,rpmE,ribosomal,-0.386277045,not_significant,89.1566265060241,not_called_mid
+MIT9313,ndep,6h,PMT1760,rpmE,ribosomal,-0.908221542752634,significant_down,94.91298527443108,called_down
+MIT9313,ndep,12h,PMT1760,rpmE,ribosomal,-1.04774043,not_significant,89.37974118697011,not_called_mid
+MIT9313,ndep,24h,PMT1760,rpmE,ribosomal,-1.58372430570543,significant_down,93.3958054439982,called_down
+MIT9313,ndep,48h,PMT1760,rpmE,ribosomal,-1.48273909091916,significant_down,79.29495760821062,called_down
+MIT9313,urea,steady state,PMT1760,rpmE,ribosomal,-0.244778084,not_significant,46.3632307005801,not_called_small
+MIT9313,ndep,0h,PMT_0757,rpmF,ribosomal,0.492703285,not_significant,87.68406961178046,not_called_mid
+MIT9313,ndep,3h,PMT_0757,rpmF,ribosomal,0.197429718,not_significant,65.59571619812584,not_called_small
+MIT9313,ndep,6h,PMT_0757,rpmF,ribosomal,0.27028369,not_significant,60.19634091923248,not_called_small
+MIT9313,ndep,12h,PMT_0757,rpmF,ribosomal,-0.186846017,not_significant,29.852744310575638,not_called_small
+MIT9313,ndep,24h,PMT_0757,rpmF,ribosomal,-0.704503136,not_significant,66.88978134761268,not_called_small
+MIT9313,ndep,48h,PMT_0757,rpmF,ribosomal,-1.90887733245412,significant_down,88.04105310129407,called_down
+MIT9313,urea,steady state,PMT_0757,rpmF,ribosomal,-0.95951945295199,not_significant,92.8157072735386,not_called_mid
+MIT9313,ndep,0h,PMT_0739,rpmG,ribosomal,0.078716118,not_significant,23.471664435519852,not_called_small
+MIT9313,ndep,3h,PMT_0739,rpmG,ribosomal,0.023846532,not_significant,10.08478357875948,not_called_small
+MIT9313,ndep,6h,PMT_0739,rpmG,ribosomal,0.125107948,not_significant,30.432842481035248,not_called_small
+MIT9313,ndep,12h,PMT_0739,rpmG,ribosomal,-0.16517287,not_significant,26.10441767068273,not_called_small
+MIT9313,ndep,24h,PMT_0739,rpmG,ribosomal,-1.0286854083684,significant_down,81.12449799196787,called_down
+MIT9313,ndep,48h,PMT_0739,rpmG,ribosomal,-1.2799940516235,significant_down,73.58322177599285,called_down
+MIT9313,urea,steady state,PMT_0739,rpmG,ribosomal,-0.321487051,not_significant,58.36680053547524,not_called_small
+MIT9313,ndep,0h,PMT_1368,rpmH,ribosomal,0.197387648,not_significant,52.610441767068274,not_called_small
+MIT9313,ndep,3h,PMT_1368,rpmH,ribosomal,0.000876139,not_significant,0.4462293618920125,not_called_small
+MIT9313,ndep,6h,PMT_1368,rpmH,ribosomal,-0.032329142,not_significant,9.415439535921465,not_called_small
+MIT9313,ndep,12h,PMT_1368,rpmH,ribosomal,-0.418889711,not_significant,58.54529228023204,not_called_small
+MIT9313,ndep,24h,PMT_1368,rpmH,ribosomal,-0.371099621,not_significant,40.562248995983936,not_called_small
+MIT9313,ndep,48h,PMT_1368,rpmH,ribosomal,-1.06398729293374,significant_down,66.48817492190986,called_down
+MIT9313,urea,steady state,PMT_1368,rpmH,ribosomal,-0.016264495,not_significant,3.7037037037037033,not_called_small
+MIT9313,ndep,0h,PMT0056,rpmI,ribosomal,0.134922156,not_significant,39.49129852744311,not_called_small
+MIT9313,ndep,3h,PMT0056,rpmI,ribosomal,0.126215843,not_significant,47.34493529674253,not_called_small
+MIT9313,ndep,6h,PMT0056,rpmI,ribosomal,-0.272276208,not_significant,60.5533244087461,not_called_small
+MIT9313,ndep,12h,PMT0056,rpmI,ribosomal,-0.493358926,not_significant,65.72958500669344,not_called_small
+MIT9313,ndep,24h,PMT0056,rpmI,ribosomal,-0.416459087,not_significant,45.42614904060687,not_called_small
+MIT9313,ndep,48h,PMT0056,rpmI,ribosomal,-0.491402252,not_significant,37.08165997322624,not_called_small
+MIT9313,urea,steady state,PMT0056,rpmI,ribosomal,-0.537478479,not_significant,79.87505577867023,not_called_mid
+MIT9313,ndep,0h,PMT_1752,rpmJ,ribosomal,-0.328327233,not_significant,73.94020526550648,not_called_small
+MIT9313,ndep,3h,PMT_1752,rpmJ,ribosomal,0.122319489,not_significant,46.2739848282017,not_called_small
+MIT9313,ndep,6h,PMT_1752,rpmJ,ribosomal,-0.269527594,not_significant,60.15171798304328,not_called_small
+MIT9313,ndep,12h,PMT_1752,rpmJ,ribosomal,-0.634151574,not_significant,75.72512271307453,not_called_mid
+MIT9313,ndep,24h,PMT_1752,rpmJ,ribosomal,-0.972487307087003,significant_down,78.98259705488621,called_down
+MIT9313,ndep,48h,PMT_1752,rpmJ,ribosomal,-1.02954165357112,not_significant,65.01561802766622,not_called_small
+MIT9313,urea,steady state,PMT_1752,rpmJ,ribosomal,-0.394785913,not_significant,67.33601070950469,not_called_small
+MIT9313,ndep,0h,PMT1668,rpsA1,ribosomal,-0.352432966,not_significant,76.61758143685856,not_called_mid
+MIT9313,ndep,3h,PMT1668,rpsA1,ribosomal,-0.147891131,not_significant,54.08299866131191,not_called_small
+MIT9313,ndep,6h,PMT1668,rpsA1,ribosomal,-0.138851305,not_significant,33.15484158857653,not_called_small
+MIT9313,ndep,12h,PMT1668,rpsA1,ribosomal,-0.162638599,not_significant,25.211958946898704,not_called_small
+MIT9313,ndep,24h,PMT1668,rpsA1,ribosomal,-0.573208712,not_significant,57.92057117358323,not_called_small
+MIT9313,ndep,48h,PMT1668,rpsA1,ribosomal,-0.793910782608702,not_significant,54.26149040606872,not_called_small
+MIT9313,urea,steady state,PMT1668,rpsA1,ribosomal,-0.446139719,not_significant,72.46764837126283,not_called_small
+MIT9313,ndep,0h,PMT1233,rpsA2,ribosomal,0.064827973,not_significant,19.857206604194555,not_called_small
+MIT9313,ndep,3h,PMT1233,rpsA2,ribosomal,0.023946764,not_significant,10.129406514948684,not_called_small
+MIT9313,ndep,6h,PMT1233,rpsA2,ribosomal,0.305275254,not_significant,64.79250334672021,not_called_small
+MIT9313,ndep,12h,PMT1233,rpsA2,ribosomal,-0.071114994,not_significant,10.441767068273093,not_called_small
+MIT9313,ndep,24h,PMT1233,rpsA2,ribosomal,-0.662193361,not_significant,64.03391343150379,not_called_small
+MIT9313,ndep,48h,PMT1233,rpsA2,ribosomal,-0.806532119,not_significant,54.79696564033914,not_called_small
+MIT9313,urea,steady state,PMT1233,rpsA2,ribosomal,0.093048884,not_significant,17.938420348058905,not_called_small
+MIT9313,ndep,0h,PMT0584,rpsB,ribosomal,-0.079112264,not_significant,23.560910307898254,not_called_small
+MIT9313,ndep,3h,PMT0584,rpsB,ribosomal,-0.15854458,not_significant,56.89424364123159,not_called_small
+MIT9313,ndep,6h,PMT0584,rpsB,ribosomal,-0.464555621,not_significant,80.23203926818384,not_called_mid
+MIT9313,ndep,12h,PMT0584,rpsB,ribosomal,-0.92037594,not_significant,86.56849620705043,not_called_mid
+MIT9313,ndep,24h,PMT0584,rpsB,ribosomal,-0.995619185767038,significant_down,79.83043284248103,called_down
+MIT9313,ndep,48h,PMT0584,rpsB,ribosomal,-1.91421479683698,significant_down,88.08567603748327,called_down
+MIT9313,urea,steady state,PMT0584,rpsB,ribosomal,-0.586690314,not_significant,82.77554663096832,not_called_mid
+MIT9313,ndep,0h,PMT1738,rpsC,ribosomal,0.145519444,not_significant,41.543953592146366,not_called_small
+MIT9313,ndep,3h,PMT1738,rpsC,ribosomal,-0.193608742,not_significant,64.92637215528781,not_called_small
+MIT9313,ndep,6h,PMT1738,rpsC,ribosomal,-0.738317672471255,not_significant,92.3694779116466,not_called_mid
+MIT9313,ndep,12h,PMT1738,rpsC,ribosomal,-1.28858016201252,not_significant,94.10977242302545,not_called_mid
+MIT9313,ndep,24h,PMT1738,rpsC,ribosomal,-1.7354028796632,significant_down,95.00223114680946,called_down
+MIT9313,ndep,48h,PMT1738,rpsC,ribosomal,-1.92670555329087,significant_down,88.30879071842928,called_down
+MIT9313,urea,steady state,PMT1738,rpsC,ribosomal,0.600609508,not_significant,83.35564480142793,not_called_mid
+MIT9313,ndep,0h,PMT0227,rpsD,ribosomal,-0.190873002,not_significant,51.31637661758144,not_called_small
+MIT9313,ndep,3h,PMT0227,rpsD,ribosomal,-0.125572139,not_significant,47.12182061579652,not_called_small
+MIT9313,ndep,6h,PMT0227,rpsD,ribosomal,-0.678219377023594,not_significant,90.62918340026772,not_called_mid
+MIT9313,ndep,12h,PMT0227,rpsD,ribosomal,-1.6125269624411,significant_down,97.36724676483712,called_down
+MIT9313,ndep,24h,PMT0227,rpsD,ribosomal,-1.91404513046193,significant_down,96.3409192324855,called_down
+MIT9313,ndep,48h,PMT0227,rpsD,ribosomal,-1.13284479082629,significant_down,69.16555109326194,called_down
+MIT9313,urea,steady state,PMT0227,rpsD,ribosomal,-0.407585257,not_significant,69.03168228469433,not_called_small
+MIT9313,ndep,0h,PMT1748,rpsE,ribosomal,-0.034661169,not_significant,10.263275323516288,not_called_small
+MIT9313,ndep,3h,PMT1748,rpsE,ribosomal,-0.253828876,not_significant,76.57295850066934,not_called_mid
+MIT9313,ndep,6h,PMT1748,rpsE,ribosomal,-0.853074990668737,not_significant,94.24364123159305,not_called_mid
+MIT9313,ndep,12h,PMT1748,rpsE,ribosomal,-1.23015529490811,not_significant,93.0388219544846,not_called_mid
+MIT9313,ndep,24h,PMT1748,rpsE,ribosomal,-1.64455656175928,significant_down,94.33288710397144,called_down
+MIT9313,ndep,48h,PMT1748,rpsE,ribosomal,-1.91752781323029,significant_down,88.13029897367247,called_down
+MIT9313,urea,steady state,PMT1748,rpsE,ribosomal,0.564893074,not_significant,81.61535029004908,not_called_mid
+MIT9313,ndep,0h,PMT2259,rpsF,ribosomal,0.201532789,not_significant,53.45827755466309,not_called_small
+MIT9313,ndep,3h,PMT2259,rpsF,ribosomal,0.121942284,not_significant,46.095493083444886,not_called_small
+MIT9313,ndep,6h,PMT2259,rpsF,ribosomal,0.030389308,not_significant,8.746095493083445,not_called_small
+MIT9313,ndep,12h,PMT2259,rpsF,ribosomal,-0.44969172,not_significant,61.49040606871932,not_called_small
+MIT9313,ndep,24h,PMT2259,rpsF,ribosomal,-0.506702763,not_significant,52.78893351182508,not_called_small
+MIT9313,ndep,48h,PMT2259,rpsF,ribosomal,-0.76696799386727,not_significant,53.23516287371709,not_called_small
+MIT9313,urea,steady state,PMT2259,rpsF,ribosomal,-0.208337012,not_significant,40.33913431503792,not_called_small
+MIT9313,ndep,0h,PMT1780,rpsG,ribosomal,-0.281164835,not_significant,67.29138777331548,not_called_small
+MIT9313,ndep,3h,PMT1780,rpsG,ribosomal,0.080962589,not_significant,32.53012048192771,not_called_small
+MIT9313,ndep,6h,PMT1780,rpsG,ribosomal,-0.305168828,not_significant,64.74788041053101,not_called_small
+MIT9313,ndep,12h,PMT1780,rpsG,ribosomal,-0.923466178,not_significant,86.61311914323963,not_called_mid
+MIT9313,ndep,24h,PMT1780,rpsG,ribosomal,-1.60072500238665,significant_down,93.88665774207942,called_down
+MIT9313,ndep,48h,PMT1780,rpsG,ribosomal,-0.833543329180168,not_significant,56.22489959839358,not_called_small
+MIT9313,urea,steady state,PMT1780,rpsG,ribosomal,-1.28682448830194,significant_down,96.25167336010708,called_down
+MIT9313,ndep,0h,PMT1745,rpsH,ribosomal,0.27686571,not_significant,66.66666666666666,not_called_small
+MIT9313,ndep,3h,PMT1745,rpsH,ribosomal,-0.086501327,not_significant,34.404283801874165,not_called_small
+MIT9313,ndep,6h,PMT1745,rpsH,ribosomal,-1.06218630966403,significant_down,96.4301651048639,called_down
+MIT9313,ndep,12h,PMT1745,rpsH,ribosomal,-1.69177265774567,significant_down,97.63498438197232,called_down
+MIT9313,ndep,24h,PMT1745,rpsH,ribosomal,-2.02110662345336,significant_down,96.96564033913432,called_down
+MIT9313,ndep,48h,PMT1745,rpsH,ribosomal,-2.0955170425991,significant_down,90.53993752788934,called_down
+MIT9313,urea,steady state,PMT1745,rpsH,ribosomal,-0.163833632,not_significant,32.1731369924141,not_called_small
+MIT9313,ndep,0h,PMT1759,rpsI,ribosomal,-0.315421997,not_significant,72.46764837126283,not_called_small
+MIT9313,ndep,3h,PMT1759,rpsI,ribosomal,-0.184523991,not_significant,62.60597947344936,not_called_small
+MIT9313,ndep,6h,PMT1759,rpsI,ribosomal,-0.712677331869101,not_significant,91.70013386880856,not_called_mid
+MIT9313,ndep,12h,PMT1759,rpsI,ribosomal,-1.29599534228676,not_significant,94.19901829540385,not_called_mid
+MIT9313,ndep,24h,PMT1759,rpsI,ribosomal,-1.79404978966938,significant_down,95.22534582775548,called_down
+MIT9313,ndep,48h,PMT1759,rpsI,ribosomal,-2.2439436384789,significant_down,91.87862561356536,called_down
+MIT9313,urea,steady state,PMT1759,rpsI,ribosomal,-0.491364156,not_significant,76.17135207496653,not_called_mid
+MIT9313,ndep,0h,PMT1783,rpsJ,ribosomal,-0.112717913,not_significant,32.79785809906292,not_called_small
+MIT9313,ndep,3h,PMT1783,rpsJ,ribosomal,0.069596682,not_significant,28.380187416331992,not_called_small
+MIT9313,ndep,6h,PMT1783,rpsJ,ribosomal,-0.493727417,not_significant,82.55243195002231,not_called_mid
+MIT9313,ndep,12h,PMT1783,rpsJ,ribosomal,-0.528870013,not_significant,68.76394466755913,not_called_small
+MIT9313,ndep,24h,PMT1783,rpsJ,ribosomal,-1.01985455775707,significant_down,80.72289156626506,called_down
+MIT9313,ndep,48h,PMT1783,rpsJ,ribosomal,-1.74893082991221,significant_down,85.4975457385096,called_down
+MIT9313,urea,steady state,PMT1783,rpsJ,ribosomal,-0.002035533,not_significant,0.4016064257028112,not_called_small
+MIT9313,ndep,0h,PMT1754,rpsK,ribosomal,-0.643569338,not_significant,93.52967425256584,not_called_mid
+MIT9313,ndep,3h,PMT1754,rpsK,ribosomal,-0.178544926,not_significant,61.08879964301652,not_called_small
+MIT9313,ndep,6h,PMT1754,rpsK,ribosomal,-0.91527782940378,significant_down,95.09147701918786,called_down
+MIT9313,ndep,12h,PMT1754,rpsK,ribosomal,-1.1793324754718,not_significant,92.01249442213296,not_called_mid
+MIT9313,ndep,24h,PMT1754,rpsK,ribosomal,-1.13164545711156,significant_down,84.02498884426596,called_down
+MIT9313,ndep,48h,PMT1754,rpsK,ribosomal,-1.46324620937972,significant_down,78.89335118250781,called_down
+MIT9313,urea,steady state,PMT1754,rpsK,ribosomal,-0.128544449,not_significant,25.39045069165551,not_called_small
+MIT9313,ndep,0h,PMT1779,rpsL,ribosomal,-0.107639153,not_significant,31.32530120481928,not_called_small
+MIT9313,ndep,3h,PMT1779,rpsL,ribosomal,0.203467089,not_significant,67.06827309236948,not_called_small
+MIT9313,ndep,6h,PMT1779,rpsL,ribosomal,-0.282762719,not_significant,62.11512717536814,not_called_small
+MIT9313,ndep,12h,PMT1779,rpsL,ribosomal,-0.65085735,not_significant,76.12672913877732,not_called_mid
+MIT9313,ndep,24h,PMT1779,rpsL,ribosomal,-0.973801880667471,significant_down,79.02721999107541,called_down
+MIT9313,ndep,48h,PMT1779,rpsL,ribosomal,-1.85048699331582,significant_down,86.92547969656404,called_down
+MIT9313,urea,steady state,PMT1779,rpsL,ribosomal,-0.840748737,not_significant,91.16465863453816,not_called_mid
+MIT9313,ndep,0h,PMT1753,rpsM,ribosomal,-0.39127053,not_significant,81.12449799196787,not_called_mid
+MIT9313,ndep,3h,PMT1753,rpsM,ribosomal,0.150785348,not_significant,55.10932619366354,not_called_small
+MIT9313,ndep,6h,PMT1753,rpsM,ribosomal,-0.531402711,not_significant,84.96207050423918,not_called_mid
+MIT9313,ndep,12h,PMT1753,rpsM,ribosomal,-1.26211273901571,not_significant,93.48505131637664,not_called_mid
+MIT9313,ndep,24h,PMT1753,rpsM,ribosomal,-1.53952777056703,significant_down,92.7710843373494,called_down
+MIT9313,ndep,48h,PMT1753,rpsM,ribosomal,-2.45651063386862,significant_down,94.15439535921465,called_down
+MIT9313,urea,steady state,PMT1753,rpsM,ribosomal,-0.914993065,not_significant,92.32485497545738,not_called_mid
+MIT9313,ndep,0h,PMT1376,rpsN,ribosomal,0.125997724,not_significant,36.76929941990183,not_called_small
+MIT9313,ndep,3h,PMT1376,rpsN,ribosomal,0.211783547,not_significant,69.25479696564034,not_called_small
+MIT9313,ndep,6h,PMT1376,rpsN,ribosomal,0.108877457,not_significant,27.264614011601964,not_called_small
+MIT9313,ndep,12h,PMT1376,rpsN,ribosomal,-0.137666885,not_significant,20.838911200356986,not_called_small
+MIT9313,ndep,24h,PMT1376,rpsN,ribosomal,-0.584514809,not_significant,58.679161088799646,not_called_small
+MIT9313,ndep,48h,PMT1376,rpsN,ribosomal,-0.84474160371955,not_significant,56.58188308790718,not_called_small
+MIT9313,urea,steady state,PMT1376,rpsN,ribosomal,-0.481310455,not_significant,75.50200803212851,not_called_mid
+MIT9313,ndep,0h,PMT0645,rpsO,ribosomal,0.389408491,not_significant,80.76751450245426,not_called_mid
+MIT9313,ndep,3h,PMT0645,rpsO,ribosomal,0.141223429,not_significant,52.16421240517626,not_called_small
+MIT9313,ndep,6h,PMT0645,rpsO,ribosomal,0.163792137,not_significant,39.53592146363231,not_called_small
+MIT9313,ndep,12h,PMT0645,rpsO,ribosomal,-0.277446351,not_significant,42.25792057117359,not_called_small
+MIT9313,ndep,24h,PMT0645,rpsO,ribosomal,-0.475452832,not_significant,50.1561802766622,not_called_small
+MIT9313,ndep,48h,PMT0645,rpsO,ribosomal,-1.27837056959445,significant_down,73.44935296742526,called_down
+MIT9313,urea,steady state,PMT0645,rpsO,ribosomal,0.127611967,not_significant,25.167336010709505,not_called_small
+MIT9313,ndep,0h,PMT0350,rpsP,ribosomal,0.15753868,not_significant,44.57831325301205,not_called_small
+MIT9313,ndep,3h,PMT0350,rpsP,ribosomal,-0.10844164,not_significant,41.99018295403837,not_called_small
+MIT9313,ndep,6h,PMT0350,rpsP,ribosomal,-0.273312892,not_significant,60.8210620258813,not_called_small
+MIT9313,ndep,12h,PMT0350,rpsP,ribosomal,-0.870403707,not_significant,84.96207050423918,not_called_mid
+MIT9313,ndep,24h,PMT0350,rpsP,ribosomal,-0.477345847,not_significant,50.24542614904061,not_called_small
+MIT9313,ndep,48h,PMT0350,rpsP,ribosomal,-1.30504357659841,significant_down,74.34181169120929,called_down
+MIT9313,urea,steady state,PMT0350,rpsP,ribosomal,-0.543191653,not_significant,80.36590807675145,not_called_mid
+MIT9313,ndep,0h,PMT1741,rpsQ,ribosomal,0.362853033,not_significant,77.77777777777779,not_called_mid
+MIT9313,ndep,3h,PMT1741,rpsQ,ribosomal,0.007766962,not_significant,3.5252119589468984,not_called_small
+MIT9313,ndep,6h,PMT1741,rpsQ,ribosomal,-0.737361379473447,not_significant,92.28023203926818,not_called_mid
+MIT9313,ndep,12h,PMT1741,rpsQ,ribosomal,-1.84296119766187,significant_down,98.21508255243197,called_down
+MIT9313,ndep,24h,PMT1741,rpsQ,ribosomal,-2.41299341961431,significant_down,98.52744310575636,called_down
+MIT9313,ndep,48h,PMT1741,rpsQ,ribosomal,-3.58524065078643,significant_down,98.70593485051316,called_down
+MIT9313,urea,steady state,PMT1741,rpsQ,ribosomal,-0.026876852,not_significant,5.756358768406962,not_called_small
+MIT9313,ndep,0h,PMT0740,rpsR,ribosomal,-0.178962688,not_significant,49.04060687193218,not_called_small
+MIT9313,ndep,3h,PMT0740,rpsR,ribosomal,-0.059094731,not_significant,24.45336903168229,not_called_small
+MIT9313,ndep,6h,PMT0740,rpsR,ribosomal,-0.212171962,not_significant,50.20080321285141,not_called_small
+MIT9313,ndep,12h,PMT0740,rpsR,ribosomal,-0.457732885,not_significant,62.38286479250335,not_called_small
+MIT9313,ndep,24h,PMT0740,rpsR,ribosomal,-1.08943587162471,not_significant,82.73092369477911,not_called_mid
+MIT9313,ndep,48h,PMT0740,rpsR,ribosomal,-3.16881296473249,significant_down,97.81347612672914,called_down
+MIT9313,urea,steady state,PMT0740,rpsR,ribosomal,-0.746255001,not_significant,89.4689870593485,not_called_mid
+MIT9313,ndep,0h,PMT_1736,rpsS,ribosomal,0.096570765,not_significant,28.87103971441321,not_called_small
+MIT9313,ndep,3h,PMT_1736,rpsS,ribosomal,-0.249035024,not_significant,75.81436858545291,not_called_mid
+MIT9313,ndep,6h,PMT_1736,rpsS,ribosomal,-0.943351119935761,not_significant,95.53770638107989,not_called_large
+MIT9313,ndep,12h,PMT_1736,rpsS,ribosomal,-1.6318102788315,significant_down,97.45649263721552,called_down
+MIT9313,ndep,24h,PMT_1736,rpsS,ribosomal,-2.28002336113304,significant_down,98.12583668005357,called_down
+MIT9313,ndep,48h,PMT_1736,rpsS,ribosomal,-2.46108948003223,significant_down,94.24364123159305,called_down
+MIT9313,urea,steady state,PMT_1736,rpsS,ribosomal,0.57051932,not_significant,82.0615796519411,not_called_mid
+MIT9313,ndep,0h,PMT1509,rpsT,ribosomal,0.328795127,not_significant,74.07407407407408,not_called_small
+MIT9313,ndep,3h,PMT1509,rpsT,ribosomal,-0.176752906,not_significant,60.6425702811245,not_called_small
+MIT9313,ndep,6h,PMT1509,rpsT,ribosomal,0.02080429,not_significant,5.443998215082552,not_called_small
+MIT9313,ndep,12h,PMT1509,rpsT,ribosomal,-0.035704984,not_significant,5.622489959839357,not_called_small
+MIT9313,ndep,24h,PMT1509,rpsT,ribosomal,-0.554769812,not_significant,56.09103078982597,not_called_small
+MIT9313,ndep,48h,PMT1509,rpsT,ribosomal,-1.73431339912271,significant_down,85.05131637661758,called_down
+MIT9313,urea,steady state,PMT1509,rpsT,ribosomal,-0.030354176,not_significant,6.381079875055779,not_called_small
+MIT9313,ndep,0h,PMT_1022,rpsU,ribosomal,0.361073495,not_significant,77.55466309683176,not_called_mid
+MIT9313,ndep,3h,PMT_1022,rpsU,ribosomal,0.007115757,not_significant,3.3467202141900936,not_called_small
+MIT9313,ndep,6h,PMT_1022,rpsU,ribosomal,-0.005247927,not_significant,1.383311021865239,not_called_small
+MIT9313,ndep,12h,PMT_1022,rpsU,ribosomal,-0.551113445,not_significant,70.54886211512718,not_called_small
+MIT9313,ndep,24h,PMT_1022,rpsU,ribosomal,-1.00330611378026,significant_down,80.18741633199464,called_down
+MIT9313,ndep,48h,PMT_1022,rpsU,ribosomal,-1.61880801573715,significant_down,82.99866131191432,called_down
+MIT9313,urea,steady state,PMT_1022,rpsU,ribosomal,-0.304580285,not_significant,56.35876840696118,not_called_small
+MIT9313,ndep,0h,PMT1853,amt1,target,-0.156354162,not_significant,43.998215082552434,not_called_small
+MIT9313,ndep,3h,PMT1853,amt1,target,1.297411992,not_significant,98.88442659526996,not_called_large
+MIT9313,ndep,6h,PMT1853,amt1,target,2.19273761141333,significant_up,99.28603302097278,called_up
+MIT9313,ndep,12h,PMT1853,amt1,target,2.29358349814224,significant_up,99.28603302097278,called_up
+MIT9313,ndep,24h,PMT1853,amt1,target,2.21911420307216,significant_up,97.85809906291834,called_up
+MIT9313,ndep,48h,PMT1853,amt1,target,2.08669928083333,significant_up,90.45069165551092,called_up
+MIT9313,urea,steady state,PMT1853,amt1,target,1.019067761,not_significant,93.6189201249442,not_called_mid
+MIT9313,ndep,0h,PMT0601,glnA,target,-0.262190069,not_significant,64.301651048639,not_called_small
+MIT9313,ndep,3h,PMT0601,glnA,target,1.009663902,not_significant,98.25970548862117,not_called_large
+MIT9313,ndep,6h,PMT0601,glnA,target,1.72452021817924,significant_up,98.52744310575636,called_up
+MIT9313,ndep,12h,PMT0601,glnA,target,2.03050177230425,significant_up,98.57206604194556,called_up
+MIT9313,ndep,24h,PMT0601,glnA,target,1.54235498903119,significant_up,92.8157072735386,called_up
+MIT9313,ndep,48h,PMT0601,glnA,target,0.152773848,not_significant,11.33422579205712,not_called_small
+MIT9313,urea,steady state,PMT0601,glnA,target,-0.764672012,not_significant,89.87059348505132,not_called_mid
+MIT9313,ndep,0h,PMT1481,glnB,target,0.299984153,not_significant,70.19187862561357,not_called_small
+MIT9313,ndep,3h,PMT1481,glnB,target,-0.735093742,not_significant,96.92101740294513,not_called_large
+MIT9313,ndep,6h,PMT1481,glnB,target,0.080774417,not_significant,21.5528781793842,not_called_small
+MIT9313,ndep,12h,PMT1481,glnB,target,-0.262340838,not_significant,40.78536367692994,not_called_small
+MIT9313,ndep,24h,PMT1481,glnB,target,-0.364254197,not_significant,40.07139669790272,not_called_small
+MIT9313,ndep,48h,PMT1481,glnB,target,-1.75358128552773,significant_down,85.6314145470772,called_down
+MIT9313,urea,steady state,PMT1481,glnB,target,-1.61940217070966,significant_down,97.67960731816152,called_down
+MIT9313,ndep,0h,PMT0205,pipX,target,0.214391555,not_significant,56.00178491744757,not_called_small
+MIT9313,ndep,3h,PMT0205,pipX,target,0.159502007,not_significant,57.206604194556,not_called_small
+MIT9313,ndep,6h,PMT0205,pipX,target,0.11642438,not_significant,28.826416778224008,not_called_small
+MIT9313,ndep,12h,PMT0205,pipX,target,0.014918578,not_significant,2.7666220437304774,not_called_small
+MIT9313,ndep,24h,PMT0205,pipX,target,0.141625096,not_significant,16.688978134761268,not_called_small
+MIT9313,ndep,48h,PMT0205,pipX,target,-0.233439386,not_significant,17.581436858545292,not_called_small
+MIT9313,urea,steady state,PMT0205,pipX,target,-0.034884809,not_significant,7.541276215975011,not_called_small
+MIT9313,ndep,0h,PMT2236,ureC,target,-0.120599636,not_significant,35.51985720660419,not_called_small
+MIT9313,ndep,3h,PMT2236,ureC,target,0.172054669,not_significant,59.75011155734047,not_called_small
+MIT9313,ndep,6h,PMT2236,ureC,target,0.642713513933882,not_significant,89.2904953145917,not_called_mid
+MIT9313,ndep,12h,PMT2236,ureC,target,0.719212281,not_significant,79.38420348058902,not_called_mid
+MIT9313,ndep,24h,PMT2236,ureC,target,0.501829283,not_significant,52.34270414993306,not_called_small
+MIT9313,ndep,48h,PMT2236,ureC,target,0.481409763,not_significant,36.54618473895582,not_called_small
+MIT9313,urea,steady state,PMT2236,ureC,target,0.38073404,not_significant,65.81883087907184,not_called_small
+MIT9313,ndep,0h,PMT2229,urtA,target,-0.791342095,not_significant,96.4747880410531,not_called_large
+MIT9313,ndep,3h,PMT2229,urtA,target,2.84356915577768,significant_up,100.0,called_up
+MIT9313,ndep,6h,PMT2229,urtA,target,3.24240573943465,significant_up,99.776885319054,called_up
+MIT9313,ndep,12h,PMT2229,urtA,target,4.04676729054706,significant_up,99.7322623828648,called_up
+MIT9313,ndep,24h,PMT2229,urtA,target,3.25856219514964,significant_up,99.553770638108,called_up
+MIT9313,ndep,48h,PMT2229,urtA,target,1.99898939076442,significant_up,89.37974118697011,called_up
+MIT9313,urea,steady state,PMT2229,urtA,target,3.19610113196305,significant_up,99.5091477019188,called_up

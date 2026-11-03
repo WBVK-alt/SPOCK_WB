@@ -1,0 +1,13 @@
+check,strain,gene,locus_tag,numbers,result
+method_check_ndep_called_up,MED4,ntcA,PMM0246,called_up at 3/6 timepoints: 6h;12h;24h; max log2fc 4.451,pass
+method_check_ndep_called_up,MED4,glnA,PMM0920,called_up at 5/6 timepoints: 3h;6h;12h;24h;48h; max log2fc 5.061,pass
+method_check_ndep_called_up,MED4,amt1,PMM0263,called_up at 1/6 timepoints: 6h; max log2fc 1.090,pass
+method_check_ndep_called_up,MED4,glnB,PMM1463,called_up at 2/6 timepoints: 6h;12h; max log2fc 2.856,pass
+falsification_urea_ntcA_and_2of3_up,MED4,ntcA+glnA/amt1/glnB,PMM0246;PMM0263;PMM0920;PMM1463,ntcA called_up=False; targets called_up=0/3,not_falsified
+ribosomal_expected_negative_urea,MED4,rpl/rps/rpm,53 genes,n=53; median_abs_pct=27.2; frac_pos=0.377; frac_neg=0.623; n_called=0,pass
+method_check_ndep_called_up,MIT9313,ntcA,PMT1831,called_up at 4/6 timepoints: 6h;12h;24h;48h; max log2fc 3.558,pass
+method_check_ndep_called_up,MIT9313,glnA,PMT0601,called_up at 3/6 timepoints: 6h;12h;24h; max log2fc 2.031,pass
+method_check_ndep_called_up,MIT9313,amt1,PMT1853,called_up at 4/6 timepoints: 6h;12h;24h;48h; max log2fc 2.294,pass
+method_check_ndep_called_up,MIT9313,glnB,PMT1481,called_up at 0/6 timepoints: ; max log2fc 0.300,fail
+falsification_urea_ntcA_and_2of3_up,MIT9313,ntcA+glnA/amt1/glnB,PMT1831;PMT1853;PMT0601;PMT1481,ntcA called_up=False; targets called_up=0/3,not_falsified
+ribosomal_expected_negative_urea,MIT9313,rpl/rps/rpm,53 genes,n=53; median_abs_pct=62.2; frac_pos=0.358; frac_neg=0.642; n_called=1,pass

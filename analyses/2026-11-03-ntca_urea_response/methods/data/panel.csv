@@ -1,0 +1,121 @@
+strain,locus_tag,gene_name,product,role,query_name,resolution_note
+MED4,PMM0246,ntcA,global nitrogen regulatory protein,ntcA,ntcA,resolve_gene: unique hit
+MED4,PMM0920,glnA,"glutamine synthetase, type I",target,glnA,resolve_gene: unique hit
+MED4,PMM1463,glnB,nitrogen regulatory protein P-II,target,glnB,resolve_gene: unique hit
+MED4,PMM0263,amt1,ammonium transporter,target,amt1,resolve_gene: unique hit
+MED4,PMM0970,urtA,"ABC-type urea transporter, substrate binding component",target,urtA,resolve_gene: unique hit
+MED4,PMM0963,ureC,urease alpha subunit,target,ureC,resolve_gene: unique hit
+MED4,PMM0393,pipX,PII interaction protein X,target,pipX,resolve_gene: unique hit
+MED4,PMM1534,rplQ,50S ribosomal protein L17,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1487,rpsT,30S ribosomal protein S20,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0987,rpsU,30S ribosomal protein S21,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1285,rpsP,30S ribosomal protein S16,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1345,rpmA,50S ribosomal protein L27,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0753,rpsB,30S ribosomal protein S2,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1531,rpsI,30S ribosomal protein S9,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1550,rpmC,50S ribosomal protein L29,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1661,rpmI,50S ribosomal protein L35,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0902,rpmB,50S ribosomal protein L28,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0870,rpmG,50S ribosomal protein L33,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1538,rpmJ,50S ribosomal protein L36,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1183,rpmH,50S ribosomal protein L34,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0853,rpmF,50S ribosomal protein L32,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1706,rpsF,30S ribosomal protein S6,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0530,rpsA2,30S ribosomal protein S1,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0312,rpsA1,30S ribosomal protein S1,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1554,rpsS,30S ribosomal protein S19,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1530,rpmE,50S ribosomal protein L31,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0204,rplK,50S ribosomal protein L11,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1673,rplI,50S ribosomal protein L9,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1541,rplO,50S ribosomal protein L15,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1662,rplT,50S ribosomal protein L20,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1549,rpsQ,30S ribosomal protein S17,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0202,rplJ,50S ribosomal protein L10,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0201,rplL,50S ribosomal protein L7/L12,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1507,rpsJ,30S ribosomal protein S10,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1344,rplU,50S ribosomal protein L21,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0475,rplS,50S ribosomal protein L19,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1543,rplR,50S ribosomal protein L18,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1532,rplM,50S ribosomal protein L13,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1548,rplN,50S ribosomal protein L14,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1547,rplX,50S ribosomal protein L24,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1551,rplP,50S ribosomal protein L16,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1546,rplE,50S ribosomal protein L5,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1552,rpsC,30S ribosomal protein S3,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0203,rplA,50S ribosomal protein L1,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1542,rpsE,30S ribosomal protein S5,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0869,rpsR,30S ribosomal protein S18,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0410,rpsD,30S ribosomal protein S4,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1558,rplC,50S ribosomal protein L3,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1190,rpsN,30S ribosomal protein S14,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1545,rpsH,30S ribosomal protein S8,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1536,rpsK,30S ribosomal protein S11,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1544,rplF,50S ribosomal protein L6,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1555,rplB,50S ribosomal protein L2,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM0943,rpsO,30S ribosomal protein S15,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1553,rplV,50S ribosomal protein L22,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1556,rplW,50S ribosomal protein L23,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1537,rpsM,30S ribosomal protein S13,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1557,rplD,50S ribosomal protein L4,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1510,rpsG,30S ribosomal protein S7,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MED4,PMM1511,rpsL,30S ribosomal protein S12,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1831,ntcA,global nitrogen regulatory protein,ntcA,ntcA,resolve_gene: unique hit
+MIT9313,PMT0601,glnA,"glutamine synthetase, type I",target,glnA,resolve_gene: unique hit
+MIT9313,PMT1481,glnB,nitrogen regulatory protein P-II,target,glnB,resolve_gene: unique hit
+MIT9313,PMT1853,amt1,ammonium transporter,target,amt1,resolve_gene: unique hit
+MIT9313,PMT2229,urtA,"ABC-type urea transporter, substrate binding component",target,urtA,resolve_gene: unique hit
+MIT9313,PMT2236,ureC,urease alpha subunit,target,ureC,resolve_gene: unique hit
+MIT9313,PMT0205,pipX,PII interaction protein X,target,pipX,resolve_gene: unique hit
+MIT9313,PMT1756,rplQ,50S ribosomal protein L17,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT_1368,rpmH,50S ribosomal protein L34,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1509,rpsT,30S ribosomal protein S20,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0350,rpsP,30S ribosomal protein S16,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1421,rpmA,50S ribosomal protein L27,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT_1022,rpsU,30S ribosomal protein S21,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0056,rpmI,50S ribosomal protein L35,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0584,rpsB,30S ribosomal protein S2,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1740,rpmC,50S ribosomal protein L29,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1759,rpsI,30S ribosomal protein S9,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0695,rpmB,50S ribosomal protein L28,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT_0739,rpmG,50S ribosomal protein L33,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT_1752,rpmJ,50S ribosomal protein L36,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT_0757,rpmF,50S ribosomal protein L32,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT2259,rpsF,30S ribosomal protein S6,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1233,rpsA2,30S ribosomal protein S1,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1668,rpsA1,30S ribosomal protein S1,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT_1736,rpsS,30S ribosomal protein S19,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1760,rpmE,50S ribosomal protein L31,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT2088,rplK,50S ribosomal protein L11,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT2175,rplI,50S ribosomal protein L9,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1749,rplO,50S ribosomal protein L15,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0055,rplT,50S ribosomal protein L20,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1741,rpsQ,30S ribosomal protein S17,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT2090,rplJ,50S ribosomal protein L10,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT2091,rplL,50S ribosomal protein L7/L12,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1783,rpsJ,30S ribosomal protein S10,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1420,rplU,50S ribosomal protein L21,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1306,rplS,50S ribosomal protein L19,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1747,rplR,50S ribosomal protein L18,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1758,rplM,50S ribosomal protein L13,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1742,rplN,50S ribosomal protein L14,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1743,rplX,50S ribosomal protein L24,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1739,rplP,50S ribosomal protein L16,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1744,rplE,50S ribosomal protein L5,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1738,rpsC,30S ribosomal protein S3,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1748,rpsE,30S ribosomal protein S5,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT2089,rplA,50S ribosomal protein L1,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0740,rpsR,30S ribosomal protein S18,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0227,rpsD,30S ribosomal protein S4,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1732,rplC,50S ribosomal protein L3,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1376,rpsN,30S ribosomal protein S14,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1745,rpsH,30S ribosomal protein S8,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1754,rpsK,30S ribosomal protein S11,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1746,rplF,50S ribosomal protein L6,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1735,rplB,50S ribosomal protein L2,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT0645,rpsO,30S ribosomal protein S15,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1737,rplV,50S ribosomal protein L22,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1734,rplW,50S ribosomal protein L23,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1753,rpsM,30S ribosomal protein S13,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1733,rplD,50S ribosomal protein L4,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1780,rpsG,30S ribosomal protein S7,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm
+MIT9313,PMT1779,rpsL,30S ribosomal protein S12,ribosomal,,genes_by_function('ribosomal protein') + gene_name prefix rpl/rps/rpm

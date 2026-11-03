@@ -1,0 +1,17 @@
+tool,identifier,organism,total_matching,returned
+resolve_gene,ntcA,MED4,1,1
+resolve_gene,glnA,MED4,1,1
+resolve_gene,glnB,MED4,1,1
+resolve_gene,amt1,MED4,1,1
+resolve_gene,urtA,MED4,1,1
+resolve_gene,ureC,MED4,1,1
+resolve_gene,pipX,MED4,1,1
+genes_by_function,ribosomal protein,MED4,1557,1557
+resolve_gene,ntcA,MIT9313,1,1
+resolve_gene,glnA,MIT9313,1,1
+resolve_gene,glnB,MIT9313,1,1
+resolve_gene,amt1,MIT9313,1,1
+resolve_gene,urtA,MIT9313,1,1
+resolve_gene,ureC,MIT9313,1,1
+resolve_gene,pipX,MIT9313,1,1
+genes_by_function,ribosomal protein,MIT9313,2383,2383

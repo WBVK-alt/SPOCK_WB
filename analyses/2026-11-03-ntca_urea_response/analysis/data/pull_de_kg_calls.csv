@@ -1,0 +1,5 @@
+tool,experiment_id,organism,total_matching,saved,n_genes,timepoints,n_significant
+differential_expression_by_gene,10.1038/msb4100087_growth_medium_growth_on_urea_as_med4_microarray,MED4,1696,1696,1696,steady state,19
+differential_expression_by_gene,10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray,MIT9313,2241,2241,2241,steady state,69
+differential_expression_by_gene,10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,MED4,10176,10176,1696,6h;3h;12h;48h;24h;0h,619
+differential_expression_by_gene,10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,MIT9313,13446,13446,2241,24h;12h;48h;6h;3h;0h,585

@@ -1,0 +1,1 @@
+{"timestamp": "2026-11-02T14:32:52.674176+00:00", "event": "preflight", "template_version": "0.2.0-alpha.2", "explorer_version": "0.1.0-alpha.6", "explorer_pin": "v0.1.0-alpha.6", "kg_version": "0.1.0-alpha.9", "kg_uri": "bolt://132.75.249.47:17687", "kg_role": "production", "verdict": "ok"}
