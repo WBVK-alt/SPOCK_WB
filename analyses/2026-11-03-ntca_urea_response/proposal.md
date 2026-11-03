@@ -41,6 +41,13 @@ result: *ntcA* and its N-stress targets are **not** strongly induced on urea, un
 under N deprivation. The alternative is that urea acts as a mild N limitation (slower
 assimilation), which would show up as *ntcA* induction together with its targets.
 
+Pre-stated readings for the other patterns:
+- *ntcA* **down** on urea together with lower *glnA*/*amt1* would mean urea-grown cells are
+  *less* N-stressed than cells on ammonium [interpretation]. *ntcA* down with targets flat
+  would have no N-status reading; it would be reported as a gene-level observation.
+- **Strains disagree in sign** (one up, one down): reported per strain as strain-specific.
+  This would not count as evidence for or against N stress.
+
 **Approach.**
 1. Pull DE rows (log2FC, the paper's significance call, rank) for *ntcA* plus a fixed
    NtcA-target panel in the two urea experiments and the two N-deprivation experiments.
@@ -64,23 +71,33 @@ it as a binary call, not a continuous p-value. This analysis is descriptive: n =
 gene of interest × 2 strains, so a formal test would add nothing. The within-experiment
 percentile of |log2FC| is reported as context only.
 
+**Method check (not falsifiability).** In N deprivation, *ntcA*/*glnA*/*amt1*
+should be significantly up. The *ntcA* part already passes in grounding. If the
+targets fail, the extraction or the locus mapping is wrong, and we fix that before
+reading the urea arm.
+
 **Falsifiability check.**
-- "Nothing real" looks like this: the N-deprivation positive control fails to show
-  *ntcA*/*glnA* up. Then the data cannot answer the question, and we stop and report
-  that as a gap.
+- The urea prediction is falsified if *ntcA* **and** at least two of *glnA*/*amt1*/*glnB*
+  are called significantly UP on urea in the same strain.
 - Pre-registered expected-negative: ribosomal-protein genes (*rpl*/*rps*,
-  all members in each strain) should show essentially no significant calls on urea.
-  A high hit rate there would mean the urea contrast is dominated by a growth-rate
-  difference, not N chemistry.
-- A null (*ntcA* not called in either strain) is a valid result and will be written
-  up as a bounded negative: "no detectable change at this platform's sensitivity,"
-  given that the positive control shows the platform can detect *ntcA* changes.
+  all members in each strain) should not shift together on urea. This is judged on
+  their |log2FC| distribution, not just hit count, because the base call rate is only
+  1.1% (MED4) and 3.1% (MIT9313). **Fail condition:** a median within-experiment
+  |log2FC| percentile above 75, **or** more than 80% of members sharing one sign. Either
+  would mean the urea contrast carries a broad growth-rate shift, so *ntcA*/target
+  changes cannot be read as N-specific.
+- **Two kinds of non-call, reported separately.** "Not called, small |log2FC|" (below
+  the experiment's 75th percentile) is a bounded negative: no detectable change.
+  "Not called, large |log2FC|" (above the 95th percentile) is reported as **measured
+  large change, not called significant by the paper's criterion**. That is a
+  replicate-variance / calling-rule limit, not evidence of no change. Grounding
+  already puts MED4 *ntcA* (−2.27, rank 6 of 1,696) in this second class.
 
 **Design comparability.**
 
 | Experiment | Role | Treatment arm | Reference arm and its state | Shared samples / model | Can confirm / cannot |
 |---|---|---|---|---|---|
-| Urea MED4 / MIT9313 | Test | log-phase, acclimated to urea | log-phase on NH4+ (Pro99), exponential; "matched" by growth state, harvest day not stated | The NH4+ reference may be shared with the other alternative-N experiments in the paper (cyanate, nitrite) — **ask researcher / gap** | Can show steady-state differences; cannot show transient induction during the switch |
+| Urea MED4 / MIT9313 | Test | log-phase, acclimated to urea | log-phase on NH4+ (Pro99), exponential; **assumed** matched by growth state (KG design notes: harvest day not stated) | Unverified whether the NH4+ reference arrays are shared with the cyanate/nitrite experiments or the N-deprivation +NH4+ arm. The methods milestone checks this if the KG holds sample IDs; otherwise it is a **gap** | Can show steady-state differences; cannot show transient induction during the switch |
 | N-deprivation MED4 | Positive control | −N, 0–48 h | +NH4+ in parallel, matched | One time-course series | Shows the platform/extraction detects *ntcA* induction |
 | N-deprivation MIT9313 | Positive control | −N, 0–48 h | +NH4+; **24 h point uses the 12 h control** (control_timing "mixed") | One series | Same as above; avoid over-reading the 24 h point |
 
