@@ -88,6 +88,27 @@ svg .gl { stroke: var(--line); stroke-width: 1; } svg .z { stroke: var(--muted);
 svg .b.up { fill: var(--up); } svg .b.down { fill: var(--down); }
 svg .o { fill: none; stroke-width: 2; } svg .o.up { stroke: var(--up); } svg .o.down { stroke: var(--down); }
 svg g:hover rect[fill="transparent"] { fill: var(--accent-soft); }
+figure { margin: 0; display: grid; gap: 8px; }
+figure .card { overflow-x: auto; }
+figcaption { font-size: .88rem; color: var(--muted); max-width: 70ch; }
+.dg { color: var(--ink-2); display: block; max-width: 100%; height: auto; }
+.dg text { fill: currentColor; font-family: var(--font-body); font-size: 13px; }
+.dg .ts { fill: var(--ink); font-weight: 600; font-size: 14px; }
+.dg .tsm { font-size: 12px; fill: var(--muted); }
+.dg .ta { fill: var(--accent); font-weight: 600; }
+.dg .tu { fill: var(--up); font-weight: 600; } .dg .td { fill: var(--down); font-weight: 600; }
+.dg .box { fill: var(--surface); stroke: var(--line); stroke-width: 1.5; }
+.dg .acc { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+.dg .ln { stroke: currentColor; stroke-width: 1.6; fill: none; }
+.dg .lna { stroke: var(--accent); stroke-width: 2; fill: none; }
+.dg .glass { fill: none; stroke: currentColor; stroke-width: 1.8; }
+.dg .liq-u { fill: var(--accent); opacity: .35; } .dg .liq-a { fill: var(--zero); } .dg .liq-n { fill: none; }
+.dg .band { fill: var(--zero); }
+.dg .dot-d { fill: var(--down); stroke: var(--surface); stroke-width: 2; }
+.dg .dot-u { fill: var(--up); stroke: var(--surface); stroke-width: 2; }
+.dg .hol-d { fill: var(--surface); stroke: var(--down); stroke-width: 2.5; }
+.dg .hol-u { fill: var(--surface); stroke: var(--up); stroke-width: 2.5; }
+.dg .mean { stroke: var(--ink); stroke-width: 2; stroke-dasharray: 4 3; }
 </style>
 </head>
 <body>
@@ -113,40 +134,113 @@ svg g:hover rect[fill="transparent"] { fill: var(--accent-soft); }
   <h2>The idea in brief</h2>
   <p><b>NtcA</b> is the main nitrogen "alarm" regulator in cyanobacteria. When cells run short of nitrogen, NtcA switches on genes for taking up and assimilating other nitrogen sources, and usually turns up its own gene too. <span class="tag-src">[interpretation]</span></p>
   <p><b>Urea</b> is a nitrogen source that cells split into ammonium inside the cell. So one expectation is that cells growing well on urea are <i>not</i> nitrogen-stressed, and NtcA would stay quiet. The other possibility is that urea is harder to use, so the cells feel mildly short of nitrogen and NtcA goes up. <span class="tag-src">[interpretation]</span></p>
+  <figure>
+    <div class="card">
+      <svg class="dg" viewBox="0 0 820 240" role="img" aria-label="When the cell senses low nitrogen, NtcA switches on genes for nitrogen uptake and assimilation, and boosts its own gene.">
+        <defs><marker id="arA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+        <rect class="box" x="10" y="90" width="160" height="60" rx="8"/>
+        <text class="ts" x="90" y="116" text-anchor="middle">Cell senses</text>
+        <text x="90" y="136" text-anchor="middle">low nitrogen</text>
+        <line class="ln" x1="172" y1="120" x2="246" y2="120" marker-end="url(#arA)"/>
+        <text class="tsm" x="209" y="110" text-anchor="middle">signal</text>
+        <rect class="acc" x="250" y="85" width="120" height="70" rx="10"/>
+        <text class="ta" x="310" y="126" text-anchor="middle" style="font-size:20px">NtcA</text>
+        <path class="ln" d="M330,85 C330,40 290,40 290,80" marker-end="url(#arA)"/>
+        <text class="tsm" x="310" y="34" text-anchor="middle">boosts its own gene</text>
+        <text class="tsm" x="420" y="16" text-anchor="middle">switches on</text>
+        <line class="ln" x1="372" y1="120" x2="476" y2="45" marker-end="url(#arA)"/>
+        <line class="ln" x1="372" y1="120" x2="476" y2="98" marker-end="url(#arA)"/>
+        <line class="ln" x1="372" y1="120" x2="476" y2="152" marker-end="url(#arA)"/>
+        <line class="ln" x1="372" y1="120" x2="476" y2="205" marker-end="url(#arA)"/>
+        <rect class="box" x="480" y="25" width="320" height="40" rx="6"/><text x="496" y="50"><tspan class="ts">glnA</tspan>  builds amino acids from ammonium</text>
+        <rect class="box" x="480" y="78" width="320" height="40" rx="6"/><text x="496" y="103"><tspan class="ts">amt1</tspan>  takes up ammonium</text>
+        <rect class="box" x="480" y="132" width="320" height="40" rx="6"/><text x="496" y="157"><tspan class="ts">urtA</tspan>  takes up urea</text>
+        <rect class="box" x="480" y="185" width="320" height="40" rx="6"/><text x="496" y="210"><tspan class="ts">glnB</tspan>  nitrogen sensor</text>
+      </svg>
+    </div>
+    <figcaption>How NtcA works [interpretation]. When nitrogen is short, NtcA switches on uptake and assimilation genes, and its own gene. That's why the plan also checks these target genes: they show whether NtcA is actually active, not just whether its own message changed.</figcaption>
+  </figure>
   <p class="callout">So "does NtcA respond?" is really asking: <b>do urea-grown cells look nitrogen-stressed?</b></p>
 </section>
 
 <section>
   <h2>The data we have</h2>
   <p>The knowledge graph has one study that fits: <b>Tolonen et al. 2006</b> (<i>Mol Syst Biol</i>), which measured gene expression on microarrays in two strains. <span class="tag-src">[KG]</span></p>
-  <div class="design">
-    <div class="card arm">
-      <span class="pill">The test</span>
-      <h3>Urea vs ammonium</h3>
-      <div class="vs"><span class="flask">grown on urea</span> vs <span class="flask">grown on ammonium</span></div>
-      <p style="font-size:.92rem;color:var(--ink-2)">Cultures fully adjusted to each nitrogen source and growing normally, then sampled once. Two strains: MED4 and MIT9313.</p>
+  <figure>
+    <div class="card">
+      <svg class="dg" viewBox="0 0 820 280" role="img" aria-label="Three kinds of culture. Urea-grown and nitrogen-removed cultures are each compared against ammonium-grown cultures.">
+        <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--accent)"/></marker></defs>
+        <rect class="acc" x="20" y="20" width="200" height="160" rx="10"/>
+        <rect class="box" x="310" y="20" width="200" height="160" rx="10"/>
+        <rect class="box" x="600" y="20" width="200" height="160" rx="10"/>
+        <g transform="translate(120,36)"><path class="liq-u" d="M-24,42 L24,42 L34,62 Q36,68 30,68 L-30,68 Q-36,68 -34,62 Z"/><path class="glass" d="M-14,0 L-14,22 L-34,62 Q-36,68 -30,68 L30,68 Q36,68 34,62 L14,22 L14,0"/></g>
+        <g transform="translate(410,36)"><path class="liq-a" d="M-24,42 L24,42 L34,62 Q36,68 30,68 L-30,68 Q-36,68 -34,62 Z"/><path class="glass" d="M-14,0 L-14,22 L-34,62 Q-36,68 -30,68 L30,68 Q36,68 34,62 L14,22 L14,0"/></g>
+        <g transform="translate(700,36)"><path class="glass" d="M-14,0 L-14,22 L-34,62 Q-36,68 -30,68 L30,68 Q36,68 34,62 L14,22 L14,0"/></g>
+        <text class="ts" x="120" y="132" text-anchor="middle">Urea</text>
+        <text class="tsm" x="120" y="152" text-anchor="middle">THE TEST · adapted,</text>
+        <text class="tsm" x="120" y="168" text-anchor="middle">sampled once</text>
+        <text class="ts" x="410" y="132" text-anchor="middle">Ammonium</text>
+        <text class="tsm" x="410" y="152" text-anchor="middle">THE REFERENCE</text>
+        <text class="tsm" x="410" y="168" text-anchor="middle">for both comparisons</text>
+        <text class="ts" x="700" y="132" text-anchor="middle">No nitrogen</text>
+        <text class="tsm" x="700" y="152" text-anchor="middle">THE CONTROL · sampled</text>
+        <text class="tsm" x="700" y="168" text-anchor="middle">0, 3, 6, 12, 24, 48 h</text>
+        <path class="lna" d="M120,184 Q265,250 400,186" marker-end="url(#arB)"/>
+        <path class="lna" d="M700,184 Q555,250 420,186" marker-end="url(#arB)"/>
+        <text class="ta" x="215" y="262" text-anchor="middle">log2( urea ÷ ammonium )</text>
+        <text class="ta" x="605" y="262" text-anchor="middle">log2( no N ÷ ammonium )</text>
+      </svg>
     </div>
-    <div class="card arm">
-      <span class="pill">The control</span>
-      <h3>Nitrogen removed</h3>
-      <div class="vs"><span class="flask">no nitrogen</span> vs <span class="flask">ammonium</span></div>
-      <p style="font-size:.92rem;color:var(--ink-2)">Same paper, same arrays. Sampled at 0, 3, 6, 12, 24 and 48 h after the nitrogen was taken away. This is the textbook case where NtcA should go up.</p>
-    </div>
-  </div>
+    <figcaption>The two comparisons. Each arrow points at the reference it is divided by. Both use the same ammonium-grown cells as the reference, so they can share one axis. All from Tolonen et al. 2006, same arrays, both strains (MED4 and MIT9313). [KG]</figcaption>
+  </figure>
   <p>The control answers one question: <b>if NtcA changes, can these arrays see it?</b> If NtcA didn't rise under outright starvation, a "no change" on urea would mean nothing.</p>
   <p>NtcA's gene ID is <code>PMM0246</code> in MED4 and <code>PMT1831</code> in MIT9313. We use IDs because gene names can be ambiguous.</p>
 </section>
 
 <section>
   <h2>What the knowledge graph already shows</h2>
-  <p>Each bar is how much the NtcA gene changed against ammonium, on a log2 scale (+1 = doubled, −1 = halved). <b>Solid bars</b> were called significant in the paper. <b>Outlined bars</b> were not.</p>
+  <p>First, how to read the log2 scale. Each step of 1 doubles or halves the amount, so up and down changes of the same size sit the same distance from zero.</p>
+  <figure>
+    <div class="card">
+      <svg class="dg" viewBox="0 0 820 170" role="img" aria-label="log2 scale from minus 3 to plus 5 with plain ratios. MED4 on urea sits at minus 2.27, about 4.8 times lower. MIT9313 on urea sits at plus 0.86, about 1.8 times higher. MED4 with nitrogen removed at 6 hours sits at plus 4.45, about 22 times higher.">
+        <text class="td" x="318" y="18" text-anchor="end">← lower than on ammonium</text>
+        <text class="tu" x="342" y="18" text-anchor="start">higher than on ammonium →</text>
+        <line class="ln" x1="60" y1="70" x2="780" y2="70"/>
+        <g class="tsm">
+          <line class="ln" x1="60" y1="64" x2="60" y2="76"/><text x="60" y="54" text-anchor="middle">−3</text><text x="60" y="94" text-anchor="middle">÷8</text>
+          <line class="ln" x1="150" y1="64" x2="150" y2="76"/><text x="150" y="54" text-anchor="middle">−2</text><text x="150" y="94" text-anchor="middle">÷4</text>
+          <line class="ln" x1="240" y1="64" x2="240" y2="76"/><text x="240" y="54" text-anchor="middle">−1</text><text x="240" y="94" text-anchor="middle">÷2</text>
+          <line class="ln" x1="330" y1="58" x2="330" y2="82"/><text x="330" y="54" text-anchor="middle">0</text><text x="330" y="94" text-anchor="middle">same</text>
+          <line class="ln" x1="420" y1="64" x2="420" y2="76"/><text x="420" y="54" text-anchor="middle">+1</text><text x="420" y="94" text-anchor="middle">×2</text>
+          <line class="ln" x1="510" y1="64" x2="510" y2="76"/><text x="510" y="54" text-anchor="middle">+2</text><text x="510" y="94" text-anchor="middle">×4</text>
+          <line class="ln" x1="600" y1="64" x2="600" y2="76"/><text x="600" y="54" text-anchor="middle">+3</text><text x="600" y="94" text-anchor="middle">×8</text>
+          <line class="ln" x1="690" y1="64" x2="690" y2="76"/><text x="690" y="54" text-anchor="middle">+4</text><text x="690" y="94" text-anchor="middle">×16</text>
+          <line class="ln" x1="780" y1="64" x2="780" y2="76"/><text x="780" y="54" text-anchor="middle">+5</text><text x="780" y="94" text-anchor="middle">×32</text>
+        </g>
+        <line class="ln" x1="125.7" y1="100" x2="125.7" y2="114" style="stroke-width:1"/>
+        <line class="ln" x1="407.4" y1="100" x2="407.4" y2="114" style="stroke-width:1"/>
+        <line class="ln" x1="730.5" y1="100" x2="730.5" y2="114" style="stroke-width:1"/>
+        <circle class="hol-d" cx="125.7" cy="70" r="8"/>
+        <circle class="hol-u" cx="407.4" cy="70" r="8"/>
+        <circle class="dot-u" cx="730.5" cy="70" r="9"/>
+        <text class="ts" x="125.7" y="132" text-anchor="middle" style="font-size:13px">MED4 on urea</text>
+        <text x="125.7" y="150" text-anchor="middle">−2.27 ≈ 4.8× lower</text>
+        <text class="ts" x="407.4" y="132" text-anchor="middle" style="font-size:13px">MIT9313 on urea</text>
+        <text x="407.4" y="150" text-anchor="middle">+0.86 ≈ 1.8× higher</text>
+        <text class="ts" x="730.5" y="132" text-anchor="middle" style="font-size:13px">MED4, no N, 6 h</text>
+        <text x="730.5" y="150" text-anchor="middle">+4.45 ≈ 22× higher</text>
+      </svg>
+    </div>
+    <figcaption>Top numbers are log2 values; bottom numbers are the plain ratio. Hollow = not called significant, solid = called significant. [KG values]</figcaption>
+  </figure>
+  <p>Now the full picture. Each bar is NtcA's change against ammonium. <b>Solid bars</b> were called significant in the paper. <b>Outlined bars</b> were not.</p>
   <div class="card">
     <div class="legend" aria-hidden="true">
       <span><span class="sw" style="background:var(--up)"></span>up vs ammonium</span>
       <span><span class="sw" style="background:var(--down)"></span>down vs ammonium</span>
       <span><span class="sw" style="border:2px solid var(--muted);background:transparent"></span>not significant (outlined)</span>
     </div>
-    <div class="chart-wrap"><svg viewBox="0 0 800 522" width="800" style="max-width:100%;height:auto" role="img" aria-label="NtcA log2 change per contrast; the table below gives the values"><line class="gl" x1="200.0" x2="200.0" y1="10" y2="488"/><text class="ax" x="200.0" y="506" text-anchor="middle">-3</text><line class="gl" x1="270.0" x2="270.0" y1="10" y2="488"/><text class="ax" x="270.0" y="506" text-anchor="middle">-2</text><line class="gl" x1="340.0" x2="340.0" y1="10" y2="488"/><text class="ax" x="340.0" y="506" text-anchor="middle">-1</text><line class="z" x1="410.0" x2="410.0" y1="10" y2="488"/><text class="ax" x="410.0" y="506" text-anchor="middle">0</text><line class="gl" x1="480.0" x2="480.0" y1="10" y2="488"/><text class="ax" x="480.0" y="506" text-anchor="middle">+1</text><line class="gl" x1="550.0" x2="550.0" y1="10" y2="488"/><text class="ax" x="550.0" y="506" text-anchor="middle">+2</text><line class="gl" x1="620.0" x2="620.0" y1="10" y2="488"/><text class="ax" x="620.0" y="506" text-anchor="middle">+3</text><line class="gl" x1="690.0" x2="690.0" y1="10" y2="488"/><text class="ax" x="690.0" y="506" text-anchor="middle">+4</text><line class="gl" x1="760.0" x2="760.0" y1="10" y2="488"/><text class="ax" x="760.0" y="506" text-anchor="middle">+5</text><text class="ax" x="410.0" y="518" text-anchor="middle">log2 change vs ammonium</text><text class="gh" x="8" y="24">Urea vs ammonium</text><g><title>MED4 · urea vs ammonium: log2 -2.27 (4.8× down), not significant; rank 6 of 1,696 by size</title><rect x="0" y="32" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="49.0" text-anchor="end">MED4</text><rect class="o down" x="252.1" y="38" width="156.9" height="14" rx="3"/><text class="vl" x="245.1" y="49.0" text-anchor="end">-2.27</text></g><g><title>MIT9313 · urea vs ammonium: log2 +0.86 (1.8× up), not significant; rank 189 of 2,241</title><rect x="0" y="58" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="75.0" text-anchor="end">MIT9313</text><rect class="o up" x="411.0" y="64" width="58.2" height="14" rx="3"/><text class="vl" x="476.2" y="75.0" text-anchor="start">+0.86</text></g><text class="gh" x="8" y="120">N removed · MED4</text><g><title>MED4 · N removed, 0 h: log2 -2.17 (4.5× down), not significant</title><rect x="0" y="128" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="145.0" text-anchor="end">0 h</text><rect class="o down" x="259.1" y="134" width="149.9" height="14" rx="3"/><text class="vl" x="252.1" y="145.0" text-anchor="end">-2.17</text></g><g><title>MED4 · N removed, 3 h: log2 +3.04 (8.2× up), not significant</title><rect x="0" y="154" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="171.0" text-anchor="end">3 h</text><rect class="o up" x="411.0" y="160" width="210.8" height="14" rx="3"/><text class="vl" x="628.8" y="171.0" text-anchor="start">+3.04</text></g><g><title>MED4 · N removed, 6 h: log2 +4.45 (21.9× up), significant</title><rect x="0" y="180" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="197.0" text-anchor="end">6 h</text><rect class="b up" x="410.0" y="185" width="311.5" height="16" rx="3"/><text class="vl" x="727.5" y="197.0" text-anchor="start">+4.45</text></g><g><title>MED4 · N removed, 12 h: log2 +3.02 (8.1× up), significant</title><rect x="0" y="206" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="223.0" text-anchor="end">12 h</text><rect class="b up" x="410.0" y="211" width="211.4" height="16" rx="3"/><text class="vl" x="627.4" y="223.0" text-anchor="start">+3.02</text></g><g><title>MED4 · N removed, 24 h: log2 +1.68 (3.2× up), significant</title><rect x="0" y="232" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="249.0" text-anchor="end">24 h</text><rect class="b up" x="410.0" y="237" width="117.6" height="16" rx="3"/><text class="vl" x="533.6" y="249.0" text-anchor="start">+1.68</text></g><g><title>MED4 · N removed, 48 h: log2 +1.23 (2.3× up), not significant</title><rect x="0" y="258" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="275.0" text-anchor="end">48 h</text><rect class="o up" x="411.0" y="264" width="84.1" height="14" rx="3"/><text class="vl" x="502.1" y="275.0" text-anchor="start">+1.23</text></g><text class="gh" x="8" y="320">N removed · MIT9313</text><g><title>MIT9313 · N removed, 0 h: log2 -0.25 (1.2× down), not significant</title><rect x="0" y="328" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="345.0" text-anchor="end">0 h</text><rect class="o down" x="393.5" y="334" width="15.5" height="14" rx="3"/><text class="vl" x="386.5" y="345.0" text-anchor="end">-0.25</text></g><g><title>MIT9313 · N removed, 3 h: log2 +1.94 (3.8× up), not significant</title><rect x="0" y="354" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="371.0" text-anchor="end">3 h</text><rect class="o up" x="411.0" y="360" width="133.8" height="14" rx="3"/><text class="vl" x="551.8" y="371.0" text-anchor="start">+1.94</text></g><g><title>MIT9313 · N removed, 6 h: log2 +3.03 (8.2× up), significant</title><rect x="0" y="380" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="397.0" text-anchor="end">6 h</text><rect class="b up" x="410.0" y="385" width="212.1" height="16" rx="3"/><text class="vl" x="628.1" y="397.0" text-anchor="start">+3.03</text></g><g><title>MIT9313 · N removed, 12 h: log2 +3.56 (11.8× up), significant</title><rect x="0" y="406" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="423.0" text-anchor="end">12 h</text><rect class="b up" x="410.0" y="411" width="249.2" height="16" rx="3"/><text class="vl" x="665.2" y="423.0" text-anchor="start">+3.56</text></g><g><title>MIT9313 · N removed, 24 h: log2 +3.54 (11.6× up), significant; control sampled at 12 h</title><rect x="0" y="432" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="449.0" text-anchor="end">24 h</text><rect class="b up" x="410.0" y="437" width="247.8" height="16" rx="3"/><text class="vl" x="663.8" y="449.0" text-anchor="start">+3.54</text></g><g><title>MIT9313 · N removed, 48 h: log2 +2.91 (7.5× up), significant</title><rect x="0" y="458" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="475.0" text-anchor="end">48 h</text><rect class="b up" x="410.0" y="463" width="203.7" height="16" rx="3"/><text class="vl" x="619.7" y="475.0" text-anchor="start">+2.91</text></g></svg></div>
+    <div class="chart-wrap"><svg viewBox="0 0 800 522" width="800" style="max-width:100%;height:auto" role="img" aria-label="NtcA log2 change per contrast; the table below gives the values"><line class="gl" x1="200.0" x2="200.0" y1="10" y2="488"/><text class="ax" x="200.0" y="506" text-anchor="middle">-3</text><line class="gl" x1="270.0" x2="270.0" y1="10" y2="488"/><text class="ax" x="270.0" y="506" text-anchor="middle">-2</text><line class="gl" x1="340.0" x2="340.0" y1="10" y2="488"/><text class="ax" x="340.0" y="506" text-anchor="middle">-1</text><line class="z" x1="410.0" x2="410.0" y1="10" y2="488"/><text class="ax" x="410.0" y="506" text-anchor="middle">0</text><line class="gl" x1="480.0" x2="480.0" y1="10" y2="488"/><text class="ax" x="480.0" y="506" text-anchor="middle">+1</text><line class="gl" x1="550.0" x2="550.0" y1="10" y2="488"/><text class="ax" x="550.0" y="506" text-anchor="middle">+2</text><line class="gl" x1="620.0" x2="620.0" y1="10" y2="488"/><text class="ax" x="620.0" y="506" text-anchor="middle">+3</text><line class="gl" x1="690.0" x2="690.0" y1="10" y2="488"/><text class="ax" x="690.0" y="506" text-anchor="middle">+4</text><line class="gl" x1="760.0" x2="760.0" y1="10" y2="488"/><text class="ax" x="760.0" y="506" text-anchor="middle">+5</text><text class="ax" x="410.0" y="518" text-anchor="middle">log2( treatment ÷ ammonium )</text><text class="gh" x="8" y="24">Urea vs ammonium</text><g><title>MED4 · urea vs ammonium: log2 -2.27 (4.8× down), not significant; rank 6 of 1,696 by size</title><rect x="0" y="32" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="49.0" text-anchor="end">MED4</text><rect class="o down" x="252.1" y="38" width="156.9" height="14" rx="3"/><text class="vl" x="245.1" y="49.0" text-anchor="end">-2.27</text></g><g><title>MIT9313 · urea vs ammonium: log2 +0.86 (1.8× up), not significant; rank 189 of 2,241</title><rect x="0" y="58" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="75.0" text-anchor="end">MIT9313</text><rect class="o up" x="411.0" y="64" width="58.2" height="14" rx="3"/><text class="vl" x="476.2" y="75.0" text-anchor="start">+0.86</text></g><text class="gh" x="8" y="120">N removed · MED4</text><g><title>MED4 · N removed, 0 h: log2 -2.17 (4.5× down), not significant</title><rect x="0" y="128" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="145.0" text-anchor="end">0 h</text><rect class="o down" x="259.1" y="134" width="149.9" height="14" rx="3"/><text class="vl" x="252.1" y="145.0" text-anchor="end">-2.17</text></g><g><title>MED4 · N removed, 3 h: log2 +3.04 (8.2× up), not significant</title><rect x="0" y="154" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="171.0" text-anchor="end">3 h</text><rect class="o up" x="411.0" y="160" width="210.8" height="14" rx="3"/><text class="vl" x="628.8" y="171.0" text-anchor="start">+3.04</text></g><g><title>MED4 · N removed, 6 h: log2 +4.45 (21.9× up), significant</title><rect x="0" y="180" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="197.0" text-anchor="end">6 h</text><rect class="b up" x="410.0" y="185" width="311.5" height="16" rx="3"/><text class="vl" x="727.5" y="197.0" text-anchor="start">+4.45</text></g><g><title>MED4 · N removed, 12 h: log2 +3.02 (8.1× up), significant</title><rect x="0" y="206" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="223.0" text-anchor="end">12 h</text><rect class="b up" x="410.0" y="211" width="211.4" height="16" rx="3"/><text class="vl" x="627.4" y="223.0" text-anchor="start">+3.02</text></g><g><title>MED4 · N removed, 24 h: log2 +1.68 (3.2× up), significant</title><rect x="0" y="232" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="249.0" text-anchor="end">24 h</text><rect class="b up" x="410.0" y="237" width="117.6" height="16" rx="3"/><text class="vl" x="533.6" y="249.0" text-anchor="start">+1.68</text></g><g><title>MED4 · N removed, 48 h: log2 +1.23 (2.3× up), not significant</title><rect x="0" y="258" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="275.0" text-anchor="end">48 h</text><rect class="o up" x="411.0" y="264" width="84.1" height="14" rx="3"/><text class="vl" x="502.1" y="275.0" text-anchor="start">+1.23</text></g><text class="gh" x="8" y="320">N removed · MIT9313</text><g><title>MIT9313 · N removed, 0 h: log2 -0.25 (1.2× down), not significant</title><rect x="0" y="328" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="345.0" text-anchor="end">0 h</text><rect class="o down" x="393.5" y="334" width="15.5" height="14" rx="3"/><text class="vl" x="386.5" y="345.0" text-anchor="end">-0.25</text></g><g><title>MIT9313 · N removed, 3 h: log2 +1.94 (3.8× up), not significant</title><rect x="0" y="354" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="371.0" text-anchor="end">3 h</text><rect class="o up" x="411.0" y="360" width="133.8" height="14" rx="3"/><text class="vl" x="551.8" y="371.0" text-anchor="start">+1.94</text></g><g><title>MIT9313 · N removed, 6 h: log2 +3.03 (8.2× up), significant</title><rect x="0" y="380" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="397.0" text-anchor="end">6 h</text><rect class="b up" x="410.0" y="385" width="212.1" height="16" rx="3"/><text class="vl" x="628.1" y="397.0" text-anchor="start">+3.03</text></g><g><title>MIT9313 · N removed, 12 h: log2 +3.56 (11.8× up), significant</title><rect x="0" y="406" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="423.0" text-anchor="end">12 h</text><rect class="b up" x="410.0" y="411" width="249.2" height="16" rx="3"/><text class="vl" x="665.2" y="423.0" text-anchor="start">+3.56</text></g><g><title>MIT9313 · N removed, 24 h: log2 +3.54 (11.6× up), significant; control sampled at 12 h</title><rect x="0" y="432" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="449.0" text-anchor="end">24 h</text><rect class="b up" x="410.0" y="437" width="247.8" height="16" rx="3"/><text class="vl" x="663.8" y="449.0" text-anchor="start">+3.54</text></g><g><title>MIT9313 · N removed, 48 h: log2 +2.91 (7.5× up), significant</title><rect x="0" y="458" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="475.0" text-anchor="end">48 h</text><rect class="b up" x="410.0" y="463" width="203.7" height="16" rx="3"/><text class="vl" x="619.7" y="475.0" text-anchor="start">+2.91</text></g></svg></div>
   </div>
   <div class="tablewrap">
     <table>
@@ -161,6 +255,35 @@ svg g:hover rect[fill="transparent"] { fill: var(--accent-soft); }
     <li><b>MIT9313 on urea:</b> slightly up (+0.86, about 1.8×), not significant. This looks like a real "no clear change".</li>
     <li><b>MED4 on urea is the puzzle.</b> NtcA is down about 4.8× (−2.27), the 6th-largest change of 1,696 genes, yet the paper did <i>not</i> call it significant. A change that big is usually called, so the replicate arrays probably disagreed with each other. The MED4 0 h starvation point shows a similar uncalled drop (−2.17).</li>
   </ul>
+  <h3>Why a big change can still be "not significant"</h3>
+  <figure>
+    <div class="card">
+      <svg class="dg" viewBox="0 0 820 200" role="img" aria-label="Schematic: two sets of three replicate measurements with the same average of minus 2.27. When the replicates agree, the change is called significant. When they are spread out, it is not.">
+        <text class="ts" x="210" y="26" text-anchor="middle">Replicates agree</text>
+        <text class="ts" x="610" y="26" text-anchor="middle">Replicates disagree</text>
+        <rect class="band" x="176" y="98" width="40" height="24" rx="4"/>
+        <rect class="band" x="456" y="98" width="256" height="24" rx="4"/>
+        <line class="ln" x1="40" y1="110" x2="380" y2="110"/>
+        <line class="ln" x1="440" y1="110" x2="780" y2="110"/>
+        <line class="ln" x1="323.3" y1="96" x2="323.3" y2="124"/>
+        <line class="ln" x1="723.3" y1="96" x2="723.3" y2="124"/>
+        <g class="tsm">
+          <text x="96.7" y="142" text-anchor="middle">−4</text><text x="210" y="142" text-anchor="middle">−2</text><text x="323.3" y="142" text-anchor="middle">0</text>
+          <text x="496.7" y="142" text-anchor="middle">−4</text><text x="610" y="142" text-anchor="middle">−2</text><text x="723.3" y="142" text-anchor="middle">0</text>
+        </g>
+        <line class="mean" x1="194.5" y1="62" x2="194.5" y2="104"/>
+        <line class="mean" x1="594.7" y1="62" x2="594.7" y2="104"/>
+        <text x="194.5" y="56" text-anchor="middle">average −2.27</text>
+        <text x="594.7" y="56" text-anchor="middle">average −2.27</text>
+        <circle class="dot-d" cx="181.7" cy="110" r="8"/><circle class="dot-d" cx="193" cy="110" r="8"/><circle class="dot-d" cx="210" cy="110" r="8"/>
+        <circle class="dot-d" cx="462.7" cy="110" r="8"/><circle class="dot-d" cx="615.7" cy="110" r="8"/><circle class="dot-d" cx="706.3" cy="110" r="8"/>
+        <text class="ts" x="210" y="176" text-anchor="middle" style="font-size:13px">→ called significant</text>
+        <text class="ts" x="610" y="176" text-anchor="middle" style="font-size:13px">→ not called, same average</text>
+        <text class="tsm" x="610" y="194" text-anchor="middle">(what we suspect happened for MED4 on urea)</text>
+      </svg>
+    </div>
+    <figcaption>Schematic with made-up dot positions. A significance test asks whether the replicate measurements agree, not only how big the average change is. The KG stores the paper's final call but not the individual replicate arrays [gap], so we can't confirm this for MED4. It is our best explanation [interpretation].</figcaption>
+  </figure>
 </section>
 
 <section>
