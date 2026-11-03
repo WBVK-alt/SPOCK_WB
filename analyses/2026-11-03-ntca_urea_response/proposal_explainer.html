@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Does NtcA respond to urea?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a single reading column that walks question -> data -> how we'll read it -> your choices; one chart carries the evidence. */
+:root {
+  --bg: #f7f7f5;
+  --surface: #fcfcfb;
+  --ink: #1d1e22;
+  --ink-2: #4a4c55;
+  --muted: #7a7c85;
+  --line: #dcdcd6;
+  --accent: #4b3f8f;
+  --accent-soft: #ecebf5;
+  --up: #eb6834;
+  --down: #2a78d6;
+  --zero: #f0efec;
+  --font-display: "Source Serif 4", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17181b; --surface: #1e1f23; --ink: #ecebe6; --ink-2: #c2c2bd; --muted: #8e8f96;
+    --line: #34353a; --accent: #b3a9f0; --accent-soft: #2a2740;
+    --up: #d95926; --down: #3987e5; --zero: #383835; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181b; --surface: #1e1f23; --ink: #ecebe6; --ink-2: #c2c2bd; --muted: #8e8f96;
+  --line: #34353a; --accent: #b3a9f0; --accent-soft: #2a2740;
+  --up: #d95926; --down: #3987e5; --zero: #383835; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+main { max-width: 880px; margin: 0 auto; padding: 40px 20px 80px; display: grid; gap: 40px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: 2.1rem; font-weight: 650; }
+h2 { font-size: 1.45rem; font-weight: 650; }
+h3 { font-size: 1.05rem; font-weight: 650; font-family: var(--font-body); }
+p { margin: 0; max-width: 66ch; }
+section { display: grid; gap: 14px; }
+.kicker { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.lede { font-size: 1.12rem; color: var(--ink-2); }
+code, .tag { font-family: var(--font-mono); font-size: .88em; }
+.tag-src { font-family: var(--font-mono); font-size: .75rem; color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+.path { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.step { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--surface); font-size: .92rem; }
+.step b { display: block; font-size: .95rem; }
+.step.now { border-color: var(--accent); background: var(--accent-soft); }
+.step small { color: var(--muted); }
+.design { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.arm { display: grid; gap: 6px; }
+.arm .pill { display: inline-block; font-size: .78rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); width: max-content; }
+.vs { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: .95rem; }
+.flask { border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; background: var(--bg); }
+table { width: 100%; border-collapse: collapse; font-size: .93rem; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: .85rem; }
+td.num { font-variant-numeric: tabular-nums; font-family: var(--font-mono); white-space: nowrap; }
+.tablewrap { overflow-x: auto; }
+.chart-wrap { overflow-x: auto; }
+svg text { fill: var(--ink-2); font-family: var(--font-body); }
+.legend { display: flex; gap: 18px; flex-wrap: wrap; font-size: .85rem; color: var(--ink-2); }
+.sw { display: inline-block; width: 14px; height: 10px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+.callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; color: var(--ink-2); }
+.choices { display: grid; gap: 10px; counter-reset: c; }
+.choice { display: grid; grid-template-columns: 30px 1fr; gap: 10px; }
+.choice::before { counter-increment: c; content: counter(c); font-family: var(--font-display); font-weight: 650; font-size: 1.3rem; color: var(--accent); }
+.rec { font-size: .9rem; color: var(--ink-2); }
+.rec b { color: var(--ink); }
+#tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-size: .82rem; padding: 6px 9px; border-radius: 6px; opacity: 0; transition: opacity .1s; max-width: 260px; line-height: 1.4; }
+@media (prefers-reduced-motion: reduce) { #tip { transition: none; } }
+@media (max-width: 640px) { .path, .design { grid-template-columns: 1fr 1fr; } h1 { font-size: 1.7rem; } }
+@media (max-width: 420px) { .path, .design { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+
+<header style="display:grid; gap:12px">
+  <div class="kicker">Research plan · explainer</div>
+  <h1>Does NtcA respond when <i>Prochlorococcus</i> grows on urea instead of ammonium?</h1>
+  <p class="lede">This page walks through the plan for answering the question: what NtcA is, the data we have, what the knowledge graph already shows, and how we will read the result. The plan needs your sign-off before any analysis runs.</p>
+</header>
+
+<section>
+  <h2>Where we are</h2>
+  <div class="path">
+    <div class="step now"><b>1 · Plan</b><small>Proposal written and reviewed. Waiting for your approval.</small></div>
+    <div class="step"><b>2 · Methods</b><small>Small script to pull the data</small></div>
+    <div class="step"><b>3 · Analysis</b><small>Run it, make figure and table</small></div>
+    <div class="step"><b>4 · Evaluation</b><small>Check against the plan, write up</small></div>
+  </div>
+</section>
+
+<section>
+  <h2>The idea in brief</h2>
+  <p><b>NtcA</b> is the main nitrogen "alarm" regulator in cyanobacteria. When cells run short of nitrogen, NtcA switches on genes for taking up and assimilating other nitrogen sources, and usually turns up its own gene too. <span class="tag-src">[interpretation]</span></p>
+  <p><b>Urea</b> is a nitrogen source that cells split into ammonium inside the cell. So one expectation is that cells growing well on urea are <i>not</i> nitrogen-stressed, and NtcA would stay quiet. The other possibility is that urea is harder to use, so the cells feel mildly short of nitrogen and NtcA goes up. <span class="tag-src">[interpretation]</span></p>
+  <p class="callout">So "does NtcA respond?" is really asking: <b>do urea-grown cells look nitrogen-stressed?</b></p>
+</section>
+
+<section>
+  <h2>The data we have</h2>
+  <p>The knowledge graph has one study that fits: <b>Tolonen et al. 2006</b> (<i>Mol Syst Biol</i>), which measured gene expression on microarrays in two strains. <span class="tag-src">[KG]</span></p>
+  <div class="design">
+    <div class="card arm">
+      <span class="pill">The test</span>
+      <h3>Urea vs ammonium</h3>
+      <div class="vs"><span class="flask">grown on urea</span> vs <span class="flask">grown on ammonium</span></div>
+      <p style="font-size:.92rem;color:var(--ink-2)">Cultures fully adjusted to each nitrogen source and growing normally, then sampled once. Two strains: MED4 and MIT9313.</p>
+    </div>
+    <div class="card arm">
+      <span class="pill">The control</span>
+      <h3>Nitrogen removed</h3>
+      <div class="vs"><span class="flask">no nitrogen</span> vs <span class="flask">ammonium</span></div>
+      <p style="font-size:.92rem;color:var(--ink-2)">Same paper, same arrays. Sampled at 0, 3, 6, 12, 24 and 48 h after the nitrogen was taken away. This is the textbook case where NtcA should go up.</p>
+    </div>
+  </div>
+  <p>The control answers one question: <b>if NtcA changes, can these arrays see it?</b> If NtcA didn't rise under outright starvation, a "no change" on urea would mean nothing.</p>
+  <p>NtcA's gene ID is <code>PMM0246</code> in MED4 and <code>PMT1831</code> in MIT9313. We use IDs because gene names can be ambiguous.</p>
+</section>
+
+<section>
+  <h2>What the knowledge graph already shows</h2>
+  <p>Each bar is how much the NtcA gene changed against ammonium, on a log2 scale (+1 = doubled, −1 = halved). <b>Solid bars</b> were called significant in the paper. <b>Outlined bars</b> were not.</p>
+  <div class="card">
+    <div class="legend" aria-hidden="true">
+      <span><span class="sw" style="background:var(--up)"></span>up vs ammonium</span>
+      <span><span class="sw" style="background:var(--down)"></span>down vs ammonium</span>
+      <span><span class="sw" style="border:2px solid var(--muted);background:transparent"></span>not significant (outlined)</span>
+    </div>
+    <div class="chart-wrap"><svg id="chart" role="img" aria-label="NtcA log2 fold change per contrast; table below gives the values"></svg></div>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Strain</th><th>Contrast</th><th>log2 change</th><th>Paper's call</th><th>Note</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <p class="tag-src">Source: [KG] differential_expression_by_gene, KG release 0.1.0-alpha.9. Values from the grounding queries; the analysis step re-pulls them in a script.</p>
+  <h3>Reading it plainly</h3>
+  <ul style="margin:0;padding-left:20px;max-width:66ch;display:grid;gap:6px">
+    <li><b>The control works.</b> Under nitrogen removal, NtcA is up strongly in both strains (up to about 22× in MED4 at 6 h and about 12× in MIT9313 at 12 h), and the paper calls it significant.</li>
+    <li><b>MIT9313 on urea:</b> slightly up (+0.86, about 1.8×), not significant. This looks like a real "no clear change".</li>
+    <li><b>MED4 on urea is the puzzle.</b> NtcA is down about 4.8× (−2.27), the 6th-largest change of 1,696 genes, yet the paper did <i>not</i> call it significant. A change that big is usually called, so the replicate arrays probably disagreed with each other. The MED4 0 h starvation point shows a similar uncalled drop (−2.17).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How we'll read the result</h2>
+  <p>We wrote these readings down <i>before</i> looking further. That stops us from fitting a story to whatever comes out.</p>
+  <div class="tablewrap card" style="padding:6px 10px">
+    <table>
+      <thead><tr><th>If we see…</th><th>…we'll say</th></tr></thead>
+      <tbody>
+        <tr><td>NtcA <b>and</b> at least 2 of its targets (<i>glnA</i>, <i>amt1</i>, <i>glnB</i>) significantly up on urea</td><td>Urea-grown cells look nitrogen-stressed. This would overturn our expectation.</td></tr>
+        <tr><td>NtcA not called, small change</td><td>No detectable change: a bounded negative, valid because the control shows the arrays can detect changes</td></tr>
+        <tr><td>NtcA not called, <b>large</b> change (like MED4)</td><td>"Large change measured, not called significant." That is <i>not</i> the same as "no change", and we won't report it as one.</td></tr>
+        <tr><td>NtcA and its targets down</td><td>Urea cells may be <i>less</i> N-stressed than ammonium cells</td></tr>
+        <tr><td>The two strains go in opposite directions</td><td>Reported strain by strain. Not counted as evidence either way.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>Two safety checks</h3>
+  <div class="design">
+    <div class="card"><b>Target genes</b><p style="font-size:.92rem;color:var(--ink-2)">NtcA's own gene can be noisy. Its targets show whether NtcA is actually <i>doing</i> anything. They must go up under starvation. If they don't, our data pull is broken.</p></div>
+    <div class="card"><b>Ribosome genes (should not move)</b><p style="font-size:.92rem;color:var(--ink-2)">If the ribosome genes all shift together on urea, the cultures were growing at different speeds. Then any NtcA change could just be a growth-rate effect, not a nitrogen effect.</p></div>
+  </div>
+  <p class="callout">One limit to keep in mind: the urea cultures were sampled once, after they had fully adjusted. We can't see whether NtcA jumped briefly when the cells were first switched to urea.</p>
+</section>
+
+<section>
+  <h2>Choices for you</h2>
+  <div class="choices">
+    <div class="choice"><div><b>NtcA alone, or NtcA plus its target genes?</b><div class="rec"><b>Recommend:</b> include the targets (<i>glnA, glnB, amt1, urtA, ureC, pipX</i>). Without them, the noisy MED4 result can't be read.</div></div></div>
+    <div class="choice"><div><b>How to report a big change the paper didn't call significant</b><div class="rec"><b>Recommend:</b> as its own category, "large change, not called significant", kept separate from "no change".</div></div></div>
+    <div class="choice"><div><b>Use the ribosome genes as the "should not move" check?</b><div class="rec"><b>Recommend:</b> yes, judged on whether their changes shift together, not only on how many are called significant.</div></div></div>
+    <div class="choice"><div><b>Scope</b><div class="rec"><b>Recommend:</b> urea only. Cyanate, nitrite and coculture data exist in the knowledge graph but would take this past the 10-minute exercise.</div></div></div>
+  </div>
+  <p>If these look right, say <b>"approved"</b> and we move to step 2.</p>
+</section>
+
+</main>
+<div id="tip" role="tooltip"></div>
+<script>
+const rows = [
+  {g:"Urea vs ammonium", s:"MED4", c:"urea", fc:-2.27, sig:false, note:"rank 6 of 1,696 by size"},
+  {g:"Urea vs ammonium", s:"MIT9313", c:"urea", fc:0.86, sig:false, note:"rank 189 of 2,241"},
+  {g:"N removed · MED4", s:"MED4", c:"0 h", fc:-2.17, sig:false, note:""},
+  {g:"N removed · MED4", s:"MED4", c:"3 h", fc:3.04, sig:false, note:""},
+  {g:"N removed · MED4", s:"MED4", c:"6 h", fc:4.45, sig:true, note:""},
+  {g:"N removed · MED4", s:"MED4", c:"12 h", fc:3.02, sig:true, note:""},
+  {g:"N removed · MED4", s:"MED4", c:"24 h", fc:1.68, sig:true, note:""},
+  {g:"N removed · MED4", s:"MED4", c:"48 h", fc:1.23, sig:false, note:""},
+  {g:"N removed · MIT9313", s:"MIT9313", c:"0 h", fc:-0.25, sig:false, note:""},
+  {g:"N removed · MIT9313", s:"MIT9313", c:"3 h", fc:1.94, sig:false, note:""},
+  {g:"N removed · MIT9313", s:"MIT9313", c:"6 h", fc:3.03, sig:true, note:""},
+  {g:"N removed · MIT9313", s:"MIT9313", c:"12 h", fc:3.56, sig:true, note:""},
+  {g:"N removed · MIT9313", s:"MIT9313", c:"24 h", fc:3.54, sig:true, note:"control sampled at 12 h"},
+  {g:"N removed · MIT9313", s:"MIT9313", c:"48 h", fc:2.91, sig:true, note:""},
+];
+const svg = document.getElementById("chart");
+const NS = "http://www.w3.org/2000/svg";
+const W = 800, left = 200, right = 40, rowH = 26, groupGap = 22, top = 10;
+const xmin = -3, xmax = 5;
+const groups = [...new Set(rows.map(r => r.g))];
+let y = top; const pos = [];
+groups.forEach((g, gi) => {
+  if (gi) y += groupGap;
+  pos.push({type:"head", g, y}); y += 22;
+  rows.filter(r => r.g === g).forEach(r => { pos.push({type:"bar", r, y}); y += rowH; });
+});
+const H = y + 34;
+svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+svg.setAttribute("width", W); svg.style.maxWidth = "100%"; svg.style.height = "auto";
+const x = v => left + (v - xmin) / (xmax - xmin) * (W - left - right);
+const el = (t, a, p = svg) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); p.appendChild(e); return e; };
+const cs = getComputedStyle(document.documentElement);
+const tok = n => cs.getPropertyValue(n).trim();
+for (let v = xmin; v <= xmax; v++) {
+  el("line", {x1:x(v), x2:x(v), y1:top, y2:H-30, stroke: tok(v === 0 ? "--muted" : "--line"), "stroke-width": v === 0 ? 1.2 : 1});
+  const t = el("text", {x:x(v), y:H-12, "text-anchor":"middle", "font-size":12}); t.textContent = (v > 0 ? "+" : "") + v;
+}
+const lab = el("text", {x:x(0), y:H, "text-anchor":"middle", "font-size":11}); lab.textContent = "log2 change vs ammonium";
+const tip = document.getElementById("tip");
+pos.forEach(p => {
+  if (p.type === "head") { const t = el("text", {x:8, y:p.y+14, "font-size":13, "font-weight":600}); t.style.fill = tok("--ink"); t.textContent = p.g; return; }
+  const r = p.r, col = tok(r.fc >= 0 ? "--up" : "--down");
+  const x0 = x(Math.min(0, r.fc)), w = Math.abs(x(r.fc) - x(0)), by = p.y + 5, bh = rowH - 10;
+  const t = el("text", {x:left-10, y:p.y+rowH/2+4, "text-anchor":"end", "font-size":12.5}); t.textContent = r.g.startsWith("Urea") ? r.s : r.c;
+  el("rect", r.sig ? {x:x0, y:by, width:w, height:bh, rx:3, fill:col} : {x:x0+1, y:by+1, width:Math.max(w-2,0), height:bh-2, rx:3, fill:"none", stroke:col, "stroke-width":2});
+  const v = el("text", {x: r.fc >= 0 ? x(r.fc)+6 : x(r.fc)-6, y:p.y+rowH/2+4, "text-anchor": r.fc >= 0 ? "start":"end", "font-size":11.5});
+  v.textContent = (r.fc > 0 ? "+" : "") + r.fc.toFixed(2);
+  const hit = el("rect", {x:0, y:p.y, width:W, height:rowH, fill:"transparent"});
+  const msg = `${r.s} · ${r.g.startsWith("Urea") ? "urea vs ammonium" : "N removed, " + r.c}<br>log2 change ${(r.fc>0?"+":"")+r.fc.toFixed(2)} (${(2**Math.abs(r.fc)).toFixed(1)}× ${r.fc>=0?"up":"down"})<br>${r.sig ? "called significant" : "not called significant"}${r.note ? "<br>" + r.note : ""}`;
+  hit.addEventListener("mousemove", e => { tip.innerHTML = msg; tip.style.opacity = 1; tip.style.left = (e.clientX + 14) + "px"; tip.style.top = (e.clientY + 12) + "px"; });
+  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+});
+const tb = document.getElementById("tbody");
+rows.forEach(r => {
+  const tr = document.createElement("tr");
+  tr.innerHTML = `<td>${r.s}</td><td>${r.g.startsWith("Urea") ? "urea vs ammonium" : "N removed, " + r.c}</td><td class="num">${(r.fc>0?"+":"")+r.fc.toFixed(2)}</td><td>${r.sig ? "significant" : "not significant"}</td><td>${r.note}</td>`;
+  tb.appendChild(tr);
+});
+</script>
+</body>
+</html>
