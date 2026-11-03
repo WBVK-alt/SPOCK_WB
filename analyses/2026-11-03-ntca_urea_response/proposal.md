@@ -1,6 +1,6 @@
 # Proposal — Does NtcA respond when *Prochlorococcus* grows on urea instead of ammonium?
 
-Status: draft (design review pending)
+Status: approved 2026-11-03 (design review: all four recommendations accepted as written)
 
 ## Question
 
