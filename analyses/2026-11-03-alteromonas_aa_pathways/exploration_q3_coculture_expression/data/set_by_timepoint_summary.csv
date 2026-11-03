@@ -1,0 +1,145 @@
+set_kind,set_name,timepoint,n_genes,n_measured,n_up,n_down,n_not_sig,up_genes,down_genes
+GO process,alanine biosynthetic,day 11,2,2,0,0,2,,
+GO process,alanine biosynthetic,day 18,2,2,0,0,2,,
+GO process,alanine biosynthetic,day 31,2,2,0,0,2,,
+GO process,alanine catabolic,day 11,1,1,0,0,1,,
+GO process,alanine catabolic,day 18,1,1,0,0,1,,
+GO process,alanine catabolic,day 31,1,1,0,0,1,,
+GO process,arginine biosynthetic,day 11,11,11,1,0,10,ACZ81_01915,
+GO process,arginine biosynthetic,day 18,11,11,2,1,8,ACZ81_07085;ACZ81_07090,ACZ81_01915
+GO process,arginine biosynthetic,day 31,11,11,1,1,9,ACZ81_02045,ACZ81_01915
+GO process,arginine catabolic,day 11,6,6,2,0,4,ACZ81_01905;ACZ81_01910,
+GO process,arginine catabolic,day 18,6,6,1,2,3,ACZ81_18885,ACZ81_01905;ACZ81_01910
+GO process,arginine catabolic,day 31,6,6,0,0,6,,
+GO process,asparagine biosynthetic,day 11,2,2,0,0,2,,
+GO process,asparagine biosynthetic,day 18,2,2,0,0,2,,
+GO process,asparagine biosynthetic,day 31,2,2,0,0,2,,
+GO process,asparagine catabolic,day 11,1,1,0,0,1,,
+GO process,asparagine catabolic,day 18,1,1,1,0,0,ACZ81_09265,
+GO process,asparagine catabolic,day 31,1,1,0,0,1,,
+GO process,cysteine biosynthetic,day 11,7,7,0,0,7,,
+GO process,cysteine biosynthetic,day 18,7,7,1,1,5,ACZ81_00810,ACZ81_13545
+GO process,cysteine biosynthetic,day 31,7,7,0,0,7,,
+GO process,cysteine catabolic,day 11,2,2,0,0,2,,
+GO process,cysteine catabolic,day 18,2,2,0,0,2,,
+GO process,cysteine catabolic,day 31,2,2,0,0,2,,
+GO process,glutamate biosynthetic,day 11,2,2,0,0,2,,
+GO process,glutamate biosynthetic,day 18,2,2,0,0,2,,
+GO process,glutamate biosynthetic,day 31,2,2,0,0,2,,
+GO process,glutamate catabolic,day 11,1,1,0,0,1,,
+GO process,glutamate catabolic,day 18,1,1,0,0,1,,
+GO process,glutamate catabolic,day 31,1,1,0,0,1,,
+GO process,glutamine biosynthetic,day 11,1,1,0,0,1,,
+GO process,glutamine biosynthetic,day 18,1,1,0,0,1,,
+GO process,glutamine biosynthetic,day 31,1,1,1,0,0,ACZ81_15545,
+GO process,glutamine catabolic,day 11,1,1,0,0,1,,
+GO process,glutamine catabolic,day 18,1,1,0,0,1,,
+GO process,glutamine catabolic,day 31,1,1,0,0,1,,
+GO process,glycine biosynthetic,day 11,3,3,1,0,2,ACZ81_02485,
+GO process,glycine biosynthetic,day 18,3,3,2,0,1,ACZ81_02485;ACZ81_13040,
+GO process,glycine biosynthetic,day 31,3,3,1,0,2,ACZ81_02485,
+GO process,glycine catabolic,day 11,5,5,0,0,5,,
+GO process,glycine catabolic,day 18,5,5,3,0,2,ACZ81_13040;ACZ81_14455;ACZ81_14460,
+GO process,glycine catabolic,day 31,5,5,0,0,5,,
+GO process,histidine biosynthetic,day 11,10,10,0,0,10,,
+GO process,histidine biosynthetic,day 18,10,10,0,0,10,,
+GO process,histidine biosynthetic,day 31,10,10,0,0,10,,
+GO process,histidine catabolic,day 11,4,4,0,0,4,,
+GO process,histidine catabolic,day 18,4,4,0,4,0,,ACZ81_04160;ACZ81_04165;ACZ81_04175;ACZ81_04180
+GO process,histidine catabolic,day 31,4,4,0,0,4,,
+GO process,isoleucine biosynthetic,day 11,3,3,0,0,3,,
+GO process,isoleucine biosynthetic,day 18,3,3,0,0,3,,
+GO process,isoleucine biosynthetic,day 31,3,3,0,0,3,,
+GO process,leucine biosynthetic,day 11,5,5,0,0,5,,
+GO process,leucine biosynthetic,day 18,5,5,0,0,5,,
+GO process,leucine biosynthetic,day 31,5,5,0,0,5,,
+GO process,lysine biosynthetic,day 11,13,13,1,0,12,ACZ81_01915,
+GO process,lysine biosynthetic,day 18,13,13,1,1,11,ACZ81_00845,ACZ81_01915
+GO process,lysine biosynthetic,day 31,13,13,0,1,12,,ACZ81_01915
+GO process,methionine biosynthetic,day 11,9,9,0,1,8,,ACZ81_15530
+GO process,methionine biosynthetic,day 18,9,9,0,1,8,,ACZ81_11425
+GO process,methionine biosynthetic,day 31,9,9,0,1,8,,ACZ81_15530
+GO process,phenylalanine biosynthetic,day 11,2,2,0,0,2,,
+GO process,phenylalanine biosynthetic,day 18,2,2,0,0,2,,
+GO process,phenylalanine biosynthetic,day 31,2,2,0,0,2,,
+GO process,phenylalanine catabolic,day 11,4,4,0,0,4,,
+GO process,phenylalanine catabolic,day 18,4,4,1,0,3,ACZ81_05485,
+GO process,phenylalanine catabolic,day 31,4,4,0,0,4,,
+GO process,proline biosynthetic,day 11,5,5,1,0,4,ACZ81_09455,
+GO process,proline biosynthetic,day 18,5,5,0,2,3,,ACZ81_09450;ACZ81_09455
+GO process,proline biosynthetic,day 31,5,5,0,0,5,,
+GO process,proline catabolic,day 11,1,1,0,0,1,,
+GO process,proline catabolic,day 18,1,1,0,0,1,,
+GO process,proline catabolic,day 31,1,1,0,0,1,,
+GO process,serine biosynthetic,day 11,4,4,0,0,4,,
+GO process,serine biosynthetic,day 18,4,4,0,0,4,,
+GO process,serine biosynthetic,day 31,4,4,0,0,4,,
+GO process,serine catabolic,day 11,1,1,0,0,1,,
+GO process,serine catabolic,day 18,1,1,1,0,0,ACZ81_13040,
+GO process,serine catabolic,day 31,1,1,0,0,1,,
+GO process,threonine biosynthetic,day 11,5,5,0,0,5,,
+GO process,threonine biosynthetic,day 18,5,5,0,0,5,,
+GO process,threonine biosynthetic,day 31,5,5,1,0,4,ACZ81_15055,
+GO process,threonine catabolic,day 11,3,3,0,0,3,,
+GO process,threonine catabolic,day 18,3,3,1,0,2,ACZ81_00310,
+GO process,threonine catabolic,day 31,3,3,0,0,3,,
+GO process,tryptophan biosynthetic,day 11,9,9,0,0,9,,
+GO process,tryptophan biosynthetic,day 18,9,9,0,1,8,,ACZ81_06915
+GO process,tryptophan biosynthetic,day 31,9,9,0,0,9,,
+GO process,tryptophan catabolic,day 11,2,2,0,0,2,,
+GO process,tryptophan catabolic,day 18,2,2,0,0,2,,
+GO process,tryptophan catabolic,day 31,2,2,0,0,2,,
+GO process,tyrosine biosynthetic,day 11,2,2,0,0,2,,
+GO process,tyrosine biosynthetic,day 18,2,2,0,0,2,,
+GO process,tyrosine biosynthetic,day 31,2,2,0,0,2,,
+GO process,tyrosine catabolic,day 11,3,3,0,0,3,,
+GO process,tyrosine catabolic,day 18,3,3,0,0,3,,
+GO process,tyrosine catabolic,day 31,3,3,0,0,3,,
+GO process,valine biosynthetic,day 11,4,4,0,1,3,,ACZ81_19615
+GO process,valine biosynthetic,day 18,4,4,2,0,2,ACZ81_02235;ACZ81_02240,
+GO process,valine biosynthetic,day 31,4,4,0,0,4,,
+GO process,valine catabolic,day 11,2,2,0,0,2,,
+GO process,valine catabolic,day 18,2,2,0,1,1,,ACZ81_16015
+GO process,valine catabolic,day 31,2,2,0,0,2,,
+KEGG pathway,"Alanine, aspartate and glutamate metabolism",day 11,33,33,1,1,31,ACZ81_07885,ACZ81_03330
+KEGG pathway,"Alanine, aspartate and glutamate metabolism",day 18,33,33,6,0,27,ACZ81_01855;ACZ81_07085;ACZ81_07090;ACZ81_09265;ACZ81_09410;ACZ81_12255,
+KEGG pathway,"Alanine, aspartate and glutamate metabolism",day 31,33,33,1,1,31,ACZ81_15545,ACZ81_03330
+KEGG pathway,Arginine and proline metabolism,day 11,28,28,4,0,24,ACZ81_01905;ACZ81_01910;ACZ81_01915;ACZ81_09455,
+KEGG pathway,Arginine and proline metabolism,day 18,28,28,2,6,20,ACZ81_18160;ACZ81_18885,ACZ81_01905;ACZ81_01910;ACZ81_01915;ACZ81_04160;ACZ81_09450;ACZ81_09455
+KEGG pathway,Arginine and proline metabolism,day 31,28,28,0,1,27,,ACZ81_01915
+KEGG pathway,Arginine biosynthesis,day 11,18,18,1,1,16,ACZ81_01915,ACZ81_03330
+KEGG pathway,Arginine biosynthesis,day 18,18,18,3,1,14,ACZ81_07085;ACZ81_07090;ACZ81_09410,ACZ81_01915
+KEGG pathway,Arginine biosynthesis,day 31,18,18,2,2,14,ACZ81_02045;ACZ81_15545,ACZ81_01915;ACZ81_03330
+KEGG pathway,Cysteine and methionine metabolism,day 11,35,35,1,2,32,ACZ81_10105,ACZ81_03935;ACZ81_15530
+KEGG pathway,Cysteine and methionine metabolism,day 18,35,35,4,3,28,ACZ81_00810;ACZ81_05315;ACZ81_10180;ACZ81_11040,ACZ81_11425;ACZ81_12915;ACZ81_13545
+KEGG pathway,Cysteine and methionine metabolism,day 31,35,35,2,1,32,ACZ81_10105;ACZ81_15055,ACZ81_15530
+KEGG pathway,"Glycine, serine and threonine metabolism",day 11,34,34,3,0,31,ACZ81_02485;ACZ81_07885;ACZ81_10105,
+KEGG pathway,"Glycine, serine and threonine metabolism",day 18,34,34,5,0,29,ACZ81_00310;ACZ81_02485;ACZ81_13040;ACZ81_14455;ACZ81_14460,
+KEGG pathway,"Glycine, serine and threonine metabolism",day 31,34,34,4,0,30,ACZ81_02485;ACZ81_10105;ACZ81_10855;ACZ81_15055,
+KEGG pathway,Histidine metabolism,day 11,18,18,0,0,18,,
+KEGG pathway,Histidine metabolism,day 18,18,18,0,4,14,,ACZ81_04160;ACZ81_04165;ACZ81_04175;ACZ81_04180
+KEGG pathway,Histidine metabolism,day 31,18,18,0,0,18,,
+KEGG pathway,Lysine biosynthesis,day 11,16,16,1,0,15,ACZ81_01915,
+KEGG pathway,Lysine biosynthesis,day 18,16,16,1,1,14,ACZ81_00845,ACZ81_01915
+KEGG pathway,Lysine biosynthesis,day 31,16,16,1,1,14,ACZ81_00905,ACZ81_01915
+KEGG pathway,Lysine degradation,day 11,15,15,0,0,15,,
+KEGG pathway,Lysine degradation,day 18,15,15,0,0,15,,
+KEGG pathway,Lysine degradation,day 31,15,15,0,0,15,,
+KEGG pathway,Phenylalanine metabolism,day 11,14,14,0,1,13,,ACZ81_16125
+KEGG pathway,Phenylalanine metabolism,day 18,14,14,1,0,13,ACZ81_05485,
+KEGG pathway,Phenylalanine metabolism,day 31,14,14,0,0,14,,
+KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",day 11,22,22,0,1,21,,ACZ81_06705
+KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",day 18,22,22,2,1,19,ACZ81_05485;ACZ81_19105,ACZ81_06915
+KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",day 31,22,22,0,0,22,,
+KEGG pathway,Tryptophan metabolism,day 11,20,20,0,2,18,,ACZ81_02025;ACZ81_16125
+KEGG pathway,Tryptophan metabolism,day 18,20,20,0,0,20,,
+KEGG pathway,Tryptophan metabolism,day 31,20,20,0,0,20,,
+KEGG pathway,Tyrosine metabolism,day 11,12,12,0,0,12,,
+KEGG pathway,Tyrosine metabolism,day 18,12,12,0,0,12,,
+KEGG pathway,Tyrosine metabolism,day 31,12,12,0,0,12,,
+KEGG pathway,"Valine, leucine and isoleucine biosynthesis",day 11,14,14,0,1,13,,ACZ81_19615
+KEGG pathway,"Valine, leucine and isoleucine biosynthesis",day 18,14,14,2,1,11,ACZ81_02235;ACZ81_02240,ACZ81_05510
+KEGG pathway,"Valine, leucine and isoleucine biosynthesis",day 31,14,14,0,0,14,,
+KEGG pathway,"Valine, leucine and isoleucine degradation",day 11,32,32,3,0,29,ACZ81_10135;ACZ81_10140;ACZ81_10145,
+KEGG pathway,"Valine, leucine and isoleucine degradation",day 18,32,32,0,5,27,,ACZ81_05510;ACZ81_10135;ACZ81_10140;ACZ81_10145;ACZ81_16015
+KEGG pathway,"Valine, leucine and isoleucine degradation",day 31,32,32,1,0,31,ACZ81_16575,

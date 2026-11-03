@@ -1,0 +1,448 @@
+locus_tag,gene_name,product,set_kind,set_name,amino_acid,direction
+ACZ81_01915,argD,aspartate aminotransferase family protein,KEGG pathway,Arginine biosynthesis,,
+ACZ81_02045,argA,amino-acid N-acetyltransferase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_02050,argH,argininosuccinate lyase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_02055,argG,argininosuccinate synthase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_02060,argF,ornithine carbamoyltransferase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_02065,argB,acetylglutamate kinase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_02070,argC,N-acetyl-gamma-glutamyl-phosphate reductase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_03330,,HDOD domain-containing protein,KEGG pathway,Arginine biosynthesis,,
+ACZ81_07085,carA,glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit,KEGG pathway,Arginine biosynthesis,,
+ACZ81_07090,carB,carbamoyl-phosphate synthase large subunit,KEGG pathway,Arginine biosynthesis,,
+ACZ81_09410,gdhA,NADP-specific glutamate dehydrogenase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_10240,gdhB,NAD-glutamate dehydrogenase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_11180,ybgK,5-oxoprolinase subunit C family protein,KEGG pathway,Arginine biosynthesis,,
+ACZ81_11230,alaA,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_13660,glsA,glutaminase B,KEGG pathway,Arginine biosynthesis,,
+ACZ81_15545,glnA,glutamate--ammonia ligase,KEGG pathway,Arginine biosynthesis,,
+ACZ81_20180,gdhA,hypothetical protein,KEGG pathway,Arginine biosynthesis,,
+ACZ81_01855,pyrB,aspartate carbamoyltransferase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_02050,argH,argininosuccinate lyase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_02055,argG,argininosuccinate synthase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_02380,purA,adenylosuccinate synthase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_02790,putA,bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_03330,,HDOD domain-containing protein,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_06050,asnB,asparagine synthase B,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_07085,carA,glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_07090,carB,carbamoyl-phosphate synthase large subunit,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_07885,pucG,pyridoxal-phosphate-dependent aminotransferase family protein,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_08315,iaaA,isoaspartyl peptidase/L-asparaginase family protein,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_09170,purB,adenylosuccinate lyase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_09265,ansA,asparaginase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_09410,gdhA,NADP-specific glutamate dehydrogenase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_10170,pucG,pyridoxal-phosphate-dependent aminotransferase family protein,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_10240,gdhB,NAD-glutamate dehydrogenase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_10620,ald,alanine dehydrogenase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_11230,alaA,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_12255,purF,amidophosphoribosyltransferase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_13130,nadB,L-aspartate oxidase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_13660,glsA,glutaminase B,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_13790,asnB,asparagine synthase (glutamine-hydrolyzing),KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_14480,nagB-II,glucosamine-6-phosphate deaminase NagB-II,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_14710,,aspartoacylase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_15335,gltB,glutamate synthase large subunit,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_15340,gltD,FAD-dependent oxidoreductase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_15545,glnA,glutamate--ammonia ligase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_17835,panP,pyridoxal-dependent aspartate 1-decarboxylase PanP,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_18840,glmS,glutamine--fructose-6-phosphate transaminase (isomerizing),KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_19345,gabD1,NAD-dependent succinate-semialdehyde dehydrogenase,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_19490,ygeA,aspartate/glutamate racemase family protein,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_20180,gdhA,hypothetical protein,KEGG pathway,"Alanine, aspartate and glutamate metabolism",,
+ACZ81_00310,kbl,glycine C-acetyltransferase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_00315,tdh,L-threonine 3-dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_01640,gpmA,"2,3-diphosphoglycerate-dependent phosphoglycerate mutase",KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_02485,glyA,serine hydroxymethyltransferase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_03475,lysC,lysine-sensitive aspartokinase 3,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_06890,trpA,tryptophan synthase subunit alpha,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_06895,trpB,tryptophan synthase subunit beta,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_07885,pucG,pyridoxal-phosphate-dependent aminotransferase family protein,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_10105,sdaA,L-serine ammonia-lyase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_10170,pucG,pyridoxal-phosphate-dependent aminotransferase family protein,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_10675,serC,3-phosphoserine/phosphohydroxythreonine transaminase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_10850,,kinase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_10855,yedP,HAD-IIB family hydrolase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_12490,betA,GMC family oxidoreductase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_12630,,aromatic ring-hydroxylating oxygenase subunit alpha,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_12865,pssA,CDP-diacylglycerol--serine O-phosphatidyltransferase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_13040,glyA,serine hydroxymethyltransferase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_13070,serB,phosphoserine phosphatase SerB,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14045,betB,betaine-aldehyde dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14050,betA,choline dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14455,gcvP,aminomethyl-transferring glycine dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14460,gcvH,glycine cleavage system protein GcvH,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14465,gcvT,glycine cleavage system aminomethyltransferase GcvT,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14590,serA,phosphoglycerate dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_14640,lpdA,dihydrolipoyl dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_15050,thrC,threonine synthase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_15055,thrB,homoserine kinase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_15060,thrA,bifunctional aspartate kinase/homoserine dehydrogenase I,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_15445,ghrA,D-2-hydroxyacid dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_16485,tdcB,serine/threonine dehydratase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_19590,ilvA,"threonine ammonia-lyase, biosynthetic",KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_19660,hprA,D-2-hydroxyacid dehydrogenase,KEGG pathway,"Glycine, serine and threonine metabolism",,
+ACZ81_00810,cysE,serine O-acetyltransferase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_01635,ilvE,branched-chain amino acid aminotransferase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_02160,yibN,rhodanese-like domain-containing protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_03475,lysC,lysine-sensitive aspartokinase 3,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_03935,metK,methionine adenosyltransferase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_05310,metA,homoserine O-acetyltransferase MetA,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_05315,,homocysteine S-methyltransferase family protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_05320,metH,methionine synthase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_05740,cds1,PLP-dependent cysteine synthase family protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_05835,gshA,glutamate--cysteine ligase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_07015,metX,E22 family MetX-like putative esterase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_10105,sdaA,L-serine ammonia-lyase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_10180,yebR,GAF domain-containing protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_10450,sseA,sulfurtransferase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_10500,,aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_10675,serC,3-phosphoserine/phosphohydroxythreonine transaminase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_10900,cysK,cysteine synthase A,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_11040,,cystathionine gamma-synthase family protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_11425,metE,methionine synthase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_11770,,5^-methylthioadenosine/S-adenosylhomocysteine nucleosidase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_12915,pgeF,peptidoglycan editing factor PgeF,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_13545,cysE,serine O-acetyltransferase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_14590,serA,phosphoglycerate dehydrogenase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_15055,thrB,homoserine kinase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_15060,thrA,bifunctional aspartate kinase/homoserine dehydrogenase I,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_15150,dcyD,1-aminocyclopropane-1-carboxylate deaminase/D-cysteine desulfhydrase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_15360,mtnN,5^-methylthioadenosine/adenosylhomocysteine nucleosidase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_15530,patB,MalY/PatB family protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_15870,ahcY,adenosylhomocysteinase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_16725,mdh,malate dehydrogenase,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_18215,,homocysteine S-methyltransferase family protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_18795,,5^-methylthioadenosine/S-adenosylhomocysteine nucleosidase family protein,KEGG pathway,Cysteine and methionine metabolism,,
+ACZ81_00445,,acyl-CoA dehydrogenase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_01635,ilvE,branched-chain amino acid aminotransferase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_02385,ywdH,aldehyde dehydrogenase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_02655,fadA,acetyl-CoA C-acyltransferase FadA,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_02660,fadB,fatty acid oxidation complex subunit alpha FadB,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_05510,ldh,Glu/Leu/Phe/Val dehydrogenase dimerization domain-containing protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_06155,fadI,acetyl-CoA C-acyltransferase FadI,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_06160,fadJ,fatty acid oxidation complex subunit alpha FadJ,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08250,mvaB,hydroxymethylglutaryl-CoA lyase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08255,mccA,acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08260,liuC,enoyl-CoA hydratase/isomerase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08265,liuB,carboxyl transferase domain-containing protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08270,ivd,isovaleryl-CoA dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08280,atoB,thiolase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_08655,,acetyl-CoA C-acyltransferase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_09935,garR,NAD(P)-dependent oxidoreductase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_09945,acdA,acyl-CoA dehydrogenase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_10075,scoB,CoA transferase subunit B,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_10080,scoA,CoA transferase subunit A,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_10135,bkdA1,thiamine pyrophosphate-dependent dehydrogenase E1 component subunit alpha,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_10140,bkdA2,alpha-ketoacid dehydrogenase subunit beta,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_10145,bkdB,dihydrolipoyllysine-residue acetyltransferase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_11090,bcd,acyl-CoA dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_11285,,acyl-CoA dehydrogenase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_12480,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_13930,,acyl-CoA dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_14030,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_14640,lpdA,dihydrolipoyl dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_16010,mmsA,CoA-acylating methylmalonate-semialdehyde dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_16015,mmsB,3-hydroxyisobutyrate dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_16575,mmsA,CoA-acylating methylmalonate-semialdehyde dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_18260,,aldehyde dehydrogenase family protein,KEGG pathway,"Valine, leucine and isoleucine degradation",,
+ACZ81_01635,ilvE,branched-chain amino acid aminotransferase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_02235,ilvI,acetolactate synthase 3 large subunit,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_02240,ilvH,acetolactate synthase small subunit,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_04555,leuD,3-isopropylmalate dehydratase small subunit,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_04560,leuC,3-isopropylmalate dehydratase large subunit,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_04565,leuB,3-isopropylmalate dehydrogenase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_04570,leuA,2-isopropylmalate synthase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_05510,ldh,Glu/Leu/Phe/Val dehydrogenase dimerization domain-containing protein,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_11230,alaA,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_16485,tdcB,serine/threonine dehydratase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_18265,budB,acetolactate synthase large subunit,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_19590,ilvA,"threonine ammonia-lyase, biosynthetic",KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_19595,ilvD,dihydroxy-acid dehydratase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_19615,ilvC,ketol-acid reductoisomerase,KEGG pathway,"Valine, leucine and isoleucine biosynthesis",,
+ACZ81_00840,dapF,diaminopimelate epimerase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_00845,lysA,diaminopimelate decarboxylase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_00905,,dihydrodipicolinate synthase family protein,KEGG pathway,Lysine biosynthesis,,
+ACZ81_01915,argD,aspartate aminotransferase family protein,KEGG pathway,Lysine biosynthesis,,
+ACZ81_03475,lysC,lysine-sensitive aspartokinase 3,KEGG pathway,Lysine biosynthesis,,
+ACZ81_04820,dapD,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase",KEGG pathway,Lysine biosynthesis,,
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_07080,dapB,4-hydroxy-tetrahydrodipicolinate reductase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_07465,dapE,succinyl-diaminopimelate desuccinylase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_10750,dapA,4-hydroxy-tetrahydrodipicolinate synthase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_13300,dapE,succinyl-diaminopimelate desuccinylase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_14780,murF,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase,KEGG pathway,Lysine biosynthesis,,
+ACZ81_14785,murE,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase",KEGG pathway,Lysine biosynthesis,,
+ACZ81_15060,thrA,bifunctional aspartate kinase/homoserine dehydrogenase I,KEGG pathway,Lysine biosynthesis,,
+ACZ81_15190,,saccharopine dehydrogenase family protein,KEGG pathway,Lysine biosynthesis,,
+ACZ81_02385,ywdH,aldehyde dehydrogenase family protein,KEGG pathway,Lysine degradation,,
+ACZ81_02660,fadB,fatty acid oxidation complex subunit alpha FadB,KEGG pathway,Lysine degradation,,
+ACZ81_03040,epmB,EF-P beta-lysylation protein EpmB,KEGG pathway,Lysine degradation,,
+ACZ81_06155,fadI,acetyl-CoA C-acyltransferase FadI,KEGG pathway,Lysine degradation,,
+ACZ81_06160,fadJ,fatty acid oxidation complex subunit alpha FadJ,KEGG pathway,Lysine degradation,,
+ACZ81_08280,atoB,thiolase family protein,KEGG pathway,Lysine degradation,,
+ACZ81_08655,,acetyl-CoA C-acyltransferase,KEGG pathway,Lysine degradation,,
+ACZ81_09790,odhB,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,KEGG pathway,Lysine degradation,,
+ACZ81_11175,dat,D-amino acid aminotransferase,KEGG pathway,Lysine degradation,,
+ACZ81_12480,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,Lysine degradation,,
+ACZ81_14030,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,Lysine degradation,,
+ACZ81_14640,lpdA,dihydrolipoyl dehydrogenase,KEGG pathway,Lysine degradation,,
+ACZ81_15190,,saccharopine dehydrogenase family protein,KEGG pathway,Lysine degradation,,
+ACZ81_18260,,aldehyde dehydrogenase family protein,KEGG pathway,Lysine degradation,,
+ACZ81_19345,gabD1,NAD-dependent succinate-semialdehyde dehydrogenase,KEGG pathway,Lysine degradation,,
+ACZ81_01905,astD,succinylglutamate-semialdehyde dehydrogenase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_01910,astA,arginine N-succinyltransferase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_01915,argD,aspartate aminotransferase family protein,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_02385,ywdH,aldehyde dehydrogenase family protein,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_02790,putA,bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_04160,hutG,formimidoylglutamase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_05535,,2OG-Fe(II) oxygenase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_07435,astE,succinylglutamate desuccinylase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_07900,,amidase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_08435,astB,N-succinylarginine dihydrolase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_09450,proB,glutamate 5-kinase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_09455,proA,glutamate-5-semialdehyde dehydrogenase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_11175,dat,D-amino acid aminotransferase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_11365,,Rossmann-fold NAD(P)-binding domain-containing protein,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_12370,speG,GNAT family N-acetyltransferase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_14015,,aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_14945,proC,pyrroline-5-carboxylate reductase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_15190,,saccharopine dehydrogenase family protein,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_15195,nspC,carboxynorspermidine decarboxylase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_15390,,NAD(P)/FAD-dependent oxidoreductase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_17730,pip,prolyl aminopeptidase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_18155,aguA,agmatine deiminase family protein,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_18160,aguB,carbon-nitrogen hydrolase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_18260,,aldehyde dehydrogenase family protein,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_18885,speA,biosynthetic arginine decarboxylase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_19170,gatA,amidase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_19670,proB,glutamate 5-kinase,KEGG pathway,Arginine and proline metabolism,,
+ACZ81_02385,ywdH,aldehyde dehydrogenase family protein,KEGG pathway,Histidine metabolism,,
+ACZ81_04160,hutG,formimidoylglutamase,KEGG pathway,Histidine metabolism,,
+ACZ81_04165,hutI,imidazolonepropionase,KEGG pathway,Histidine metabolism,,
+ACZ81_04175,hutU,urocanate hydratase,KEGG pathway,Histidine metabolism,,
+ACZ81_04180,hutH,histidine ammonia-lyase,KEGG pathway,Histidine metabolism,,
+ACZ81_05835,gshA,glutamate--cysteine ligase,KEGG pathway,Histidine metabolism,,
+ACZ81_11410,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Histidine metabolism,,
+ACZ81_12695,hisG,ATP phosphoribosyltransferase,KEGG pathway,Histidine metabolism,,
+ACZ81_12700,hisD,histidinol dehydrogenase,KEGG pathway,Histidine metabolism,,
+ACZ81_12705,hisC,histidinol-phosphate transaminase,KEGG pathway,Histidine metabolism,,
+ACZ81_12710,hisB,bifunctional histidinol-phosphatase/imidazoleglycerol-phosphate dehydratase HisB,KEGG pathway,Histidine metabolism,,
+ACZ81_12715,hisH,imidazole glycerol phosphate synthase subunit HisH,KEGG pathway,Histidine metabolism,,
+ACZ81_12720,hisA,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase,KEGG pathway,Histidine metabolism,,
+ACZ81_12725,hisF,imidazole glycerol phosphate synthase subunit HisF,KEGG pathway,Histidine metabolism,,
+ACZ81_12730,hisE,bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE,KEGG pathway,Histidine metabolism,,
+ACZ81_14710,,aspartoacylase,KEGG pathway,Histidine metabolism,,
+ACZ81_16160,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Histidine metabolism,,
+ACZ81_18260,,aldehyde dehydrogenase family protein,KEGG pathway,Histidine metabolism,,
+ACZ81_01605,eutG,iron-containing alcohol dehydrogenase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_02780,,zinc-dependent alcohol dehydrogenase family protein,KEGG pathway,Tyrosine metabolism,,
+ACZ81_05495,uptA,fumarylacetoacetate hydrolase family protein,KEGG pathway,Tyrosine metabolism,,
+ACZ81_05500,maiA,maleylacetoacetate isomerase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_07490,hppD,4-hydroxyphenylpyruvate dioxygenase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_07495,hmgA,"homogentisate 1,2-dioxygenase",KEGG pathway,Tyrosine metabolism,,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_11410,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_12705,hisC,histidinol-phosphate transaminase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_15070,frmA,S-(hydroxymethyl)glutathione dehydrogenase/class III alcohol dehydrogenase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_16160,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_19345,gabD1,NAD-dependent succinate-semialdehyde dehydrogenase,KEGG pathway,Tyrosine metabolism,,
+ACZ81_05485,phhA,phenylalanine 4-monooxygenase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_07490,hppD,4-hydroxyphenylpyruvate dioxygenase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_07900,,amidase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_11175,dat,D-amino acid aminotransferase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_11410,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_12480,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_12705,hisC,histidinol-phosphate transaminase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_14030,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_16125,katG,catalase/peroxidase HPI,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_16160,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_19170,gatA,amidase,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_20295,,2Fe-2S iron-sulfur cluster-binding protein,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_20520,paaA,Phenylacetic acid catabolic protein,KEGG pathway,Phenylalanine metabolism,,
+ACZ81_01160,ramA,carbon-nitrogen hydrolase family protein,KEGG pathway,Tryptophan metabolism,,
+ACZ81_02025,katA,catalase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_02385,ywdH,aldehyde dehydrogenase family protein,KEGG pathway,Tryptophan metabolism,,
+ACZ81_02660,fadB,fatty acid oxidation complex subunit alpha FadB,KEGG pathway,Tryptophan metabolism,,
+ACZ81_05520,kynA,"tryptophan 2,3-dioxygenase family protein",KEGG pathway,Tryptophan metabolism,,
+ACZ81_06155,fadI,acetyl-CoA C-acyltransferase FadI,KEGG pathway,Tryptophan metabolism,,
+ACZ81_06160,fadJ,fatty acid oxidation complex subunit alpha FadJ,KEGG pathway,Tryptophan metabolism,,
+ACZ81_07900,,amidase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_08280,atoB,thiolase family protein,KEGG pathway,Tryptophan metabolism,,
+ACZ81_08290,kynU,kynureninase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_08655,,acetyl-CoA C-acyltransferase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_09790,odhB,2-oxoglutarate dehydrogenase complex dihydrolipoyllysine-residue succinyltransferase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_11985,katA,catalase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_12480,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,Tryptophan metabolism,,
+ACZ81_14030,,crotonase/enoyl-CoA hydratase family protein,KEGG pathway,Tryptophan metabolism,,
+ACZ81_14640,lpdA,dihydrolipoyl dehydrogenase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_16125,katG,catalase/peroxidase HPI,KEGG pathway,Tryptophan metabolism,,
+ACZ81_16915,katB,catalase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_18260,,aldehyde dehydrogenase family protein,KEGG pathway,Tryptophan metabolism,,
+ACZ81_19170,gatA,amidase,KEGG pathway,Tryptophan metabolism,,
+ACZ81_00145,aroE,shikimate dehydrogenase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_01925,trpG,anthranilate synthase component II,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_01965,aroB,3-dehydroquinate synthase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_01970,aroK,shikimate kinase AroK,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_05485,phhA,phenylalanine 4-monooxygenase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_05865,aroC,chorismate synthase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06285,aroF,3-deoxy-7-phosphoheptulonate synthase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06290,tyrA,bifunctional chorismate mutase/prephenate dehydrogenase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06320,pheA,prephenate dehydratase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06705,aroH,class II 3-deoxy-7-phosphoheptulonate synthase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06890,trpA,tryptophan synthase subunit alpha,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06895,trpB,tryptophan synthase subunit beta,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06900,trpCF,bifunctional indole-3-glycerol-phosphate synthase TrpC/phosphoribosylanthranilate isomerase TrpF,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06905,trpD,anthranilate phosphoribosyltransferase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06910,trpG,aminodeoxychorismate/anthranilate synthase component II,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_06915,trpE,anthranilate synthase component 1,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_10670,aroA,3-phosphoshikimate 1-carboxyvinyltransferase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_11055,aspC,amino acid aminotransferase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_11410,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_12705,hisC,histidinol-phosphate transaminase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_16160,hisC2,pyridoxal phosphate-dependent aminotransferase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_19105,aroQ,type II 3-dehydroquinate dehydratase,KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",,
+ACZ81_11410,hisC2,pyridoxal phosphate-dependent aminotransferase,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12695,hisG,ATP phosphoribosyltransferase,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12700,hisD,histidinol dehydrogenase,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12705,hisC,histidinol-phosphate transaminase,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12710,hisB,bifunctional histidinol-phosphatase/imidazoleglycerol-phosphate dehydratase HisB,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12715,hisH,imidazole glycerol phosphate synthase subunit HisH,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12720,hisA,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12725,hisF,imidazole glycerol phosphate synthase subunit HisF,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_12730,hisE,bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP diphosphatase HisIE,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_13375,folD,bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD,GO process,histidine biosynthetic,histidine,biosynthetic
+ACZ81_01925,trpG,anthranilate synthase component II,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_03140,ybiB,glycosyl transferase family protein,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_06890,trpA,tryptophan synthase subunit alpha,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_06895,trpB,tryptophan synthase subunit beta,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_06900,trpCF,bifunctional indole-3-glycerol-phosphate synthase TrpC/phosphoribosylanthranilate isomerase TrpF,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_06905,trpD,anthranilate phosphoribosyltransferase,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_06910,trpG,aminodeoxychorismate/anthranilate synthase component II,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_06915,trpE,anthranilate synthase component 1,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_12720,hisA,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase,GO process,tryptophan biosynthetic,tryptophan,biosynthetic
+ACZ81_02435,alr,alanine racemase,GO process,alanine biosynthetic,alanine,biosynthetic
+ACZ81_11230,alaA,pyridoxal phosphate-dependent aminotransferase,GO process,alanine biosynthetic,alanine,biosynthetic
+ACZ81_01915,argD,aspartate aminotransferase family protein,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_02045,argA,amino-acid N-acetyltransferase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_02050,argH,argininosuccinate lyase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_02055,argG,argininosuccinate synthase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_02060,argF,ornithine carbamoyltransferase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_02065,argB,acetylglutamate kinase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_02070,argC,N-acetyl-gamma-glutamyl-phosphate reductase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_07085,carA,glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_07090,carB,carbamoyl-phosphate synthase large subunit,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_13300,dapE,succinyl-diaminopimelate desuccinylase,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_16730,argR,transcriptional regulator ArgR,GO process,arginine biosynthetic,arginine,biosynthetic
+ACZ81_01905,astD,succinylglutamate-semialdehyde dehydrogenase,GO process,arginine catabolic,arginine,catabolic
+ACZ81_01910,astA,arginine N-succinyltransferase,GO process,arginine catabolic,arginine,catabolic
+ACZ81_07435,astE,succinylglutamate desuccinylase,GO process,arginine catabolic,arginine,catabolic
+ACZ81_08435,astB,N-succinylarginine dihydrolase,GO process,arginine catabolic,arginine,catabolic
+ACZ81_18885,speA,biosynthetic arginine decarboxylase,GO process,arginine catabolic,arginine,catabolic
+ACZ81_RS12165,ctlX,citrulline utilization hydrolase CtlX,GO process,arginine catabolic,arginine,catabolic
+ACZ81_09265,ansA,asparaginase,GO process,asparagine catabolic,asparagine,catabolic
+ACZ81_10240,gdhB,NAD-glutamate dehydrogenase,GO process,glutamate catabolic,glutamate,catabolic
+ACZ81_13660,glsA,glutaminase B,GO process,glutamine catabolic,glutamine,catabolic
+ACZ81_02485,glyA,serine hydroxymethyltransferase,GO process,glycine biosynthetic,glycine,biosynthetic
+ACZ81_13040,glyA,serine hydroxymethyltransferase,GO process,glycine biosynthetic,glycine,biosynthetic
+ACZ81_13070,serB,phosphoserine phosphatase SerB,GO process,glycine biosynthetic,glycine,biosynthetic
+ACZ81_13040,glyA,serine hydroxymethyltransferase,GO process,glycine catabolic,glycine,catabolic
+ACZ81_14455,gcvP,aminomethyl-transferring glycine dehydrogenase,GO process,glycine catabolic,glycine,catabolic
+ACZ81_14460,gcvH,glycine cleavage system protein GcvH,GO process,glycine catabolic,glycine,catabolic
+ACZ81_14465,gcvT,glycine cleavage system aminomethyltransferase GcvT,GO process,glycine catabolic,glycine,catabolic
+ACZ81_14640,lpdA,dihydrolipoyl dehydrogenase,GO process,glycine catabolic,glycine,catabolic
+ACZ81_04160,hutG,formimidoylglutamase,GO process,histidine catabolic,histidine,catabolic
+ACZ81_04165,hutI,imidazolonepropionase,GO process,histidine catabolic,histidine,catabolic
+ACZ81_04175,hutU,urocanate hydratase,GO process,histidine catabolic,histidine,catabolic
+ACZ81_04180,hutH,histidine ammonia-lyase,GO process,histidine catabolic,histidine,catabolic
+ACZ81_05485,phhA,phenylalanine 4-monooxygenase,GO process,phenylalanine catabolic,phenylalanine,catabolic
+ACZ81_05500,maiA,maleylacetoacetate isomerase,GO process,phenylalanine catabolic,phenylalanine,catabolic
+ACZ81_07490,hppD,4-hydroxyphenylpyruvate dioxygenase,GO process,phenylalanine catabolic,phenylalanine,catabolic
+ACZ81_07495,hmgA,"homogentisate 1,2-dioxygenase",GO process,phenylalanine catabolic,phenylalanine,catabolic
+ACZ81_02790,putA,bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA,GO process,proline catabolic,proline,catabolic
+ACZ81_00315,tdh,L-threonine 3-dehydrogenase,GO process,serine biosynthetic,serine,biosynthetic
+ACZ81_10675,serC,3-phosphoserine/phosphohydroxythreonine transaminase,GO process,serine biosynthetic,serine,biosynthetic
+ACZ81_13070,serB,phosphoserine phosphatase SerB,GO process,serine biosynthetic,serine,biosynthetic
+ACZ81_14590,serA,phosphoglycerate dehydrogenase,GO process,serine biosynthetic,serine,biosynthetic
+ACZ81_13040,glyA,serine hydroxymethyltransferase,GO process,serine catabolic,serine,catabolic
+ACZ81_00310,kbl,glycine C-acetyltransferase,GO process,threonine catabolic,threonine,catabolic
+ACZ81_00315,tdh,L-threonine 3-dehydrogenase,GO process,threonine catabolic,threonine,catabolic
+ACZ81_07135,pta,phosphate acetyltransferase,GO process,threonine catabolic,threonine,catabolic
+ACZ81_05520,kynA,"tryptophan 2,3-dioxygenase family protein",GO process,tryptophan catabolic,tryptophan,catabolic
+ACZ81_08290,kynU,kynureninase,GO process,tryptophan catabolic,tryptophan,catabolic
+ACZ81_06290,tyrA,bifunctional chorismate mutase/prephenate dehydrogenase,GO process,tyrosine biosynthetic,tyrosine,biosynthetic
+ACZ81_06320,pheA,prephenate dehydratase,GO process,tyrosine biosynthetic,tyrosine,biosynthetic
+ACZ81_05500,maiA,maleylacetoacetate isomerase,GO process,tyrosine catabolic,tyrosine,catabolic
+ACZ81_07490,hppD,4-hydroxyphenylpyruvate dioxygenase,GO process,tyrosine catabolic,tyrosine,catabolic
+ACZ81_07495,hmgA,"homogentisate 1,2-dioxygenase",GO process,tyrosine catabolic,tyrosine,catabolic
+ACZ81_16010,mmsA,CoA-acylating methylmalonate-semialdehyde dehydrogenase,GO process,valine catabolic,valine,catabolic
+ACZ81_16015,mmsB,3-hydroxyisobutyrate dehydrogenase,GO process,valine catabolic,valine,catabolic
+ACZ81_00840,dapF,diaminopimelate epimerase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_00845,lysA,diaminopimelate decarboxylase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_01915,argD,aspartate aminotransferase family protein,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_03475,lysC,lysine-sensitive aspartokinase 3,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_04820,dapD,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase",GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_07080,dapB,4-hydroxy-tetrahydrodipicolinate reductase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_07465,dapE,succinyl-diaminopimelate desuccinylase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_10750,dapA,4-hydroxy-tetrahydrodipicolinate synthase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_13300,dapE,succinyl-diaminopimelate desuccinylase,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_15060,thrA,bifunctional aspartate kinase/homoserine dehydrogenase I,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_15190,,saccharopine dehydrogenase family protein,GO process,lysine biosynthetic,lysine,biosynthetic
+ACZ81_03475,lysC,lysine-sensitive aspartokinase 3,GO process,threonine biosynthetic,threonine,biosynthetic
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,GO process,threonine biosynthetic,threonine,biosynthetic
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,GO process,threonine biosynthetic,threonine,biosynthetic
+ACZ81_15050,thrC,threonine synthase,GO process,threonine biosynthetic,threonine,biosynthetic
+ACZ81_15055,thrB,homoserine kinase,GO process,threonine biosynthetic,threonine,biosynthetic
+ACZ81_06290,tyrA,bifunctional chorismate mutase/prephenate dehydrogenase,GO process,phenylalanine biosynthetic,phenylalanine,biosynthetic
+ACZ81_06320,pheA,prephenate dehydratase,GO process,phenylalanine biosynthetic,phenylalanine,biosynthetic
+ACZ81_04555,leuD,3-isopropylmalate dehydratase small subunit,GO process,leucine biosynthetic,leucine,biosynthetic
+ACZ81_04560,leuC,3-isopropylmalate dehydratase large subunit,GO process,leucine biosynthetic,leucine,biosynthetic
+ACZ81_04565,leuB,3-isopropylmalate dehydrogenase,GO process,leucine biosynthetic,leucine,biosynthetic
+ACZ81_04570,leuA,2-isopropylmalate synthase,GO process,leucine biosynthetic,leucine,biosynthetic
+ACZ81_10615,lrp,leucine-responsive transcriptional regulator Lrp,GO process,leucine biosynthetic,leucine,biosynthetic
+ACZ81_02235,ilvI,acetolactate synthase 3 large subunit,GO process,valine biosynthetic,valine,biosynthetic
+ACZ81_02240,ilvH,acetolactate synthase small subunit,GO process,valine biosynthetic,valine,biosynthetic
+ACZ81_18265,budB,acetolactate synthase large subunit,GO process,valine biosynthetic,valine,biosynthetic
+ACZ81_19615,ilvC,ketol-acid reductoisomerase,GO process,valine biosynthetic,valine,biosynthetic
+ACZ81_00810,cysE,serine O-acetyltransferase,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_09650,cysZ,sulfate transporter CysZ,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_10100,cysB,HTH-type transcriptional regulator CysB,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_10900,cysK,cysteine synthase A,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_13545,cysE,serine O-acetyltransferase,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_16280,cysI,assimilatory sulfite reductase (NADPH) hemoprotein subunit,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_16285,cysJ,assimilatory sulfite reductase (NADPH) flavoprotein subunit,GO process,cysteine biosynthetic,cysteine,biosynthetic
+ACZ81_05740,cds1,PLP-dependent cysteine synthase family protein,GO process,cysteine catabolic,cysteine,catabolic
+ACZ81_13505,sufS,aminotransferase class V-fold PLP-dependent enzyme,GO process,cysteine catabolic,cysteine,catabolic
+ACZ81_10620,ald,alanine dehydrogenase,GO process,alanine catabolic,alanine,catabolic
+ACZ81_02790,putA,bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA,GO process,proline biosynthetic,proline,biosynthetic
+ACZ81_09450,proB,glutamate 5-kinase,GO process,proline biosynthetic,proline,biosynthetic
+ACZ81_09455,proA,glutamate-5-semialdehyde dehydrogenase,GO process,proline biosynthetic,proline,biosynthetic
+ACZ81_14945,proC,pyrroline-5-carboxylate reductase,GO process,proline biosynthetic,proline,biosynthetic
+ACZ81_19670,proB,glutamate 5-kinase,GO process,proline biosynthetic,proline,biosynthetic
+ACZ81_06050,asnB,asparagine synthase B,GO process,asparagine biosynthetic,asparagine,biosynthetic
+ACZ81_13790,asnB,asparagine synthase (glutamine-hydrolyzing),GO process,asparagine biosynthetic,asparagine,biosynthetic
+ACZ81_05310,metA,homoserine O-acetyltransferase MetA,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_05320,metH,methionine synthase,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_11425,metE,methionine synthase,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_15360,mtnN,5^-methylthioadenosine/adenosylhomocysteine nucleosidase,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_15530,patB,MalY/PatB family protein,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_17710,metF,methylenetetrahydrofolate reductase,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_18215,,homocysteine S-methyltransferase family protein,GO process,methionine biosynthetic,methionine,biosynthetic
+ACZ81_10340,gltB,FMN-binding glutamate synthase family protein,GO process,glutamate biosynthetic,glutamate,biosynthetic
+ACZ81_15335,gltB,glutamate synthase large subunit,GO process,glutamate biosynthetic,glutamate,biosynthetic
+ACZ81_15545,glnA,glutamate--ammonia ligase,GO process,glutamine biosynthetic,glutamine,biosynthetic
+ACZ81_06525,asd,aspartate-semialdehyde dehydrogenase,GO process,isoleucine biosynthetic,isoleucine,biosynthetic
+ACZ81_12295,asd,aspartate-semialdehyde dehydrogenase,GO process,isoleucine biosynthetic,isoleucine,biosynthetic
+ACZ81_19590,ilvA,"threonine ammonia-lyase, biosynthetic",GO process,isoleucine biosynthetic,isoleucine,biosynthetic

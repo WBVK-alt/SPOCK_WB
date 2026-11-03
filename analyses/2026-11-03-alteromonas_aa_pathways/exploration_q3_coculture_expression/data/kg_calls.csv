@@ -1,0 +1,4 @@
+tool,experiment,n_locus_tags,total_matching,matching_genes,no_expression,not_found,n_significant
+differential_expression_by_gene,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq,230.0,690,230.0,0.0,0.0,
+list_experiments,10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq,,1,,,,
+"pathway_enrichment[kegg level2, 14 aa pathways]",10.1101/2025.11.24.690089_coculture_prochlorococcus_med4_hot1a3_rnaseq,,84,,,,0.0
