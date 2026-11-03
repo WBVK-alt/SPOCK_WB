@@ -82,6 +82,12 @@ svg text { fill: var(--ink-2); font-family: var(--font-body); }
 @media (prefers-reduced-motion: reduce) { #tip { transition: none; } }
 @media (max-width: 640px) { .path, .design { grid-template-columns: 1fr 1fr; } h1 { font-size: 1.7rem; } }
 @media (max-width: 420px) { .path, .design { grid-template-columns: 1fr; } }
+svg .gh { fill: var(--ink); font-size: 13px; font-weight: 600; }
+svg .rl { font-size: 12.5px; } svg .vl { font-size: 11.5px; } svg .ax { font-size: 12px; }
+svg .gl { stroke: var(--line); stroke-width: 1; } svg .z { stroke: var(--muted); stroke-width: 1.2; }
+svg .b.up { fill: var(--up); } svg .b.down { fill: var(--down); }
+svg .o { fill: none; stroke-width: 2; } svg .o.up { stroke: var(--up); } svg .o.down { stroke: var(--down); }
+svg g:hover rect[fill="transparent"] { fill: var(--accent-soft); }
 </style>
 </head>
 <body>
@@ -140,12 +146,12 @@ svg text { fill: var(--ink-2); font-family: var(--font-body); }
       <span><span class="sw" style="background:var(--down)"></span>down vs ammonium</span>
       <span><span class="sw" style="border:2px solid var(--muted);background:transparent"></span>not significant (outlined)</span>
     </div>
-    <div class="chart-wrap"><svg id="chart" role="img" aria-label="NtcA log2 fold change per contrast; table below gives the values"></svg></div>
+    <div class="chart-wrap"><svg viewBox="0 0 800 522" width="800" style="max-width:100%;height:auto" role="img" aria-label="NtcA log2 change per contrast; the table below gives the values"><line class="gl" x1="200.0" x2="200.0" y1="10" y2="488"/><text class="ax" x="200.0" y="506" text-anchor="middle">-3</text><line class="gl" x1="270.0" x2="270.0" y1="10" y2="488"/><text class="ax" x="270.0" y="506" text-anchor="middle">-2</text><line class="gl" x1="340.0" x2="340.0" y1="10" y2="488"/><text class="ax" x="340.0" y="506" text-anchor="middle">-1</text><line class="z" x1="410.0" x2="410.0" y1="10" y2="488"/><text class="ax" x="410.0" y="506" text-anchor="middle">0</text><line class="gl" x1="480.0" x2="480.0" y1="10" y2="488"/><text class="ax" x="480.0" y="506" text-anchor="middle">+1</text><line class="gl" x1="550.0" x2="550.0" y1="10" y2="488"/><text class="ax" x="550.0" y="506" text-anchor="middle">+2</text><line class="gl" x1="620.0" x2="620.0" y1="10" y2="488"/><text class="ax" x="620.0" y="506" text-anchor="middle">+3</text><line class="gl" x1="690.0" x2="690.0" y1="10" y2="488"/><text class="ax" x="690.0" y="506" text-anchor="middle">+4</text><line class="gl" x1="760.0" x2="760.0" y1="10" y2="488"/><text class="ax" x="760.0" y="506" text-anchor="middle">+5</text><text class="ax" x="410.0" y="518" text-anchor="middle">log2 change vs ammonium</text><text class="gh" x="8" y="24">Urea vs ammonium</text><g><title>MED4 · urea vs ammonium: log2 -2.27 (4.8× down), not significant; rank 6 of 1,696 by size</title><rect x="0" y="32" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="49.0" text-anchor="end">MED4</text><rect class="o down" x="252.1" y="38" width="156.9" height="14" rx="3"/><text class="vl" x="245.1" y="49.0" text-anchor="end">-2.27</text></g><g><title>MIT9313 · urea vs ammonium: log2 +0.86 (1.8× up), not significant; rank 189 of 2,241</title><rect x="0" y="58" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="75.0" text-anchor="end">MIT9313</text><rect class="o up" x="411.0" y="64" width="58.2" height="14" rx="3"/><text class="vl" x="476.2" y="75.0" text-anchor="start">+0.86</text></g><text class="gh" x="8" y="120">N removed · MED4</text><g><title>MED4 · N removed, 0 h: log2 -2.17 (4.5× down), not significant</title><rect x="0" y="128" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="145.0" text-anchor="end">0 h</text><rect class="o down" x="259.1" y="134" width="149.9" height="14" rx="3"/><text class="vl" x="252.1" y="145.0" text-anchor="end">-2.17</text></g><g><title>MED4 · N removed, 3 h: log2 +3.04 (8.2× up), not significant</title><rect x="0" y="154" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="171.0" text-anchor="end">3 h</text><rect class="o up" x="411.0" y="160" width="210.8" height="14" rx="3"/><text class="vl" x="628.8" y="171.0" text-anchor="start">+3.04</text></g><g><title>MED4 · N removed, 6 h: log2 +4.45 (21.9× up), significant</title><rect x="0" y="180" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="197.0" text-anchor="end">6 h</text><rect class="b up" x="410.0" y="185" width="311.5" height="16" rx="3"/><text class="vl" x="727.5" y="197.0" text-anchor="start">+4.45</text></g><g><title>MED4 · N removed, 12 h: log2 +3.02 (8.1× up), significant</title><rect x="0" y="206" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="223.0" text-anchor="end">12 h</text><rect class="b up" x="410.0" y="211" width="211.4" height="16" rx="3"/><text class="vl" x="627.4" y="223.0" text-anchor="start">+3.02</text></g><g><title>MED4 · N removed, 24 h: log2 +1.68 (3.2× up), significant</title><rect x="0" y="232" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="249.0" text-anchor="end">24 h</text><rect class="b up" x="410.0" y="237" width="117.6" height="16" rx="3"/><text class="vl" x="533.6" y="249.0" text-anchor="start">+1.68</text></g><g><title>MED4 · N removed, 48 h: log2 +1.23 (2.3× up), not significant</title><rect x="0" y="258" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="275.0" text-anchor="end">48 h</text><rect class="o up" x="411.0" y="264" width="84.1" height="14" rx="3"/><text class="vl" x="502.1" y="275.0" text-anchor="start">+1.23</text></g><text class="gh" x="8" y="320">N removed · MIT9313</text><g><title>MIT9313 · N removed, 0 h: log2 -0.25 (1.2× down), not significant</title><rect x="0" y="328" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="345.0" text-anchor="end">0 h</text><rect class="o down" x="393.5" y="334" width="15.5" height="14" rx="3"/><text class="vl" x="386.5" y="345.0" text-anchor="end">-0.25</text></g><g><title>MIT9313 · N removed, 3 h: log2 +1.94 (3.8× up), not significant</title><rect x="0" y="354" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="371.0" text-anchor="end">3 h</text><rect class="o up" x="411.0" y="360" width="133.8" height="14" rx="3"/><text class="vl" x="551.8" y="371.0" text-anchor="start">+1.94</text></g><g><title>MIT9313 · N removed, 6 h: log2 +3.03 (8.2× up), significant</title><rect x="0" y="380" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="397.0" text-anchor="end">6 h</text><rect class="b up" x="410.0" y="385" width="212.1" height="16" rx="3"/><text class="vl" x="628.1" y="397.0" text-anchor="start">+3.03</text></g><g><title>MIT9313 · N removed, 12 h: log2 +3.56 (11.8× up), significant</title><rect x="0" y="406" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="423.0" text-anchor="end">12 h</text><rect class="b up" x="410.0" y="411" width="249.2" height="16" rx="3"/><text class="vl" x="665.2" y="423.0" text-anchor="start">+3.56</text></g><g><title>MIT9313 · N removed, 24 h: log2 +3.54 (11.6× up), significant; control sampled at 12 h</title><rect x="0" y="432" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="449.0" text-anchor="end">24 h</text><rect class="b up" x="410.0" y="437" width="247.8" height="16" rx="3"/><text class="vl" x="663.8" y="449.0" text-anchor="start">+3.54</text></g><g><title>MIT9313 · N removed, 48 h: log2 +2.91 (7.5× up), significant</title><rect x="0" y="458" width="800" height="26" fill="transparent"/><text class="rl" x="190" y="475.0" text-anchor="end">48 h</text><rect class="b up" x="410.0" y="463" width="203.7" height="16" rx="3"/><text class="vl" x="619.7" y="475.0" text-anchor="start">+2.91</text></g></svg></div>
   </div>
   <div class="tablewrap">
     <table>
       <thead><tr><th>Strain</th><th>Contrast</th><th>log2 change</th><th>Paper's call</th><th>Note</th></tr></thead>
-      <tbody id="tbody"></tbody>
+      <tbody><tr><td>MED4</td><td>urea vs ammonium</td><td class="num">-2.27</td><td>not significant</td><td>rank 6 of 1,696 by size</td></tr><tr><td>MIT9313</td><td>urea vs ammonium</td><td class="num">+0.86</td><td>not significant</td><td>rank 189 of 2,241</td></tr><tr><td>MED4</td><td>N removed, 0 h</td><td class="num">-2.17</td><td>not significant</td><td></td></tr><tr><td>MED4</td><td>N removed, 3 h</td><td class="num">+3.04</td><td>not significant</td><td></td></tr><tr><td>MED4</td><td>N removed, 6 h</td><td class="num">+4.45</td><td>significant</td><td></td></tr><tr><td>MED4</td><td>N removed, 12 h</td><td class="num">+3.02</td><td>significant</td><td></td></tr><tr><td>MED4</td><td>N removed, 24 h</td><td class="num">+1.68</td><td>significant</td><td></td></tr><tr><td>MED4</td><td>N removed, 48 h</td><td class="num">+1.23</td><td>not significant</td><td></td></tr><tr><td>MIT9313</td><td>N removed, 0 h</td><td class="num">-0.25</td><td>not significant</td><td></td></tr><tr><td>MIT9313</td><td>N removed, 3 h</td><td class="num">+1.94</td><td>not significant</td><td></td></tr><tr><td>MIT9313</td><td>N removed, 6 h</td><td class="num">+3.03</td><td>significant</td><td></td></tr><tr><td>MIT9313</td><td>N removed, 12 h</td><td class="num">+3.56</td><td>significant</td><td></td></tr><tr><td>MIT9313</td><td>N removed, 24 h</td><td class="num">+3.54</td><td>significant</td><td>control sampled at 12 h</td></tr><tr><td>MIT9313</td><td>N removed, 48 h</td><td class="num">+2.91</td><td>significant</td><td></td></tr></tbody>
     </table>
   </div>
   <p class="tag-src">Source: [KG] differential_expression_by_gene, KG release 0.1.0-alpha.9. Values from the grounding queries; the analysis step re-pulls them in a script.</p>
@@ -192,67 +198,5 @@ svg text { fill: var(--ink-2); font-family: var(--font-body); }
 </section>
 
 </main>
-<div id="tip" role="tooltip"></div>
-<script>
-const rows = [
-  {g:"Urea vs ammonium", s:"MED4", c:"urea", fc:-2.27, sig:false, note:"rank 6 of 1,696 by size"},
-  {g:"Urea vs ammonium", s:"MIT9313", c:"urea", fc:0.86, sig:false, note:"rank 189 of 2,241"},
-  {g:"N removed · MED4", s:"MED4", c:"0 h", fc:-2.17, sig:false, note:""},
-  {g:"N removed · MED4", s:"MED4", c:"3 h", fc:3.04, sig:false, note:""},
-  {g:"N removed · MED4", s:"MED4", c:"6 h", fc:4.45, sig:true, note:""},
-  {g:"N removed · MED4", s:"MED4", c:"12 h", fc:3.02, sig:true, note:""},
-  {g:"N removed · MED4", s:"MED4", c:"24 h", fc:1.68, sig:true, note:""},
-  {g:"N removed · MED4", s:"MED4", c:"48 h", fc:1.23, sig:false, note:""},
-  {g:"N removed · MIT9313", s:"MIT9313", c:"0 h", fc:-0.25, sig:false, note:""},
-  {g:"N removed · MIT9313", s:"MIT9313", c:"3 h", fc:1.94, sig:false, note:""},
-  {g:"N removed · MIT9313", s:"MIT9313", c:"6 h", fc:3.03, sig:true, note:""},
-  {g:"N removed · MIT9313", s:"MIT9313", c:"12 h", fc:3.56, sig:true, note:""},
-  {g:"N removed · MIT9313", s:"MIT9313", c:"24 h", fc:3.54, sig:true, note:"control sampled at 12 h"},
-  {g:"N removed · MIT9313", s:"MIT9313", c:"48 h", fc:2.91, sig:true, note:""},
-];
-const svg = document.getElementById("chart");
-const NS = "http://www.w3.org/2000/svg";
-const W = 800, left = 200, right = 40, rowH = 26, groupGap = 22, top = 10;
-const xmin = -3, xmax = 5;
-const groups = [...new Set(rows.map(r => r.g))];
-let y = top; const pos = [];
-groups.forEach((g, gi) => {
-  if (gi) y += groupGap;
-  pos.push({type:"head", g, y}); y += 22;
-  rows.filter(r => r.g === g).forEach(r => { pos.push({type:"bar", r, y}); y += rowH; });
-});
-const H = y + 34;
-svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
-svg.setAttribute("width", W); svg.style.maxWidth = "100%"; svg.style.height = "auto";
-const x = v => left + (v - xmin) / (xmax - xmin) * (W - left - right);
-const el = (t, a, p = svg) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); p.appendChild(e); return e; };
-const cs = getComputedStyle(document.documentElement);
-const tok = n => cs.getPropertyValue(n).trim();
-for (let v = xmin; v <= xmax; v++) {
-  el("line", {x1:x(v), x2:x(v), y1:top, y2:H-30, stroke: tok(v === 0 ? "--muted" : "--line"), "stroke-width": v === 0 ? 1.2 : 1});
-  const t = el("text", {x:x(v), y:H-12, "text-anchor":"middle", "font-size":12}); t.textContent = (v > 0 ? "+" : "") + v;
-}
-const lab = el("text", {x:x(0), y:H, "text-anchor":"middle", "font-size":11}); lab.textContent = "log2 change vs ammonium";
-const tip = document.getElementById("tip");
-pos.forEach(p => {
-  if (p.type === "head") { const t = el("text", {x:8, y:p.y+14, "font-size":13, "font-weight":600}); t.style.fill = tok("--ink"); t.textContent = p.g; return; }
-  const r = p.r, col = tok(r.fc >= 0 ? "--up" : "--down");
-  const x0 = x(Math.min(0, r.fc)), w = Math.abs(x(r.fc) - x(0)), by = p.y + 5, bh = rowH - 10;
-  const t = el("text", {x:left-10, y:p.y+rowH/2+4, "text-anchor":"end", "font-size":12.5}); t.textContent = r.g.startsWith("Urea") ? r.s : r.c;
-  el("rect", r.sig ? {x:x0, y:by, width:w, height:bh, rx:3, fill:col} : {x:x0+1, y:by+1, width:Math.max(w-2,0), height:bh-2, rx:3, fill:"none", stroke:col, "stroke-width":2});
-  const v = el("text", {x: r.fc >= 0 ? x(r.fc)+6 : x(r.fc)-6, y:p.y+rowH/2+4, "text-anchor": r.fc >= 0 ? "start":"end", "font-size":11.5});
-  v.textContent = (r.fc > 0 ? "+" : "") + r.fc.toFixed(2);
-  const hit = el("rect", {x:0, y:p.y, width:W, height:rowH, fill:"transparent"});
-  const msg = `${r.s} · ${r.g.startsWith("Urea") ? "urea vs ammonium" : "N removed, " + r.c}<br>log2 change ${(r.fc>0?"+":"")+r.fc.toFixed(2)} (${(2**Math.abs(r.fc)).toFixed(1)}× ${r.fc>=0?"up":"down"})<br>${r.sig ? "called significant" : "not called significant"}${r.note ? "<br>" + r.note : ""}`;
-  hit.addEventListener("mousemove", e => { tip.innerHTML = msg; tip.style.opacity = 1; tip.style.left = (e.clientX + 14) + "px"; tip.style.top = (e.clientY + 12) + "px"; });
-  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
-});
-const tb = document.getElementById("tbody");
-rows.forEach(r => {
-  const tr = document.createElement("tr");
-  tr.innerHTML = `<td>${r.s}</td><td>${r.g.startsWith("Urea") ? "urea vs ammonium" : "N removed, " + r.c}</td><td class="num">${(r.fc>0?"+":"")+r.fc.toFixed(2)}</td><td>${r.sig ? "significant" : "not significant"}</td><td>${r.note}</td>`;
-  tb.appendChild(tr);
-});
-</script>
 </body>
 </html>
