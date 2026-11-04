@@ -1,0 +1,42 @@
+set_kind,set_name,n_experiments_with_rows,n_experiments_any_up,n_experiments_any_down,treatment_types_up,treatment_types_down
+GO process,alanine biosynthetic,29,8,3,carbon;chemical;darkness;nitrogen,darkness;light
+GO process,alanine catabolic,10,1,1,nitrogen,nitrogen
+GO process,arginine biosynthetic,42,19,22,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+GO process,arginine catabolic,34,7,8,carbon;darkness;light;nitrogen,chemical;coculture;darkness;light;nitrogen
+GO process,asparagine biosynthetic,4,3,0,chemical;light,
+GO process,cysteine biosynthetic,53,22,23,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+GO process,cysteine catabolic,33,4,8,carbon;chemical;darkness,darkness;light;nitrogen
+GO process,glutamate biosynthetic,34,8,4,carbon;darkness;nitrogen,coculture;darkness;light;nitrogen
+GO process,glutamate catabolic,6,0,1,,carbon
+GO process,glutamine biosynthetic,43,13,12,carbon;coculture;darkness;light;nitrogen;phosphorus,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+GO process,glycine biosynthetic,38,6,10,darkness;nitrogen;plastic,coculture;darkness;light;nitrogen;salt
+GO process,glycine catabolic,40,19,14,carbon;chemical;darkness;light;nitrogen;plastic,carbon;chemical;coculture;darkness;light;nitrogen
+GO process,histidine biosynthetic,45,23,22,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;plastic,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+GO process,isoleucine biosynthetic,37,9,8,chemical;darkness;light;nitrogen,coculture;darkness;light;nitrogen
+GO process,leucine biosynthetic,43,16,19,carbon;chemical;coculture;darkness;light;nitrogen;salt,carbon;chemical;coculture;darkness;light;nitrogen;phosphorus;plastic;salt
+GO process,lysine biosynthetic,49,20,17,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic,carbon;chemical;coculture;darkness;light;nitrogen
+GO process,methionine biosynthetic,44,8,12,carbon;coculture;darkness;light;nitrogen,carbon;chemical;coculture;darkness;light;nitrogen
+GO process,phenylalanine biosynthetic,33,3,6,carbon;chemical;darkness,darkness;light;nitrogen
+GO process,phenylalanine catabolic,31,6,2,carbon;light;nitrogen;plastic,darkness;light
+GO process,proline biosynthetic,38,13,13,carbon;coculture;darkness;light;nitrogen;salt,chemical;coculture;darkness;growth_phase;light;nitrogen;salt
+GO process,serine biosynthetic,36,3,7,light;nitrogen,chemical;darkness;light;nitrogen
+GO process,serine catabolic,27,6,7,darkness;nitrogen,darkness;light;nitrogen
+GO process,threonine biosynthetic,41,16,18,carbon;chemical;coculture;darkness;light;nitrogen;plastic,carbon;coculture;darkness;light;nitrogen;plastic
+GO process,threonine catabolic,27,6,7,darkness;nitrogen,darkness;light;nitrogen
+GO process,tryptophan biosynthetic,42,16,22,carbon;chemical;coculture;darkness;growth_phase;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+GO process,tyrosine biosynthetic,29,6,7,chemical;darkness;nitrogen,carbon;coculture;darkness;light;nitrogen
+GO process,valine biosynthetic,42,15,22,carbon;chemical;coculture;darkness;light;nitrogen;phosphorus;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+KEGG pathway,"Alanine, aspartate and glutamate metabolism",49,25,27,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+KEGG pathway,Arginine and proline metabolism,51,27,27,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;plastic;salt
+KEGG pathway,Arginine biosynthesis,51,26,26,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+KEGG pathway,Cysteine and methionine metabolism,58,35,33,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;phosphorus;plastic;salt
+KEGG pathway,"Glycine, serine and threonine metabolism",57,34,34,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;plastic;salt
+KEGG pathway,Histidine metabolism,45,26,26,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;phosphorus;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic;salt
+KEGG pathway,Lysine biosynthesis,51,24,25,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic
+KEGG pathway,Lysine degradation,39,10,19,carbon;coculture;darkness;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic
+KEGG pathway,Phenylalanine metabolism,33,16,13,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,chemical;coculture;darkness;nitrogen;plastic
+KEGG pathway,"Phenylalanine, tyrosine and tryptophan biosynthesis",47,27,32,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt;viral
+KEGG pathway,Tryptophan metabolism,39,9,16,carbon;coculture;darkness;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic
+KEGG pathway,Tyrosine metabolism,35,17,17,carbon;chemical;coculture;darkness;growth_phase;light;nitrogen;plastic;salt,chemical;coculture;darkness;light;nitrogen;plastic;salt
+KEGG pathway,"Valine, leucine and isoleucine biosynthesis",48,20,25,carbon;chemical;coculture;darkness;light;nitrogen;phosphorus;salt,carbon;chemical;coculture;darkness;light;nitrogen;phosphorus;plastic;salt
+KEGG pathway,"Valine, leucine and isoleucine degradation",50,16,22,carbon;coculture;darkness;iron;light;nitrogen;plastic;salt,carbon;chemical;coculture;darkness;light;nitrogen;plastic

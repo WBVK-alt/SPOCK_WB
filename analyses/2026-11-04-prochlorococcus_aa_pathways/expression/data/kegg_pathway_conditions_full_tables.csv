@@ -1,0 +1,15 @@
+pathway,n_experiments,n_exp_any_up,n_exp_any_down,up_by_treatment_type,down_by_treatment_type
+"Alanine, aspartate and glutamate metabolism",34,18,15,nitrogen 7; carbon 3; light 2; chemical 2; salt 1; coculture 1; darkness 1; phosphorus 1,nitrogen 5; coculture 3; light 2; chemical 2; salt 1; darkness 1; carbon 1
+Arginine and proline metabolism,32,16,14,nitrogen 4; carbon 4; salt 2; light 2; chemical 2; coculture 1; darkness 1,nitrogen 4; salt 2; coculture 2; light 2; chemical 2; darkness 1; carbon 1
+Arginine biosynthesis,34,18,13,nitrogen 7; carbon 3; light 2; chemical 2; salt 1; coculture 1; darkness 1; phosphorus 1,nitrogen 5; coculture 2; light 2; chemical 2; salt 1; darkness 1
+Cysteine and methionine metabolism,34,16,19,nitrogen 4; coculture 3; carbon 3; light 2; chemical 2; salt 1; darkness 1,nitrogen 6; light 4; coculture 3; chemical 2; carbon 2; salt 1; darkness 1
+"Glycine, serine and threonine metabolism",32,18,17,nitrogen 6; carbon 4; coculture 2; light 2; chemical 2; salt 1; darkness 1,nitrogen 6; coculture 3; light 2; chemical 2; carbon 2; salt 1; darkness 1
+Histidine metabolism,30,17,16,carbon 5; nitrogen 4; coculture 2; light 2; chemical 2; salt 1; darkness 1,nitrogen 5; coculture 3; light 2; chemical 2; carbon 2; salt 1; darkness 1
+Lysine biosynthesis,32,16,16,nitrogen 4; carbon 4; coculture 2; light 2; chemical 2; salt 1; darkness 1,nitrogen 5; carbon 4; coculture 2; light 2; chemical 2; darkness 1
+Lysine degradation,30,6,10,nitrogen 2; salt 1; coculture 1; darkness 1; carbon 1,nitrogen 5; coculture 2; light 2; chemical 1
+Phenylalanine metabolism,26,10,8,nitrogen 3; chemical 2; salt 1; coculture 1; darkness 1; light 1; carbon 1,nitrogen 4; coculture 2; chemical 2
+"Phenylalanine, tyrosine and tryptophan biosynthesis",32,19,17,nitrogen 6; carbon 4; salt 2; coculture 2; light 2; chemical 2; darkness 1,nitrogen 5; carbon 4; coculture 2; light 2; chemical 2; salt 1; darkness 1
+Tryptophan metabolism,30,5,9,salt 1; coculture 1; nitrogen 1; darkness 1; carbon 1,nitrogen 5; light 2; coculture 1; chemical 1
+Tyrosine metabolism,27,11,11,nitrogen 4; chemical 2; salt 1; coculture 1; darkness 1; light 1; carbon 1,nitrogen 4; coculture 2; chemical 2; salt 1; darkness 1; light 1
+"Valine, leucine and isoleucine biosynthesis",32,13,15,nitrogen 5; carbon 2; chemical 2; salt 1; coculture 1; darkness 1; light 1,nitrogen 5; coculture 2; light 2; chemical 2; carbon 2; salt 1; darkness 1
+"Valine, leucine and isoleucine degradation",30,8,12,nitrogen 3; salt 1; coculture 1; darkness 1; light 1; carbon 1,nitrogen 5; coculture 2; light 2; chemical 2; darkness 1

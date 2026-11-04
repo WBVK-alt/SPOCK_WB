@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<title>Prochlorococcus amino-acid pathways — genes and expression calls</title>
+<style>
+:root{--surface:#fcfcfb;--card:#f5f4f1;--ink:#1f1f1d;--ink2:#52514e;--muted:#8a8984;--rule:#e4e3df;--up:#eb6834;--down:#2a78d6;--mid:#f0efec}
+@media (prefers-color-scheme:dark){:root{--surface:#1a1a19;--card:#232322;--ink:#ecebe8;--ink2:#b9b8b3;--muted:#85847f;--rule:#383835;--up:#d95926;--down:#3987e5;--mid:#383835}}
+body{background:var(--surface);color:var(--ink);font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;margin:24px 32px}
+h1{font-size:21px;margin:0 0 4px} h2{font-size:16px;margin:34px 0 4px} .sub{color:var(--ink2);margin:0 0 8px;max-width:1000px}
+.meta{color:var(--muted);font-size:12px;max-width:1100px}
+.tiles{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:12px;margin:18px 0;max-width:1200px}
+.tile{background:var(--card);border-radius:10px;padding:12px 14px}.tile .k{font-size:12px;color:var(--ink2)}.tile .v{font-size:28px;font-weight:650}.tile .s{font-size:12px;color:var(--ink2)}
+.wrap{overflow:auto;border:1px solid var(--rule);border-radius:8px;max-height:760px}
+table.m{border-collapse:separate;border-spacing:2px;font-size:11px}
+table.m th{font-weight:500;color:var(--ink2);background:var(--surface);position:sticky;top:0;z-index:2}
+table.m th.v{writing-mode:vertical-rl;transform:rotate(180deg);height:150px;text-align:left;padding:2px}
+table.m td.l{position:sticky;left:0;background:var(--surface);white-space:nowrap;padding-right:8px;z-index:1}
+table.m td.c{min-width:26px;height:20px;text-align:center;border-radius:3px;font-variant-numeric:tabular-nums}
+td.sp{white-space:nowrap} .h{display:inline-block;width:22px;height:20px;line-height:20px;text-align:center;border-radius:3px;font-variant-numeric:tabular-nums;margin-right:1px}
+tr.grp td{font-weight:600;color:var(--ink);padding-top:10px;border-bottom:1px solid var(--rule)}
+.legend{display:flex;gap:16px;align-items:center;font-size:12px;color:var(--ink2);margin:6px 0;flex-wrap:wrap}
+.dot{width:10px;height:10px;border-radius:2px;display:inline-block;vertical-align:middle;margin-right:3px}
+#tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:6px;padding:8px 10px;font-size:12px;max-width:520px;box-shadow:0 4px 14px rgba(0,0,0,.15);display:none;z-index:9}
+table.t{border-collapse:collapse;font-size:12px;width:100%}table.t th,table.t td{border-bottom:1px solid var(--rule);padding:3px 6px;text-align:left;vertical-align:top}
+table.t th{cursor:pointer;color:var(--ink2);position:sticky;top:0;background:var(--surface)}
+.s-up{color:var(--up);font-weight:600}.s-down{color:var(--down);font-weight:600}
+input,select{font:inherit;padding:4px 8px;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink)}
+.ctl{display:flex;gap:12px;align-items:center;margin:8px 0}
+.note{background:var(--card);border-radius:8px;padding:10px 14px;max-width:1100px;font-size:13px;color:var(--ink2)}
+</style></head><body>
+<h1>Amino-acid biosynthesis and degradation genes in <i>Prochlorococcus</i>: gene counts and expression calls</h1>
+<div class="meta">Data collection only, no interpretation. Source: multiomics KG 0.1.0-alpha.9. Gene sets: the 14 KEGG pathways under "Amino acid metabolism" (09105), and GO-BP terms named exactly "&lt;amino acid&gt; biosynthetic process" / "… catabolic process" (20 amino acids). Up/down = each paper's own significance call as stored in the KG; no new statistics.</div>
+<div class="tiles" id="tiles"></div>
+
+<h2>1 · Genes per pathway, per genome</h2>
+<p class="sub">Number of distinct genes annotated to each pathway. Genomes grouped by clade; <b>bold</b> = strain with expression data in the KG. A gene can sit in several pathways. Hover for exact values.</p>
+<div class="ctl"><label>Gene sets <select id="gsel1"><option value="kegg">KEGG pathways (14)</option><option value="go">GO amino-acid processes</option></select></label></div>
+<div class="wrap" id="count"></div>
+<p class="meta" id="gonote"></p>
+
+<h2>2 · Under which conditions do these genes go up or down?</h2>
+<p class="sub">One row per experiment (grouped by strain), one column per pathway. Each cell has two halves: <b>left = number of the pathway's genes called significantly down</b>, <b>right = number called significantly up</b>, at any timepoint of that experiment. Colour depth = share of the pathway's measured genes. Empty grey = no gene of the pathway has a row in that experiment. The last column gives, for context, the largest share of <i>all</i> measured genes called significant at any one timepoint of that experiment (blank for partial tables, where it is not defined). Hover a cell for the genes, a row label for the experiment design.</p>
+<div class="legend"><span><span class="dot" style="background:var(--down)"></span>down in treatment vs control</span><span><span class="dot" style="background:var(--up)"></span>up in treatment vs control</span><span>◆ = source table is partial (only significant genes, or a filtered subset): a missing gene is not evidence of "no change"</span></div>
+<div class="ctl"><label>Gene sets <select id="gsel2"><option value="KEGG pathway">KEGG pathways (14)</option><option value="GO process">GO amino-acid processes</option></select></label>
+<label>Strain <select id="osel"></select></label></div>
+<div class="wrap" id="cond"></div>
+
+<h2>3 · Every gene × experiment</h2>
+<p class="sub">Each row = one gene in one experiment; "calls" lists every timepoint as timepoint:status(log2FC). Click a header to sort. <input id="q" placeholder="filter: strain, gene, locus tag, pathway, condition…" style="width:340px"> <span class="meta" id="qn"></span></p>
+<div class="wrap" style="max-height:560px"><table class="t" id="gt"></table></div>
+
+<h2>4 · Gaps and caveats (from the KG pull)</h2>
+<div class="note" id="gaps"></div>
+<div id="tip"></div>
+<script>
+const D=__DATA__;
+const tip=document.getElementById("tip");
+const showTip=(e,h)=>{tip.style.display="block";tip.innerHTML=h;tip.style.left=Math.min(e.clientX+14,innerWidth-540)+"px";tip.style.top=Math.min(e.clientY+14,innerHeight-220)+"px";};
+const hideTip=()=>tip.style.display="none";
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const hex=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+const mix=(a,b,t)=>`rgb(${a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(",")})`;
+const T=D.tiles;
+document.getElementById("tiles").innerHTML=[
+ ["Genomes inventoried",T.n_genomes,`of ${T.n_pro} Prochlorococcus genomes in the KG (skipped: ${T.skipped})`],
+ ["KEGG amino-acid pathways",T.n_kegg,"plus GO biosynthetic / catabolic terms"],
+ ["Strains with expression data",T.n_expr_org,"with ≥1 row for these genes"],
+ ["Experiments",T.n_exp,`${T.partial} with partial source tables (◆)`],
+ ["Expression rows",T.n_rows.toLocaleString(),"gene × experiment × timepoint"]].map(([k,v,s])=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join("");
+
+// 1 count matrix — sequential violet (matplotlib Purples)
+const PUR=["#fcfbfd","#efedf5","#dadaeb","#bcbddc","#9e9ac8","#807dba","#6a51a3","#54278f","#3f007d"];
+function drawCount(){
+ const k=document.getElementById("gsel1").value, M=D[k], mx=Math.max(...M.vals.flat());
+ let h=`<table class="m"><tr><th></th>`+D.genomes.map(g=>`<th class="v" style="${g.expr?'font-weight:700;color:var(--ink)':''}">${g.name} · ${g.clade}</th>`).join("")+`<th class="v">median</th></tr>`;
+ M.rows.forEach((r,i)=>{const v=M.vals[i], s=[...v].sort((a,b)=>a-b), med=s[Math.floor(s.length/2)];
+  h+=`<tr><td class="l">${r}</td>`+v.map((x,j)=>{const c=x===0?"transparent":PUR[Math.min(8,1+Math.round(7*x/mx))], ink=x/mx>.55?"#fff":"#1f1f1d";
+   return `<td class="c" style="background:${c};color:${x===0?'var(--muted)':ink}" data-t="${r} · ${D.genomes[j].name} (${D.genomes[j].clade}): ${x} genes">${x}</td>`}).join("")+`<td class="c"><b>${med}</b></td></tr>`;});
+ const el=document.getElementById("count");el.innerHTML=h+"</table>";
+ el.querySelectorAll("td.c[data-t]").forEach(td=>{td.onmousemove=e=>showTip(e,td.dataset.t);td.onmouseleave=hideTip;});
+ document.getElementById("gonote").textContent=k==="go"?`${M.dropped} GO rows have zero genes in every genome and are not shown (aspartate catabolic and isoleucine catabolic have no GO term at all). Counts use the exact term only; genes annotated only to child terms may be missing.`:"";
+}
+document.getElementById("gsel1").onchange=drawCount; drawCount();
+
+// 2 condition matrix
+const orgs=[...new Set(D.exps.map(e=>e.org))];
+document.getElementById("osel").innerHTML=`<option value="">all (${orgs.length})</option>`+orgs.map(o=>`<option>${o}</option>`).join("");
+const E=Object.fromEntries(D.exps.map(e=>[e.id,e]));
+function drawCond(){
+ const kind=document.getElementById("gsel2").value, of=document.getElementById("osel").value;
+ const sets=kind==="KEGG pathway"?D.kegg.rows:D.go_sets, C=D.cells[kind]||{};
+ const UP=hex(css("--up")),DN=hex(css("--down")),MID=hex(css("--mid"));
+ let h=`<table class="m"><tr><th></th>`+sets.map(s=>`<th class="v">${s}</th>`).join("")+`<th class="v">genome-wide max % significant</th></tr>`, last=null;
+ D.exps.filter(e=>!of||e.org===of).forEach(e=>{
+  if(e.org!==last){h+=`<tr class="grp"><td class="l" colspan="${sets.length+2}">${e.org}</td></tr>`;last=e.org;}
+  const lbl=`${e.scope!=="all_detected_genes"?"◆ ":""}${e.tt} · ${e.om} · ${e.tr.length>48?e.tr.slice(0,46)+"…":e.tr}`;
+  h+=`<tr><td class="l" data-e="${e.id}">${lbl}</td>`;
+  sets.forEach(s=>{const c=C[e.id+"||"+s];
+   if(!c){h+=`<td class="c" style="background:var(--card)"></td>`;return;}
+   const [u,d,n]=c, fu=n?u/n:0, fd=n?d/n:0;
+   const st=(v,f,col)=>`background:${v?mix(MID,col,.3+.7*Math.min(1,f*2)):"var(--mid)"};color:${v?(f>.3?"#fff":"#1f1f1d"):"var(--muted)"}`;
+   h+=`<td class="sp" data-k="${e.id}||${s}"><span class="h" style="${st(d,fd,DN)}">${d||"·"}</span><span class="h" style="${st(u,fu,UP)}">${u||"·"}</span></td>`;});
+  h+=`<td class="c">${e.gw==null?"–":e.gw+"%"}</td></tr>`;});
+ const el=document.getElementById("cond");el.innerHTML=h+"</table>";
+ el.querySelectorAll("td.sp").forEach(td=>{const [id,s]=td.dataset.k.split("||"),c=C[td.dataset.k],e=E[id];
+  td.onmousemove=ev=>showTip(ev,`<b>${s}</b><br>${e.name}<br><span style="color:var(--muted)">${e.tr} vs ${e.ctl} · ${e.om} · ${e.ntp||1} timepoint(s) · table: ${e.scope}</span><br>${c[3]} genes in set, ${c[2]} with a row<br><span class="s-up">${c[0]} up</span>: ${c[4]||"–"}<br><span class="s-down">${c[1]} down</span>: ${c[5]||"–"}`);td.onmouseleave=hideTip;});
+ el.querySelectorAll("td.l[data-e]").forEach(td=>{const e=E[td.dataset.e];td.onmousemove=ev=>showTip(ev,`<b>${e.name}</b><br>treatment: ${e.tr}<br>control: ${e.ctl}<br>${e.om} · ${e.ntp||1} timepoint(s) · table: ${e.scope}<br>${e.doi}<br>genome-wide: up to ${e.gw}% of measured genes significant`);td.onmouseleave=hideTip;});
+}
+document.getElementById("gsel2").onchange=drawCond;document.getElementById("osel").onchange=drawCond;drawCond();
+
+// 3 gene table
+const H=["strain","locus tag","gene","gene sets","treatment type","experiment","# tp up","# tp down","calls (timepoint:status(log2FC))"];
+let sortK=null,sortA=true;
+function drawG(){const q=document.getElementById("q").value.toLowerCase();
+ let r=D.gtab.filter(x=>!q||x.join(" ").toLowerCase().includes(q));
+ if(sortK!=null)r=[...r].sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:0)*(sortA?1:-1));
+ document.getElementById("qn").textContent=`${r.length} of ${D.gtab.length} rows`+(r.length>1500?" (first 1500 shown)":"");
+ document.getElementById("gt").innerHTML=`<tr>${H.map((h,i)=>`<th data-i="${i}">${h}</th>`).join("")}</tr>`+r.slice(0,1500).map(x=>`<tr>${x.map((v,i)=>
+  `<td class="${i===6&&v?"s-up":i===7&&v?"s-down":""}">${i===8?String(v).replace(/:up/g,':<span class="s-up">up</span>').replace(/:down/g,':<span class="s-down">down</span>'):v}</td>`).join("")}</tr>`).join("");
+ document.querySelectorAll("#gt th").forEach(th=>th.onclick=()=>{const i=+th.dataset.i;sortA=sortK===i?!sortA:true;sortK=i;drawG();});}
+document.getElementById("q").oninput=drawG;drawG();
+
+document.getElementById("gaps").innerHTML=`<ul>
+<li><b>${T.skipped}</b> could not be queried on its own (its name also matches EQPAC1), so it is missing from section 1.</li>
+<li>${T.partial} of ${T.n_exp} experiments come from partial tables (◆: significant genes only, significant at any timepoint, top-N, or a filtered subset). In those, a gene with no row was not necessarily unchanged.</li>
+<li>Up/down follows each paper's own threshold and test; thresholds differ between papers and platforms (microarray, RNA-seq, proteomics), so counts are not directly comparable across rows.</li>
+<li>A gene counted both up and down in one cell changed in opposite directions at different timepoints of that experiment.</li>
+<li>KEGG "metabolism" pathways mix biosynthesis and degradation steps; only the GO view separates them, and GO coverage on the exact terms is sparse.</li>
+<li>The KG holds no KEGG modules, so pathway completeness (all steps present) is not shown.</li>
+<li>${T.n_genomes-T.n_expr_org} of the ${T.n_genomes} genomes have no expression rows for these genes; expression is limited to the ${T.n_expr_org} strains in section 2.</li></ul>`;
+</script></body></html>

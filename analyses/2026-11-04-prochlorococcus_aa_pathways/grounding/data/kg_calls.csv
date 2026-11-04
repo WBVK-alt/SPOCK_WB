@@ -1,0 +1,175 @@
+tool,query,total_matching,kept,organism,returned,kept_names
+list_organisms,Prochlorococcus,45,45.0,,,
+ontology_term_details,kegg.subcategory:09105,14,,,,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus AS9601,162.0,
+gene_ontology_terms[kegg level3],,125,,Prochlorococcus AS9601,125.0,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus EQPAC1,162.0,
+gene_ontology_terms[kegg level3],,129,,Prochlorococcus EQPAC1,129.0,
+genes_by_ontology[kegg pathways],,159,,Prochlorococcus GP2,159.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus GP2,124.0,
+genes_by_ontology[kegg pathways],,133,,Prochlorococcus HNLC1,133.0,
+gene_ontology_terms[kegg level3],,104,,Prochlorococcus HNLC1,104.0,
+genes_by_ontology[kegg pathways],,129,,Prochlorococcus HNLC2,129.0,
+gene_ontology_terms[kegg level3],,98,,Prochlorococcus HNLC2,98.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus LG,160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus LG,124.0,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus MED4,162.0,
+gene_ontology_terms[kegg level3],,129,,Prochlorococcus MED4,129.0,
+genes_by_ontology[kegg pathways],,159,,Prochlorococcus MIT0601,159.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus MIT0601,122.0,
+genes_by_ontology[kegg pathways],,157,,Prochlorococcus MIT0602,157.0,
+gene_ontology_terms[kegg level3],,121,,Prochlorococcus MIT0602,121.0,
+genes_by_ontology[kegg pathways],,157,,Prochlorococcus MIT0603,157.0,
+gene_ontology_terms[kegg level3],,121,,Prochlorococcus MIT0603,121.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus MIT0604,160.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus MIT0604,122.0,
+genes_by_ontology[kegg pathways],,175,,Prochlorococcus MIT0701,175.0,
+gene_ontology_terms[kegg level3],,135,,Prochlorococcus MIT0701,135.0,
+genes_by_ontology[kegg pathways],,173,,Prochlorococcus MIT0702,173.0,
+gene_ontology_terms[kegg level3],,133,,Prochlorococcus MIT0702,133.0,
+genes_by_ontology[kegg pathways],,180,,Prochlorococcus MIT0703,180.0,
+gene_ontology_terms[kegg level3],,135,,Prochlorococcus MIT0703,135.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus MIT0801,161.0,
+gene_ontology_terms[kegg level3],,125,,Prochlorococcus MIT0801,125.0,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus MIT1314,162.0,
+gene_ontology_terms[kegg level3],,126,,Prochlorococcus MIT1314,126.0,
+genes_by_ontology[kegg pathways],,179,,Prochlorococcus MIT1327,179.0,
+gene_ontology_terms[kegg level3],,134,,Prochlorococcus MIT1327,134.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus MIT9107,160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus MIT9107,124.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus MIT9116,161.0,
+gene_ontology_terms[kegg level3],,125,,Prochlorococcus MIT9116,125.0,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus MIT9123,162.0,
+gene_ontology_terms[kegg level3],,126,,Prochlorococcus MIT9123,126.0,
+genes_by_ontology[kegg pathways],,158,,Prochlorococcus MIT9201,158.0,
+gene_ontology_terms[kegg level3],,120,,Prochlorococcus MIT9201,120.0,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus MIT9202,162.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus MIT9202,124.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus MIT9211,161.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus MIT9211,124.0,
+genes_by_ontology[kegg pathways],,165,,Prochlorococcus MIT9215,165.0,
+gene_ontology_terms[kegg level3],,126,,Prochlorococcus MIT9215,126.0,
+genes_by_ontology[kegg pathways],,165,,Prochlorococcus MIT9301,165.0,
+gene_ontology_terms[kegg level3],,131,,Prochlorococcus MIT9301,131.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus MIT9302,161.0,
+gene_ontology_terms[kegg level3],,123,,Prochlorococcus MIT9302,123.0,
+genes_by_ontology[kegg pathways],,186,,Prochlorococcus MIT9303,186.0,
+gene_ontology_terms[kegg level3],,143,,Prochlorococcus MIT9303,143.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus MIT9311,160.0,
+gene_ontology_terms[kegg level3],,123,,Prochlorococcus MIT9311,123.0,
+genes_by_ontology[kegg pathways],,159,,Prochlorococcus MIT9312,159.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus MIT9312,122.0,
+genes_by_ontology[kegg pathways],,170,,Prochlorococcus MIT9313,170.0,
+gene_ontology_terms[kegg level3],,133,,Prochlorococcus MIT9313,133.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus MIT9314,161.0,
+gene_ontology_terms[kegg level3],,125,,Prochlorococcus MIT9314,125.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus MIT9321,160.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus MIT9321,122.0,
+genes_by_ontology[kegg pathways],,166,,Prochlorococcus MIT9322,166.0,
+gene_ontology_terms[kegg level3],,125,,Prochlorococcus MIT9322,125.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus MIT9401,161.0,
+gene_ontology_terms[kegg level3],,123,,Prochlorococcus MIT9401,123.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus MIT9515,160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus MIT9515,124.0,
+genes_by_ontology[kegg pathways],,163,,Prochlorococcus NATL1A,163.0,
+gene_ontology_terms[kegg level3],,128,,Prochlorococcus NATL1A,128.0,
+genes_by_ontology[kegg pathways],,158,,Prochlorococcus NATL2A,158.0,
+gene_ontology_terms[kegg level3],,122,,Prochlorococcus NATL2A,122.0,
+genes_by_ontology[kegg pathways],,162,,Prochlorococcus RSP50,162.0,
+gene_ontology_terms[kegg level3],,128,,Prochlorococcus RSP50,128.0,
+genes_by_ontology[kegg pathways],,158,,Prochlorococcus SB,158.0,
+gene_ontology_terms[kegg level3],,121,,Prochlorococcus SB,121.0,
+genes_by_ontology[kegg pathways],,161,,Prochlorococcus SS2,161.0,
+gene_ontology_terms[kegg level3],,125,,Prochlorococcus SS2,125.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus SS35,160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus SS35,124.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus SS51,160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus SS51,124.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus SS52,160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus SS52,124.0,
+genes_by_ontology[kegg pathways],,160,,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),160.0,
+gene_ontology_terms[kegg level3],,124,,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),124.0,
+search_ontology[go_bp],alanine biosynthetic,3,2.0,,,alanine biosynthetic process;L-alanine biosynthetic process
+search_ontology[go_bp],alanine catabolic,2,1.0,,,L-alanine catabolic process
+search_ontology[go_bp],arginine biosynthetic,2,1.0,,,L-arginine biosynthetic process
+search_ontology[go_bp],arginine catabolic,2,1.0,,,L-arginine catabolic process
+search_ontology[go_bp],asparagine biosynthetic,1,1.0,,,L-asparagine biosynthetic process
+search_ontology[go_bp],asparagine catabolic,1,1.0,,,L-asparagine catabolic process
+search_ontology[go_bp],aspartate biosynthetic,3,1.0,,,L-aspartate biosynthetic process
+search_ontology[go_bp],aspartate catabolic,0,0.0,,,
+search_ontology[go_bp],cysteine biosynthetic,1,1.0,,,L-cysteine biosynthetic process
+search_ontology[go_bp],cysteine catabolic,1,1.0,,,L-cysteine catabolic process
+search_ontology[go_bp],glutamate biosynthetic,2,1.0,,,L-glutamate biosynthetic process
+search_ontology[go_bp],glutamate catabolic,1,1.0,,,L-glutamate catabolic process
+search_ontology[go_bp],glutamine biosynthetic,1,1.0,,,L-glutamine biosynthetic process
+search_ontology[go_bp],glutamine catabolic,1,1.0,,,L-glutamine catabolic process
+search_ontology[go_bp],glycine biosynthetic,2,1.0,,,glycine biosynthetic process
+search_ontology[go_bp],glycine catabolic,1,1.0,,,glycine catabolic process
+search_ontology[go_bp],histidine biosynthetic,2,1.0,,,L-histidine biosynthetic process
+search_ontology[go_bp],histidine catabolic,1,1.0,,,L-histidine catabolic process
+search_ontology[go_bp],isoleucine biosynthetic,1,1.0,,,L-isoleucine biosynthetic process
+search_ontology[go_bp],isoleucine catabolic,0,0.0,,,
+search_ontology[go_bp],leucine biosynthetic,1,1.0,,,L-leucine biosynthetic process
+search_ontology[go_bp],leucine catabolic,1,1.0,,,L-leucine catabolic process
+search_ontology[go_bp],lysine biosynthetic,1,1.0,,,L-lysine biosynthetic process
+search_ontology[go_bp],lysine catabolic,1,1.0,,,L-lysine catabolic process
+search_ontology[go_bp],methionine biosynthetic,2,1.0,,,L-methionine biosynthetic process
+search_ontology[go_bp],methionine catabolic,1,1.0,,,L-methionine catabolic process
+search_ontology[go_bp],phenylalanine biosynthetic,1,1.0,,,L-phenylalanine biosynthetic process
+search_ontology[go_bp],phenylalanine catabolic,1,1.0,,,L-phenylalanine catabolic process
+search_ontology[go_bp],proline biosynthetic,1,1.0,,,L-proline biosynthetic process
+search_ontology[go_bp],proline catabolic,1,1.0,,,L-proline catabolic process
+search_ontology[go_bp],serine biosynthetic,3,1.0,,,L-serine biosynthetic process
+search_ontology[go_bp],serine catabolic,2,1.0,,,L-serine catabolic process
+search_ontology[go_bp],threonine biosynthetic,1,1.0,,,L-threonine biosynthetic process
+search_ontology[go_bp],threonine catabolic,1,1.0,,,L-threonine catabolic process
+search_ontology[go_bp],tryptophan biosynthetic,1,1.0,,,L-tryptophan biosynthetic process
+search_ontology[go_bp],tryptophan catabolic,1,1.0,,,L-tryptophan catabolic process
+search_ontology[go_bp],tyrosine biosynthetic,1,1.0,,,L-tyrosine biosynthetic process
+search_ontology[go_bp],tyrosine catabolic,1,1.0,,,L-tyrosine catabolic process
+search_ontology[go_bp],valine biosynthetic,1,1.0,,,L-valine biosynthetic process
+search_ontology[go_bp],valine catabolic,1,1.0,,,L-valine catabolic process
+genes_by_ontology[go_bp aa terms],,75,,Prochlorococcus AS9601,75.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus EQPAC1,62.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus GP2,62.0,
+genes_by_ontology[go_bp aa terms],,46,,Prochlorococcus HNLC1,46.0,
+genes_by_ontology[go_bp aa terms],,43,,Prochlorococcus HNLC2,43.0,
+genes_by_ontology[go_bp aa terms],,65,,Prochlorococcus LG,65.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus MED4,72.0,
+genes_by_ontology[go_bp aa terms],,66,,Prochlorococcus MIT0601,66.0,
+genes_by_ontology[go_bp aa terms],,64,,Prochlorococcus MIT0602,64.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT0603,63.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT0604,63.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT0701,63.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT0702,63.0,
+genes_by_ontology[go_bp aa terms],,64,,Prochlorococcus MIT0703,64.0,
+genes_by_ontology[go_bp aa terms],,65,,Prochlorococcus MIT0801,65.0,
+genes_by_ontology[go_bp aa terms],,56,,Prochlorococcus MIT1314,56.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT1327,63.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus MIT9107,62.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus MIT9116,62.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus MIT9123,62.0,
+genes_by_ontology[go_bp aa terms],,61,,Prochlorococcus MIT9201,61.0,
+genes_by_ontology[go_bp aa terms],,64,,Prochlorococcus MIT9202,64.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus MIT9211,72.0,
+genes_by_ontology[go_bp aa terms],,75,,Prochlorococcus MIT9215,75.0,
+genes_by_ontology[go_bp aa terms],,74,,Prochlorococcus MIT9301,74.0,
+genes_by_ontology[go_bp aa terms],,61,,Prochlorococcus MIT9302,61.0,
+genes_by_ontology[go_bp aa terms],,77,,Prochlorococcus MIT9303,77.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus MIT9311,62.0,
+genes_by_ontology[go_bp aa terms],,71,,Prochlorococcus MIT9312,71.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus MIT9313,72.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT9314,63.0,
+genes_by_ontology[go_bp aa terms],,62,,Prochlorococcus MIT9321,62.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT9322,63.0,
+genes_by_ontology[go_bp aa terms],,63,,Prochlorococcus MIT9401,63.0,
+genes_by_ontology[go_bp aa terms],,73,,Prochlorococcus MIT9515,73.0,
+genes_by_ontology[go_bp aa terms],,74,,Prochlorococcus NATL1A,74.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus NATL2A,72.0,
+genes_by_ontology[go_bp aa terms],,55,,Prochlorococcus RSP50,55.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus SB,72.0,
+genes_by_ontology[go_bp aa terms],,65,,Prochlorococcus SS2,65.0,
+genes_by_ontology[go_bp aa terms],,65,,Prochlorococcus SS35,65.0,
+genes_by_ontology[go_bp aa terms],,65,,Prochlorococcus SS51,65.0,
+genes_by_ontology[go_bp aa terms],,64,,Prochlorococcus SS52,64.0,
+genes_by_ontology[go_bp aa terms],,72,,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),72.0,

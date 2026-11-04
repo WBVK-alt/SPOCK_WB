@@ -1,0 +1,143 @@
+experiment_id,timepoint,timepoint_order,genes_measured,significant_up,significant_down,not_significant
+10.64898/2026.04.15.718746_extended_darkness_med4,2h,1.0,1876,487,482,907
+10.64898/2026.04.15.718746_extended_darkness_med4,4h,2.0,1876,633,619,624
+10.64898/2026.04.15.718746_extended_light_med4,14h,1.0,1876,73,62,1741
+10.64898/2026.04.15.718746_extended_light_med4,16h,2.0,1875,579,580,716
+10.1038/s41467-026-77598-7_growth_state_freeliving_planktonic_enrichment_mit9301_rnaseq,,,234,137,97,0
+10.1101/2025.11.24.690089_coculture_alteromonas_hot1a3_med4_rnaseq,day 11,1.0,1849,30,2,1817
+10.1101/2025.11.24.690089_coculture_alteromonas_hot1a3_med4_rnaseq,day 18,2.0,1849,521,444,884
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic,day 14,1.0,1424,97,149,1178
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic,day 31,2.0,1424,435,357,632
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_axenic,day 89,3.0,1424,422,316,686
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic,,,1849,551,572,726
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_coculture,day 18,1.0,1424,106,50,1268
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_coculture,day 31,2.0,1424,242,251,931
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_coculture,day 60,3.0,1424,225,203,996
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_coculture,day 89,4.0,1424,241,263,920
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_proteomics_coculture,days 60+89,5.0,1424,273,271,880
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture,day 18,1.0,1849,22,15,1812
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture,day 31,2.0,1849,236,309,1304
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture,day 60,3.0,1849,221,311,1317
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture,day 89,4.0,1849,172,229,1448
+10.1101/2025.11.24.690089_growth_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture,days 60+89,5.0,1849,206,278,1365
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,0h,1.0,2015,662,746,607
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,4h,2.0,2015,421,446,1148
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,8h,3.0,2015,263,483,1269
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,13h,4.0,2015,322,291,1402
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,16h,5.0,2015,678,691,646
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,20h,6.0,2015,804,804,407
+10.1093/ismeco/ycae131_darkness_darktolerant_coculture_under_1311_natl2a_rnaseq,24h,7.0,2015,725,772,518
+10.1128/spectrum.03275-22_dark_low_glucose_med4_proteomics,,,327,10,9,308
+10.1128/spectrum.03275-22_dark_high_glucose_med4_proteomics,,,327,12,9,306
+10.1128/spectrum.03275-22_light_low_glucose_med4_proteomics,,,327,3,1,323
+10.1128/spectrum.03275-22_light_high_glucose_med4_proteomics,,,327,13,23,291
+10.1016/j.cell.2022.12.006_uv_dna_damage_mit0604,,,2003,439,429,1135
+10.1016/j.cell.2022.12.006_mmc_dna_damage_mit0604,,,2003,861,871,271
+10.1016/j.cell.2022.12.006_mmc_vs_uv_mit0604,,,2003,865,846,292
+10.1073/pnas.2213271120_chitosan_addition_mit9303_rnaseq,,,25,11,14,0
+10.1073/pnas.2213271120_chitosan_addition_mit9313_rnaseq,,,72,42,30,0
+10.1128/spectrum.03275-22_dark_low_glucose_ss120_proteomics,,,930,34,11,885
+10.1128/spectrum.03275-22_dark_high_glucose_ss120_proteomics,,,929,260,78,591
+10.1128/spectrum.03275-22_light_low_glucose_ss120_proteomics,,,930,20,15,895
+10.1128/spectrum.03275-22_light_high_glucose_ss120_proteomics,,,928,179,90,659
+10.3389/fmicb.2022.1038136_salt_low_salinity_acclimation_28_med4_rnaseq,,,1953,13,14,1926
+10.3389/fmicb.2022.1038136_salt_low_salinity_acclimation_28_natl1a_rnaseq,,,2190,59,22,2109
+10.1038/s42003-019-0410-x_plastic_hdpe_plastic_leachate_50_mit9312_rnaseq,,,396,200,196,0
+10.1038/s42003-019-0410-x_plastic_pvc_plastic_leachate_2_mit9312_rnaseq,,,583,300,283,0
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,0.5h,1.0,427,14,8,405
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,1h,2.0,427,8,1,418
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,2h,3.0,427,22,9,396
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,4h,4.0,427,71,106,250
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,8h,5.0,427,62,17,348
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,12h,6.0,427,46,60,321
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,24h,7.0,427,74,105,248
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,48h,8.0,427,100,41,286
+10.1111/1462-2920.14513_viral_viral_dom_vdom_addition_mit9313_rnaseq,72h,9.0,427,64,25,338
+10.1038/s42003-019-0410-x_plastic_hdpe_plastic_leachate_50_natl2a_rnaseq,,,131,64,67,0
+10.1038/s42003-019-0410-x_plastic_pvc_plastic_leachate_2_natl2a_rnaseq,,,64,31,33,0
+10.1038/ismej.2017.189_carbon_stress_elevated_co2_800_ppm_mit9312_rnaseq,,,102,12,14,76
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_axenic,1h extended darkness (36h),1.0,1954,134,174,1646
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_axenic,5h extended darkness (40h),2.0,1954,472,789,693
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_axenic,13h extended darkness (48h),3.0,1954,570,1104,280
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_coculture,1h extended darkness (36h),1.0,1954,108,129,1717
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_coculture,5h extended darkness (40h),2.0,1954,272,460,1222
+10.1128/mSystems.00040-18_darkness_extended_darkness_natl2a_rnaseq_coculture,13h extended darkness (48h),3.0,1954,411,821,722
+10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,3h,1.0,841,65,33,743
+10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,12h,2.0,840,87,125,628
+10.1038/ismej.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq,24h,3.0,853,111,160,582
+10.1128/mSystems.00008-17_azaserine_ss120_proteomics,,,362,27,335,0
+10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_med4_rnaseq,,,1714,42,300,1372
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_infected,0.5h post-inoculation,1.0,8,0,8,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_infected,1.5h post-inoculation,2.0,1,1,0,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_infected,2.5h post-inoculation,3.0,3,1,2,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_infected,4.5h post-inoculation,4.0,10,3,7,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_infected,8.5h post-inoculation,5.0,29,4,25,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_dark,1.5h post-inoculation,1.0,1,1,0,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_dark,2.5h post-inoculation,2.0,3,2,1,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_dark,4.5h post-inoculation,3.0,14,5,9,0
+10.1371/journal.pone.0165375_light_stress_constant_dark_med4_rnaseq_dark,8.5h post-inoculation,4.0,31,5,26,0
+10.1371/journal.pone.0165375_viral_phage_phm2_lysate_med4_rnaseq_dark,2.5h post-inoculation,1.0,7,1,6,0
+10.1371/journal.pone.0165375_viral_phage_phm2_lysate_med4_rnaseq_dark,4.5h post-inoculation,2.0,16,3,13,0
+10.1371/journal.pone.0165375_viral_phage_phm2_lysate_med4_rnaseq_dark,8.5h post-inoculation,3.0,6,4,2,0
+10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_05e6,,,2267,153,50,2064
+10.1038/ismej.2016.70_coculture_alteromonas_hot1a3_mit9313_rnaseq_inoc_5e6,,,2268,96,3,2169
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,-12h,1.0,353,0,0,353
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,2h,2.0,353,0,0,353
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,4h,3.0,353,0,0,353
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,6h,4.0,353,0,12,341
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,12h,5.0,353,8,77,268
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,24h,6.0,353,117,141,95
+10.1038/ismej.2016.82_coculture_alteromonas_macleodii_mit1002_natl2a_rnaseq,48h,7.0,353,96,122,135
+10.1016/j.micres.2015.04.006_salt_saltacclimated_5_salt_as9601_rnaseq,,,1879,292,306,1281
+10.1038/ismej.2015.36_carbon_air_0036_co2_21_med4_microarray,,,166,121,45,0
+10.1038/ismej.2015.36_carbon_low_co2_0004_co2_med4_microarray,,,285,74,211,0
+10.1038/ismej.2015.36_carbon_low_co2_and_no_med4_microarray,,,252,48,204,0
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,4h,1.0,34,4,0,30
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,24h,2.0,34,6,2,26
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,46h,3.0,34,4,3,27
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,50h (P added),4.0,34,15,0,19
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,59h,5.0,34,17,13,4
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_uninfected,59h (P added),6.0,34,5,0,29
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,47h,1.0,34,19,11,4
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,48h,2.0,34,18,0,16
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,49h,3.0,34,19,4,11
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,51h,4.0,34,19,0,15
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,55h,5.0,34,16,1,17
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,55h (P added),6.0,34,15,0,19
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,59h,7.0,34,14,0,20
+10.1111/1462-2920.13104_phosphorus_plimited_natl2a_rnaseq_infected,59h (P added),8.0,34,12,0,22
+10.1186/2046-9063-8-7_pi_limitation_mit9312_itraq,,,38,4,4,30
+10.1186/2046-9063-8-7_pi_limitation_natl2a_itraq,,,63,6,1,56
+10.1186/2046-9063-8-7_pi_limitation_ss120_itraq,,,34,4,1,29
+10.1038/ismej.2011.49_iron_rescue_med4_microarray,,,112,38,60,14
+10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light,12h,1.0,112,19,3,90
+10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light,24h,2.0,112,18,3,91
+10.1038/ismej.2011.49_iron_iron_starvation_med4_med4_microarray_light,48h,3.0,112,44,12,56
+10.1021/pr060460c_light_HL_vs_LL_med4_proteomics,,,179,3,3,173
+10.1021/pr060460c_light_ML_vs_LL_med4_proteomics,,,178,6,4,168
+10.1128/JB.01097-06_light_stress_blue_light_13_umol_med4_microarray,,,198,64,40,94
+10.1128/JB.01097-06_light_stress_dcmu_white_light_13_med4_microarray,,,198,2,7,189
+10.1128/JB.01097-06_light_stress_green_light_13_umol_med4_microarray,,,198,1,1,196
+10.1038/msb4100087_growth_medium_growth_on_cyanate_as_med4_microarray,,,1696,14,5,1677
+10.1038/msb4100087_growth_medium_growth_on_urea_as_med4_microarray,,,1696,14,5,1677
+10.1128/JB.01097-06_light_stress_high_white_light_55_med4_microarray,,,198,115,59,24
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,0h,1.0,1696,0,2,1694
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,3h,2.0,1696,6,0,1690
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,6h,3.0,1696,81,95,1520
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,12h,4.0,1696,92,129,1475
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,24h,5.0,1696,39,108,1549
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray,48h,6.0,1696,35,32,1629
+10.1128/JB.01097-06_light_stress_red_light_13_umol_med4_microarray,,,198,22,3,173
+10.1128/JB.01097-06_light_stress_white_light_13_umol_med4_microarray,,,198,69,3,126
+10.1038/msb4100087_growth_medium_growth_on_nitrite_as_mit9313_microarray,,,2241,9,5,2227
+10.1038/msb4100087_growth_medium_growth_on_urea_as_mit9313_microarray,,,2241,28,41,2172
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,0h,1.0,2241,0,0,2241
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,3h,2.0,2241,1,0,2240
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,6h,3.0,2241,18,21,2202
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,12h,4.0,2241,19,27,2195
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,24h,5.0,2241,77,100,2064
+10.1038/msb4100087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray,48h,6.0,2241,82,240,1919
+10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,0h,1.0,177,0,0,177
+10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,4h,2.0,177,0,0,177
+10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,12h,3.0,177,4,1,172
+10.1073/pnas.0601301103_phosphorus_phosphate_starvation_mit9313_microarray,24h,4.0,177,35,142,0

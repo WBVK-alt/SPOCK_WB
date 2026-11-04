@@ -1,0 +1,13 @@
+tool,organism,n_locus_tags,total_matching,matching_genes,experiment_count,no_expression,returned
+differential_expression_by_gene,Prochlorococcus AS9601,121.0,119,119.0,1.0,2.0,
+differential_expression_by_gene,Prochlorococcus MED4,121.0,4119,121.0,33.0,0.0,
+differential_expression_by_gene,Prochlorococcus MIT0604,117.0,324,108.0,3.0,9.0,
+differential_expression_by_gene,Prochlorococcus MIT0801,119.0,0,0.0,0.0,119.0,
+differential_expression_by_gene,Prochlorococcus MIT9301,123.0,12,12.0,1.0,111.0,
+differential_expression_by_gene,Prochlorococcus MIT9303,135.0,1,1.0,1.0,134.0,
+differential_expression_by_gene,Prochlorococcus MIT9312,118.0,71,44.0,4.0,74.0,
+differential_expression_by_gene,Prochlorococcus MIT9313,129.0,1430,129.0,8.0,0.0,
+differential_expression_by_gene,Prochlorococcus NATL1A,121.0,121,121.0,1.0,0.0,
+differential_expression_by_gene,Prochlorococcus NATL2A,116.0,1570,116.0,9.0,0.0,
+differential_expression_by_gene,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),119.0,474,108.0,6.0,11.0,
+list_experiments[verbose],,,67,,,,67.0

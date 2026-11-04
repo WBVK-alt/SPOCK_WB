@@ -1,0 +1,15 @@
+pathway,Prochlorococcus AS9601,Prochlorococcus EQPAC1,Prochlorococcus GP2,Prochlorococcus HNLC1,Prochlorococcus HNLC2,Prochlorococcus LG,Prochlorococcus MED4,Prochlorococcus MIT0601,Prochlorococcus MIT0602,Prochlorococcus MIT0603,Prochlorococcus MIT0604,Prochlorococcus MIT0701,Prochlorococcus MIT0702,Prochlorococcus MIT0703,Prochlorococcus MIT0801,Prochlorococcus MIT1314,Prochlorococcus MIT1327,Prochlorococcus MIT9107,Prochlorococcus MIT9116,Prochlorococcus MIT9123,Prochlorococcus MIT9201,Prochlorococcus MIT9202,Prochlorococcus MIT9211,Prochlorococcus MIT9215,Prochlorococcus MIT9301,Prochlorococcus MIT9302,Prochlorococcus MIT9303,Prochlorococcus MIT9311,Prochlorococcus MIT9312,Prochlorococcus MIT9313,Prochlorococcus MIT9314,Prochlorococcus MIT9321,Prochlorococcus MIT9322,Prochlorococcus MIT9401,Prochlorococcus MIT9515,Prochlorococcus NATL1A,Prochlorococcus NATL2A,Prochlorococcus RSP50,Prochlorococcus SB,Prochlorococcus SS2,Prochlorococcus SS35,Prochlorococcus SS51,Prochlorococcus SS52,Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+"Alanine, aspartate and glutamate metabolism",15,15,18,13,14,17,15,15,16,16,16,19,19,19,16,17,18,15,15,15,15,16,15,16,15,15,18,16,16,18,16,15,16,16,17,16,15,16,15,17,17,17,17,17
+Arginine and proline metabolism,14,14,14,9,10,13,14,13,13,13,14,15,15,15,14,14,15,14,14,14,14,13,13,14,15,14,16,14,14,15,14,14,14,14,14,14,14,14,14,13,13,13,13,13
+Arginine biosynthesis,14,14,14,12,11,11,14,11,11,11,14,15,15,15,14,14,15,14,14,14,14,14,11,14,14,14,15,14,14,15,14,14,14,14,13,14,14,14,14,11,11,11,11,11
+Cysteine and methionine metabolism,22,21,21,18,18,21,21,21,21,21,21,26,26,26,20,23,25,22,23,23,21,22,21,23,22,21,26,22,22,24,22,22,22,22,22,21,20,21,21,21,21,21,21,21
+"Glycine, serine and threonine metabolism",26,27,26,22,18,26,27,27,26,26,26,29,29,29,26,26,29,26,26,26,26,26,26,26,29,26,31,26,26,28,26,26,26,26,27,26,26,30,26,26,26,26,26,26
+Histidine metabolism,14,14,14,12,12,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,13,14,14,16,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14
+Lysine biosynthesis,11,11,11,10,9,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,10,11,11,11,11,11,11,11,12,11,11,11,11,11,11
+Lysine degradation,5,5,4,2,2,5,5,4,4,4,4,4,4,4,4,4,4,5,5,5,3,4,4,4,4,4,5,4,4,4,5,4,4,4,4,4,4,4,4,5,5,5,5,5
+Phenylalanine metabolism,4,4,4,2,4,4,4,5,4,4,4,6,6,6,4,4,6,4,4,4,4,4,4,4,4,4,7,4,4,6,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+"Phenylalanine, tyrosine and tryptophan biosynthesis",20,20,20,16,16,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,21,20,20,20,21,21,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20
+Tryptophan metabolism,3,3,3,1,2,3,3,3,3,3,3,5,5,5,3,3,5,3,3,3,3,3,3,3,5,3,6,3,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+Tyrosine metabolism,7,7,6,4,6,6,7,4,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5,6,9,6,7,6,6,6,6,6,6,6,6,6,6,6,7,6,6,6,6,6
+"Valine, leucine and isoleucine biosynthesis",11,11,11,11,11,11,11,11,11,11,11,10,10,10,11,11,10,11,11,11,12,11,11,12,11,11,10,11,11,10,11,12,12,12,12,11,11,11,11,11,11,11,11,11
+"Valine, leucine and isoleucine degradation",6,10,6,3,6,8,10,8,8,8,6,6,6,6,8,6,6,8,8,8,7,7,8,7,6,6,6,6,6,6,8,7,7,7,7,8,8,6,6,8,8,8,8,8
