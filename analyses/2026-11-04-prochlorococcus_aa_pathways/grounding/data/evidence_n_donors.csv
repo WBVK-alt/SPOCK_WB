@@ -1,0 +1,21 @@
+amino_acid,route,gene,locus_tag,kegg_reaction,verified_in_kg
+Glu,NH₄⁺ + 2-OG (GS-GOGAT),glsF,PMM1512,kegg.reaction:R00021,True
+Gln,NH₄⁺ on glutamate,glnA,PMM0920,kegg.reaction:R00253,True
+Asp,from glutamate (transaminase),aspC,PMM0674,kegg.reaction:R00355,True
+Phe,from glutamate (transaminase),aspC,PMM0674,kegg.reaction:R00694,True
+Tyr,from glutamate (transaminase),aspC,PMM0674,kegg.reaction:R00734,True
+Val,from glutamate (transaminase),ilvE,PMM0878,kegg.reaction:R01214,True
+Leu,from glutamate (transaminase),ilvE,PMM0878,kegg.reaction:R01090,True
+Ile,from glutamate (transaminase),ilvE,PMM0878,kegg.reaction:R02199,True
+His,from glutamate (transaminase),hisC,PMM0186,kegg.reaction:R03243,True
+Lys,from glutamate (transaminase),dapL,PMM1500,kegg.reaction:R07613,True
+Arg,from glutamate (transaminase),argD,PMM1301,kegg.reaction:R02283,True
+Gly,from glutamate (transaminase),spt,PMM0919,kegg.reaction:R00372,True
+Pro,glutamate is the backbone,proB,PMM0788,kegg.reaction:R00239,True
+Trp,from glutamine (amidotransferase),trpE,PMM1577,kegg.reaction:R00986,True
+Ala,NH₄⁺ direct (ald) — not via Glu,ald,,,
+Asn,from Asp (+ Gln); asnB in 20/45,asnB,,,
+Ser,transaminase PSTA — KO wrong in KG,PSTA,PMM0035,,
+Thr,via Asp (N already from Glu),—,,,
+Met,via Asp (N already from Glu),—,,,
+Cys,via Ser,—,,,

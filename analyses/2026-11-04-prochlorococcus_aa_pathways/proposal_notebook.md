@@ -32,3 +32,6 @@
 
 ## Cell diagram (2026-11-04): 2-oxoglutarate links carbon and nitrogen
 - `grounding/scripts/build_cell_diagram.py` → `grounding/figures/cell_carbon_nitrogen.svg`, `grounding/reports/cell_carbon_nitrogen.html`. Counts [KG]; layout, the open-TCA-supplies-2-OG reading and the NtcA signal [interpretation]; NH4+ transporter drawn, not counted.
+
+## Evidence visuals for the 2-OG claim (2026-11-04)
+- `grounding/scripts/build_evidence_visuals.py` → `grounding/reports/evidence_2og.html`, `grounding/figures/evidence_{map,heatmap,donors}.svg`, `data/evidence_heatmap.csv`, `data/evidence_n_donors.csv`. 14 N-donor reactions asserted against the KG (metabolites_by_gene); heatmap from fresh DE pull incl. ntcA (PMM0246/PMT1831).

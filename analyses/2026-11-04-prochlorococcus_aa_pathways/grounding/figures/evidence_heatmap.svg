@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1096 516" width="1096" height="516" font-family="system-ui,Segoe UI,sans-serif">
+<rect width="1096" height="516" fill="#fcfcfb"/>
+<text x="24" y="32" font-size="18" font-weight="700" fill="#1f1f1d">B · Under nitrogen stress: the 2-OG route and its nitrogen partners</text>
+<text x="24" y="52" font-size="12" fill="#52514e">Number = log2 fold change (stress vs control) at the timepoint with the largest significant change (or largest change if none significant).</text>
+<text x="24" y="68" font-size="12" fill="#52514e">Colour = paper's call at any timepoint; "k/n" = significant timepoints of n. Grey = measured, never significant.</text>
+<text x="289.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MED4 low-N</text>
+<text x="289.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">RNA axenic</text>
+<text x="407.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MED4 low-N</text>
+<text x="407.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">RNA coculture</text>
+<text x="525.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MED4 low-N</text>
+<text x="525.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">protein axenic</text>
+<text x="643.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MED4 low-N</text>
+<text x="643.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">protein cocult.</text>
+<text x="761.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MED4 N-depleted</text>
+<text x="761.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">RNA ◆</text>
+<text x="879.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MED4 N-depriv.</text>
+<text x="879.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">array (Tolonen)</text>
+<text x="997.0" y="94" text-anchor="middle" font-size="11" fill="#1f1f1d">MIT9313 N-depriv.</text>
+<text x="997.0" y="107" text-anchor="middle" font-size="11" fill="#1f1f1d">array (Tolonen)</text>
+<text x="220" y="147.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#1f1f1d">gltA · citrate synthase</text>
+<rect x="232" y="122" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="289.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+0.29</text>
+<text x="289.0" y="158.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/1 tp · day 14</text>
+<rect x="350" y="122" width="114" height="42" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="407.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">-0.85</text>
+<text x="407.0" y="158.0" text-anchor="middle" font-size="9.5" fill="#fff">1/5 tp · day 31</text>
+<rect x="468" y="122" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="525.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.27</text>
+<text x="525.0" y="158.0" text-anchor="middle" font-size="9.5" fill="#fff">2/3 tp · day 31</text>
+<rect x="586" y="122" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="643.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.09</text>
+<text x="643.0" y="158.0" text-anchor="middle" font-size="9.5" fill="#fff">2/5 tp · day 31</text>
+<rect x="704" y="122" width="114" height="42" rx="4" fill="#fff" stroke="#d6d5d0"/>
+<text x="761.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">not in table</text>
+<rect x="822" y="122" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="879.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+0.91</text>
+<text x="879.0" y="158.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/6 tp · 12h</text>
+<rect x="940" y="122" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="997.0" y="144.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">-0.52</text>
+<text x="997.0" y="158.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/6 tp · 48h</text>
+<text x="220" y="193.0" text-anchor="end" font-size="12.5" font-weight="700" fill="#1f1f1d">acnB · aconitase</text>
+<rect x="232" y="168" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="289.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.21</text>
+<text x="289.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#fff">1/1 tp · day 14</text>
+<rect x="350" y="168" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="407.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+0.58</text>
+<text x="407.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/5 tp · day 18</text>
+<rect x="468" y="168" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="525.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">-0.39</text>
+<text x="525.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/3 tp · day 31</text>
+<rect x="586" y="168" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="643.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.39</text>
+<text x="643.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#fff">2/5 tp · day 31</text>
+<rect x="704" y="168" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="761.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+3.80</text>
+<text x="761.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#fff">2/3 tp · 24h</text>
+<rect x="822" y="168" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="879.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.51</text>
+<text x="879.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#fff">3/6 tp · 12h</text>
+<rect x="940" y="168" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="997.0" y="190.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">-0.96</text>
+<text x="997.0" y="204.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/6 tp · 48h</text>
+<text x="220" y="239.0" text-anchor="end" font-size="12.5" font-weight="700" fill="#1f1f1d">icd · isocitrate DH → 2-OG</text>
+<rect x="232" y="214" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="289.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">-0.47</text>
+<text x="289.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/1 tp · day 14</text>
+<rect x="350" y="214" width="114" height="42" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="407.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">-1.48</text>
+<text x="407.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#fff">4/5 tp · day 60</text>
+<rect x="468" y="214" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="525.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.47</text>
+<text x="525.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#fff">3/3 tp · day 31</text>
+<rect x="586" y="214" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="643.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.05</text>
+<text x="643.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#fff">2/5 tp · day 31</text>
+<rect x="704" y="214" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="761.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+0.42</text>
+<text x="761.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/3 tp · 3h</text>
+<rect x="822" y="214" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="879.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+1.30</text>
+<text x="879.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#fff">2/6 tp · 12h</text>
+<rect x="940" y="214" width="114" height="42" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="997.0" y="236.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">-1.60</text>
+<text x="997.0" y="250.0" text-anchor="middle" font-size="9.5" fill="#fff">1/6 tp · 48h</text>
+<text x="220" y="285.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#1f1f1d">glsF · GOGAT</text>
+<rect x="232" y="260" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="289.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.53</text>
+<text x="289.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#fff">1/1 tp · day 14</text>
+<rect x="350" y="260" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="407.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+0.74</text>
+<text x="407.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/5 tp · day 60</text>
+<rect x="468" y="260" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="525.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">-0.40</text>
+<text x="525.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/3 tp · day 31</text>
+<rect x="586" y="260" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="643.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+0.95</text>
+<text x="643.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#fff">4/5 tp · day 31</text>
+<rect x="704" y="260" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="761.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+0.94</text>
+<text x="761.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/3 tp · 24h</text>
+<rect x="822" y="260" width="114" height="42" rx="4" fill="#e6e5e1" stroke="none"/>
+<text x="879.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#52514e">+1.25</text>
+<text x="879.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#52514e">0/6 tp · 12h</text>
+<rect x="940" y="260" width="114" height="42" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="997.0" y="282.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">-1.73</text>
+<text x="997.0" y="296.0" text-anchor="middle" font-size="9.5" fill="#fff">1/6 tp · 48h</text>
+<text x="220" y="331.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#1f1f1d">glnA · glutamine synthetase</text>
+<rect x="232" y="306" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="289.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+3.36</text>
+<text x="289.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">1/1 tp · day 14</text>
+<rect x="350" y="306" width="114" height="42" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="407.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">-2.17</text>
+<text x="407.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">2/5 tp · day 60</text>
+<rect x="468" y="306" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="525.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.53</text>
+<text x="525.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">3/3 tp · day 89</text>
+<rect x="586" y="306" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="643.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.95</text>
+<text x="643.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">5/5 tp · day 31</text>
+<rect x="704" y="306" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="761.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.85</text>
+<text x="761.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">2/3 tp · 12h</text>
+<rect x="822" y="306" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="879.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+5.06</text>
+<text x="879.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">5/6 tp · 6h</text>
+<rect x="940" y="306" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="997.0" y="328.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.03</text>
+<text x="997.0" y="342.0" text-anchor="middle" font-size="9.5" fill="#fff">3/6 tp · 12h</text>
+<text x="220" y="377.0" text-anchor="end" font-size="12.5" font-weight="500" fill="#1f1f1d">ntcA · N regulator</text>
+<rect x="232" y="352" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="289.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+3.35</text>
+<text x="289.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">1/1 tp · day 14</text>
+<rect x="350" y="352" width="114" height="42" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="407.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">-2.08</text>
+<text x="407.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">2/5 tp · day 89</text>
+<rect x="468" y="352" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="525.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+3.59</text>
+<text x="525.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">3/3 tp · day 31</text>
+<rect x="586" y="352" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="643.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.23</text>
+<text x="643.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">5/5 tp · day 31</text>
+<rect x="704" y="352" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="761.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+2.17</text>
+<text x="761.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">1/3 tp · 24h</text>
+<rect x="822" y="352" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="879.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+4.45</text>
+<text x="879.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">3/6 tp · 6h</text>
+<rect x="940" y="352" width="114" height="42" rx="4" fill="#eb6834" stroke="none"/>
+<text x="997.0" y="374.0" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">+3.56</text>
+<text x="997.0" y="388.0" text-anchor="middle" font-size="9.5" fill="#fff">4/6 tp · 12h</text>
+<rect x="24" y="426" width="16" height="12" rx="2" fill="#eb6834"/>
+<text x="46" y="436" font-size="12" fill="#52514e">up</text>
+<rect x="174" y="426" width="16" height="12" rx="2" fill="#2a78d6"/>
+<text x="196" y="436" font-size="12" fill="#52514e">down</text>
+<path d="M324,426 h16 L324,438 z" fill="#eb6834"/><path d="M340,426 v12 h-16 z" fill="#2a78d6"/>
+<text x="346" y="436" font-size="12" fill="#52514e">up + down</text>
+<rect x="474" y="426" width="16" height="12" rx="2" fill="#e6e5e1"/>
+<text x="496" y="436" font-size="12" fill="#52514e">not significant</text>
+<text x="24" y="460" font-size="11" fill="#8a8984">◆ = filtered source table. MIT9313 genes: PMT locus tags of the same KOs; ntcA = PMM0246 / PMT1831.</text>
+</svg>
