@@ -26,3 +26,6 @@
 ## Expression pathway maps by condition (2026-11-04, researcher asked for three maps)
 - `expression/scripts/build_de_maps.py` → `expression/reports/de_maps.html` (tabs), `expression/figures/de_map_{nitrogen,lightdark,mitomycin}.svg`.
 - Experiment sets (chosen in chat, researcher to confirm): nitrogen = MED4 low-N starvation ×4 (RNA/protein, axenic/coculture), MED4 N-depleted (ismej.2017.88), N deprivation MED4 + MIT9313 (msb4100087); excluded urea/cyanate/nitrite as N source and azaserine. Light/dark = MED4 extended darkness, NATL2A extended darkness axenic + coculture, MED4 constant dark vs constant light (uninfected), MED4 extended light (kept as its own square, opposite treatment). Mitomycin = MIT0604 MMC vs untreated (MMC-vs-UV contrast excluded: no untreated control).
+
+## Direction map (2026-11-04)
+- `grounding/scripts/build_direction_map.py` → `grounding/reports/direction_map.html`, `grounding/figures/direction_map.svg`, `data/route_direction.csv`. Per-step reversibility is textbook biochemistry [interpretation], not KG data (KG reaction records not checked — the probe was interrupted).

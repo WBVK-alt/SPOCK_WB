@@ -1,0 +1,60 @@
+route,kind,src,dst,direction,n_steps,n_reversible,genes,present_any
+rubisco,central,CO₂ (Calvin cycle),3-Phosphoglycerate,forward,2,0,rbcL→(45) rbcS→(45),True
+tkt,central,Sugar phosphates,Ribose-5-P,both,1,1,tktA⇄(45),True
+tkt2,central,Sugar phosphates,Erythrose-4-P,both,1,1,tktA⇄(45),True
+prs,central,Ribose-5-P,PRPP,forward,1,0,prs→(45),True
+pgk,central,3-Phosphoglycerate,Sugar phosphates,both,2,2,pgk⇄(45) gap2⇄(45),True
+lowglyc,central,3-Phosphoglycerate,PEP,both,2,2,gpm⇄(45) eno⇄(45),True
+pyk,central,PEP,Pyruvate,forward,1,0,pyk→(41),True
+pdh,central,Pyruvate,Acetyl-CoA,forward,4,0,pdhA→(44) pdhB→(45) aceF→(44) lpd→(44),True
+gltA,central,Acetyl-CoA,Citrate,forward,1,0,gltA→(45),True
+acn,central,Citrate,Isocitrate,both,1,1,acnB⇄(43),True
+icd,central,Isocitrate,2-Oxoglutarate,forward,1,0,icd→(45),True
+ogdh,central,2-Oxoglutarate,Succinyl-CoA,forward,2,0,sucA→(0) sucB→(0),False
+scs,central,Succinyl-CoA,Succinate,both,2,2,sucC⇄(0) sucD⇄(0),False
+sdh,central,Succinate,Fumarate,both,2,2,sdhA⇄(22) sdhB⇄(13),True
+fum,central,Fumarate,Malate,both,1,1,fumC⇄(45),True
+mdh,central,Malate,Oxaloacetate,forward,1,0,mdh/mqo→(44),True
+ppc,central,PEP,Oxaloacetate,forward,1,0,ppc→(45),True
+serine,bio,3-Phosphoglycerate,Ser,forward,3,2,serA⇄(45) serC/PSTA⇄(43) serB/psp→(45),True
+glyA,bio,Ser,Gly,both,1,1,glyA⇄(45),True
+cys,bio,Ser,Cys,forward,2,0,cysE→(45) cysK→(45),True
+shikimate,bio,Erythrose-4-P,Chorismate,forward,7,3,aroG→(43) aroB→(45) aroQ⇄(45) aroE⇄(43) aroK→(45) aroA⇄(45) aroC→(45),True
+phe,bio,Chorismate,Phe,forward,2,0,CM→(45) pheA→(45),True
+tyr,bio,Chorismate,Tyr,forward,2,0,CM→(45) tyrA→(45),True
+trp,bio,Chorismate,Trp,forward,7,0,trpE→(45) trpG→(45) trpD→(44) trpC→(43) trpF→(45) trpA→(45) trpB→(44),True
+his,bio,PRPP,His,forward,9,1,hisG→(45) hisIE→(45) hisA→(44) hisH→(45) hisF→(45) hisB→(45) hisC⇄(45) hisN→(0) hisD→(45),True
+ala,bio,Pyruvate,Ala,both,1,1,ald/alaA/AGXT⇄(45),True
+kiv,bio,Pyruvate,2-Oxoisovalerate,forward,4,0,ilvB→(44) ilvN→(44) ilvC→(45) ilvD→(45),True
+val,bio,2-Oxoisovalerate,Val,both,1,1,ilvE⇄(45),True
+leu,bio,2-Oxoisovalerate,Leu,forward,5,3,leuA→(45) leuC⇄(45) leuD⇄(45) leuB→(45) ilvE⇄(45),True
+gogat,bio,2-Oxoglutarate,Glu,forward,1,0,glsF/gltB→(45),True
+gln,bio,Glu,Gln,forward,1,0,glnA→(45),True
+pro,bio,Glu,Pro,forward,3,1,proB→(44) proA⇄(44) proC→(45),True
+arg,bio,Glu,Arg,forward,9,4,argJ⇄(44) argB→(45) argC⇄(45) argD⇄(45) carA→(45) carB→(43) argF→(43) argG→(45) argH⇄(45),True
+asp,bio,Oxaloacetate,Asp,both,1,1,aspC⇄(45),True
+asn,bio,Asp,Asn,forward,1,0,asnB→(20),True
+asa,bio,Asp,Aspartate semialdehyde,forward,2,1,lysC→(45) asd⇄(44),True
+lys,bio,Aspartate semialdehyde,Lys,forward,5,2,dapA→(45) dapB→(45) dapL⇄(44) dapF⇄(44) lysA→(45),True
+hom,bio,Aspartate semialdehyde,Homoserine,both,1,1,hom⇄(44),True
+thr,bio,Homoserine,Thr,forward,2,0,thrB→(44) thrC→(45),True
+met,bio,Homoserine,Met,forward,3,0,metX/metA→(45) metY/metB→(45) metE/metH→(43),True
+ile,bio,Thr,Ile,forward,6,1,ilvA→(44) ilvB→(44) ilvN→(44) ilvC→(45) ilvD→(45) ilvE⇄(45),True
+gcv,deg,Gly,CO₂ + NH₃ + CH₂-THF,exit,3,3,gcvT⇄(45) gcvP⇄(44) gcvH⇄(45),True
+sdaA,deg,Ser,→ pyruvate (from Ser),exit,1,0,sdaA→(0),False
+dadA,deg,Ala,→ pyruvate (from Ala),exit,1,0,dadA→(0),False
+thrdeg,deg,Thr,→ Gly + acetaldehyde,exit,1,0,ltaE/tdh→(0),False
+aspA,deg,Asp,→ fumarate (from Asp),exit,1,1,aspA⇄(0),False
+ans,deg,Asn,→ Asp (from Asn),exit,1,0,ansA/iaaA→(45),True
+glsA,deg,Gln,→ Glu (from Gln),exit,1,0,glsA→(1),True
+gdh,deg,Glu,2-Oxoglutarate,exit,1,1,gdhA⇄(6),True
+putA,deg,Pro,→ Glu (from Pro),exit,1,0,putA→(0),False
+spe,deg,Arg,→ putrescine (polyamines),exit,2,0,speA→(45) speB→(44),True
+rocF,deg,Arg,→ ornithine + urea,exit,1,0,rocF→(0),False
+hutH,deg,His,→ urocanate,exit,1,0,hutH→(0),False
+tnaA,deg,Trp,→ indole,exit,1,1,tnaA⇄(0),False
+phhA,deg,Phe,→ Tyr (from Phe),exit,1,0,phhA→(0),False
+hpd,deg,Tyr,→ homogentisate,exit,1,0,hpd→(0),False
+bkd,deg,Leu,→ branched-chain acyl-CoA,exit,3,0,bkdA1→(0) bkdA2→(2) bkdB→(0),True
+ldc,deg,Lys,→ cadaverine,exit,1,0,ldcC→(43),True
+mdeA,deg,Met,→ methanethiol + 2-oxobutanoate,exit,1,0,mdeA→(0),False
