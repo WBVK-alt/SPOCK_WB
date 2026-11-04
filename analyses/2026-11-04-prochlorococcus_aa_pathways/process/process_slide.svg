@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="system-ui,Segoe UI,sans-serif">
+<rect width="1920" height="1080" fill="#fcfcfb"/>
+<text x="80" y="92" font-size="44" font-weight="700" fill="#1f1f1d">Prochlorococcus amino-acid pathways: how we got here</text>
+<text x="80" y="134" font-size="22" fill="#52514e">From one question to a checked set of maps — 45 genomes, 67 experiments, all numbers from the multiomics KG</text>
+<path d="M80,180 h310 l26,100.0 l-26,100.0 h-310 l0,-100.0 z" fill="#2f7d4f"/>
+<text x="102" y="226" font-size="26" font-weight="700" fill="#fff">1 · Scope</text>
+<text x="102" y="272" font-size="20" fill="#fff">45 genomes, 140 experiments</text>
+<text x="102" y="304" font-size="20" fill="#fff">KG 0.1.0-alpha.9</text>
+<path d="M436,180 h310 l26,100.0 l-26,100.0 h-310 l26,-100.0 z" fill="#61409b"/>
+<text x="484" y="226" font-size="26" font-weight="700" fill="#fff">2 · Map the genomes</text>
+<text x="484" y="272" font-size="20" fill="#fff">14 KEGG pathways + GO terms</text>
+<text x="484" y="304" font-size="20" fill="#fff">Pathway map: 120 genes</text>
+<text x="484" y="336" font-size="20" fill="#fff">Cluster map: 45 strains</text>
+<path d="M792,180 h310 l26,100.0 l-26,100.0 h-310 l26,-100.0 z" fill="#7b74b5"/>
+<text x="840" y="226" font-size="26" font-weight="700" fill="#fff">3 · Expression</text>
+<text x="840" y="272" font-size="20" fill="#fff">67 experiments, 10 strains</text>
+<text x="840" y="304" font-size="20" fill="#fff">Overview: 101 genes × 67</text>
+<text x="840" y="336" font-size="20" fill="#fff">3 condition maps</text>
+<path d="M1148,180 h310 l26,100.0 l-26,100.0 h-310 l26,-100.0 z" fill="#355070"/>
+<text x="1196" y="226" font-size="26" font-weight="700" fill="#fff">4 · Interpret</text>
+<text x="1196" y="272" font-size="20" fill="#fff">Degradation · literature</text>
+<text x="1196" y="304" font-size="20" fill="#fff">Direction map</text>
+<text x="1196" y="336" font-size="20" fill="#fff">2-OG cell diagram</text>
+<path d="M1504,180 h336 l0,100.0 l0,100.0 h-336 l26,-100.0 z" fill="#c9a227"/>
+<text x="1552" y="226" font-size="26" font-weight="700" fill="#fff">5 · Check</text>
+<text x="1552" y="272" font-size="20" fill="#fff">QC: 1,560/1,560 squares match</text>
+<text x="1552" y="304" font-size="20" fill="#fff">Evidence check: 2-OG claim</text>
+<text x="1552" y="336" font-size="20" fill="#fff">vs KG reactions</text>
+<text x="80" y="430" font-size="28" font-weight="700" fill="#1f1f1d">What the KG shows</text>
+<rect x="80.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="80.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
+<text x="104.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">Builds everything</text>
+<text x="104.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">18 of 20 amino acids: complete</text>
+<text x="104.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">biosynthesis in 41–45 of 45 genomes</text>
+<text x="104.0" y="620" font-size="18" font-weight="400" fill="#52514e">Asn 20/45 · His 0/45 (hisN</text>
+<text x="104.0" y="646" font-size="18" font-weight="400" fill="#52514e">unannotated)</text>
+<rect x="526.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="526.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
+<text x="550.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">Breaks down almost nothing</text>
+<text x="550.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">12 of 18 degradation routes: no</text>
+<text x="550.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">gene in any genome</text>
+<text x="550.0" y="620" font-size="18" font-weight="400" fill="#52514e">Only 5 of 24 biosynthesis routes</text>
+<text x="550.0" y="646" font-size="18" font-weight="400" fill="#52514e">run both ways</text>
+<rect x="972.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="972.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
+<text x="996.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">TCA cycle open at 2-OG</text>
+<text x="996.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">No sucA/B or sucC/D in any genome;</text>
+<text x="996.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">2-OG feeds GS-GOGAT</text>
+<text x="996.0" y="620" font-size="18" font-weight="400" fill="#52514e">14 of 20 amino acids take N via Glu</text>
+<text x="996.0" y="646" font-size="18" font-weight="400" fill="#52514e">/ Gln / NH₄⁺</text>
+<rect x="1418.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="1418.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
+<text x="1442.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">Nitrogen stress</text>
+<text x="1442.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">glnA and ntcA up in 6 of 7 N</text>
+<text x="1442.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">experiments</text>
+<text x="1442.0" y="620" font-size="18" font-weight="400" fill="#52514e">acnB up 4/7 · icd mixed (3 up, 2</text>
+<text x="1442.0" y="646" font-size="18" font-weight="400" fill="#52514e">down)</text>
+<rect x="80.0" y="740" width="868.0" height="228" rx="16" fill="#fff" stroke="#b5651d" stroke-width="2"/>
+<text x="108.0" y="786" font-size="26" font-weight="700" fill="#b5651d">⚠ Corrected after QC</text>
+<text x="108.0" y="832" font-size="20" fill="#1f1f1d">• Mitomycin: 39 up / 42 down (was double-counted as 41/47)</text>
+<text x="108.0" y="870" font-size="20" fill="#1f1f1d">• Darkness lean-down is NATL2A only; extended light also leans down</text>
+<text x="108.0" y="908" font-size="20" fill="#1f1f1d">• Constant-dark experiment: 94 of 97 genes not in its table — drop it</text>
+<text x="108.0" y="946" font-size="20" fill="#1f1f1d">• PSTA has a wrong KO in the KG; PAC1 needs a direct query</text>
+<rect x="972.0" y="740" width="868.0" height="228" rx="16" fill="#fff" stroke="#8a8984" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1000.0" y="786" font-size="26" font-weight="700" fill="#8a8984">Gaps — not in the KG / not done</text>
+<text x="1000.0" y="832" font-size="20" fill="#1f1f1d">• No carbon-flux data · no 2-OG measurement under N stress</text>
+<text x="1000.0" y="870" font-size="20" fill="#1f1f1d">• 2-OG → NtcA signal: literature, not KG</text>
+<text x="1000.0" y="908" font-size="20" fill="#1f1f1d">• hisN gene and a possible TCA bypass: not searched yet</text>
+<text x="1000.0" y="946" font-size="20" fill="#1f1f1d">• No statistics vs genome-wide background yet</text>
+<text x="80" y="1036" font-size="18" fill="#8a8984">Status: Plan-phase data collection — no proposal, statistics or critic review yet. Files: analyses/2026-11-04-prochlorococcus_aa_pathways · 10 local commits.</text>
+</svg>
