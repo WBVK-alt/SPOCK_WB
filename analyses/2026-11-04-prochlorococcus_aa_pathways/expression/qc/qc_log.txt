@@ -1,0 +1,129 @@
+
+====================================================================================================
+STEP 0 · KG identity
+====================================================================================================
+KG 0.1.0-alpha.9 | explorer 0.1.0-alpha.6 | verdict ok
+
+====================================================================================================
+STEP 1 · experiment sets
+====================================================================================================
+
+[nitrogen]
+  [1] MED4 | PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth | RNASEQ | table=all_detected_genes | timepoints=1
+  [2] MED4 | PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth | RNASEQ | table=all_detected_genes | timepoints=5
+  [3] MED4 | PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth | PROTEOMICS | table=all_detected_genes | timepoints=3
+  [4] MED4 | PRO99-lowN nutrient starvation vs PRO99-lowN exponential growth | PROTEOMICS | table=all_detected_genes | timepoints=5
+  [5] MED4 | N-depleted Pro99 medium vs N-replete Pro99 medium | RNASEQ | table=filtered_subset | timepoints=3
+  [6] MED4 | Nitrogen deprivation (MED4) vs N-replete Pro99 medium (MED4) | MICROARRAY | table=all_detected_genes | timepoints=6
+  [7] MIT9313 | Nitrogen deprivation (MIT9313) vs N-replete Pro99 medium (MIT9313) | MICROARRAY | table=all_detected_genes | timepoints=6
+
+[lightdark]
+  [1] MED4 | Extended darkness across dawn: lights NOT turned on at ZT 0, darkness continued into the subjective circadian day vs Normal diel light period (time-matched controls) | RNASEQ | table=all_detected_genes | timepoints=2
+  [2] NATL2A | Extended darkness vs 13:11 diel light:dark cycle control | RNASEQ | table=significant_any_timepoint | timepoints=3
+  [3] NATL2A | Extended darkness vs 13:11 diel light:dark cycle control | RNASEQ | table=significant_any_timepoint | timepoints=3
+  [4] MED4 | Constant dark vs Constant light (90 µE m-2 s-1) | RNASEQ | table=significant_only | timepoints=4
+  [5] MED4 | Extended light across dusk: lights NOT turned off at ZT 12, light continued into the subjective circadian night vs Normal diel dark period (time-matched controls) | RNASEQ | table=all_detected_genes | timepoints=2
+
+[mitomycin]
+  [1] MIT0604 | Mitomycin C 15 ug/mL for 2 h (DNA-crosslinking damage; induces integrases/excisionases and mobilizes tycheposons) vs Untreated parallel cultures | RNASEQ | table=all_detected_genes | timepoints=1
+
+====================================================================================================
+STEP 2 · genes on the map (label -> KO alternatives)
+====================================================================================================
+120 distinct genes on 59 arrows; examples:
+  glnA       -> ['kegg.orthology:K01915', 'kegg.orthology:K01949']
+  glsF/gltB  -> ['kegg.orthology:K00284', 'kegg.orthology:K00265']
+  icd        -> ['kegg.orthology:K00031']
+  mdh/mqo    -> ['kegg.orthology:K00024', 'kegg.orthology:K00116']
+  serC/PSTA  -> ['kegg.orthology:K00831', 'cyanorak:CK_00000338']
+
+====================================================================================================
+STEP 3 · locus tags per gene, per strain (fresh KG query)
+====================================================================================================
+  Prochlorococcus MED4: 105 (gene, KO) rows
+  Prochlorococcus MIT0604: 103 (gene, KO) rows
+  Prochlorococcus MIT9313: 106 (gene, KO) rows
+  Prochlorococcus NATL2A: 100 (gene, KO) rows
+  ortholog group cyanorak:CK_00000338: 4 genes in these strains
+
+example, MED4:
+  glnA       -> ['PMM0920']
+  glsF/gltB  -> ['PMM1512']
+  icd        -> ['PMM1596']
+  mdh/mqo    -> ['PMM0419']
+  serC/PSTA  -> ['PMM0035']
+  sucA       -> none (no gene)
+  asnB       -> none (no gene)
+
+====================================================================================================
+STEP 4 · DE rows (fresh KG query)
+====================================================================================================
+  Prochlorococcus MED4: 106 locus tags, 9 experiments -> 2698 rows
+  Prochlorococcus MIT0604: 104 locus tags, 1 experiments -> 98 rows
+  Prochlorococcus MIT9313: 107 locus tags, 1 experiments -> 642 rows
+  Prochlorococcus NATL2A: 101 locus tags, 2 experiments -> 534 rows
+
+rows per experiment x status:
+expression_status                                             not_significant  significant_down  significant_up
+experiment_id                                                                                                  
+10.1016/j.cell.2022.12.006_mmc_dna_damage_mit0604                          15                44              39
+j.2017.88_nitrogen_stress_ndepleted_pro99_medium_med4_rnaseq              134                 9              16
+sb4100087_nitrogen_nitrogen_deprivation_med4_med4_microarray              596                22              18
+087_nitrogen_nitrogen_deprivation_mit9313_mit9313_microarray              623                11               8
+h_state_pro99lown_nutrient_starvation_med4_proteomics_axenic              165                36             114
+tate_pro99lown_nutrient_starvation_med4_proteomics_coculture              348                92              85
+rowth_state_pro99lown_nutrient_starvation_med4_rnaseq_axenic               30                40              36
+th_state_pro99lown_nutrient_starvation_med4_rnaseq_coculture              391               100              39
+ems.00040-18_darkness_extended_darkness_natl2a_rnaseq_axenic              125                91              51
+.00040-18_darkness_extended_darkness_natl2a_rnaseq_coculture              151                92              24
+nal.pone.0165375_light_stress_constant_dark_med4_rnaseq_dark                0                 3               0
+10.64898/2026.04.15.718746_extended_darkness_med4                          81                68              63
+10.64898/2026.04.15.718746_extended_light_med4                            149                46              17
+
+====================================================================================================
+STEP 5 · one square per (gene, experiment)
+====================================================================================================
+1560 squares written to qc_cells.csv
+
+====================================================================================================
+STEP 6 · worked example: glnA, nitrogen set
+====================================================================================================
+  [1] -> UP           from: PMM0920 day 14: significant_up (+3.36)
+  [2] -> DOWN         from: PMM0920 day 60: significant_down (-2.17); PMM0920 day 31: not_significant (-1.68); PMM0920 days 60+89: significant_down (-1.65); PMM0920 day 89: not_significant (-1.26); PMM0920 day 18: not_significant (-0.46)
+  [3] -> UP           from: PMM0920 day 89: significant_up (+2.53); PMM0920 day 14: significant_up (+2.12); PMM0920 day 31: significant_up (+1.38)
+  [4] -> UP           from: PMM0920 day 31: significant_up (+2.95); PMM0920 day 60: significant_up (+2.57); PMM0920 day 18: significant_up (+2.55); PMM0920 days 60+89: significant_up (+2.39); PMM0920 day 89: significant_up (+2.22)
+  [5] -> UP           from: PMM0920 12h: significant_up (+2.85); PMM0920 24h: significant_up (+2.45); PMM0920 3h: not_significant (+1.50)
+  [6] -> UP           from: PMM0920 6h: significant_up (+5.06); PMM0920 12h: significant_up (+4.14); PMM0920 24h: significant_up (+3.92); PMM0920 48h: significant_up (+3.80); PMM0920 3h: significant_up (+3.76); PMM0920 0h: not_significant (+0.51)
+  [7] -> UP           from: PMT0601 12h: significant_up (+2.03); PMT0601 6h: significant_up (+1.72); PMT0601 24h: significant_up (+1.54); PMT0601 3h: not_significant (+1.01); PMT0601 0h: not_significant (-0.26); PMT0601 48h: not_significant (+0.15)
+
+====================================================================================================
+STEP 7 · tallies
+====================================================================================================
+per experiment, each gene counted once:
+status            up  down  both  ns  not_measured  no_gene
+set       exp_no                                           
+lightdark 1       36    34     3  24             0       23
+          2       26    38    12   7            12       25
+          3       14    51     1  17            12       25
+          4        0     3     0   0            94       23
+          5       16    40     1  40             0       23
+mitomycin 1       39    42     0  11             6       22
+nitrogen  1       33    38     1  25             0       23
+          2       14    35     3  45             0       23
+          3       56    19     4  18             0       23
+          4       33    24     3  37             0       23
+          5       10     6     1  33            47       23
+          6        9     9     0  79             0       23
+          7        5    10     0  83             0       22
+
+per map, each gene SLOT counted (128 slots; genes on several arrows count once per arrow):
+  nitrogen   {'up': 172, 'down': 152, 'both': 14, 'ns': 350, 'not_measured': 48}
+  lightdark  {'up': 98, 'down': 184, 'both': 18, 'ns': 93, 'not_measured': 128}
+  mitomycin  {'up': 41, 'down': 47, 'both': 0, 'ns': 12, 'not_measured': 6}
+
+====================================================================================================
+STEP 8 · compare with the saved file the maps were drawn from
+====================================================================================================
+squares compared: 1560 | identical: 1560 | mismatches: 0
+
+QC PASSED
