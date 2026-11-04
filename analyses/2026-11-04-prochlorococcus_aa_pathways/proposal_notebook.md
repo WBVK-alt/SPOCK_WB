@@ -14,3 +14,7 @@
 - `expression/scripts/summarize.py` → per pathway × experiment / timepoint counts; `kegg_pathway_conditions_full_tables.csv` (35 experiments with full source tables, 8 strains).
 - Report: `expression/reports/summary.html` (built by `build_report.py` + `report_template.html`).
 - Observation [KG]: in experiments with full tables, every KEGG amino-acid pathway has ≥1 gene up in 5–19 and ≥1 gene down in 8–19 of 26–34 experiments; nitrogen experiments contribute the most. Genome-wide change in the same experiments ranges from ~1% to ~88% of measured genes, so raw counts are not yet comparable to background.
+
+## Pathway map (2026-11-04, researcher asked for a drawing of how the pathways meet the TCA cycle, with strain counts)
+- `grounding/scripts/pathway_steps.py` (layout + KO per step, textbook biochemistry [interpretation]) → `pull_ko_presence.py` (45 genomes; PAC1 via Cypher, cross-checked) → `build_pathway_map.py` → `grounding/reports/pathway_map.html`, `grounding/figures/pathway_map.svg`.
+- Alternative enzymes added after MED4 name search: mqo (malate → OAA), PSTA (by ortholog group) and psp (serine), aroH (chorismate mutase), metA / metB (methionine), AGXT (alanine).

@@ -5,3 +5,6 @@
 - `[kg-gap]` **No KEGG modules.** Pathway completeness cannot be read from the KG directly (same as the Alteromonas analysis).
 - `[pitfall]` **Genome-wide "% significant" is meaningless for partial tables.** For significant_only / filtered_subset experiments the rollup reads ~100%; the report blanks it for those experiments.
 - `[kg-gap]` **MIT0801 has metabolomics but no expression rows** for these genes; MIT9303 has 1 row and MIT9301 12 rows (significant-only tables).
+- `[kg-gap]` **PSTA (MED4 PMM0035, "3-phosphoserine transaminase") carries KO K00436 (hoxH, hydrogenase).** Counted on the pathway map by its Cyanorak group CK_00000338 instead. Seen in grounding/scripts/pull_ko_presence.py.
+- `[kg-gap]` **No annotated histidinol-phosphatase (hisN) in any Prochlorococcus genome**, by KO or by name search in MED4 — the His route reads 0/45 for that one step.
+- `[bkm]` **`run_cypher` on `Gene_has_kegg_ko` reaches PAC1**, which `organism=` cannot; cross-checked equal to `genes_by_ontology` on the other 44 genomes (4,541 rows).

@@ -1,0 +1,60 @@
+route,kind,src,dst,n_complete,of,incomplete_in
+rubisco,central,CO₂ (Calvin cycle),3-Phosphoglycerate,45,45,
+tkt,central,Sugar phosphates,Ribose-5-P,45,45,
+tkt2,central,Sugar phosphates,Erythrose-4-P,45,45,
+prs,central,Ribose-5-P,PRPP,45,45,
+pgk,central,3-Phosphoglycerate,Sugar phosphates,45,45,
+lowglyc,central,3-Phosphoglycerate,PEP,45,45,
+pyk,central,PEP,Pyruvate,41,45,Prochlorococcus MIT0801;Prochlorococcus NATL1A;Prochlorococcus NATL2A;Prochlorococcus PAC1
+pdh,central,Pyruvate,Acetyl-CoA,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+gltA,central,Acetyl-CoA,Citrate,45,45,
+acn,central,Citrate,Isocitrate,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+icd,central,Isocitrate,2-Oxoglutarate,45,45,
+ogdh,central,2-Oxoglutarate,Succinyl-CoA,0,45,
+scs,central,Succinyl-CoA,Succinate,0,45,
+sdh,central,Succinate,Fumarate,13,45,Prochlorococcus AS9601;Prochlorococcus EQPAC1;Prochlorococcus GP2;Prochlorococcus HNLC1;Prochlorococcus HNLC2;Prochlorococcus MED4;Prochlorococcus MIT0601;Prochlorococcus MIT0602;Prochlorococcus MIT0603;Prochlorococcus MIT0604;Prochlorococcus MIT0801;Prochlorococcus MIT1314;Prochlorococcus MIT9107;Prochlorococcus MIT9116;Prochlorococcus MIT9123;Prochlorococcus MIT9201;Prochlorococcus MIT9202;Prochlorococcus MIT9211;Prochlorococcus MIT9215;Prochlorococcus MIT9301;Prochlorococcus MIT9311;Prochlorococcus MIT9312;Prochlorococcus MIT9314;Prochlorococcus MIT9321;Prochlorococcus MIT9322;Prochlorococcus MIT9401;Prochlorococcus MIT9515;Prochlorococcus NATL1A;Prochlorococcus NATL2A;Prochlorococcus PAC1;Prochlorococcus RSP50;Prochlorococcus SB
+fum,central,Fumarate,Malate,45,45,
+mdh,central,Malate,Oxaloacetate,44,45,Prochlorococcus HNLC2
+ppc,central,PEP,Oxaloacetate,45,45,
+serine,bio,3-Phosphoglycerate,Ser,43,45,Prochlorococcus MIT1314;Prochlorococcus RSP50
+glyA,bio,Ser,Gly,45,45,
+cys,bio,Ser,Cys,45,45,
+shikimate,bio,Erythrose-4-P,Chorismate,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+phe,bio,Chorismate,Phe,45,45,
+tyr,bio,Chorismate,Tyr,45,45,
+trp,bio,Chorismate,Trp,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+his,bio,PRPP,His,0,45,
+ala,bio,Pyruvate,Ala,45,45,
+kiv,bio,Pyruvate,2-Oxoisovalerate,43,45,Prochlorococcus HNLC2;Prochlorococcus MIT9202
+val,bio,2-Oxoisovalerate,Val,45,45,
+leu,bio,2-Oxoisovalerate,Leu,45,45,
+gogat,bio,2-Oxoglutarate,Glu,45,45,
+gln,bio,Glu,Gln,45,45,
+pro,bio,Glu,Pro,44,45,Prochlorococcus HNLC2
+arg,bio,Glu,Arg,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+asp,bio,Oxaloacetate,Asp,45,45,
+asn,bio,Asp,Asn,20,45,Prochlorococcus AS9601;Prochlorococcus EQPAC1;Prochlorococcus HNLC1;Prochlorococcus HNLC2;Prochlorococcus MED4;Prochlorococcus MIT0601;Prochlorococcus MIT0602;Prochlorococcus MIT0603;Prochlorococcus MIT0701;Prochlorococcus MIT0702;Prochlorococcus MIT0703;Prochlorococcus MIT1327;Prochlorococcus MIT9107;Prochlorococcus MIT9116;Prochlorococcus MIT9123;Prochlorococcus MIT9201;Prochlorococcus MIT9211;Prochlorococcus MIT9301;Prochlorococcus MIT9302;Prochlorococcus MIT9303;Prochlorococcus MIT9313;Prochlorococcus MIT9515;Prochlorococcus NATL2A;Prochlorococcus PAC1;Prochlorococcus SB
+asa,bio,Asp,Aspartate semialdehyde,44,45,Prochlorococcus MIT9313
+lys,bio,Aspartate semialdehyde,Lys,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+hom,bio,Aspartate semialdehyde,Homoserine,44,45,Prochlorococcus HNLC2
+thr,bio,Homoserine,Thr,44,45,Prochlorococcus HNLC2
+met,bio,Homoserine,Met,43,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2
+ile,bio,Thr,Ile,42,45,Prochlorococcus HNLC1;Prochlorococcus HNLC2;Prochlorococcus MIT9202
+gcv,deg,Gly,CO₂ + NH₃ + CH₂-THF,44,45,Prochlorococcus HNLC1
+sdaA,deg,Ser,→ pyruvate (from Ser),0,45,
+dadA,deg,Ala,→ pyruvate (from Ala),0,45,
+thrdeg,deg,Thr,→ Gly + acetaldehyde,0,45,
+aspA,deg,Asp,→ fumarate (from Asp),0,45,
+ans,deg,Asn,→ Asp (from Asn),45,45,
+glsA,deg,Gln,→ Glu (from Gln),1,45,Prochlorococcus AS9601;Prochlorococcus EQPAC1;Prochlorococcus GP2;Prochlorococcus HNLC1;Prochlorococcus HNLC2;Prochlorococcus LG;Prochlorococcus MED4;Prochlorococcus MIT0601;Prochlorococcus MIT0602;Prochlorococcus MIT0603;Prochlorococcus MIT0604;Prochlorococcus MIT0701;Prochlorococcus MIT0702;Prochlorococcus MIT0703;Prochlorococcus MIT0801;Prochlorococcus MIT1314;Prochlorococcus MIT1327;Prochlorococcus MIT9107;Prochlorococcus MIT9116;Prochlorococcus MIT9123;Prochlorococcus MIT9201;Prochlorococcus MIT9202;Prochlorococcus MIT9211;Prochlorococcus MIT9215;Prochlorococcus MIT9301;Prochlorococcus MIT9302;Prochlorococcus MIT9303;Prochlorococcus MIT9311;Prochlorococcus MIT9312;Prochlorococcus MIT9313;Prochlorococcus MIT9314;Prochlorococcus MIT9321;Prochlorococcus MIT9322;Prochlorococcus MIT9401;Prochlorococcus MIT9515;Prochlorococcus NATL1A;Prochlorococcus NATL2A;Prochlorococcus RSP50;Prochlorococcus SB;Prochlorococcus SS2;Prochlorococcus SS35;Prochlorococcus SS51;Prochlorococcus SS52;Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+gdh,deg,Glu,2-Oxoglutarate,6,45,Prochlorococcus AS9601;Prochlorococcus EQPAC1;Prochlorococcus GP2;Prochlorococcus HNLC1;Prochlorococcus HNLC2;Prochlorococcus LG;Prochlorococcus MED4;Prochlorococcus MIT0601;Prochlorococcus MIT0602;Prochlorococcus MIT0603;Prochlorococcus MIT0604;Prochlorococcus MIT0801;Prochlorococcus MIT1314;Prochlorococcus MIT9107;Prochlorococcus MIT9116;Prochlorococcus MIT9123;Prochlorococcus MIT9201;Prochlorococcus MIT9202;Prochlorococcus MIT9211;Prochlorococcus MIT9215;Prochlorococcus MIT9301;Prochlorococcus MIT9302;Prochlorococcus MIT9311;Prochlorococcus MIT9312;Prochlorococcus MIT9314;Prochlorococcus MIT9321;Prochlorococcus MIT9322;Prochlorococcus MIT9401;Prochlorococcus MIT9515;Prochlorococcus NATL1A;Prochlorococcus NATL2A;Prochlorococcus PAC1;Prochlorococcus RSP50;Prochlorococcus SB;Prochlorococcus SS2;Prochlorococcus SS35;Prochlorococcus SS51;Prochlorococcus SS52;Prochlorococcus marinus subsp. marinus CCMP1375 (SS120)
+putA,deg,Pro,Glu,0,45,
+spe,deg,Arg,→ putrescine (polyamines),44,45,Prochlorococcus MIT9202
+rocF,deg,Arg,→ ornithine + urea,0,45,
+hutH,deg,His,→ urocanate,0,45,
+tnaA,deg,Trp,→ indole,0,45,
+phhA,deg,Phe,Tyr,0,45,
+hpd,deg,Tyr,→ homogentisate,0,45,
+bkd,deg,Leu,→ branched-chain acyl-CoA,0,45,
+ldc,deg,Lys,→ cadaverine,43,45,Prochlorococcus HNLC2;Prochlorococcus MIT9201
+mdeA,deg,Met,→ methanethiol + 2-oxobutanoate,0,45,

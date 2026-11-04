@@ -1,0 +1,166 @@
+ko_id,kg_name
+kegg.orthology:K00003,hom; homoserine dehydrogenase [EC:1.1.1.3]
+kegg.orthology:K00013,hisD; histidinol dehydrogenase [EC:1.1.1.23]
+kegg.orthology:K00014,aroE; shikimate dehydrogenase [EC:1.1.1.25]
+kegg.orthology:K00024,mdh; malate dehydrogenase [EC:1.1.1.37]
+kegg.orthology:K00031,"IDH1, IDH2, icd, IDP; isocitrate dehydrogenase [EC:1.1.1.42]"
+kegg.orthology:K00052,"leuB, IMDH; 3-isopropylmalate dehydrogenase [EC:1.1.1.85]"
+kegg.orthology:K00053,ilvC; ketol-acid reductoisomerase [EC:1.1.1.86]
+kegg.orthology:K00058,"serA, PHGDH; D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]"
+kegg.orthology:K00060,tdh; threonine 3-dehydrogenase [EC:1.1.1.103]
+kegg.orthology:K00116,mqo; malate dehydrogenase (quinone) [EC:1.1.5.4]
+kegg.orthology:K00133,asd; aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
+kegg.orthology:K00134,"GAPDH, gapA; glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]"
+kegg.orthology:K00145,argC; N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]
+kegg.orthology:K00147,proA; glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]
+kegg.orthology:K00150,"gap2, gapB; glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59]"
+kegg.orthology:K00161,"PDHA, pdhA; pyruvate dehydrogenase E1 component subunit alpha [EC:1.2.4.1]"
+kegg.orthology:K00162,"PDHB, pdhB; pyruvate dehydrogenase E1 component subunit beta [EC:1.2.4.1]"
+kegg.orthology:K00164,"OGDH, sucA; 2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2]"
+kegg.orthology:K00166,"BCKDHA, bkdA1; 2-oxoisovalerate dehydrogenase E1 component subunit alpha [EC:1.2.4.4]"
+kegg.orthology:K00167,"BCKDHB, bkdA2; 2-oxoisovalerate dehydrogenase E1 component subunit beta [EC:1.2.4.4]"
+kegg.orthology:K00215,dapB; 4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]
+kegg.orthology:K00220,tyrC; cyclohexadieny/prephenate dehydrogenase [EC:1.3.1.43 1.3.1.12]
+kegg.orthology:K00239,"sdhA, frdA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]"
+kegg.orthology:K00240,"sdhB, frdB; succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]"
+kegg.orthology:K00259,ald; alanine dehydrogenase [EC:1.4.1.1]
+kegg.orthology:K00261,"GLUD1_2, gdhA; glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3]"
+kegg.orthology:K00262,"E1.4.1.4, gdhA; glutamate dehydrogenase (NADP+) [EC:1.4.1.4]"
+kegg.orthology:K00265,gltB; glutamate synthase (NADPH) large chain [EC:1.4.1.13]
+kegg.orthology:K00281,"GLDC, gcvP; glycine cleavage system P protein (glycine dehydrogenase) [EC:1.4.4.2]"
+kegg.orthology:K00282,
+kegg.orthology:K00284,"GLU, gltS; glutamate synthase (ferredoxin) [EC:1.4.7.1]"
+kegg.orthology:K00285,dadA; D-amino-acid dehydrogenase [EC:1.4.5.1]
+kegg.orthology:K00286,proC; pyrroline-5-carboxylate reductase [EC:1.5.1.2]
+kegg.orthology:K00318,"PRODH, fadM, putB; proline dehydrogenase [EC:1.5.5.2]"
+kegg.orthology:K00382,"DLD, lpd, pdhD; dihydrolipoyl dehydrogenase [EC:1.8.1.4]"
+kegg.orthology:K00457,"HPD, hppD; 4-hydroxyphenylpyruvate dioxygenase [EC:1.13.11.27]"
+kegg.orthology:K00500,"phhA, PAH; phenylalanine-4-hydroxylase [EC:1.14.16.1]"
+kegg.orthology:K00548,"metH, MTR; 5-methyltetrahydrofolate--homocysteine methyltransferase [EC:2.1.1.13]"
+kegg.orthology:K00549,metE; 5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+kegg.orthology:K00600,"glyA, SHMT; glycine hydroxymethyltransferase [EC:2.1.2.1]"
+kegg.orthology:K00605,"gcvT, AMT; glycine cleavage system T protein (aminomethyltransferase) [EC:2.1.2.10]"
+kegg.orthology:K00611,"OTC, argF, argI; ornithine carbamoyltransferase [EC:2.1.3.3]"
+kegg.orthology:K00615,"E2.2.1.1, tktA, tktB; transketolase [EC:2.2.1.1]"
+kegg.orthology:K00620,argJ; glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]
+kegg.orthology:K00627,"DLAT, aceF, pdhC; pyruvate dehydrogenase E2 component (dihydrolipoyllysine-residue acetyltransferase) [EC:2.3.1.12]"
+kegg.orthology:K00640,cysE; serine O-acetyltransferase [EC:2.3.1.30]
+kegg.orthology:K00641,metX; homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]
+kegg.orthology:K00651,metA; homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]
+kegg.orthology:K00658,"DLST, sucB; 2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide succinyltransferase) [EC:2.3.1.61]"
+kegg.orthology:K00765,hisG; ATP phosphoribosyltransferase [EC:2.4.2.17]
+kegg.orthology:K00766,trpD; anthranilate phosphoribosyltransferase [EC:2.4.2.18]
+kegg.orthology:K00800,aroA; 3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]
+kegg.orthology:K00812,aspB; aspartate aminotransferase [EC:2.6.1.1]
+kegg.orthology:K00813,aspC; aspartate aminotransferase [EC:2.6.1.1]
+kegg.orthology:K00817,hisC; histidinol-phosphate aminotransferase [EC:2.6.1.9]
+kegg.orthology:K00818,
+kegg.orthology:K00821,argD; acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]
+kegg.orthology:K00826,"E2.6.1.42, ilvE; branched-chain amino acid aminotransferase [EC:2.6.1.42]"
+kegg.orthology:K00830,AGXT; alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51]
+kegg.orthology:K00831,"serC, PSAT1; phosphoserine aminotransferase [EC:2.6.1.52]"
+kegg.orthology:K00872,thrB; homoserine kinase [EC:2.7.1.39]
+kegg.orthology:K00873,"PK, pyk; pyruvate kinase [EC:2.7.1.40]"
+kegg.orthology:K00891,"aroK, aroL; shikimate kinase [EC:2.7.1.71]"
+kegg.orthology:K00927,"PGK, pgk; phosphoglycerate kinase [EC:2.7.2.3]"
+kegg.orthology:K00928,lysC; aspartate kinase [EC:2.7.2.4]
+kegg.orthology:K00930,argB; acetylglutamate kinase [EC:2.7.2.8]
+kegg.orthology:K00931,proB; glutamate 5-kinase [EC:2.7.2.11]
+kegg.orthology:K00948,"PRPS, prsA; ribose-phosphate pyrophosphokinase [EC:2.7.6.1]"
+kegg.orthology:K01079,"serB, PSPH; phosphoserine phosphatase [EC:3.1.3.3]"
+kegg.orthology:K01089,hisB; imidazoleglycerol-phosphate dehydratase / histidinol-phosphatase [EC:4.2.1.19 3.1.3.15]
+kegg.orthology:K01424,"E3.5.1.1, ansA, ansB; L-asparaginase [EC:3.5.1.1]"
+kegg.orthology:K01425,"glsA, GLS; glutaminase [EC:3.5.1.2]"
+kegg.orthology:K01476,"rocF, arg; arginase [EC:3.5.3.1]"
+kegg.orthology:K01480,speB; agmatinase [EC:3.5.3.11]
+kegg.orthology:K01496,hisI; phosphoribosyl-AMP cyclohydrolase [EC:3.5.4.19]
+kegg.orthology:K01523,hisE; phosphoribosyl-ATP pyrophosphohydrolase [EC:3.6.1.31]
+kegg.orthology:K01582,"E4.1.1.18, ldcC, cadA; lysine decarboxylase [EC:4.1.1.18]"
+kegg.orthology:K01585,speA; arginine decarboxylase [EC:4.1.1.19]
+kegg.orthology:K01586,lysA; diaminopimelate decarboxylase [EC:4.1.1.20]
+kegg.orthology:K01595,ppc; phosphoenolpyruvate carboxylase [EC:4.1.1.31]
+kegg.orthology:K01601,"rbcL, cbbL; ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39]"
+kegg.orthology:K01602,"rbcS, cbbS; ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39]"
+kegg.orthology:K01609,trpC; indole-3-glycerol phosphate synthase [EC:4.1.1.48]
+kegg.orthology:K01620,"ltaE, THA; threonine aldolase [EC:4.1.2.48]"
+kegg.orthology:K01626,"E2.5.1.54, aroF, aroG, aroH; 3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]"
+kegg.orthology:K01647,"CS, gltA, CIT; citrate synthase [EC:2.3.3.1]"
+kegg.orthology:K01649,"leuA, IMS; 2-isopropylmalate synthase [EC:2.3.3.13]"
+kegg.orthology:K01652,"E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6]"
+kegg.orthology:K01653,"E2.2.1.6S, ilvH, ilvN; acetolactate synthase I/III small subunit [EC:2.2.1.6]"
+kegg.orthology:K01657,trpE; anthranilate synthase component I [EC:4.1.3.27]
+kegg.orthology:K01658,trpG; anthranilate synthase component II [EC:4.1.3.27]
+kegg.orthology:K01667,
+kegg.orthology:K01676,"E4.2.1.2A, fumA, fumB; fumarate hydratase, class I [EC:4.2.1.2]"
+kegg.orthology:K01679,"E4.2.1.2B, fumC, FH; fumarate hydratase, class II [EC:4.2.1.2]"
+kegg.orthology:K01681,ACO; aconitate hydratase [EC:4.2.1.3]
+kegg.orthology:K01682,acnB; aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99]
+kegg.orthology:K01687,ilvD; dihydroxy-acid dehydratase [EC:4.2.1.9]
+kegg.orthology:K01689,"ENO1_2_3, eno; enolase 1/2/3 [EC:4.2.1.11]"
+kegg.orthology:K01693,hisB; imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]
+kegg.orthology:K01695,trpA; tryptophan synthase alpha chain [EC:4.2.1.20]
+kegg.orthology:K01696,trpB; tryptophan synthase beta chain [EC:4.2.1.20]
+kegg.orthology:K01703,"leuC, IPMI-L; 3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]"
+kegg.orthology:K01704,"leuD, IPMI-S; 3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]"
+kegg.orthology:K01714,dapA; 4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+kegg.orthology:K01733,thrC; threonine synthase [EC:4.2.3.1]
+kegg.orthology:K01735,aroB; 3-dehydroquinate synthase [EC:4.2.3.4]
+kegg.orthology:K01736,aroC; chorismate synthase [EC:4.2.3.5]
+kegg.orthology:K01738,cysK; cysteine synthase [EC:2.5.1.47]
+kegg.orthology:K01739,metB; cystathionine gamma-synthase [EC:2.5.1.48]
+kegg.orthology:K01740,metY; O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]
+kegg.orthology:K01744,aspA; aspartate ammonia-lyase [EC:4.3.1.1]
+kegg.orthology:K01745,"hutH, HAL; histidine ammonia-lyase [EC:4.3.1.3]"
+kegg.orthology:K01752,"E4.3.1.17, sdaA, sdaB, tdcG; L-serine dehydratase [EC:4.3.1.17]"
+kegg.orthology:K01754,"E4.3.1.19, ilvA, tdcB; threonine dehydratase [EC:4.3.1.19]"
+kegg.orthology:K01755,"argH, ASL; argininosuccinate lyase [EC:4.3.2.1]"
+kegg.orthology:K01761,E4.4.1.11; methionine-gamma-lyase [EC:4.4.1.11]
+kegg.orthology:K01778,dapF; diaminopimelate epimerase [EC:5.1.1.7]
+kegg.orthology:K01814,hisA; phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16]
+kegg.orthology:K01817,trpF; phosphoribosylanthranilate isomerase [EC:5.3.1.24]
+kegg.orthology:K01834,"PGAM, gpmA; 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]"
+kegg.orthology:K01902,sucD; succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]
+kegg.orthology:K01903,sucC; succinyl-CoA synthetase beta subunit [EC:6.2.1.5]
+kegg.orthology:K01915,"glnA, GLUL; glutamine synthetase [EC:6.3.1.2]"
+kegg.orthology:K01940,"argG, ASS1; argininosuccinate synthase [EC:6.3.4.5]"
+kegg.orthology:K01949,gmaS; glutamate---methylamine ligase [EC:6.3.4.12]
+kegg.orthology:K01953,"asnB, ASNS; asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]"
+kegg.orthology:K01955,"carB, CPA2; carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]"
+kegg.orthology:K01956,"carA, CPA1; carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]"
+kegg.orthology:K02204,thrB2; homoserine kinase type II [EC:2.7.1.39]
+kegg.orthology:K02437,"gcvH, GCSH; glycine cleavage system H protein"
+kegg.orthology:K02500,hisF; imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]
+kegg.orthology:K02501,hisH; imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]
+kegg.orthology:K03785,
+kegg.orthology:K03786,"aroQ, qutE; 3-dehydroquinate dehydratase II [EC:4.2.1.10]"
+kegg.orthology:K03856,"AROA2, aroA; 3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]"
+kegg.orthology:K04092,tyrA1; chorismate mutase [EC:5.4.99.5]
+kegg.orthology:K04093,pheA1; chorismate mutase [EC:5.4.99.5]
+kegg.orthology:K04486,"hisK, hisJ; histidinol-phosphatase (PHP family) [EC:3.1.3.15]"
+kegg.orthology:K04516,"AROA1, aroA; chorismate mutase [EC:5.4.99.5]"
+kegg.orthology:K04517,tyrA2; prephenate dehydrogenase [EC:1.3.1.12]
+kegg.orthology:K04518,pheA2; prephenate dehydratase [EC:4.2.1.51]
+kegg.orthology:K05359,
+kegg.orthology:K05602,hisN; histidinol-phosphatase [EC:3.1.3.15]
+kegg.orthology:K06208,aroH; chorismate mutase [EC:5.4.99.5]
+kegg.orthology:K09699,"DBT, bkdB; 2-oxoisovalerate dehydrogenase E2 component (dihydrolipoyl transacylase) [EC:2.3.1.168]"
+kegg.orthology:K10206,E2.6.1.83; LL-diaminopimelate aminotransferase [EC:2.6.1.83]
+kegg.orthology:K11358,
+kegg.orthology:K11755,hisIE; phosphoribosyl-AMP cyclohydrolase / phosphoribosyl-ATP pyrophosphohydrolase [EC:3.5.4.19 3.6.1.31]
+kegg.orthology:K12339,cysM; S-sulfo-L-cysteine synthase (O-acetyl-L-serine-dependent) [EC:2.5.1.144]
+kegg.orthology:K12524,thrA; bifunctional aspartokinase / homoserine dehydrogenase 1 [EC:2.7.2.4 1.1.1.3]
+kegg.orthology:K12525,metL; bifunctional aspartokinase / homoserine dehydrogenase 2 [EC:2.7.2.4 1.1.1.3]
+kegg.orthology:K12526,
+kegg.orthology:K13051,"ASRGL1, iaaA; L-asparaginase / beta-aspartyl-peptidase [EC:3.5.1.1 3.4.19.5]"
+kegg.orthology:K13498,trpCF; indole-3-glycerol phosphate synthase / phosphoribosylanthranilate isomerase [EC:4.1.1.48 5.3.1.24]
+kegg.orthology:K13821,"putA; RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]"
+kegg.orthology:K14170,pheA; chorismate mutase / prephenate dehydratase [EC:5.4.99.5 4.2.1.51]
+kegg.orthology:K14187,tyrA; chorismate mutase / prephenate dehydrogenase [EC:5.4.99.5 1.3.1.12]
+kegg.orthology:K14260,alaA; alanine-synthesizing transaminase [EC:2.6.1.66 2.6.1.2]
+kegg.orthology:K14261,alaC; alanine-synthesizing transaminase [EC:2.6.1.-]
+kegg.orthology:K15226,tyrAa; arogenate dehydrogenase (NADP+) [EC:1.3.1.78]
+kegg.orthology:K15371,GDH2; glutamate dehydrogenase [EC:1.4.1.2]
+kegg.orthology:K15633,"gpmI; 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]"
+kegg.orthology:K17989,"SDS, SDH, CHA1; L-serine/L-threonine ammonia-lyase [EC:4.3.1.17 4.3.1.19]"
+kegg.orthology:K18649,IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase [EC:3.1.3.25 3.1.3.93 3.1.3.15]
+kegg.orthology:K22305,psp; phosphoserine phosphatase [EC:3.1.3.3]
