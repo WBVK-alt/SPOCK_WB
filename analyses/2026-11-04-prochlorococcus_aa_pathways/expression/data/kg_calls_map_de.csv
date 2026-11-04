@@ -1,0 +1,11 @@
+organism,n_tags,rows,genes,no_expression
+Prochlorococcus AS9601,105,103,103,2
+Prochlorococcus MED4,106,3721,106,0
+Prochlorococcus MIT0604,104,294,98,6
+Prochlorococcus MIT9301,104,16,16,88
+Prochlorococcus MIT9303,113,1,1,112
+Prochlorococcus MIT9312,105,67,39,66
+Prochlorococcus MIT9313,107,1170,107,0
+Prochlorococcus NATL1A,104,104,104,0
+Prochlorococcus NATL2A,101,1338,101,0
+Prochlorococcus marinus subsp. marinus CCMP1375 (SS120),109,451,102,7

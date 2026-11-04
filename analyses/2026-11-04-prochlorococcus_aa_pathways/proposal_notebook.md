@@ -18,3 +18,7 @@
 ## Pathway map (2026-11-04, researcher asked for a drawing of how the pathways meet the TCA cycle, with strain counts)
 - `grounding/scripts/pathway_steps.py` (layout + KO per step, textbook biochemistry [interpretation]) → `pull_ko_presence.py` (45 genomes; PAC1 via Cypher, cross-checked) → `build_pathway_map.py` → `grounding/reports/pathway_map.html`, `grounding/figures/pathway_map.svg`.
 - Alternative enzymes added after MED4 name search: mqo (malate → OAA), PSTA (by ortholog group) and psp (serine), aroH (chorismate mutase), metA / metB (methionine), AGXT (alanine).
+
+## Expression overview (2026-11-04, researcher asked for an overview of DE genes across conditions)
+- `expression/scripts/pull_map_de.py` → `map_de_rows.csv` (DE rows for every map locus tag in the 10 strains with expression data; 949 up, 1,298 down, 5,018 not significant rows).
+- `expression/scripts/build_de_overview.py` → `expression/reports/de_overview.html`, `expression/figures/de_overview.svg`, `data/de_overview_cells.csv` (101 genes × 67 experiments; any timepoint, any paralog).
