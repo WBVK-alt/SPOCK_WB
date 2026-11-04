@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 2336" width="1500" height="2336" font-family="system-ui,Segoe UI,sans-serif">
+<rect width="1500" height="2336" fill="#fcfcfb"/>
+<text x="40" y="50" font-size="24" font-weight="700" fill="#1f1f1d">How we got here: Prochlorococcus amino-acid pathways, 2026-11-04</text>
+<text x="40" y="76" font-size="13" fill="#52514e">Each card = one step of the session: the question that started it, how it was done (KG tools), what it produced, and what it showed.</text>
+<text x="40" y="96" font-size="13" fill="#52514e">Side notes = gaps, choices and corrections found along the way. Commit ids = local git history of analyses/2026-11-04-prochlorococcus_aa_pathways.</text>
+<rect x="40" y="114" width="14" height="14" rx="3" fill="#2f7d4f"/><text x="60" y="126" font-size="12.5" fill="#1f1f1d">Scope</text>
+<rect x="130" y="114" width="14" height="14" rx="3" fill="#61409b"/><text x="150" y="126" font-size="12.5" fill="#1f1f1d">Map the genomes</text>
+<rect x="300" y="114" width="14" height="14" rx="3" fill="#7b74b5"/><text x="320" y="126" font-size="12.5" fill="#1f1f1d">Expression</text>
+<rect x="430" y="114" width="14" height="14" rx="3" fill="#355070"/><text x="450" y="126" font-size="12.5" fill="#1f1f1d">Interpret</text>
+<rect x="552" y="114" width="14" height="14" rx="3" fill="#c9a227"/><text x="572" y="126" font-size="12.5" fill="#1f1f1d">Check</text>
+<line x1="90" x2="90" y1="150" y2="2128" stroke="#d6d5d0" stroke-width="3"/>
+<circle cx="90" cy="172" r="17" fill="#2f7d4f"/><text x="90" y="177" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+<rect x="130" y="150" width="860" height="136" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="150" width="6" height="136" rx="3" fill="#2f7d4f"/>
+<text x="150" y="174" font-size="15.5" font-weight="700" fill="#1f1f1d">Your question</text>
+<text x="970" y="174" text-anchor="end" font-size="11" fill="#8a8984">Scope</text>
+<text x="150" y="194" font-size="12.5" font-style="italic" fill="#52514e">All KG data on Prochlorococcus amino-acid biosynthesis and degradation: genes per pathway, and under which</text>
+<text x="150" y="210" font-size="12.5" font-style="italic" fill="#52514e">conditions they go up or down.</text>
+<text x="150" y="226" font-size="11.5" fill="#52514e">How: Loaded the research-methodology rules · kg_release_info</text>
+<text x="150" y="242" font-size="12.5" font-weight="600" fill="#1f1f1d">→ KG 0.1.0-alpha.9, compatibility ok</text>
+<circle cx="90" cy="326" r="17" fill="#2f7d4f"/><text x="90" y="331" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+<rect x="130" y="304" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="304" width="6" height="120" rx="3" fill="#2f7d4f"/>
+<text x="150" y="328" font-size="15.5" font-weight="700" fill="#1f1f1d">What does the KG hold?</text>
+<text x="970" y="328" text-anchor="end" font-size="11" fill="#8a8984">Scope</text>
+<text x="150" y="348" font-size="12.5" font-style="italic" fill="#52514e">Which strains and experiments exist?</text>
+<text x="150" y="364" font-size="11.5" fill="#52514e">How: list_organisms · list_experiments</text>
+<text x="150" y="380" font-size="12.5" font-weight="600" fill="#1f1f1d">→ 45 Prochlorococcus genomes · 140 experiments (42 genome-only)</text>
+<circle cx="90" cy="464" r="17" fill="#61409b"/><text x="90" y="469" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+<rect x="130" y="442" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="442" width="6" height="120" rx="3" fill="#61409b"/>
+<text x="150" y="466" font-size="15.5" font-weight="700" fill="#1f1f1d">Gene inventory</text>
+<text x="970" y="466" text-anchor="end" font-size="11" fill="#8a8984">Map the genomes  ·  c929334</text>
+<text x="150" y="486" font-size="12.5" font-style="italic" fill="#52514e">How many genes per pathway?</text>
+<text x="150" y="502" font-size="11.5" fill="#52514e">How: genes_by_ontology: 14 KEGG amino-acid pathways + 40 GO &#x27;biosynthetic / catabolic process&#x27; terms</text>
+<text x="150" y="518" font-size="12.5" font-weight="600" fill="#1f1f1d">→ Median 2 (Trp metabolism) to 24 genes per pathway; GO catabolic terms nearly empty</text>
+<text x="150" y="534" font-size="11" fill="#61409b" font-family="Consolas,monospace">grounding/data/counts_*.csv</text>
+<line x1="990" x2="1040" y1="464" y2="464" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="442" width="400" height="41" rx="8" fill="#fff" stroke="#8a8984" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="1052" y="460" font-size="11" font-weight="700" fill="#8a8984">note · gap · choice</text>
+<text x="1052" y="476" font-size="11.5" fill="#1f1f1d">PAC1 skipped: its name also matches EQPAC1</text>
+<circle cx="90" cy="602" r="17" fill="#7b74b5"/><text x="90" y="607" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">4</text>
+<rect x="130" y="580" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="580" width="6" height="120" rx="3" fill="#7b74b5"/>
+<text x="150" y="604" font-size="15.5" font-weight="700" fill="#1f1f1d">First expression pull</text>
+<text x="970" y="604" text-anchor="end" font-size="11" fill="#8a8984">Expression  ·  c929334</text>
+<text x="150" y="624" font-size="12.5" font-style="italic" fill="#52514e">Under which conditions are these genes up / down?</text>
+<text x="150" y="640" font-size="11.5" fill="#52514e">How: differential_expression_by_gene × 10 strains · list_experiments</text>
+<text x="150" y="656" font-size="12.5" font-weight="600" fill="#1f1f1d">→ 8,241 rows, 67 experiments; every pathway changes under most conditions; whole-genome change 1–88%</text>
+<text x="150" y="672" font-size="11" fill="#7b74b5" font-family="Consolas,monospace">expression/reports/summary.html</text>
+<line x1="990" x2="1040" y1="602" y2="602" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="580" width="400" height="41" rx="8" fill="#fff" stroke="#8a8984" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="1052" y="598" font-size="11" font-weight="700" fill="#8a8984">note · gap · choice</text>
+<text x="1052" y="614" font-size="11.5" fill="#1f1f1d">32 of 67 experiments are partial tables</text>
+<circle cx="90" cy="740" r="17" fill="#61409b"/><text x="90" y="745" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">5</text>
+<rect x="130" y="718" width="860" height="136" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="718" width="6" height="136" rx="3" fill="#61409b"/>
+<text x="150" y="742" font-size="15.5" font-weight="700" fill="#1f1f1d">Pathway master map</text>
+<text x="970" y="742" text-anchor="end" font-size="11" fill="#8a8984">Map the genomes  ·  e815a24</text>
+<text x="150" y="762" font-size="12.5" font-style="italic" fill="#52514e">Draw the pathways and how they meet the TCA cycle, with strain counts.</text>
+<text x="150" y="778" font-size="11.5" fill="#52514e">How: Step list from textbook biochemistry (59 arrows, 120 genes as KEGG KOs) · KO presence via API (44) + Cypher (PAC1),</text>
+<text x="150" y="794" font-size="11.5" fill="#52514e">cross-checked identical (4,541 rows) · genes_by_function name search in MED4</text>
+<text x="150" y="810" font-size="12.5" font-weight="600" fill="#1f1f1d">→ TCA open: sucA/B 0/45, sucC/D 0/45 · His 0/45 only because hisN is unannotated · degradation mostly 0/45</text>
+<text x="150" y="826" font-size="11" fill="#61409b" font-family="Consolas,monospace">grounding/reports/pathway_map.html</text>
+<line x1="990" x2="1040" y1="740" y2="740" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="718" width="400" height="71" rx="8" fill="#fff" stroke="#b5651d" stroke-width="1.4" stroke-dasharray=""/>
+<text x="1052" y="736" font-size="11" font-weight="700" fill="#b5651d">⚠ correction / issue</text>
+<text x="1052" y="752" font-size="11.5" fill="#1f1f1d">Alternative enzymes found (mqo, aroH, metA/B,</text>
+<text x="1052" y="767" font-size="11.5" fill="#1f1f1d">psp); PSTA has a wrong KO → counted by</text>
+<text x="1052" y="782" font-size="11.5" fill="#1f1f1d">ortholog group</text>
+<circle cx="90" cy="894" r="17" fill="#355070"/><text x="90" y="899" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">6</text>
+<rect x="130" y="872" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="872" width="6" height="120" rx="3" fill="#355070"/>
+<text x="150" y="896" font-size="15.5" font-weight="700" fill="#1f1f1d">Where is degradation?</text>
+<text x="970" y="896" text-anchor="end" font-size="11" fill="#8a8984">Interpret</text>
+<text x="150" y="916" font-size="12.5" font-style="italic" fill="#52514e">Are these only biosynthetic pathways?</text>
+<text x="150" y="932" font-size="11.5" fill="#52514e">How: Genes behind the KEGG &#x27;degradation&#x27; pathways</text>
+<text x="150" y="948" font-size="12.5" font-weight="600" fill="#1f1f1d">→ Mostly shared enzymes (ALDH, lpd, transaminases); real ones few: hdc 43/44, DAO 42/44</text>
+<text x="150" y="964" font-size="11" fill="#8a8984">(answered in chat)</text>
+<line x1="990" x2="1040" y1="894" y2="894" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="872" width="400" height="41" rx="8" fill="#fff" stroke="#b5651d" stroke-width="1.4" stroke-dasharray=""/>
+<text x="1052" y="890" font-size="11" font-weight="700" fill="#b5651d">⚠ correction / issue</text>
+<text x="1052" y="906" font-size="11.5" fill="#1f1f1d">My map missed hdc, DAO, leucine DH, mmsB</text>
+<circle cx="90" cy="1032" r="17" fill="#355070"/><text x="90" y="1037" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">7</text>
+<rect x="130" y="1010" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1010" width="6" height="120" rx="3" fill="#355070"/>
+<text x="150" y="1034" font-size="15.5" font-weight="700" fill="#1f1f1d">Literature check</text>
+<text x="970" y="1034" text-anchor="end" font-size="11" fill="#8a8984">Interpret</text>
+<text x="150" y="1054" font-size="12.5" font-style="italic" fill="#52514e">Do papers discuss the open TCA cycle or the His gap?</text>
+<text x="150" y="1070" font-size="11.5" fill="#52514e">How: list_publications · discussed_by_publication over all 60 papers</text>
+<text x="150" y="1086" font-size="12.5" font-weight="600" fill="#1f1f1d">→ No paper discusses either; closest: Tolonen 2006 — acnB/icd &#x27;synthesis of 2-oxoglutarate&#x27;, up under N stress</text>
+<text x="150" y="1102" font-size="11" fill="#8a8984">(answered in chat)</text>
+<circle cx="90" cy="1170" r="17" fill="#61409b"/><text x="90" y="1175" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">8</text>
+<rect x="130" y="1148" width="860" height="136" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1148" width="6" height="136" rx="3" fill="#61409b"/>
+<text x="150" y="1172" font-size="15.5" font-weight="700" fill="#1f1f1d">Cluster map</text>
+<text x="970" y="1172" text-anchor="end" font-size="11" fill="#8a8984">Map the genomes  ·  743d50d</text>
+<text x="150" y="1192" font-size="12.5" font-style="italic" fill="#52514e">Which strains have which genes, and which pathways are incomplete?</text>
+<text x="150" y="1208" font-size="11.5" fill="#52514e">How: 151 gene rows (path order) × 45 strains, Jaccard + average-linkage clustering</text>
+<text x="150" y="1224" font-size="12.5" font-weight="600" fill="#1f1f1d">→ 18 of 20 amino acids complete in 41–45 genomes; gaps sit in 6 strains (HNLC2 11, HNLC1 7, MIT9313 4 …); Asn</text>
+<text x="150" y="1240" font-size="12.5" font-weight="600" fill="#1f1f1d">   20/45</text>
+<text x="150" y="1256" font-size="11" fill="#61409b" font-family="Consolas,monospace">grounding/reports/cluster_map.html</text>
+<line x1="990" x2="1040" y1="1170" y2="1170" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="1148" width="400" height="56" rx="8" fill="#fff" stroke="#8a8984" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="1052" y="1166" font-size="11" font-weight="700" fill="#8a8984">note · gap · choice</text>
+<text x="1052" y="1182" font-size="11.5" fill="#1f1f1d">HNLC genomes may be incomplete assemblies —</text>
+<text x="1052" y="1197" font-size="11.5" fill="#1f1f1d">not checked</text>
+<circle cx="90" cy="1324" r="17" fill="#7b74b5"/><text x="90" y="1329" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">9</text>
+<rect x="130" y="1302" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1302" width="6" height="120" rx="3" fill="#7b74b5"/>
+<text x="150" y="1326" font-size="15.5" font-weight="700" fill="#1f1f1d">Expression overview</text>
+<text x="970" y="1326" text-anchor="end" font-size="11" fill="#8a8984">Expression  ·  ae28444</text>
+<text x="150" y="1346" font-size="12.5" font-style="italic" fill="#52514e">Which genes change, under which conditions?</text>
+<text x="150" y="1362" font-size="11.5" fill="#52514e">How: Fresh DE pull for every map locus tag · 101 genes × 67 experiments, any timepoint, any paralog</text>
+<text x="150" y="1378" font-size="12.5" font-weight="600" fill="#1f1f1d">→ Nitrogen and darkness columns densest; iron / viral / phosphorus near-blank (partial tables)</text>
+<text x="150" y="1394" font-size="11" fill="#7b74b5" font-family="Consolas,monospace">expression/reports/de_overview.html</text>
+<circle cx="90" cy="1462" r="17" fill="#7b74b5"/><text x="90" y="1467" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">10</text>
+<rect x="130" y="1440" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1440" width="6" height="120" rx="3" fill="#7b74b5"/>
+<text x="150" y="1464" font-size="15.5" font-weight="700" fill="#1f1f1d">Expression on the pathway map</text>
+<text x="970" y="1464" text-anchor="end" font-size="11" fill="#8a8984">Expression  ·  2cd527c</text>
+<text x="150" y="1484" font-size="12.5" font-style="italic" fill="#52514e">Three maps: nitrogen, extended light/darkness, mitomycin.</text>
+<text x="150" y="1500" font-size="11.5" fill="#52514e">How: 13 experiments chosen in chat · one square per gene per experiment</text>
+<text x="150" y="1516" font-size="12.5" font-weight="600" fill="#1f1f1d">→ N: protein leans up (56/19), coculture RNA down (14/35) · NATL2A darkness leans down</text>
+<text x="150" y="1532" font-size="11" fill="#7b74b5" font-family="Consolas,monospace">expression/reports/de_maps.html</text>
+<line x1="990" x2="1040" y1="1462" y2="1462" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="1440" width="400" height="41" rx="8" fill="#fff" stroke="#8a8984" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="1052" y="1458" font-size="11" font-weight="700" fill="#8a8984">note · gap · choice</text>
+<text x="1052" y="1474" font-size="11.5" fill="#1f1f1d">Experiment lists are my choice — to confirm</text>
+<circle cx="90" cy="1600" r="17" fill="#355070"/><text x="90" y="1605" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">11</text>
+<rect x="130" y="1578" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1578" width="6" height="120" rx="3" fill="#355070"/>
+<text x="150" y="1602" font-size="15.5" font-weight="700" fill="#1f1f1d">Direction map</text>
+<text x="970" y="1602" text-anchor="end" font-size="11" fill="#8a8984">Interpret  ·  ef0998a</text>
+<text x="150" y="1622" font-size="12.5" font-style="italic" fill="#52514e">Which routes can run forward, backward, or both?</text>
+<text x="150" y="1638" font-size="11.5" fill="#52514e">How: Per-step reversibility from textbook biochemistry (not KG)</text>
+<text x="150" y="1654" font-size="12.5" font-weight="600" fill="#1f1f1d">→ 5 of 24 biosynthesis arrows run both ways (Asp, Ala, Val, Gly, homoserine); 12 of 18 exits have no gene</text>
+<text x="150" y="1670" font-size="11" fill="#355070" font-family="Consolas,monospace">grounding/reports/direction_map.html</text>
+<line x1="990" x2="1040" y1="1600" y2="1600" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="1578" width="400" height="41" rx="8" fill="#fff" stroke="#8a8984" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="1052" y="1596" font-size="11" font-weight="700" fill="#8a8984">note · gap · choice</text>
+<text x="1052" y="1612" font-size="11.5" fill="#1f1f1d">Reversibility not from the KG</text>
+<circle cx="90" cy="1738" r="17" fill="#355070"/><text x="90" y="1743" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">12</text>
+<rect x="130" y="1716" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1716" width="6" height="120" rx="3" fill="#355070"/>
+<text x="150" y="1740" font-size="15.5" font-weight="700" fill="#1f1f1d">Summary and the 2-oxoglutarate idea</text>
+<text x="970" y="1740" text-anchor="end" font-size="11" fill="#8a8984">Interpret  ·  d72b053</text>
+<text x="150" y="1760" font-size="12.5" font-style="italic" fill="#52514e">Patterns and gaps; explain &#x27;carbon meets nitrogen at 2-OG&#x27;.</text>
+<text x="150" y="1776" font-size="11.5" fill="#52514e">How: Synthesis of all files · cell illustration</text>
+<text x="150" y="1792" font-size="12.5" font-weight="600" fill="#1f1f1d">→ Build everything, break down almost nothing; open TCA ends at 2-OG, which GS-GOGAT uses to take up NH₄⁺</text>
+<text x="150" y="1808" font-size="11" fill="#355070" font-family="Consolas,monospace">grounding/reports/cell_carbon_nitrogen.html</text>
+<circle cx="90" cy="1876" r="17" fill="#c9a227"/><text x="90" y="1881" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">13</text>
+<rect x="130" y="1854" width="860" height="120" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1854" width="6" height="120" rx="3" fill="#c9a227"/>
+<text x="150" y="1878" font-size="15.5" font-weight="700" fill="#1f1f1d">QC of the expression maps</text>
+<text x="970" y="1878" text-anchor="end" font-size="11" fill="#8a8984">Check  ·  8ab1fb8</text>
+<text x="150" y="1898" font-size="12.5" font-style="italic" fill="#52514e">Show the calculation, step by step.</text>
+<text x="150" y="1914" font-size="11.5" fill="#52514e">How: Standalone script, fresh KG queries, independent code; compares every square with the saved file</text>
+<text x="150" y="1930" font-size="12.5" font-weight="600" fill="#1f1f1d">→ 1,560 / 1,560 squares identical — QC passed</text>
+<text x="150" y="1946" font-size="11" fill="#c9a227" font-family="Consolas,monospace">expression/qc/qc_de_maps.py · qc_log.txt</text>
+<line x1="990" x2="1040" y1="1876" y2="1876" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="1854" width="400" height="101" rx="8" fill="#fff" stroke="#b5651d" stroke-width="1.4" stroke-dasharray=""/>
+<text x="1052" y="1872" font-size="11" font-weight="700" fill="#b5651d">⚠ correction / issue</text>
+<text x="1052" y="1888" font-size="11.5" fill="#1f1f1d">Corrections: mitomycin 39↑/42↓ (not 41/47,</text>
+<text x="1052" y="1903" font-size="11.5" fill="#1f1f1d">double count) · darkness lean is NATL2A only;</text>
+<text x="1052" y="1918" font-size="11.5" fill="#1f1f1d">extended light also leans down · constant-dark</text>
+<text x="1052" y="1933" font-size="11.5" fill="#1f1f1d">has 94/97 genes not in table · &#x27;both&#x27; was left</text>
+<text x="1052" y="1948" font-size="11.5" fill="#1f1f1d">out · icd mixed (3↑ 2↓)</text>
+<circle cx="90" cy="2014" r="17" fill="#c9a227"/><text x="90" y="2019" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">14</text>
+<rect x="130" y="1992" width="860" height="136" rx="10" fill="#ffffff" stroke="#d6d5d0"/>
+<rect x="130" y="1992" width="6" height="136" rx="3" fill="#c9a227"/>
+<text x="150" y="2016" font-size="15.5" font-weight="700" fill="#1f1f1d">Evidence check of the 2-OG explanation</text>
+<text x="970" y="2016" text-anchor="end" font-size="11" fill="#8a8984">Check  ·  552472d</text>
+<text x="150" y="2036" font-size="12.5" font-style="italic" fill="#52514e">Is each claim actually in the KG?</text>
+<text x="150" y="2052" font-size="11.5" fill="#52514e">How: metabolites_by_gene (reactions) · genes_by_metabolite (L-glutamate) · assays_by_metabolite (2-OG) · DE incl. ntcA</text>
+<text x="150" y="2068" font-size="12.5" font-weight="600" fill="#1f1f1d">→ Reactions verified (glnA R00253, GOGAT R00021, icd R00267); 14/20 amino acids get N via Glu/Gln/NH₄⁺; glnA and</text>
+<text x="150" y="2084" font-size="12.5" font-weight="600" fill="#1f1f1d">   ntcA up in 6/7 N experiments</text>
+<text x="150" y="2100" font-size="11" fill="#c9a227" font-family="Consolas,monospace">grounding/reports/evidence_2og.html</text>
+<line x1="990" x2="1040" y1="2014" y2="2014" stroke="#d6d5d0" stroke-dasharray="3 3"/>
+<rect x="1040" y="1992" width="400" height="56" rx="8" fill="#fff" stroke="#8a8984" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="1052" y="2010" font-size="11" font-weight="700" fill="#8a8984">note · gap · choice</text>
+<text x="1052" y="2026" font-size="11.5" fill="#1f1f1d">Not in KG: carbon flux to 2-OG · 2-OG build-up</text>
+<text x="1052" y="2041" font-size="11.5" fill="#1f1f1d">under N stress · 2-OG → NtcA signal</text>
+<rect x="40" y="2168" width="1420" height="130" rx="12" fill="#fff" stroke="#1f1f1d" stroke-width="1.5"/>
+<text x="60" y="2196" font-size="15" font-weight="700" fill="#1f1f1d">Where this leaves us</text>
+<text x="60" y="2222" font-size="12.5" fill="#52514e">• Supported by the KG: biosynthesis genes for 18/20 amino acids in 41–45 genomes; open TCA as annotated; GS-GOGAT and transaminase reactions; glnA and ntcA induced under N stress.</text>
+<text x="60" y="2244" font-size="12.5" fill="#52514e">• Not yet in hand: carbon flux, 2-OG under N stress, hisN identity, a TCA bypass, HNLC genome completeness, any test against the genome-wide background.</text>
+<text x="60" y="2266" font-size="12.5" fill="#52514e">• Status: Plan-phase data collection only — no proposal.md, no statistics, no critic review yet. Next: confirm experiment sets, then enrichment per condition / bypass and hisN search.</text>
+</svg>
