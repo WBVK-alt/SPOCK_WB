@@ -29,3 +29,6 @@
 
 ## Direction map (2026-11-04)
 - `grounding/scripts/build_direction_map.py` → `grounding/reports/direction_map.html`, `grounding/figures/direction_map.svg`, `data/route_direction.csv`. Per-step reversibility is textbook biochemistry [interpretation], not KG data (KG reaction records not checked — the probe was interrupted).
+
+## Cell diagram (2026-11-04): 2-oxoglutarate links carbon and nitrogen
+- `grounding/scripts/build_cell_diagram.py` → `grounding/figures/cell_carbon_nitrogen.svg`, `grounding/reports/cell_carbon_nitrogen.html`. Counts [KG]; layout, the open-TCA-supplies-2-OG reading and the NtcA signal [interpretation]; NH4+ transporter drawn, not counted.
