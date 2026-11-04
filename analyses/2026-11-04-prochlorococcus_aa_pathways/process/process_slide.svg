@@ -1,71 +1,174 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" font-family="system-ui,Segoe UI,sans-serif">
 <rect width="1920" height="1080" fill="#fcfcfb"/>
-<text x="80" y="92" font-size="44" font-weight="700" fill="#1f1f1d">Prochlorococcus amino-acid pathways: how we got here</text>
-<text x="80" y="134" font-size="22" fill="#52514e">From one question to a checked set of maps — 45 genomes, 67 experiments, all numbers from the multiomics KG</text>
-<path d="M80,180 h310 l26,100.0 l-26,100.0 h-310 l0,-100.0 z" fill="#2f7d4f"/>
-<text x="102" y="226" font-size="26" font-weight="700" fill="#fff">1 · Scope</text>
-<text x="102" y="272" font-size="20" fill="#fff">45 genomes, 140 experiments</text>
-<text x="102" y="304" font-size="20" fill="#fff">KG 0.1.0-alpha.9</text>
-<path d="M436,180 h310 l26,100.0 l-26,100.0 h-310 l26,-100.0 z" fill="#61409b"/>
-<text x="484" y="226" font-size="26" font-weight="700" fill="#fff">2 · Map the genomes</text>
-<text x="484" y="272" font-size="20" fill="#fff">14 KEGG pathways + GO terms</text>
-<text x="484" y="304" font-size="20" fill="#fff">Pathway map: 120 genes</text>
-<text x="484" y="336" font-size="20" fill="#fff">Cluster map: 45 strains</text>
-<path d="M792,180 h310 l26,100.0 l-26,100.0 h-310 l26,-100.0 z" fill="#7b74b5"/>
-<text x="840" y="226" font-size="26" font-weight="700" fill="#fff">3 · Expression</text>
-<text x="840" y="272" font-size="20" fill="#fff">67 experiments, 10 strains</text>
-<text x="840" y="304" font-size="20" fill="#fff">Overview: 101 genes × 67</text>
-<text x="840" y="336" font-size="20" fill="#fff">3 condition maps</text>
-<path d="M1148,180 h310 l26,100.0 l-26,100.0 h-310 l26,-100.0 z" fill="#355070"/>
-<text x="1196" y="226" font-size="26" font-weight="700" fill="#fff">4 · Interpret</text>
-<text x="1196" y="272" font-size="20" fill="#fff">Degradation · literature</text>
-<text x="1196" y="304" font-size="20" fill="#fff">Direction map</text>
-<text x="1196" y="336" font-size="20" fill="#fff">2-OG cell diagram</text>
-<path d="M1504,180 h336 l0,100.0 l0,100.0 h-336 l26,-100.0 z" fill="#c9a227"/>
-<text x="1552" y="226" font-size="26" font-weight="700" fill="#fff">5 · Check</text>
-<text x="1552" y="272" font-size="20" fill="#fff">QC: 1,560/1,560 squares match</text>
-<text x="1552" y="304" font-size="20" fill="#fff">Evidence check: 2-OG claim</text>
-<text x="1552" y="336" font-size="20" fill="#fff">vs KG reactions</text>
-<text x="80" y="430" font-size="28" font-weight="700" fill="#1f1f1d">What the KG shows</text>
-<rect x="80.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
-<rect x="80.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
-<text x="104.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">Builds everything</text>
-<text x="104.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">18 of 20 amino acids: complete</text>
-<text x="104.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">biosynthesis in 41–45 of 45 genomes</text>
-<text x="104.0" y="620" font-size="18" font-weight="400" fill="#52514e">Asn 20/45 · His 0/45 (hisN</text>
-<text x="104.0" y="646" font-size="18" font-weight="400" fill="#52514e">unannotated)</text>
-<rect x="526.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
-<rect x="526.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
-<text x="550.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">Breaks down almost nothing</text>
-<text x="550.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">12 of 18 degradation routes: no</text>
-<text x="550.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">gene in any genome</text>
-<text x="550.0" y="620" font-size="18" font-weight="400" fill="#52514e">Only 5 of 24 biosynthesis routes</text>
-<text x="550.0" y="646" font-size="18" font-weight="400" fill="#52514e">run both ways</text>
-<rect x="972.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
-<rect x="972.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
-<text x="996.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">TCA cycle open at 2-OG</text>
-<text x="996.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">No sucA/B or sucC/D in any genome;</text>
-<text x="996.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">2-OG feeds GS-GOGAT</text>
-<text x="996.0" y="620" font-size="18" font-weight="400" fill="#52514e">14 of 20 amino acids take N via Glu</text>
-<text x="996.0" y="646" font-size="18" font-weight="400" fill="#52514e">/ Gln / NH₄⁺</text>
-<rect x="1418.0" y="452" width="422.0" height="228" rx="16" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
-<rect x="1418.0" y="452" width="422.0" height="8" rx="4" fill="#61409b"/>
-<text x="1442.0" y="504" font-size="26" font-weight="700" fill="#1f1f1d">Nitrogen stress</text>
-<text x="1442.0" y="546" font-size="20" font-weight="600" fill="#1f1f1d">glnA and ntcA up in 6 of 7 N</text>
-<text x="1442.0" y="572" font-size="20" font-weight="600" fill="#1f1f1d">experiments</text>
-<text x="1442.0" y="620" font-size="18" font-weight="400" fill="#52514e">acnB up 4/7 · icd mixed (3 up, 2</text>
-<text x="1442.0" y="646" font-size="18" font-weight="400" fill="#52514e">down)</text>
-<rect x="80.0" y="740" width="868.0" height="228" rx="16" fill="#fff" stroke="#b5651d" stroke-width="2"/>
-<text x="108.0" y="786" font-size="26" font-weight="700" fill="#b5651d">⚠ Corrected after QC</text>
-<text x="108.0" y="832" font-size="20" fill="#1f1f1d">• Mitomycin: 39 up / 42 down (was double-counted as 41/47)</text>
-<text x="108.0" y="870" font-size="20" fill="#1f1f1d">• Darkness lean-down is NATL2A only; extended light also leans down</text>
-<text x="108.0" y="908" font-size="20" fill="#1f1f1d">• Constant-dark experiment: 94 of 97 genes not in its table — drop it</text>
-<text x="108.0" y="946" font-size="20" fill="#1f1f1d">• PSTA has a wrong KO in the KG; PAC1 needs a direct query</text>
-<rect x="972.0" y="740" width="868.0" height="228" rx="16" fill="#fff" stroke="#8a8984" stroke-width="2" stroke-dasharray="8 6"/>
-<text x="1000.0" y="786" font-size="26" font-weight="700" fill="#8a8984">Gaps — not in the KG / not done</text>
-<text x="1000.0" y="832" font-size="20" fill="#1f1f1d">• No carbon-flux data · no 2-OG measurement under N stress</text>
-<text x="1000.0" y="870" font-size="20" fill="#1f1f1d">• 2-OG → NtcA signal: literature, not KG</text>
-<text x="1000.0" y="908" font-size="20" fill="#1f1f1d">• hisN gene and a possible TCA bypass: not searched yet</text>
-<text x="1000.0" y="946" font-size="20" fill="#1f1f1d">• No statistics vs genome-wide background yet</text>
-<text x="80" y="1036" font-size="18" fill="#8a8984">Status: Plan-phase data collection — no proposal, statistics or critic review yet. Files: analyses/2026-11-04-prochlorococcus_aa_pathways · 10 local commits.</text>
+<text x="80" y="88" font-size="44" font-weight="700" fill="#1f1f1d">How we worked: Prochlorococcus amino-acid pathways</text>
+<text x="80" y="128" font-size="22" fill="#52514e">Twelve steps, in order — what we did, and why we did it next</text>
+<line x1="176.0" x2="1744.0" y1="560" y2="560" stroke="#52514e" stroke-width="4" stroke-linecap="round"/>
+<path d="M1744.0,548 L1766.0,560 L1744.0,572 z" fill="#52514e"/>
+<circle cx="206.0" cy="560" r="22" fill="#2f7d4f" stroke="#fcfcfb" stroke-width="4"/>
+<text x="206.0" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">1</text>
+<line x1="206.0" x2="206.0" y1="538" y2="516" stroke="#2f7d4f" stroke-width="2"/>
+<rect x="80.0" y="254" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="80.0" y="254" width="252" height="8" rx="4" fill="#2f7d4f"/>
+<text x="98.0" y="296" font-size="19.5" font-weight="700" fill="#1f1f1d">The question</text>
+<text x="98.0" y="326" font-size="15.5" fill="#1f1f1d">Amino-acid synthesis and</text>
+<text x="98.0" y="346" font-size="15.5" fill="#1f1f1d">breakdown genes in</text>
+<text x="98.0" y="366" font-size="15.5" fill="#1f1f1d">Prochlorococcus, and when</text>
+<text x="98.0" y="386" font-size="15.5" fill="#1f1f1d">they change</text>
+<text x="98.0" y="414" font-size="13" font-weight="700" fill="#2f7d4f" letter-spacing=".5">WHY</text>
+<text x="98.0" y="435" font-size="15" font-style="italic" fill="#52514e">Fix the scope before</text>
+<text x="98.0" y="454" font-size="15" font-style="italic" fill="#52514e">touching data</text>
+<circle cx="343.0909090909091" cy="560" r="22" fill="#2f7d4f" stroke="#fcfcfb" stroke-width="4"/>
+<text x="343.0909090909091" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">2</text>
+<line x1="343.0909090909091" x2="343.0909090909091" y1="582" y2="604" stroke="#2f7d4f" stroke-width="2"/>
+<rect x="217.09090909090912" y="604" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="217.09090909090912" y="604" width="252" height="8" rx="4" fill="#2f7d4f"/>
+<text x="235.09090909090912" y="646" font-size="19.5" font-weight="700" fill="#1f1f1d">Ground in the KG</text>
+<text x="235.09090909090912" y="676" font-size="15.5" fill="#1f1f1d">Checked KG version; listed</text>
+<text x="235.09090909090912" y="696" font-size="15.5" fill="#1f1f1d">45 genomes and 140</text>
+<text x="235.09090909090912" y="716" font-size="15.5" fill="#1f1f1d">experiments</text>
+<text x="235.09090909090912" y="744" font-size="13" font-weight="700" fill="#2f7d4f" letter-spacing=".5">WHY</text>
+<text x="235.09090909090912" y="765" font-size="15" font-style="italic" fill="#52514e">The KG is the only data</text>
+<text x="235.09090909090912" y="784" font-size="15" font-style="italic" fill="#52514e">source — know what it holds</text>
+<text x="235.09090909090912" y="803" font-size="15" font-style="italic" fill="#52514e">first</text>
+<circle cx="480.1818181818182" cy="560" r="22" fill="#61409b" stroke="#fcfcfb" stroke-width="4"/>
+<text x="480.1818181818182" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">3</text>
+<line x1="480.1818181818182" x2="480.1818181818182" y1="538" y2="516" stroke="#61409b" stroke-width="2"/>
+<rect x="354.1818181818182" y="254" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="354.1818181818182" y="254" width="252" height="8" rx="4" fill="#61409b"/>
+<text x="372.1818181818182" y="296" font-size="19.5" font-weight="700" fill="#1f1f1d">Gene inventory</text>
+<text x="372.1818181818182" y="326" font-size="15.5" fill="#1f1f1d">Genes per pathway: 14 KEGG</text>
+<text x="372.1818181818182" y="346" font-size="15.5" fill="#1f1f1d">pathways + GO terms, every</text>
+<text x="372.1818181818182" y="366" font-size="15.5" fill="#1f1f1d">genome</text>
+<text x="372.1818181818182" y="394" font-size="13" font-weight="700" fill="#61409b" letter-spacing=".5">WHY</text>
+<text x="372.1818181818182" y="415" font-size="15" font-style="italic" fill="#52514e">Two annotation systems: KEGG</text>
+<text x="372.1818181818182" y="434" font-size="15" font-style="italic" fill="#52514e">mixes synthesis and</text>
+<text x="372.1818181818182" y="453" font-size="15" font-style="italic" fill="#52514e">breakdown, GO separates them</text>
+<circle cx="617.2727272727273" cy="560" r="22" fill="#7b74b5" stroke="#fcfcfb" stroke-width="4"/>
+<text x="617.2727272727273" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">4</text>
+<line x1="617.2727272727273" x2="617.2727272727273" y1="582" y2="604" stroke="#7b74b5" stroke-width="2"/>
+<rect x="491.27272727272725" y="604" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="491.27272727272725" y="604" width="252" height="8" rx="4" fill="#7b74b5"/>
+<text x="509.27272727272725" y="646" font-size="19.5" font-weight="700" fill="#1f1f1d">Expression pull</text>
+<text x="509.27272727272725" y="676" font-size="15.5" fill="#1f1f1d">All up/down calls for these</text>
+<text x="509.27272727272725" y="696" font-size="15.5" fill="#1f1f1d">genes: 67 experiments, 10</text>
+<text x="509.27272727272725" y="716" font-size="15.5" fill="#1f1f1d">strains</text>
+<text x="509.27272727272725" y="744" font-size="13" font-weight="700" fill="#7b74b5" letter-spacing=".5">WHY</text>
+<text x="509.27272727272725" y="765" font-size="15" font-style="italic" fill="#52514e">Answer &#x27;under which</text>
+<text x="509.27272727272725" y="784" font-size="15" font-style="italic" fill="#52514e">conditions&#x27; — with table</text>
+<text x="509.27272727272725" y="803" font-size="15" font-style="italic" fill="#52514e">type and genome-wide change</text>
+<text x="509.27272727272725" y="822" font-size="15" font-style="italic" fill="#52514e">as context</text>
+<circle cx="754.3636363636364" cy="560" r="22" fill="#61409b" stroke="#fcfcfb" stroke-width="4"/>
+<text x="754.3636363636364" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">5</text>
+<line x1="754.3636363636364" x2="754.3636363636364" y1="538" y2="516" stroke="#61409b" stroke-width="2"/>
+<rect x="628.3636363636364" y="254" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="628.3636363636364" y="254" width="252" height="8" rx="4" fill="#61409b"/>
+<text x="646.3636363636364" y="296" font-size="19.5" font-weight="700" fill="#1f1f1d">Pathway map</text>
+<text x="646.3636363636364" y="326" font-size="15.5" fill="#1f1f1d">Each step tied to its</text>
+<text x="646.3636363636364" y="346" font-size="15.5" fill="#1f1f1d">enzyme; genomes with every</text>
+<text x="646.3636363636364" y="366" font-size="15.5" fill="#1f1f1d">gene counted</text>
+<text x="646.3636363636364" y="394" font-size="13" font-weight="700" fill="#61409b" letter-spacing=".5">WHY</text>
+<text x="646.3636363636364" y="415" font-size="15" font-style="italic" fill="#52514e">See how pathways meet the</text>
+<text x="646.3636363636364" y="434" font-size="15" font-style="italic" fill="#52514e">TCA cycle; a 0 was checked</text>
+<text x="646.3636363636364" y="453" font-size="15" font-style="italic" fill="#52514e">by name search before</text>
+<text x="646.3636363636364" y="472" font-size="15" font-style="italic" fill="#52514e">trusting it</text>
+<circle cx="891.4545454545455" cy="560" r="22" fill="#355070" stroke="#fcfcfb" stroke-width="4"/>
+<text x="891.4545454545455" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">6</text>
+<line x1="891.4545454545455" x2="891.4545454545455" y1="582" y2="604" stroke="#355070" stroke-width="2"/>
+<rect x="765.4545454545455" y="604" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="765.4545454545455" y="604" width="252" height="8" rx="4" fill="#355070"/>
+<text x="783.4545454545455" y="646" font-size="19.5" font-weight="700" fill="#1f1f1d">Breakdown &amp; papers</text>
+<text x="783.4545454545455" y="676" font-size="15.5" fill="#1f1f1d">Looked behind the KEGG</text>
+<text x="783.4545454545455" y="696" font-size="15.5" fill="#1f1f1d">&#x27;degradation&#x27; sets;</text>
+<text x="783.4545454545455" y="716" font-size="15.5" fill="#1f1f1d">searched 60 papers</text>
+<text x="783.4545454545455" y="744" font-size="13" font-weight="700" fill="#355070" letter-spacing=".5">WHY</text>
+<text x="783.4545454545455" y="765" font-size="15" font-style="italic" fill="#52514e">Answer your questions from</text>
+<text x="783.4545454545455" y="784" font-size="15" font-style="italic" fill="#52514e">the KG, and flag what it</text>
+<text x="783.4545454545455" y="803" font-size="15" font-style="italic" fill="#52514e">cannot answer</text>
+<circle cx="1028.5454545454545" cy="560" r="22" fill="#61409b" stroke="#fcfcfb" stroke-width="4"/>
+<text x="1028.5454545454545" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">7</text>
+<line x1="1028.5454545454545" x2="1028.5454545454545" y1="538" y2="516" stroke="#61409b" stroke-width="2"/>
+<rect x="902.5454545454545" y="254" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="902.5454545454545" y="254" width="252" height="8" rx="4" fill="#61409b"/>
+<text x="920.5454545454545" y="296" font-size="19.5" font-weight="700" fill="#1f1f1d">Cluster map</text>
+<text x="920.5454545454545" y="326" font-size="15.5" fill="#1f1f1d">Gene presence, 20 amino</text>
+<text x="920.5454545454545" y="346" font-size="15.5" fill="#1f1f1d">acids × 45 strains,</text>
+<text x="920.5454545454545" y="366" font-size="15.5" fill="#1f1f1d">clustered</text>
+<text x="920.5454545454545" y="394" font-size="13" font-weight="700" fill="#61409b" letter-spacing=".5">WHY</text>
+<text x="920.5454545454545" y="415" font-size="15" font-style="italic" fill="#52514e">Find which strains have</text>
+<text x="920.5454545454545" y="434" font-size="15" font-style="italic" fill="#52514e">incomplete pathways and</text>
+<text x="920.5454545454545" y="453" font-size="15" font-style="italic" fill="#52514e">whether gaps cluster</text>
+<circle cx="1165.6363636363635" cy="560" r="22" fill="#7b74b5" stroke="#fcfcfb" stroke-width="4"/>
+<text x="1165.6363636363635" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">8</text>
+<line x1="1165.6363636363635" x2="1165.6363636363635" y1="582" y2="604" stroke="#7b74b5" stroke-width="2"/>
+<rect x="1039.6363636363635" y="604" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="1039.6363636363635" y="604" width="252" height="8" rx="4" fill="#7b74b5"/>
+<text x="1057.6363636363635" y="646" font-size="19.5" font-weight="700" fill="#1f1f1d">Expression maps</text>
+<text x="1057.6363636363635" y="676" font-size="15.5" fill="#1f1f1d">Overview (101 genes × 67)</text>
+<text x="1057.6363636363635" y="696" font-size="15.5" fill="#1f1f1d">and three condition maps</text>
+<text x="1057.6363636363635" y="724" font-size="13" font-weight="700" fill="#7b74b5" letter-spacing=".5">WHY</text>
+<text x="1057.6363636363635" y="745" font-size="15" font-style="italic" fill="#52514e">Put the calls on the</text>
+<text x="1057.6363636363635" y="764" font-size="15" font-style="italic" fill="#52514e">pathways; one square per</text>
+<text x="1057.6363636363635" y="783" font-size="15" font-style="italic" fill="#52514e">experiment so opposite</text>
+<text x="1057.6363636363635" y="802" font-size="15" font-style="italic" fill="#52514e">treatments are not pooled</text>
+<circle cx="1302.7272727272727" cy="560" r="22" fill="#355070" stroke="#fcfcfb" stroke-width="4"/>
+<text x="1302.7272727272727" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">9</text>
+<line x1="1302.7272727272727" x2="1302.7272727272727" y1="538" y2="516" stroke="#355070" stroke-width="2"/>
+<rect x="1176.7272727272727" y="254" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="1176.7272727272727" y="254" width="252" height="8" rx="4" fill="#355070"/>
+<text x="1194.7272727272727" y="296" font-size="19.5" font-weight="700" fill="#1f1f1d">Direction map</text>
+<text x="1194.7272727272727" y="326" font-size="15.5" fill="#1f1f1d">Each route marked forward,</text>
+<text x="1194.7272727272727" y="346" font-size="15.5" fill="#1f1f1d">both ways, or exit</text>
+<text x="1194.7272727272727" y="374" font-size="13" font-weight="700" fill="#355070" letter-spacing=".5">WHY</text>
+<text x="1194.7272727272727" y="395" font-size="15" font-style="italic" fill="#52514e">Your question; textbook</text>
+<text x="1194.7272727272727" y="414" font-size="15" font-style="italic" fill="#52514e">biochemistry, labelled as</text>
+<text x="1194.7272727272727" y="433" font-size="15" font-style="italic" fill="#52514e">not from the KG</text>
+<circle cx="1439.8181818181818" cy="560" r="22" fill="#355070" stroke="#fcfcfb" stroke-width="4"/>
+<text x="1439.8181818181818" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">10</text>
+<line x1="1439.8181818181818" x2="1439.8181818181818" y1="582" y2="604" stroke="#355070" stroke-width="2"/>
+<rect x="1313.8181818181818" y="604" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="1313.8181818181818" y="604" width="252" height="8" rx="4" fill="#355070"/>
+<text x="1331.8181818181818" y="646" font-size="19.5" font-weight="700" fill="#1f1f1d">Carbon + nitrogen</text>
+<text x="1331.8181818181818" y="676" font-size="15.5" fill="#1f1f1d">Summary and a cell diagram</text>
+<text x="1331.8181818181818" y="696" font-size="15.5" fill="#1f1f1d">of 2-oxoglutarate</text>
+<text x="1331.8181818181818" y="724" font-size="13" font-weight="700" fill="#355070" letter-spacing=".5">WHY</text>
+<text x="1331.8181818181818" y="745" font-size="15" font-style="italic" fill="#52514e">Explain the pattern in plain</text>
+<text x="1331.8181818181818" y="764" font-size="15" font-style="italic" fill="#52514e">terms before building on it</text>
+<circle cx="1576.909090909091" cy="560" r="22" fill="#c9a227" stroke="#fcfcfb" stroke-width="4"/>
+<text x="1576.909090909091" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">11</text>
+<line x1="1576.909090909091" x2="1576.909090909091" y1="538" y2="516" stroke="#c9a227" stroke-width="2"/>
+<rect x="1450.909090909091" y="254" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="1450.909090909091" y="254" width="252" height="8" rx="4" fill="#c9a227"/>
+<text x="1468.909090909091" y="296" font-size="19.5" font-weight="700" fill="#1f1f1d">QC</text>
+<text x="1468.909090909091" y="326" font-size="15.5" fill="#1f1f1d">Recomputed every map square</text>
+<text x="1468.909090909091" y="346" font-size="15.5" fill="#1f1f1d">from fresh KG queries with</text>
+<text x="1468.909090909091" y="366" font-size="15.5" fill="#1f1f1d">new code</text>
+<text x="1468.909090909091" y="394" font-size="13" font-weight="700" fill="#c9a227" letter-spacing=".5">WHY</text>
+<text x="1468.909090909091" y="415" font-size="15" font-style="italic" fill="#52514e">Show the calculation;</text>
+<text x="1468.909090909091" y="434" font-size="15" font-style="italic" fill="#52514e">numbers must reproduce</text>
+<text x="1468.909090909091" y="453" font-size="15" font-style="italic" fill="#52514e">independently</text>
+<circle cx="1714.0" cy="560" r="22" fill="#c9a227" stroke="#fcfcfb" stroke-width="4"/>
+<text x="1714.0" y="567" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">12</text>
+<line x1="1714.0" x2="1714.0" y1="582" y2="604" stroke="#c9a227" stroke-width="2"/>
+<rect x="1588.0" y="604" width="252" height="262" rx="14" fill="#fff" stroke="#d6d5d0" stroke-width="1.5"/>
+<rect x="1588.0" y="604" width="252" height="8" rx="4" fill="#c9a227"/>
+<text x="1606.0" y="646" font-size="19.5" font-weight="700" fill="#1f1f1d">Evidence check</text>
+<text x="1606.0" y="676" font-size="15.5" fill="#1f1f1d">Each claim tested against</text>
+<text x="1606.0" y="696" font-size="15.5" fill="#1f1f1d">KG reactions, expression</text>
+<text x="1606.0" y="716" font-size="15.5" fill="#1f1f1d">and metabolite data</text>
+<text x="1606.0" y="744" font-size="13" font-weight="700" fill="#c9a227" letter-spacing=".5">WHY</text>
+<text x="1606.0" y="765" font-size="15" font-style="italic" fill="#52514e">Separate what the KG shows</text>
+<text x="1606.0" y="784" font-size="15" font-style="italic" fill="#52514e">from interpretation and</text>
+<text x="1606.0" y="803" font-size="15" font-style="italic" fill="#52514e">literature</text>
+<circle cx="89" cy="168" r="9" fill="#2f7d4f"/><text x="106" y="174" font-size="18" fill="#52514e">Scope</text>
+<circle cx="199" cy="168" r="9" fill="#61409b"/><text x="216" y="174" font-size="18" fill="#52514e">Map the genomes</text>
+<circle cx="409" cy="168" r="9" fill="#7b74b5"/><text x="426" y="174" font-size="18" fill="#52514e">Expression</text>
+<circle cx="569" cy="168" r="9" fill="#355070"/><text x="586" y="174" font-size="18" fill="#52514e">Interpret</text>
+<circle cx="719" cy="168" r="9" fill="#c9a227"/><text x="736" y="174" font-size="18" fill="#52514e">Check</text>
+<text x="80" y="990" font-size="19" font-weight="700" fill="#1f1f1d">Rules applied at every step</text>
+<rect x="80" y="1010" width="265.0" height="38" rx="19" fill="#fff" stroke="#52514e" stroke-width="1.2"/><text x="212.5" y="1036" text-anchor="middle" font-size="16" fill="#1f1f1d">The KG is the only data source</text>
+<rect x="355.0" y="1010" width="415.1" height="38" rx="19" fill="#fff" stroke="#52514e" stroke-width="1.2"/><text x="562.55" y="1036" text-anchor="middle" font-size="16" fill="#1f1f1d">Every number comes from a script and a saved file</text>
+<rect x="780.1" y="1010" width="233.4" height="38" rx="19" fill="#fff" stroke="#52514e" stroke-width="1.2"/><text x="896.8000000000001" y="1036" text-anchor="middle" font-size="16" fill="#1f1f1d">Locus tags, not gene names</text>
+<rect x="1023.5" y="1010" width="280.8" height="38" rx="19" fill="#fff" stroke="#52514e" stroke-width="1.2"/><text x="1163.9" y="1036" text-anchor="middle" font-size="16" fill="#1f1f1d">Check a zero before believing it</text>
+<rect x="1314.3" y="1010" width="257.1" height="38" rx="19" fill="#fff" stroke="#52514e" stroke-width="1.2"/><text x="1442.85" y="1036" text-anchor="middle" font-size="16" fill="#1f1f1d">Tag KG data vs interpretation</text>
+<rect x="1581.4" y="1010" width="201.8" height="38" rx="19" fill="#fff" stroke="#52514e" stroke-width="1.2"/><text x="1682.3000000000002" y="1036" text-anchor="middle" font-size="16" fill="#1f1f1d">Verify before claiming</text>
 </svg>
