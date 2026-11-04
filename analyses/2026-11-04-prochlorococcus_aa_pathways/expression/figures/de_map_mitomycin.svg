@@ -1,0 +1,457 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1780 1290" width="1780" height="1290" font-family="system-ui,Segoe UI,sans-serif">
+<rect width="1780" height="1290" fill="#fcfcfb"/><defs>
+<marker id="mitomycina-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a8984"/></marker>
+<marker id="mitomycina-b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f1f1d"/></marker>
+<marker id="mitomycina-d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker>
+</defs>
+<text x="30" y="34" font-size="20" font-weight="700" fill="#1f1f1d">Mitomycin C (DNA damage)</text>
+<circle cx="800" cy="990" r="185" fill="none" stroke="#e4e3df" stroke-width="18" stroke-opacity=".45"/>
+<text x="800" y="990" text-anchor="middle" font-size="16" font-weight="700" fill="#52514e">TCA cycle</text>
+<path d="M775,87 Q640,180 772,271" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M872,156 L1008,130" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M872,184 L997,208" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M1110,120 L1260,120" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M800,273 L800,189" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M800,307 L800,431" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M800,467 L800,581" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M800,617 L800,741" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M820,777 L848,800" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M888,836 L952,900" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M971,936 L971,1042" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M954,1078 L890,1142" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M814,1161 L777,1161" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M712,1144 L648,1080" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M629,1044 L629,938" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M646,902 L710,838" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M782,467 Q640,600 721,800" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-c)"/>
+<path d="M721,290 L589,290" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M533,285 L359,255" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M533,296 L359,334" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1069,237 L1170,431" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1230,441 L1421,405" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1230,454 L1421,468" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1230,467 L1421,530" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1318,120 L1491,120" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M843,600 L1031,600" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M825,617 Q930,690 986,690" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1132,678 L1261,655" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1132,702 L1261,725" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1035,1067 L1151,1077" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1207,1072 L1391,1018" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1207,1081 L1391,1089" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M1207,1090 L1391,1159" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M672,828 L499,855" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M443,869 L279,921" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M470,841 L470,759" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M377,740 L279,740" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M470,723 L470,629" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M420,610 L279,610" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M470,593 L470,501" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M250,591 L250,501" fill="none" stroke="#1f1f1d" stroke-width="1.6" stroke-opacity=".7" marker-end="url(#mitomycina-b)"/>
+<path d="M303,250 L188,250" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M567,309 L594,379" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1060,581 L1060,546" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M223,601 L145,576" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M470,879 L470,964" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M223,940 L136,974" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1447,1010 L1533,1010" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1163,1099 Q1080,1190 987,1080" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1447,1087 L1553,1077" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1447,1165 L1568,1141" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1447,1176 L1583,1209" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1547,111 L1652,76" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1477,543 L1611,556" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1477,400 L1583,400" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1477,470 L1586,470" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M1317,734 L1482,756" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M223,749 L145,774" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<path d="M497,479 L540,476" fill="none" stroke="#52514e" stroke-width="1.6" stroke-dasharray="6 5" stroke-opacity=".7" marker-end="url(#mitomycina-d)"/>
+<rect x="626.9090909090909" y="165.5" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="691.5090909090909" y="177.5" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">rbcL</text>
+<rect class="c" data-t="rbcL · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0596 2h: down (-0.52)" x="688.0090909090909" y="180.5" width="6" height="7" fill="#2a78d6"/>
+<text x="722.3090909090909" y="177.5" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">rbcS</text>
+<rect class="c" data-t="rbcS · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0597 2h: down (-4.21)" x="718.8090909090909" y="180.5" width="6" height="7" fill="#2a78d6"/>
+<rect x="859.8" y="129.1153846153846" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="939.8" y="141.1153846153846" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">tktA</text>
+<rect class="c" data-t="tktA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1968 2h: down (-2.32)" x="936.3" y="144.1153846153846" width="6" height="7" fill="#2a78d6"/>
+<rect x="854.4000000000001" y="181.84615384615387" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="934.4000000000001" y="193.84615384615387" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">tktA</text>
+<rect class="c" data-t="tktA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1968 2h: down (-2.32)" x="930.9000000000001" y="196.84615384615387" width="6" height="7" fill="#2a78d6"/>
+<rect x="1104.8" y="106.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1184.8" y="118.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">prs</text>
+<rect class="c" data-t="prs · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1220 2h: down (-0.21)" x="1181.3" y="121.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="720.0" y="217.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="784.5999999999999" y="229.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">pgk</text>
+<rect class="c" data-t="pgk · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0238 2h: up (+2.44)" x="781.0999999999999" y="232.0" width="6" height="7" fill="#eb6834"/>
+<text x="812.3" y="229.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gap2</text>
+<rect class="c" data-t="gap2 · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0023 2h: down (-1.85); EW14_1292 2h: ns (+0.21)" x="808.8" y="232.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="720.0" y="355.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="787.6999999999999" y="367.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gpm</text>
+<rect class="c" data-t="gpm · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1774 2h: up (+0.44)" x="784.1999999999999" y="370.0" width="6" height="7" fill="#eb6834"/>
+<text x="812.3" y="367.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">eno</text>
+<rect class="c" data-t="eno · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0251 2h: up (+0.84)" x="808.8" y="370.0" width="6" height="7" fill="#eb6834"/>
+<rect x="720.0" y="510.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="800.0" y="522.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">pyk</text>
+<rect class="c" data-t="pyk · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0980 2h: down (-1.90)" x="796.5" y="525.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="720.0" y="665.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="756.9" y="677.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">pdhA</text>
+<rect class="c" data-t="pdhA · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1590 2h: up (+1.14)" x="753.4" y="680.0" width="6" height="7" fill="#eb6834"/>
+<text x="787.6999999999999" y="677.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">pdhB</text>
+<rect class="c" data-t="pdhB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0960 2h: up (+1.37)" x="784.1999999999999" y="680.0" width="6" height="7" fill="#eb6834"/>
+<text x="818.4999999999999" y="677.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aceF</text>
+<rect class="c" data-t="aceF · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0442 2h: up (+0.94)" x="814.9999999999999" y="680.0" width="6" height="7" fill="#eb6834"/>
+<text x="846.1999999999998" y="677.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">lpd</text>
+<rect class="c" data-t="lpd · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1600 2h: down (-0.36)" x="842.6999999999998" y="680.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="754.2966101694915" y="774.5" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="834.2966101694915" y="786.5" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gltA</text>
+<rect class="c" data-t="gltA · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0204 2h: up (+1.86)" x="830.7966101694915" y="789.5" width="6" height="7" fill="#eb6834"/>
+<rect x="840.0" y="854.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="920.0" y="866.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">acnB</text>
+<rect class="c" data-t="acnB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2070 2h: up (+2.13)" x="916.5" y="869.0" width="6" height="7" fill="#eb6834"/>
+<rect x="891.0" y="975.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="971.0" y="987.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">icd</text>
+<rect class="c" data-t="icd · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1953 2h: up (+0.84)" x="967.5" y="990.0" width="6" height="7" fill="#eb6834"/>
+<rect x="842.0" y="1096.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="906.6" y="1108.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sucA</text>
+<circle class="c" data-t="sucA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="906.6" cy="1114.5" r="1.3" fill="#8a8984"/>
+<text x="937.4" y="1108.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sucB</text>
+<circle class="c" data-t="sucB · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="937.4" cy="1114.5" r="1.3" fill="#8a8984"/>
+<rect x="715.5999999999999" y="1147.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="780.1999999999999" y="1159.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sucC</text>
+<circle class="c" data-t="sucC · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="780.1999999999999" cy="1165.5" r="1.3" fill="#8a8984"/>
+<text x="810.9999999999999" y="1159.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sucD</text>
+<circle class="c" data-t="sucD · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="810.9999999999999" cy="1165.5" r="1.3" fill="#8a8984"/>
+<rect x="600.0" y="1098.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="664.6" y="1110.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sdhA</text>
+<rect class="c" data-t="sdhA · [1] MIT0604 mitomycin C 2 h vs untreated: not_measured" x="661.6" y="1113.5" width="5" height="6" fill="#fff" stroke="#8a8984" stroke-width=".7"/>
+<text x="695.4" y="1110.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sdhB</text>
+<circle class="c" data-t="sdhB · [1] MIT0604 mitomycin C 2 h vs untreated: no_gene" cx="695.4" cy="1116.5" r="1.3" fill="#8a8984"/>
+<rect x="549.0" y="977.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="629.0" y="989.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">fumC</text>
+<rect class="c" data-t="fumC · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1806 2h: down (-3.23)" x="625.5" y="992.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="598.0" y="856.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="678.0" y="868.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">mdh/mqo</text>
+<rect class="c" data-t="mdh/mqo · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0457 2h: down (-1.25)" x="674.5" y="871.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="615.786301369863" y="602.75" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="695.786301369863" y="614.75" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ppc</text>
+<rect class="c" data-t="ppc · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1933 2h: up (+3.03)" x="692.286301369863" y="617.75" width="6" height="7" fill="#eb6834"/>
+<rect x="575.0" y="276.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="596.3" y="288.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">serA</text>
+<rect class="c" data-t="serA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0429 2h: down (-3.10); EW14_1468 2h: down (-0.63); EW14_1657 2h: ns (+0.01)" x="592.8" y="291.0" width="6" height="7" fill="#2a78d6"/>
+<text x="642.5999999999999" y="288.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">serC/PSTA</text>
+<rect class="c" data-t="serC/PSTA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0035 2h: down (-2.57)" x="639.0999999999999" y="291.0" width="6" height="7" fill="#2a78d6"/>
+<text x="701.2999999999998" y="288.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">serB/psp</text>
+<rect class="c" data-t="serB/psp · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0560 2h: up (+1.28)" x="697.7999999999998" y="291.0" width="6" height="7" fill="#eb6834"/>
+<rect x="366.0" y="256.17391304347825" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="446.0" y="268.17391304347825" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">glyA</text>
+<rect class="c" data-t="glyA · [1] MIT0604 mitomycin C 2 h vs untreated: not_measured" x="443.0" y="271.67391304347825" width="5" height="6" fill="#fff" stroke="#8a8984" stroke-width=".7"/>
+<rect x="366.0" y="300.7826086956522" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="430.59999999999997" y="312.7826086956522" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">cysE</text>
+<rect class="c" data-t="cysE · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1995 2h: up (+1.89)" x="427.09999999999997" y="315.7826086956522" width="6" height="7" fill="#eb6834"/>
+<text x="461.4" y="312.7826086956522" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">cysK</text>
+<rect class="c" data-t="cysK · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0149 2h: down (-2.96); EW14_0444 2h: down (-2.83)" x="457.9" y="315.7826086956522" width="6" height="7" fill="#2a78d6"/>
+<rect x="1039.4782608695652" y="309.0" width="160" height="48" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1057.8782608695653" y="321.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroG</text>
+<rect class="c" data-t="aroG · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_2069 2h: ns (-0.24)" x="1054.3782608695653" y="324.0" width="6" height="7" fill="#d9d8d3"/>
+<text x="1088.6782608695653" y="321.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroB</text>
+<rect class="c" data-t="aroB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0756 2h: up (+1.07)" x="1085.1782608695653" y="324.0" width="6" height="7" fill="#eb6834"/>
+<text x="1119.4782608695652" y="321.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroQ</text>
+<rect class="c" data-t="aroQ · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0425 2h: up (+0.85)" x="1115.9782608695652" y="324.0" width="6" height="7" fill="#eb6834"/>
+<text x="1150.2782608695652" y="321.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroE</text>
+<rect class="c" data-t="aroE · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2075 2h: up (+1.17)" x="1146.7782608695652" y="324.0" width="6" height="7" fill="#eb6834"/>
+<text x="1181.0782608695652" y="321.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroK</text>
+<rect class="c" data-t="aroK · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0133 2h: up (+1.56)" x="1177.5782608695652" y="324.0" width="6" height="7" fill="#eb6834"/>
+<text x="1104.0782608695654" y="343.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroA</text>
+<rect class="c" data-t="aroA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0658 2h: down (-1.33)" x="1100.5782608695654" y="346.0" width="6" height="7" fill="#2a78d6"/>
+<text x="1134.8782608695653" y="343.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aroC</text>
+<rect class="c" data-t="aroC · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0268 2h: down (-1.22)" x="1131.3782608695653" y="346.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="1245.6" y="409.03703703703707" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1310.2" y="421.03703703703707" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">CM</text>
+<rect class="c" data-t="CM · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1430 2h: down (-0.50)" x="1306.7" y="424.03703703703707" width="6" height="7" fill="#2a78d6"/>
+<text x="1334.8000000000002" y="421.03703703703707" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">pheA</text>
+<rect class="c" data-t="pheA · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1843 2h: ns (+0.07)" x="1331.3000000000002" y="424.03703703703707" width="6" height="7" fill="#d9d8d3"/>
+<rect x="1245.6" y="446.7851851851852" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1310.2" y="458.7851851851852" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">CM</text>
+<rect class="c" data-t="CM · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1430 2h: down (-0.50)" x="1306.7" y="461.7851851851852" width="6" height="7" fill="#2a78d6"/>
+<text x="1334.8000000000002" y="458.7851851851852" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">tyrA</text>
+<rect class="c" data-t="tyrA · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1923 2h: ns (-0.11)" x="1331.3000000000002" y="461.7851851851852" width="6" height="7" fill="#d9d8d3"/>
+<rect x="1245.6" y="473.5333333333333" width="160" height="48" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1264.0" y="485.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpE</text>
+<rect class="c" data-t="trpE · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1935 2h: up (+1.01)" x="1260.5" y="488.5333333333333" width="6" height="7" fill="#eb6834"/>
+<text x="1294.8" y="485.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpG</text>
+<rect class="c" data-t="trpG · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0227 2h: up (+1.36)" x="1291.3" y="488.5333333333333" width="6" height="7" fill="#eb6834"/>
+<text x="1325.6" y="485.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpD</text>
+<rect class="c" data-t="trpD · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0938 2h: down (-2.72)" x="1322.1" y="488.5333333333333" width="6" height="7" fill="#2a78d6"/>
+<text x="1356.3999999999999" y="485.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpC</text>
+<rect class="c" data-t="trpC · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1599 2h: down (-0.55)" x="1352.8999999999999" y="488.5333333333333" width="6" height="7" fill="#2a78d6"/>
+<text x="1387.1999999999998" y="485.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpF</text>
+<rect class="c" data-t="trpF · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0583 2h: down (-1.25)" x="1383.6999999999998" y="488.5333333333333" width="6" height="7" fill="#2a78d6"/>
+<text x="1310.2" y="507.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpA</text>
+<rect class="c" data-t="trpA · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_0618 2h: ns (+0.01)" x="1306.7" y="510.5333333333333" width="6" height="7" fill="#d9d8d3"/>
+<text x="1341.0" y="507.5333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">trpB</text>
+<rect class="c" data-t="trpB · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_0207 2h: ns (+0.36)" x="1337.5" y="510.5333333333333" width="6" height="7" fill="#d9d8d3"/>
+<rect x="1324.8000000000002" y="95.0" width="160" height="48" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1355.5000000000002" y="107.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisG</text>
+<rect class="c" data-t="hisG · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0606 2h: down (-3.60)" x="1352.0000000000002" y="110.0" width="6" height="7" fill="#2a78d6"/>
+<text x="1389.4" y="107.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisIE</text>
+<rect class="c" data-t="hisIE · [1] MIT0604 mitomycin C 2 h vs untreated: not_measured" x="1386.4" y="110.5" width="5" height="6" fill="#fff" stroke="#8a8984" stroke-width=".7"/>
+<text x="1423.3000000000002" y="107.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisA</text>
+<rect class="c" data-t="hisA · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0888 2h: up (+0.41)" x="1419.8000000000002" y="110.0" width="6" height="7" fill="#eb6834"/>
+<text x="1454.1000000000001" y="107.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisH</text>
+<rect class="c" data-t="hisH · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1199 2h: up (+2.69)" x="1450.6000000000001" y="110.0" width="6" height="7" fill="#eb6834"/>
+<text x="1343.2000000000003" y="129.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisF</text>
+<rect class="c" data-t="hisF · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0472 2h: up (+2.24)" x="1339.7000000000003" y="132.0" width="6" height="7" fill="#eb6834"/>
+<text x="1374.0000000000002" y="129.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisB</text>
+<rect class="c" data-t="hisB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0325 2h: up (+0.53)" x="1370.5000000000002" y="132.0" width="6" height="7" fill="#eb6834"/>
+<text x="1404.8000000000002" y="129.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisC</text>
+<rect class="c" data-t="hisC · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0229 2h: up (+1.61)" x="1401.3000000000002" y="132.0" width="6" height="7" fill="#eb6834"/>
+<text x="1435.6000000000001" y="129.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisN</text>
+<circle class="c" data-t="hisN · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1435.6000000000001" cy="135.5" r="1.3" fill="#8a8984"/>
+<text x="1466.4" y="129.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hisD</text>
+<rect class="c" data-t="hisD · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1829 2h: up (+0.83)" x="1462.9" y="132.0" width="6" height="7" fill="#eb6834"/>
+<rect x="857.0" y="586.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="937.0" y="598.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ald/alaA/AGXT</text>
+<rect class="c" data-t="ald/alaA/AGXT · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0972 2h: down (-0.47)" x="933.5" y="601.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="837.7388888888889" y="657.75" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="871.5388888888889" y="669.75" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvB</text>
+<rect class="c" data-t="ilvB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0572 2h: up (+1.72)" x="868.0388888888889" y="672.75" width="6" height="7" fill="#eb6834"/>
+<text x="902.3388888888888" y="669.75" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvN</text>
+<rect class="c" data-t="ilvN · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1387 2h: down (-0.87)" x="898.8388888888888" y="672.75" width="6" height="7" fill="#2a78d6"/>
+<text x="933.1388888888888" y="669.75" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvC</text>
+<rect class="c" data-t="ilvC · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1617 2h: ns (-0.11)" x="929.6388888888888" y="672.75" width="6" height="7" fill="#d9d8d3"/>
+<text x="963.9388888888888" y="669.75" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvD</text>
+<rect class="c" data-t="ilvD · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0864 2h: up (+1.43)" x="960.4388888888888" y="672.75" width="6" height="7" fill="#eb6834"/>
+<rect x="1116.4" y="652.2782608695652" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1196.4" y="664.2782608695652" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvE</text>
+<rect class="c" data-t="ilvE · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1014 2h: down (-0.56)" x="1192.9" y="667.2782608695652" width="6" height="7" fill="#2a78d6"/>
+<rect x="1116.4" y="699.7217391304348" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1134.8000000000002" y="711.7217391304348" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">leuA</text>
+<rect class="c" data-t="leuA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1205 2h: down (-0.69)" x="1131.3000000000002" y="714.7217391304348" width="6" height="7" fill="#2a78d6"/>
+<text x="1165.6000000000001" y="711.7217391304348" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">leuC</text>
+<rect class="c" data-t="leuC · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_0301 2h: ns (+0.07)" x="1162.1000000000001" y="714.7217391304348" width="6" height="7" fill="#d9d8d3"/>
+<text x="1196.4" y="711.7217391304348" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">leuD</text>
+<rect class="c" data-t="leuD · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0300 2h: down (-1.39)" x="1192.9" y="714.7217391304348" width="6" height="7" fill="#2a78d6"/>
+<text x="1227.2" y="711.7217391304348" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">leuB</text>
+<rect class="c" data-t="leuB · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0878 2h: down (-0.31)" x="1223.7" y="714.7217391304348" width="6" height="7" fill="#2a78d6"/>
+<text x="1258.0" y="711.7217391304348" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvE</text>
+<rect class="c" data-t="ilvE · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1014 2h: down (-0.56)" x="1254.5" y="714.7217391304348" width="6" height="7" fill="#2a78d6"/>
+<rect x="1013.3000000000002" y="1058.1181818181817" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1093.3000000000002" y="1070.1181818181817" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">glsF/gltB</text>
+<rect class="c" data-t="glsF/gltB · [1] MIT0604 mitomycin C 2 h vs untreated: not_measured" x="1090.3000000000002" y="1073.6181818181817" width="5" height="6" fill="#fff" stroke="#8a8984" stroke-width=".7"/>
+<rect x="1219.0" y="1031.2916666666667" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1299.0" y="1043.2916666666667" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">glnA</text>
+<rect class="c" data-t="glnA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0971 2h: down (-1.76)" x="1295.5" y="1046.2916666666667" width="6" height="7" fill="#2a78d6"/>
+<rect x="1219.0" y="1070.9583333333333" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1268.2" y="1082.9583333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">proB</text>
+<rect class="c" data-t="proB · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0880 2h: down (-1.33)" x="1264.7" y="1085.9583333333333" width="6" height="7" fill="#2a78d6"/>
+<text x="1299.0" y="1082.9583333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">proA</text>
+<rect class="c" data-t="proA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0636 2h: down (-5.04)" x="1295.5" y="1085.9583333333333" width="6" height="7" fill="#2a78d6"/>
+<text x="1329.8" y="1082.9583333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">proC</text>
+<rect class="c" data-t="proC · [1] MIT0604 mitomycin C 2 h vs untreated: not_measured" x="1326.8" y="1086.4583333333333" width="5" height="6" fill="#fff" stroke="#8a8984" stroke-width=".7"/>
+<rect x="1219.0" y="1099.625" width="160" height="48" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1237.4" y="1111.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argJ</text>
+<rect class="c" data-t="argJ · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0064 2h: up (+0.21)" x="1233.9" y="1114.625" width="6" height="7" fill="#eb6834"/>
+<text x="1268.2" y="1111.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argB</text>
+<rect class="c" data-t="argB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0544 2h: up (+0.84)" x="1264.7" y="1114.625" width="6" height="7" fill="#eb6834"/>
+<text x="1299.0" y="1111.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argC</text>
+<rect class="c" data-t="argC · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1000 2h: down (-0.50)" x="1295.5" y="1114.625" width="6" height="7" fill="#2a78d6"/>
+<text x="1329.8" y="1111.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argD</text>
+<rect class="c" data-t="argD · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1603 2h: down (-2.55)" x="1326.3" y="1114.625" width="6" height="7" fill="#2a78d6"/>
+<text x="1360.6" y="1111.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">carA</text>
+<rect class="c" data-t="carA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0939 2h: down (-2.12)" x="1357.1" y="1114.625" width="6" height="7" fill="#2a78d6"/>
+<text x="1252.8000000000002" y="1133.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">carB</text>
+<rect class="c" data-t="carB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1078 2h: up (+1.95)" x="1249.3000000000002" y="1136.625" width="6" height="7" fill="#eb6834"/>
+<text x="1283.6000000000001" y="1133.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argF</text>
+<rect class="c" data-t="argF · [1] MIT0604 mitomycin C 2 h vs untreated: not_measured" x="1280.6000000000001" y="1137.125" width="5" height="6" fill="#fff" stroke="#8a8984" stroke-width=".7"/>
+<text x="1314.4" y="1133.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argG</text>
+<rect class="c" data-t="argG · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_2077 2h: down (-0.40)" x="1310.9" y="1136.625" width="6" height="7" fill="#2a78d6"/>
+<text x="1345.2" y="1133.625" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">argH</text>
+<rect class="c" data-t="argH · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0012 2h: down (-0.60)" x="1341.7" y="1136.625" width="6" height="7" fill="#2a78d6"/>
+<rect x="505.29999999999995" y="827.7478764478765" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="585.3" y="839.7478764478765" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aspC</text>
+<rect class="c" data-t="aspC · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0748 2h: down (-4.15)" x="581.8" y="842.7478764478765" width="6" height="7" fill="#2a78d6"/>
+<rect x="281.0" y="880.6818181818182" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="361.0" y="892.6818181818182" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">asnB</text>
+<rect class="c" data-t="asnB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1471 2h: up (+2.09)" x="357.5" y="895.6818181818182" width="6" height="7" fill="#eb6834"/>
+<rect x="390.0" y="786.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="457.7" y="798.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">lysC</text>
+<rect class="c" data-t="lysC · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2016 2h: up (+0.96)" x="454.2" y="801.0" width="6" height="7" fill="#eb6834"/>
+<text x="485.40000000000003" y="798.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">asd</text>
+<rect class="c" data-t="asd · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2022 2h: up (+1.13)" x="481.90000000000003" y="801.0" width="6" height="7" fill="#eb6834"/>
+<rect x="247.8" y="726.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="266.2" y="738.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">dapA</text>
+<rect class="c" data-t="dapA · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_2021 2h: ns (+0.13)" x="262.7" y="741.0" width="6" height="7" fill="#d9d8d3"/>
+<text x="297.0" y="738.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">dapB</text>
+<rect class="c" data-t="dapB · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1071 2h: ns (-0.13)" x="293.5" y="741.0" width="6" height="7" fill="#d9d8d3"/>
+<text x="327.8" y="738.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">dapL</text>
+<rect class="c" data-t="dapL · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1839 2h: ns (+0.13)" x="324.3" y="741.0" width="6" height="7" fill="#d9d8d3"/>
+<text x="358.6" y="738.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">dapF</text>
+<rect class="c" data-t="dapF · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1004 2h: down (-1.98)" x="355.1" y="741.0" width="6" height="7" fill="#2a78d6"/>
+<text x="389.40000000000003" y="738.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">lysA</text>
+<rect class="c" data-t="lysA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1230 2h: down (-1.75)" x="385.90000000000003" y="741.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="390.0" y="662.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="470.0" y="674.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hom</text>
+<rect class="c" data-t="hom · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1190 2h: down (-1.72)" x="466.5" y="677.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="269.4" y="596.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="333.99999999999994" y="608.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">thrB</text>
+<rect class="c" data-t="thrB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0641 2h: up (+1.82)" x="330.49999999999994" y="611.0" width="6" height="7" fill="#eb6834"/>
+<text x="364.79999999999995" y="608.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">thrC</text>
+<rect class="c" data-t="thrC · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2085 2h: up (+0.73)" x="361.29999999999995" y="611.0" width="6" height="7" fill="#eb6834"/>
+<rect x="390.0" y="522.0" width="160" height="48" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="439.09999999999997" y="534.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">metX/metA</text>
+<rect class="c" data-t="metX/metA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0690 2h: down (-0.37)" x="435.59999999999997" y="537.0" width="6" height="7" fill="#2a78d6"/>
+<text x="500.9" y="534.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">metY/metB</text>
+<rect class="c" data-t="metY/metB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0445 2h: ns (+0.17); EW14_0446 2h: ns (+0.24); EW14_0689 2h: up (+0.45)" x="497.4" y="537.0" width="6" height="7" fill="#eb6834"/>
+<text x="470.0" y="556.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">metE/metH</text>
+<rect class="c" data-t="metE/metH · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_1015 2h: up (+0.70)" x="466.5" y="559.0" width="6" height="7" fill="#eb6834"/>
+<rect x="170.0" y="521.0" width="160" height="48" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="188.4" y="533.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvA</text>
+<rect class="c" data-t="ilvA · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0984 2h: up (+0.58)" x="184.9" y="536.0" width="6" height="7" fill="#eb6834"/>
+<text x="219.20000000000002" y="533.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvB</text>
+<rect class="c" data-t="ilvB · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0572 2h: up (+1.72)" x="215.70000000000002" y="536.0" width="6" height="7" fill="#eb6834"/>
+<text x="250.00000000000003" y="533.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvN</text>
+<rect class="c" data-t="ilvN · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1387 2h: down (-0.87)" x="246.50000000000003" y="536.0" width="6" height="7" fill="#2a78d6"/>
+<text x="280.8" y="533.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvC</text>
+<rect class="c" data-t="ilvC · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1617 2h: ns (-0.11)" x="277.3" y="536.0" width="6" height="7" fill="#d9d8d3"/>
+<text x="311.6" y="533.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvD</text>
+<rect class="c" data-t="ilvD · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_0864 2h: up (+1.43)" x="308.1" y="536.0" width="6" height="7" fill="#eb6834"/>
+<text x="250.0" y="555.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ilvE</text>
+<rect class="c" data-t="ilvE · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1014 2h: down (-0.56)" x="246.5" y="558.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="165.35" y="236.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="214.54999999999998" y="248.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gcvT</text>
+<rect class="c" data-t="gcvT · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2056 2h: up (+0.49)" x="211.04999999999998" y="251.0" width="6" height="7" fill="#eb6834"/>
+<text x="245.35" y="248.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gcvP</text>
+<rect class="c" data-t="gcvP · [1] MIT0604 mitomycin C 2 h vs untreated: up — EW14_2036 2h: up (+0.37)" x="241.85" y="251.0" width="6" height="7" fill="#eb6834"/>
+<text x="276.15" y="248.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gcvH</text>
+<rect class="c" data-t="gcvH · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_2037 2h: down (-0.71)" x="272.65" y="251.0" width="6" height="7" fill="#2a78d6"/>
+<rect x="500.57142857142856" y="330.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="580.5714285714286" y="342.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">sdaA</text>
+<circle class="c" data-t="sdaA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="580.5714285714286" cy="348.5" r="1.3" fill="#8a8984"/>
+<rect x="980.0" y="549.5" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1060.0" y="561.5" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">dadA</text>
+<circle class="c" data-t="dadA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1060.0" cy="568.0" r="1.3" fill="#8a8984"/>
+<rect x="103.89999999999998" y="574.6774193548388" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="183.89999999999998" y="586.6774193548388" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ltaE/tdh</text>
+<circle class="c" data-t="ltaE/tdh · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="183.89999999999998" cy="593.1774193548388" r="1.3" fill="#8a8984"/>
+<rect x="390.0" y="907.5" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="470.0" y="919.5" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">aspA</text>
+<circle class="c" data-t="aspA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="470.0" cy="926.0" r="1.3" fill="#8a8984"/>
+<rect x="99.76666666666665" y="943.1870967741936" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="179.76666666666665" y="955.1870967741936" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ansA/iaaA</text>
+<rect class="c" data-t="ansA/iaaA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_1082 2h: down (-0.59)" x="176.26666666666665" y="958.1870967741936" width="6" height="7" fill="#2a78d6"/>
+<rect x="1409.9" y="996.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1489.9" y="1008.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">glsA</text>
+<circle class="c" data-t="glsA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1489.9" cy="1014.5" r="1.3" fill="#8a8984"/>
+<rect x="997.445384073291" y="1125.75" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1077.445384073291" y="1137.75" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">gdhA</text>
+<circle class="c" data-t="gdhA · [1] MIT0604 mitomycin C 2 h vs untreated: no_gene" cx="1077.445384073291" cy="1144.25" r="1.3" fill="#8a8984"/>
+<rect x="1419.9" y="1068.01" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1499.9" y="1080.01" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">putA</text>
+<circle class="c" data-t="putA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1499.9" cy="1086.51" r="1.3" fill="#8a8984"/>
+<rect x="1427.511111111111" y="1138.878260869565" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1492.111111111111" y="1150.878260869565" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">speA</text>
+<rect class="c" data-t="speA · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_0059 2h: down (-0.80)" x="1488.611111111111" y="1153.878260869565" width="6" height="7" fill="#2a78d6"/>
+<text x="1522.911111111111" y="1150.878260869565" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">speB</text>
+<rect class="c" data-t="speB · [1] MIT0604 mitomycin C 2 h vs untreated: down — EW14_2055 2h: down (-1.39)" x="1519.411111111111" y="1153.878260869565" width="6" height="7" fill="#2a78d6"/>
+<rect x="1434.9454545454546" y="1178.704347826087" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1514.9454545454546" y="1190.704347826087" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">rocF</text>
+<circle class="c" data-t="rocF · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1514.9454545454546" cy="1197.204347826087" r="1.3" fill="#8a8984"/>
+<rect x="1519.4" y="79.53333333333333" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1599.4" y="91.53333333333333" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hutH</text>
+<circle class="c" data-t="hutH · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1599.4" cy="98.03333333333333" r="1.3" fill="#8a8984"/>
+<rect x="1463.9" y="535.39" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1543.9" y="547.39" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">tnaA</text>
+<circle class="c" data-t="tnaA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1543.9" cy="553.89" r="1.3" fill="#8a8984"/>
+<rect x="1449.9" y="386.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1529.9" y="398.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">phhA</text>
+<circle class="c" data-t="phhA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1529.9" cy="404.5" r="1.3" fill="#8a8984"/>
+<rect x="1451.65" y="456.0" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1531.65" y="468.0" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">hpd</text>
+<circle class="c" data-t="hpd · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1531.65" cy="474.5" r="1.3" fill="#8a8984"/>
+<rect x="1319.15" y="731.0551724137931" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="1365.25" y="743.0551724137931" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">bkdA1</text>
+<circle class="c" data-t="bkdA1 · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1365.25" cy="749.5551724137931" r="1.3" fill="#8a8984"/>
+<text x="1402.25" y="743.0551724137931" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">bkdA2</text>
+<circle class="c" data-t="bkdA2 · [1] MIT0604 mitomycin C 2 h vs untreated: no_gene" cx="1402.25" cy="749.5551724137931" r="1.3" fill="#8a8984"/>
+<text x="1436.15" y="743.0551724137931" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">bkdB</text>
+<circle class="c" data-t="bkdB · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="1436.15" cy="749.5551724137931" r="1.3" fill="#8a8984"/>
+<rect x="103.89999999999998" y="747.3225806451612" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="183.89999999999998" y="759.3225806451612" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">ldcC</text>
+<rect class="c" data-t="ldcC · [1] MIT0604 mitomycin C 2 h vs untreated: ns — EW14_1224 2h: ns (-0.11)" x="180.39999999999998" y="762.3225806451612" width="6" height="7" fill="#d9d8d3"/>
+<rect x="438.65" y="463.4394736842105" width="160" height="26" rx="5" fill="#fcfcfb" fill-opacity=".8"/>
+<text x="518.65" y="475.4394736842105" text-anchor="middle" font-size="10" font-weight="600" fill="#1f1f1d">mdeA</text>
+<circle class="c" data-t="mdeA · [1] MIT0604 mitomycin C 2 h vs untreated: no_data" cx="518.65" cy="481.9394736842105" r="1.3" fill="#8a8984"/>
+<rect x="726.2" y="58.0" width="147.6" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="800" y="74.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">CO₂ (Calvin cycle)</text>
+<rect x="733.4" y="158.0" width="133.2" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="800" y="174.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Sugar phosphates</text>
+<rect x="1015.0" y="108.0" width="90.0" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="1060" y="124.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Ribose-5-P</text>
+<rect x="1004.2" y="208.0" width="111.60000000000001" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="1060" y="224.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Erythrose-4-P</text>
+<rect x="1266.6" y="108.0" width="46.8" height="24" rx="6" fill="#fff" stroke="#d6d5d0" stroke-width="1.3"/><text x="1290" y="124.5" text-anchor="middle" font-size="12.5" font-weight="400" fill="#52514e">PRPP</text>
+<rect x="726.2" y="278.0" width="147.6" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="800" y="294.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">3-Phosphoglycerate</text>
+<rect x="780.2" y="438.0" width="39.6" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="800" y="454.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">PEP</text>
+<rect x="762.2" y="588.0" width="75.6" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="800" y="604.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Pyruvate</text>
+<rect x="755.0" y="748.0" width="90.0" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="800" y="764.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Acetyl-CoA</text>
+<rect x="836.8" y="807.0" width="68.4" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="871" y="823.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Citrate</text>
+<rect x="926.0" y="907.0" width="90.0" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="971" y="923.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Isocitrate</text>
+<rect x="911.6" y="1049.0" width="118.8" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="971" y="1065.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">2-Oxoglutarate</text>
+<rect x="818.8" y="1149.0" width="104.4" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="871" y="1165.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Succinyl-CoA</text>
+<rect x="687.6" y="1149.0" width="82.8" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="729" y="1165.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Succinate</text>
+<rect x="591.2" y="1049.0" width="75.6" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="629" y="1065.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Fumarate</text>
+<rect x="598.4" y="907.0" width="61.2" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="629" y="923.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Malate</text>
+<rect x="676.8" y="807.0" width="104.4" height="24" rx="6" fill="#fff" stroke="#8a8984" stroke-width="1.3"/><text x="729" y="823.5" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1f1f1d">Oxaloacetate</text>
+<rect x="538.2" y="276.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="560" y="295" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Ser</text>
+<rect x="308.2" y="236.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="330" y="255" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Gly</text>
+<rect x="308.2" y="326.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="330" y="345" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Cys</text>
+<rect x="1135.0" y="438.0" width="90.0" height="24" rx="6" fill="#fff" stroke="#d6d5d0" stroke-width="1.3"/><text x="1180" y="454.5" text-anchor="middle" font-size="12.5" font-weight="400" fill="#52514e">Chorismate</text>
+<rect x="1428.2" y="386.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1450" y="405" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Phe</text>
+<rect x="1428.2" y="456.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1450" y="475" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Tyr</text>
+<rect x="1428.2" y="526.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1450" y="545" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Trp</text>
+<rect x="1498.2" y="106.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1520" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">His</text>
+<rect x="1038.2" y="586.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1060" y="605" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Ala</text>
+<rect x="993.4" y="678.0" width="133.2" height="24" rx="6" fill="#fff" stroke="#d6d5d0" stroke-width="1.3"/><text x="1060" y="694.5" text-anchor="middle" font-size="12.5" font-weight="400" fill="#52514e">2-Oxoisovalerate</text>
+<rect x="1268.2" y="636.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1290" y="655" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Val</text>
+<rect x="1268.2" y="716.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1290" y="735" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Leu</text>
+<rect x="1158.2" y="1066.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1180" y="1085" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Glu</text>
+<rect x="1398.2" y="996.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1420" y="1015" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Gln</text>
+<rect x="1398.2" y="1076.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1420" y="1095" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Pro</text>
+<rect x="1398.2" y="1156.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="1420" y="1175" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Arg</text>
+<rect x="448.2" y="846.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="470" y="865" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Asp</text>
+<rect x="228.2" y="916.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="250" y="935" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Asn</text>
+<rect x="381.8" y="728.0" width="176.4" height="24" rx="6" fill="#fff" stroke="#d6d5d0" stroke-width="1.3"/><text x="470" y="744.5" text-anchor="middle" font-size="12.5" font-weight="400" fill="#52514e">Aspartate semialdehyde</text>
+<rect x="228.2" y="726.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="250" y="745" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Lys</text>
+<rect x="425.0" y="598.0" width="90.0" height="24" rx="6" fill="#fff" stroke="#d6d5d0" stroke-width="1.3"/><text x="470" y="614.5" text-anchor="middle" font-size="12.5" font-weight="400" fill="#52514e">Homoserine</text>
+<rect x="228.2" y="596.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="250" y="615" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Thr</text>
+<rect x="448.2" y="466.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="470" y="485" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Met</text>
+<rect x="228.2" y="466.0" width="43.6" height="28" rx="14.0" fill="#1f1f1d"/><text x="250" y="485" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Ile</text>
+<text x="110" y="254" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">CO₂ + NH₃ + CH₂-THF</text>
+<text x="600" y="399" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ pyruvate (from Ser)</text>
+<text x="95" y="564" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ Gly + acetaldehyde</text>
+<text x="470" y="984" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ fumarate (from Asp)</text>
+<text x="95" y="994" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ Asp (from Asn)</text>
+<text x="1600" y="1014" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ Glu (from Gln)</text>
+<text x="1650" y="1129" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ putrescine (polyamines)</text>
+<text x="1650" y="1229" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ ornithine + urea</text>
+<text x="1700" y="64" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ urocanate</text>
+<text x="1650" y="564" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ indole</text>
+<text x="1650" y="474" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ homogentisate</text>
+<text x="1580" y="774" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ branched-chain acyl-CoA</text>
+<text x="95" y="794" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ cadaverine</text>
+<text x="660" y="474" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ methanethiol + 2-oxobutanoate</text>
+<text x="1620" y="1074" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ Glu (from Pro)</text>
+<text x="1650" y="404" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ Tyr (from Phe)</text>
+<text x="1060" y="534" text-anchor="middle" font-size="11.5" font-style="italic" fill="#52514e">→ pyruvate (from Ala)</text>
+<text x="30" y="1085" font-size="13" font-weight="700" fill="#1f1f1d">Squares under each gene, left to right = experiments:</text>
+<text x="30" y="1103" font-size="11.5" fill="#52514e">[1] MIT0604 mitomycin C 2 h vs untreated</text>
+<rect x="30" y="1130" width="10" height="10" fill="#eb6834"/>
+<text x="45" y="1139" font-size="11" fill="#52514e">up</text>
+<rect x="150" y="1130" width="10" height="10" fill="#2a78d6"/>
+<text x="165" y="1139" font-size="11" fill="#52514e">down</text>
+<path d="M270,1130 h10 L270,1140 z" fill="#eb6834"/><path d="M280,1130 v10 h-10 z" fill="#2a78d6"/>
+<text x="285" y="1139" font-size="11" fill="#52514e">up + down (timepoints)</text>
+<rect x="30" y="1148" width="10" height="10" fill="#d9d8d3"/>
+<text x="45" y="1157" font-size="11" fill="#52514e">not significant</text>
+<rect x="150" y="1148" width="10" height="10" fill="#fff" stroke="#8a8984"/>
+<text x="165" y="1157" font-size="11" fill="#52514e">not in table</text>
+<circle cx="275" cy="1153" r="1.6" fill="#8a8984"/>
+<text x="285" y="1157" font-size="11" fill="#52514e">strain lacks gene</text>
+<text x="30" y="1174" font-size="11" fill="#52514e">Significance = each paper's own call; any timepoint, any paralog. ◆ = partial source table (only significant genes listed).</text>
+</svg>
